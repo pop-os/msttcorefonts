@@ -1,9 +1,9 @@
 msttcorefonts (1.3) unstable; urgency=low
 
   * New maintainer.
-  * Update list of SourceForge.net download mirrors (closes: 308924).
+  * Update list of SourceForge.net download mirrors (closes: #308924, #369962).
   * Reference READ_ME!.gz, not READ_ME! from copyright (closes: #337101).
-
+  * Add debconf-2.0 alternate to debconf dependency (closes: #332036).
 
  -- Thijs Kinkhorst <thijs@debian.org>  Wed, 11 Oct 2006 15:08:45 +0200
 

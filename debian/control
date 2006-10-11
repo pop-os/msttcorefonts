@@ -7,7 +7,7 @@ Build-Depends-Indep: debhelper (>= 4.1.16), defoma
 
 Package: msttcorefonts
 Architecture: all
-Depends: wget (>= 1.9.1-4), cabextract (>= 0.1-2), xutils (>= 4.0.2), debconf (>= 1.2.0), defoma, debianutils (>= 1.7)
+Depends: wget (>= 1.9.1-4), cabextract (>= 0.1-2), xutils (>= 4.0.2), debconf (>= 1.2.0) | debconf-2.0, defoma, debianutils (>= 1.7)
 Recommends: x-ttcidfont-conf
 Description: Installer for Microsoft TrueType core fonts
  This package allows for easy installation of the Microsoft True Type
