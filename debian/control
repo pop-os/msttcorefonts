@@ -2,7 +2,7 @@ Source: msttcorefonts
 Section: contrib/x11
 Priority: optional
 Maintainer: Thijs Kinkhorst <thijs@debian.org>
-Standards-Version: 3.6.1.1
+Standards-Version: 3.6.1
 Build-Depends-Indep: debhelper (>= 4.1.16), defoma
 
 Package: msttcorefonts
