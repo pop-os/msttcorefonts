@@ -13,51 +13,54 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: msttcorefonts 1.2\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-09-15 19:09+0200\n"
+"Report-Msgid-Bugs-To: thijs@debian.org\n"
+"POT-Creation-Date: 2006-10-11 15:47+0200\n"
 "PO-Revision-Date: 2005-10-01 05:21-0700\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
 
 #. Type: note
 #. Description
-#: ../templates:3
+#: ../templates:1001
 msgid "These fonts are not free."
 msgstr "Dessa typsnitt är inte fria."
 
 #. Type: note
 #. Description
-#: ../templates:3
+#: ../templates:1001
 msgid ""
 "These fonts were provided by Microsoft \"in the interest of cross-platform "
 "compatibility\". This is no longer the case, but they are still available "
 "from third parties."
 msgstr ""
-"Dessa typsnitt är utgivna av Microsoft \"i deras intresse för kompatibilitet mellan plattformar\". Detta är inte längre aktuellt men de är fortfarande tillgängliga från andra aktörer."
+"Dessa typsnitt är utgivna av Microsoft \"i deras intresse för kompatibilitet "
+"mellan plattformar\". Detta är inte längre aktuellt men de är fortfarande "
+"tillgängliga från andra aktörer."
 
 #. Type: note
 #. Description
-#: ../templates:3
+#: ../templates:1001
 msgid ""
 "You are free to download these fonts and use them for your own use, but you "
 "may not redistribute them in modified form, including changes to the file "
 "name or packaging format."
 msgstr ""
-"Du är fri att ladda ner dessa typsnitt och använda dom för ditt eget bruk men du får "
-"inte distribuera dom i modifierad form, inkluderat ändringar i filnamnet eller paketerat format."
+"Du är fri att ladda ner dessa typsnitt och använda dom för ditt eget bruk "
+"men du får inte distribuera dom i modifierad form, inkluderat ändringar i "
+"filnamnet eller paketerat format."
 
 #. Type: string
 #. Description
-#: ../templates:14
+#: ../templates:2001
 msgid "Directory holding MS fonts (if already downloaded):"
 msgstr "Mapp som innehåller MS-typsnitt (om de redan är nedladdade):"
 
 #. Type: string
 #. Description
-#: ../templates:14
+#: ../templates:2001
 msgid ""
 "If you have already downloaded Microsoft's TrueType Core Fonts for the web, "
 "type the name of the directory which contains them. Those files are in the "
@@ -65,35 +68,42 @@ msgid ""
 "arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
 "exe, times32.exe, trebuc32.exe, verdan32.exe and webdin32.exe."
 msgstr ""
-"Om du redan laddat ner Microsoft's TrueType Core Fonts för webben, ange namnet på mappen där de finns lagrade. Dessa filer är i Microsoft Windows självuppackande format och har namnen andale32.exe, arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe och webdin32.exe."
+"Om du redan laddat ner Microsoft's TrueType Core Fonts för webben, ange "
+"namnet på mappen där de finns lagrade. Dessa filer är i Microsoft Windows "
+"självuppackande format och har namnen andale32.exe, arial32.exe, arialb32."
+"exe, comic32.exe, courie32.exe, georgi32.exe, impact32.exe, times32.exe, "
+"trebuc32.exe, verdan32.exe och webdin32.exe."
 
 #. Type: string
 #. Description
-#: ../templates:14
+#: ../templates:2001
 msgid ""
 "If you haven't yet downloaded these fonts, leave this blank and the fonts "
 "will be downloaded for you. Approximately 4 MB will need to be downloaded."
 msgstr ""
-"Om du inte redan har laddat ner dessa typsnitt, lämna då detta blankt och typsnitten kommer att laddas ner till dig. Ungefär 4 MB kommer att laddas ner."
+"Om du inte redan har laddat ner dessa typsnitt, lämna då detta blankt och "
+"typsnitten kommer att laddas ner till dig. Ungefär 4 MB kommer att laddas "
+"ner."
 
 #. Type: string
 #. Description
-#: ../templates:14
+#: ../templates:2001
 msgid ""
 "If you are not connected to the internet or do not wish to download these "
 "fonts now, enter \"none\" to abort."
 msgstr ""
-"Om du inte är uppkopplad mot Internet nu eller att du inte vill ladda ner dessa typsnitt nu, ange \"ingen\" för att avbryta."
+"Om du inte är uppkopplad mot Internet nu eller att du inte vill ladda ner "
+"dessa typsnitt nu, ange \"ingen\" för att avbryta."
 
 #. Type: note
 #. Description
-#: ../templates:29
+#: ../templates:3001
 msgid "Font files not found."
 msgstr "Typsnitten hittades inte."
 
 #. Type: note
 #. Description
-#: ../templates:29
+#: ../templates:3001
 msgid ""
 "The directory you entered either did not exist, did not contain the "
 "Microsoft TrueType Core Fonts for the Web Microsoft Windows 9x self "
@@ -101,56 +111,65 @@ msgid ""
 "expected by this script.  Please re-enter the directory containing the "
 "Microsoft font files or enter \"none\" to abort."
 msgstr ""
-"Mappen du angav finns antagligen inte, innehöll inte Microsoft TrueType Core Fonts för Web Microsoft Windows 9x självuppackande binärer eller så matchade inte de binärerna det som detta skript förväntade sig.  Vänligen ange mappen som innehåller Microsofts typsnittsfiler eller ange 'ingen' för att avbryta."
+"Mappen du angav finns antagligen inte, innehöll inte Microsoft TrueType Core "
+"Fonts för Web Microsoft Windows 9x självuppackande binärer eller så matchade "
+"inte de binärerna det som detta skript förväntade sig.  Vänligen ange mappen "
+"som innehåller Microsofts typsnittsfiler eller ange 'ingen' för att avbryta."
 
 #. Type: string
 #. Description
-#: ../templates:38
+#: ../templates:4001
 msgid "Where should these files be be archived (optional):"
 msgstr "Var ska dessa filer arkiveras (valfritt):"
 
 #. Type: string
 #. Description
-#: ../templates:38
+#: ../templates:4001
 msgid ""
 "If you would like to keep a permanent archive of the compressed Windows self "
 "extracting files, enter the directory where you'd like them stored.  If you "
 "leave this blank, the files will be deleted after installation."
 msgstr ""
-"Om du vill spara ett arkiv av de komprimerade Windows självuppackande filerna, ange mappen dit du vill spara dom.  Om du lämnar detta blank kommer filerna att raderas efter installationen är klar."
+"Om du vill spara ett arkiv av de komprimerade Windows självuppackande "
+"filerna, ange mappen dit du vill spara dom.  Om du lämnar detta blank kommer "
+"filerna att raderas efter installationen är klar."
 
 #. Type: note
 #. Description
-#: ../templates:45
+#: ../templates:5001
 msgid "msttcorefonts uses defoma."
 msgstr "msttcorefonts använder defoma."
 
 #. Type: note
 #. Description
-#: ../templates:45
+#: ../templates:5001
 msgid ""
 "Msttcorefonts now uses the DEbian FOnt MAnager (defoma).  If you wish to use "
 "the fonts provided by this package under the X Window System, you must "
 "configure it to use defoma fonts."
 msgstr ""
-"Msttcorefonts använder numera DEbian FOnt MAnager (defoma).  Om du önskar använda typsnitten som kommer med detta paket under X Window System måste du konfigurera det att använda defoma typsnitten."
+"Msttcorefonts använder numera DEbian FOnt MAnager (defoma).  Om du önskar "
+"använda typsnitten som kommer med detta paket under X Window System måste du "
+"konfigurera det att använda defoma typsnitten."
 
 #. Type: note
 #. Description
-#: ../templates:45
+#: ../templates:5001
 msgid ""
 "The easiest way to do so is to use the x-ttcidfont-conf package. For more "
 "information, install the x-ttcidfont-conf package and consult its "
 "documentation under /usr/share/doc/x-ttcidfont-conf."
 msgstr ""
-"Det enklaste sättet att göra det är att använda x-ttcidfont-conf paketet. För mer information, installera x-ttcidfont-conf paketet och läs dokumentationen som finns i /usr/share/doc/x-ttcidfont-conf."
+"Det enklaste sättet att göra det är att använda x-ttcidfont-conf paketet. "
+"För mer information, installera x-ttcidfont-conf paketet och läs "
+"dokumentationen som finns i /usr/share/doc/x-ttcidfont-conf."
 
 #. Type: note
 #. Description
-#: ../templates:45
+#: ../templates:5001
 msgid ""
 "For uses of msttcorefonts not related to the X Window System (e.g. printing) "
 "this is not required."
 msgstr ""
-"För användning av msttcorefonts som inte är relaterade till X Window System (till exempel printning) är detta inte ett krav."
-
+"För användning av msttcorefonts som inte är relaterade till X Window System "
+"(till exempel printning) är detta inte ett krav."

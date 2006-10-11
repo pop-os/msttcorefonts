@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: msttcorefonts\n"
-"Report-Msgid-Bugs-To: tfheen@debian.org\n"
-"POT-Creation-Date: 2006-08-25 15:04+0200\n"
+"Report-Msgid-Bugs-To: thijs@debian.org\n"
+"POT-Creation-Date: 2006-10-11 15:47+0200\n"
 "PO-Revision-Date: 2006-08-25 15:11+0200\n"
 "Last-Translator: Emil Nowak <emil5@go2.pl>\n"
 "Language-Team: Polish <pl@li.org>\n"
@@ -24,13 +24,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. Type: note
-#. description
+#. Description
 #: ../templates:1001
 msgid "These fonts are not free."
 msgstr "Instalowane fonty nie s± rozprowadzane na Wolnej licencji."
 
 #. Type: note
-#. description
+#. Description
 #: ../templates:1001
 msgid ""
 "These fonts were provided by Microsoft \"in the interest of cross-platform "
@@ -43,7 +43,7 @@ msgstr ""
 "miejsc."
 
 #. Type: note
-#. description
+#. Description
 #: ../templates:1001
 msgid ""
 "You are free to download these fonts and use them for your own use, but you "
@@ -56,13 +56,13 @@ msgstr ""
 "zmieniæ nazw plików ani formatu w jakim zosta³y spakowane."
 
 #. Type: string
-#. description
+#. Description
 #: ../templates:2001
 msgid "Directory holding MS fonts (if already downloaded):"
 msgstr "Katalog zawieraj±cy fonty MS (je¿eli masz je ju¿ na dysku):"
 
 #. Type: string
-#. description
+#. Description
 #: ../templates:2001
 msgid ""
 "If you have already downloaded Microsoft's TrueType Core Fonts for the web, "
@@ -78,7 +78,7 @@ msgstr ""
 "verdan32.exe and webdin32.exe. "
 
 #. Type: string
-#. description
+#. Description
 #: ../templates:2001
 msgid ""
 "If you haven't yet downloaded these fonts, leave this blank and the fonts "
@@ -88,7 +88,7 @@ msgstr ""
 "pliki (oko³o 4MB) zostan± pobrane z internetu."
 
 #. Type: string
-#. description
+#. Description
 #: ../templates:2001
 msgid ""
 "If you are not connected to the internet or do not wish to download these "
@@ -98,13 +98,13 @@ msgstr ""
 "pobieraæ tych fontów, to mo¿esz wpisaæ \"none\" aby przerwaæ ten proces."
 
 #. Type: note
-#. description
+#. Description
 #: ../templates:3001
 msgid "Font files not found."
 msgstr "Nie odnaleziono plików z fontami."
 
 #. Type: note
-#. description
+#. Description
 #: ../templates:3001
 msgid ""
 "The directory you entered either did not exist, did not contain the "
@@ -118,17 +118,17 @@ msgstr ""
 "\"none\", aby przerwaæ tê operacjê."
 
 #. Type: string
-#. description
+#. Description
 #: ../templates:4001
 msgid "Where should these files be be archived (optional):"
 msgstr "Katalog z dodatkow± kopi± tych plików (opcjonalny):"
 
 #. Type: string
-#. description
+#. Description
 #: ../templates:4001
 msgid ""
 "If you would like to keep a permanent archive of the compressed Windows self "
-"extracting files, enter the directory where you'd like them stored. If you "
+"extracting files, enter the directory where you'd like them stored.  If you "
 "leave this blank, the files will be deleted after installation."
 msgstr ""
 "Mo¿esz wybraæ katalog, w którym zostanie zapisana kopia fontów w "
@@ -136,13 +136,13 @@ msgstr ""
 "dodatkowej kopii mo¿esz pozostawiæ, to pole puste."
 
 #. Type: note
-#. description
+#. Description
 #: ../templates:5001
 msgid "msttcorefonts uses defoma."
 msgstr "u¿ycie programu Defoma przez msttcorefonts."
 
 #. Type: note
-#. description
+#. Description
 #: ../templates:5001
 msgid ""
 "Msttcorefonts now uses the DEbian FOnt MAnager (defoma).  If you wish to use "
@@ -154,7 +154,7 @@ msgstr ""
 "u¿ywa³ defomy."
 
 #. Type: note
-#. description
+#. Description
 #: ../templates:5001
 msgid ""
 "The easiest way to do so is to use the x-ttcidfont-conf package. For more "
@@ -166,7 +166,7 @@ msgstr ""
 "dokumentacj± /usr/share/doc/x-ttcidfont-conf."
 
 #. Type: note
-#. description
+#. Description
 #: ../templates:5001
 msgid ""
 "For uses of msttcorefonts not related to the X Window System (e.g. printing) "
@@ -175,31 +175,26 @@ msgstr ""
 "Je¿eli chcesz wykorzystywaæ msttcorefonts do operacji nie zwi±zanych z X "
 "Window System (np. drukowaniem) ¿adne dodatkowe czynno¶ci nie s± wymagane."
 
-#. Type: string
-#. Description
-#: ../templates:6001
-msgid "What mirror would you like to download from?"
-msgstr "Wybierz serwer z którego chcesz pobraæ pliki"
-
-#. Type: string
-#. Description
-#: ../templates:6001
-msgid ""
-"This package already contains a built-in set of mirrors, which should be "
-"sufficient for most people. However, if you'd like to use a different "
-"(possibly local) mirror instead, please enter the full URL to the directory "
-"containing the relevant files here. If not, just leave the field blank."
-msgstr ""
-"Ten pakiet zawiera wbudowan± listê kilku serwerów z których mo¿na pobraæ "
-"fonty. W razie potrzeby mo¿na jednak u¿yæ w³asnego (lokalnego) serwera. "
-"Proszê podaæ URL do katalogu w którym znajduj± siê odpowiednie pliki.\n"
-"Mo¿esz zostawiæ to pole puste."
-
 #~ msgid ""
 #~ "If you would like to keep a permanent archive of the compressed Windows "
-#~ "self extracting files, enter the directory where you'd like them stored.  "
+#~ "self extracting files, enter the directory where you'd like them stored. "
 #~ "If you leave this blank, the files will be deleted after installation."
 #~ msgstr ""
 #~ "Mo¿esz wybraæ katalog, w którym zostanie zapisana kopia fontów w "
 #~ "skompresowanych samorozpakowuj±cym siê archiwach.  Je¿eli nie "
 #~ "potrzebujesz dodatkowej kopii mo¿esz pozostawiæ, to pole puste."
+
+#~ msgid "What mirror would you like to download from?"
+#~ msgstr "Wybierz serwer z którego chcesz pobraæ pliki"
+
+#~ msgid ""
+#~ "This package already contains a built-in set of mirrors, which should be "
+#~ "sufficient for most people. However, if you'd like to use a different "
+#~ "(possibly local) mirror instead, please enter the full URL to the "
+#~ "directory containing the relevant files here. If not, just leave the "
+#~ "field blank."
+#~ msgstr ""
+#~ "Ten pakiet zawiera wbudowan± listê kilku serwerów z których mo¿na pobraæ "
+#~ "fonty. W razie potrzeby mo¿na jednak u¿yæ w³asnego (lokalnego) serwera. "
+#~ "Proszê podaæ URL do katalogu w którym znajduj± siê odpowiednie pliki.\n"
+#~ "Mo¿esz zostawiæ to pole puste."
