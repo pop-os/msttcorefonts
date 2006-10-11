@@ -1,0 +1,176 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: msttcorefonts\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-09-15 19:09+0200\n"
+"PO-Revision-Date: 2004-08-28 11:44+0200\n"
+"Last-Translator: Marcel Sebek <sebek64@post.cz>\n"
+"Language-Team: Czech <provoz@debian.cz>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: note
+#. Description
+#: ../templates:3
+msgid "These fonts are not free."
+msgstr "Tyto fonty nejsou free."
+
+#. Type: note
+#. Description
+#: ../templates:3
+msgid ""
+"These fonts were provided by Microsoft \"in the interest of cross-platform "
+"compatibility\". This is no longer the case, but they are still available "
+"from third parties."
+msgstr ""
+"Tyto fonty byly poskytnuty firmou Microsoft \"v zájmu multiplatformní "
+"kompatibilty\". Nyní je již neposkytuje, ale jsou stále dostupné od třetích "
+"stran."
+
+#. Type: note
+#. Description
+#: ../templates:3
+msgid ""
+"You are free to download these fonts and use them for your own use, but you "
+"may not redistribute them in modified form, including changes to the file "
+"name or packaging format."
+msgstr ""
+"Můžete volně stáhnout tyto fonty a používat je pro svou vlastní potřebu, ale "
+"nesmíte je dále rozšiřovat v upravené formě, zahrnující změny ve jméně "
+"souboru nebo formátu balíčku."
+
+#. Type: string
+#. Description
+#: ../templates:14
+msgid "Directory holding MS fonts (if already downloaded):"
+msgstr "Adresář obsahující MS fonty (jsou-li už staženy):"
+
+#. Type: string
+#. Description
+#: ../templates:14
+msgid ""
+"If you have already downloaded Microsoft's TrueType Core Fonts for the web, "
+"type the name of the directory which contains them. Those files are in the "
+"Microsoft Windows self-installing format, and are named andale32.exe, "
+"arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
+"exe, times32.exe, trebuc32.exe, verdan32.exe and webdin32.exe."
+msgstr ""
+"Pokud už máte staženy Microsoft TrueType Core Fonty z webu, zadejte jméno "
+"adresáře, kde jsou uloženy. Tyto soubory jsou v samoinstalačním formátu "
+"Microsoft Windows a mají jména andale32.exe, arial32.exe, arialb32.exe, "
+"comic32.exe, courie32.exe, georgi32.exe, impact32.exe, times32.exe, trebuc32."
+"exe, verdan32.exe a webdin32.exe."
+
+#. Type: string
+#. Description
+#: ../templates:14
+msgid ""
+"If you haven't yet downloaded these fonts, leave this blank and the fonts "
+"will be downloaded for you. Approximately 4 MB will need to be downloaded."
+msgstr ""
+"Pokud zatím tyto fonty staženy nemáte, nechte toto pole prázdné a fonty "
+"budou automaticky staženy. Bude potřeba stáhnout přibližne 4 MB."
+
+#. Type: string
+#. Description
+#: ../templates:14
+msgid ""
+"If you are not connected to the internet or do not wish to download these "
+"fonts now, enter \"none\" to abort."
+msgstr ""
+"Pokud nejste připojeni k Internetu nebo nechcete stahovat tyto fonty nyní, "
+"zadejte \"none\"."
+
+#. Type: note
+#. Description
+#: ../templates:29
+msgid "Font files not found."
+msgstr "Soubory s fonty nenalezeny."
+
+#. Type: note
+#. Description
+#: ../templates:29
+msgid ""
+"The directory you entered either did not exist, did not contain the "
+"Microsoft TrueType Core Fonts for the Web Microsoft Windows 9x self "
+"installing executables, or those executables did not match the versions "
+"expected by this script.  Please re-enter the directory containing the "
+"Microsoft font files or enter \"none\" to abort."
+msgstr ""
+"Adresář, který jste zadali, buď neexistuje, nebo neobsahuje samoinstalační "
+"soubory Microsoft Windows 9x obsahující Microsoft TrueType Core Fonty, nebo "
+"se u těchto souborů neshoduje verze s tou, kterou předpokládá tento sktript. "
+"Prosím zadejte znovu adresář obsahující soubory s fonty Microsoft nebo "
+"napište \"none\" k ukončení instalace."
+
+#. Type: string
+#. Description
+#: ../templates:38
+msgid "Where should these files be be archived (optional):"
+msgstr "Kde mají být tyto soubory archivovány (volitelné):"
+
+#. Type: string
+#. Description
+#: ../templates:38
+msgid ""
+"If you would like to keep a permanent archive of the compressed Windows self "
+"extracting files, enter the directory where you'd like them stored.  If you "
+"leave this blank, the files will be deleted after installation."
+msgstr ""
+"Pokud chcete uchovat komprimované samorozbalovací soubory, zadejte adresář, "
+"do kterého mají být uloženy. Pokud necháte toto pole prázdné, soubory budou "
+"po instalaci smazány."
+
+#. Type: note
+#. Description
+#: ../templates:45
+msgid "msttcorefonts uses defoma."
+msgstr "msttcorefonts používá defoma."
+
+#. Type: note
+#. Description
+#: ../templates:45
+msgid ""
+"Msttcorefonts now uses the DEbian FOnt MAnager (defoma).  If you wish to use "
+"the fonts provided by this package under the X Window System, you must "
+"configure it to use defoma fonts."
+msgstr ""
+"Msttcoreconts nyní používá DEbian FOnt MAnager (defoma). Pokud chcete "
+"využívat fonty poskytnuté tímto balíčkem pod X Window Systemem, musíte jej "
+"nakonfigurovat pro používání defoma fontů."
+
+#. Type: note
+#. Description
+#: ../templates:45
+msgid ""
+"The easiest way to do so is to use the x-ttcidfont-conf package. For more "
+"information, install the x-ttcidfont-conf package and consult its "
+"documentation under /usr/share/doc/x-ttcidfont-conf."
+msgstr ""
+"Nejjednodušší cestou je použít balíček x-ttcidfont-conf. Pro více informací "
+"nainstalujte tento balíček a projděte si dokumentaci v /usr/share/doc/x-"
+"ttcidfont-conf."
+
+#. Type: note
+#. Description
+#: ../templates:45
+msgid ""
+"For uses of msttcorefonts not related to the X Window System (e.g. printing) "
+"this is not required."
+msgstr ""
+"Pro použití msttcorefonts nevztahující se k X Window Systemu (např. tisk), "
+"toto není nutné."

@@ -1,0 +1,181 @@
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+# http://packages.debian.org/testing/graphics/msttcorefonts
+# sharkey@debian.org
+#
+# Translators: 
+# Mantas Kriaučiūnas <mantas@akl.lt> ;  Mykolas OK <mykolas@uzupis.com>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-09-15 19:09+0200\n"
+"PO-Revision-Date: 2004-08-18 16:14+0300\n"
+"Last-Translator: Mantas Kriaučiūnas <mantas@akl.lt>\n"
+"Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: note
+#. Description
+#: ../templates:3
+msgid "These fonts are not free."
+msgstr "Šie šriftai nėra laisvi."
+
+#. Type: note
+#. Description
+#: ../templates:3
+msgid ""
+"These fonts were provided by Microsoft \"in the interest of cross-platform "
+"compatibility\". This is no longer the case, but they are still available "
+"from third parties."
+msgstr ""
+"Šiuos šriftus pateikė MS \"norėdami pagerinti suderinamumą tarp operacinių "
+"sistemų\". Dabar jie to nebedaro, tačiau pagal licenciją šiuos šriftus "
+"galima legaliai įsigyti (parsisiųsti) iš kitų vietų."
+
+#. Type: note
+#. Description
+#: ../templates:3
+msgid ""
+"You are free to download these fonts and use them for your own use, but you "
+"may not redistribute them in modified form, including changes to the file "
+"name or packaging format."
+msgstr ""
+"Jūs turite teisę laisvai parsisiųsti bei nemokamai naudoti šiuos šriftus "
+"savo reikmėms, tačiau neturite teisės platinti, jei ką nors pakeitėte, "
+"pavyzdžiui atsiųstų bylų pavadinimus ar suspaudimo formatą."
+
+#. Type: string
+#. Description
+#: ../templates:14
+msgid "Directory holding MS fonts (if already downloaded):"
+msgstr ""
+"Katalogas, kuriame yra MS šriftai (jei iš kur nors atsiuntėte ar įsirašėte "
+"anksčiau):"
+
+#. Type: string
+#. Description
+#: ../templates:14
+msgid ""
+"If you have already downloaded Microsoft's TrueType Core Fonts for the web, "
+"type the name of the directory which contains them. Those files are in the "
+"Microsoft Windows self-installing format, and are named andale32.exe, "
+"arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
+"exe, times32.exe, trebuc32.exe, verdan32.exe and webdin32.exe."
+msgstr ""
+"Jei Jūs anksčiau atsisiuntėte ar iš kur nors nusikopijavote bazinius MS "
+"TrueType šriftus, nurodykite katalogą, kuriame jie yra. Jie turi būti "
+"automatiškai išsipakuojančių MS Windows archyvų (cab) formate, pavadinti "
+"andale32.exe, arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32."
+"exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe ir webdin32.exe."
+
+#. Type: string
+#. Description
+#: ../templates:14
+msgid ""
+"If you haven't yet downloaded these fonts, leave this blank and the fonts "
+"will be downloaded for you. Approximately 4 MB will need to be downloaded."
+msgstr ""
+"Jei šriftų nesate atsisiuntę anksčiau - palikite šį lauką tuščią ir šriftai "
+"bus automatiškai atsiųsti. Šriftų paketai užima apie 4 MB."
+
+#. Type: string
+#. Description
+#: ../templates:14
+msgid ""
+"If you are not connected to the internet or do not wish to download these "
+"fonts now, enter \"none\" to abort."
+msgstr ""
+"Jei negalite prisijungti prie interneto arba nenorite siųstis ir įdiegti šių "
+"šriftų dabar, įrašykite \"none\" ir šriftai nebus įdiegti ( galėsite įdiegti "
+"vėliau, įvykdę dpkg-reconfigure msttcorefonts )."
+
+#. Type: note
+#. Description
+#: ../templates:29
+msgid "Font files not found."
+msgstr "Šriftų bylos nerastos."
+
+#. Type: note
+#. Description
+#: ../templates:29
+msgid ""
+"The directory you entered either did not exist, did not contain the "
+"Microsoft TrueType Core Fonts for the Web Microsoft Windows 9x self "
+"installing executables, or those executables did not match the versions "
+"expected by this script.  Please re-enter the directory containing the "
+"Microsoft font files or enter \"none\" to abort."
+msgstr ""
+"Katalogas, kurį jūs nurodėte neegzistuoja, arba kataloge nerasti bazinių MS "
+"TrueType šriftų paketai, arba paketų formatas nėra \"automatiškai "
+"išsipakuojantis MS Windows archyvas\", arba paketų versija nėra palaikoma "
+"šio įdiegėjo. Prašome nurodyti katalogą, kuriame yra bazinių MS TrueType "
+"šriftų paketai arba įrašykite \"none\", kad nutraukti įdiegimą."
+
+#. Type: string
+#. Description
+#: ../templates:38
+msgid "Where should these files be be archived (optional):"
+msgstr "Vieta, kur šios bylos turi būti išsaugotos (nebūtina):"
+
+#. Type: string
+#. Description
+#: ../templates:38
+msgid ""
+"If you would like to keep a permanent archive of the compressed Windows self "
+"extracting files, enter the directory where you'd like them stored.  If you "
+"leave this blank, the files will be deleted after installation."
+msgstr ""
+"Jeigu norite išsaugoti atsiųstus šriftų paketus (savaime išsipakuojančio "
+"Windows archyvo formate), nurodykite katalogą, kur norite juos padėti. Jei "
+"paliksite šį lauką tuščią, šriftų paketai bus ištrinti po įdiegimo."
+
+#. Type: note
+#. Description
+#: ../templates:45
+msgid "msttcorefonts uses defoma."
+msgstr "msttcorefonts naudoja DEFOMA."
+
+#. Type: note
+#. Description
+#: ../templates:45
+msgid ""
+"Msttcorefonts now uses the DEbian FOnt MAnager (defoma).  If you wish to use "
+"the fonts provided by this package under the X Window System, you must "
+"configure it to use defoma fonts."
+msgstr ""
+"Msttcorefonts naudoja Debian šriftų tvarkymo programą DEFOMA (DEbian FOnt "
+"MAnager). Šriftų panaudojimui X-Window sistemoje (grafinėje aplinkoje) "
+"būtina nustatyti, kad X-Window naudotų DEFOMA šriftus."
+
+#. Type: note
+#. Description
+#: ../templates:45
+msgid ""
+"The easiest way to do so is to use the x-ttcidfont-conf package. For more "
+"information, install the x-ttcidfont-conf package and consult its "
+"documentation under /usr/share/doc/x-ttcidfont-conf."
+msgstr ""
+"Paprasčiausias ir geriausias būdas tai padaryti yra naudoti x-ttcidfont-conf "
+"paketą. Įdiekite x-ttcidfont-conf paketą ir nustatykite, kad grafinė aplinka "
+"galėtų naudotis TrueType šriftais, kaip parašyta /usr/share/doc/x-ttcidfont-"
+"conf/ kataloge esančioje dokumentacijoje (README.Debian ir kt.)"
+
+#. Type: note
+#. Description
+#: ../templates:45
+msgid ""
+"For uses of msttcorefonts not related to the X Window System (e.g. printing) "
+"this is not required."
+msgstr ""
+"Šriftų msttcorefonts panaudojimui, nesusijusiam su X-Window sistema (grafine "
+"aplinka), šie veiksmai nėra būtini."

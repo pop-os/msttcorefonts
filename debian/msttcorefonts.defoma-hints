@@ -1,0 +1,420 @@
+category truetype
+begin /usr/share/fonts/truetype/msttcorefonts/Andale_Mono.ttf
+  Family = Andale-Mono
+  FontName = AndaleMono
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Russian English Slovak Catalan Italian Danish Turkish Slovenian Basque Portuguese German Swedish Polish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251
+  GeneralFamily = Typewriter
+  Weight = Medium
+  Width = Fixed
+  Shape = NoSerif Upright
+  Foundry = Monotype
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Arial.ttf
+  Family = Arial
+  FontName = Arial-Regular
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Vietnamese Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-6 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-6 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR
+  GeneralFamily = SansSerif
+  Weight = Medium
+  Width = Variable
+  Shape = NoSerif Upright
+  Foundry = Monotype
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Arial_Black.ttf
+  Family = Arial-Black
+  FontName = ArialBlack-Regular
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251
+  GeneralFamily = SansSerif
+  Weight = Bold
+  Width = Variable
+  Shape = NoSerif Upright
+  Foundry = Monotype
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Arial_Bold.ttf
+  Family = Arial
+  FontName = Arial-Bold
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Vietnamese Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-6 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-6 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR
+  GeneralFamily = SansSerif
+  Weight = Bold
+  Width = Variable
+  Shape = NoSerif Upright
+  Foundry = Monotype
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Arial_Bold_Italic.ttf
+  Family = Arial
+  FontName = Arial-BoldItalic
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Vietnamese Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR
+  GeneralFamily = SansSerif
+  Weight = Bold
+  Width = Variable
+  Shape = NoSerif Italic
+  Foundry = Monotype
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Arial_Italic.ttf
+  Family = Arial
+  FontName = Arial-Italic
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Vietnamese Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR
+  GeneralFamily = SansSerif
+  Weight = Medium
+  Width = Variable
+  Shape = NoSerif Italic
+  Foundry = Monotype
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Comic_Sans_MS.ttf
+  Family = Comic-Sans-MS
+  FontName = ComicSansMS-Regular
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251
+  GeneralFamily = SansSerif
+  Weight = Medium
+  Width = Variable
+  Shape = NoSerif Upright
+  Foundry = Microsoft
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Comic_Sans_MS_Bold.ttf
+  Family = Comic-Sans-MS
+  FontName = ComicSansMS-Bold
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251
+  GeneralFamily = SansSerif
+  Weight = Bold
+  Width = Variable
+  Shape = NoSerif Upright
+  Foundry = Microsoft
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Courier_New.ttf
+  Family = Courier-New
+  FontName = CourierNew-Regular
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Vietnamese Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-6 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-6 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR
+  GeneralFamily = Typewriter
+  Weight = Semilight
+  Width = Fixed
+  Shape = Serif Upright
+  Foundry = Monotype
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Courier_New_Bold.ttf
+  Family = Courier-New
+  FontName = CourierNew-Bold
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Vietnamese Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-6 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-6 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR
+  GeneralFamily = Typewriter
+  Weight = Demibold
+  Width = Fixed
+  Shape = Serif Upright
+  Foundry = Monotype
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Courier_New_Bold_Italic.ttf
+  Family = Courier-New
+  FontName = CourierNew-BoldItalic
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR
+  GeneralFamily = Typewriter
+  Weight = Demibold
+  Width = Fixed
+  Shape = Serif Italic
+  Foundry = Monotype
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Courier_New_Italic.ttf
+  Family = Courier-New
+  FontName = CourierNew-Italic
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Vietnamese Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR
+  GeneralFamily = Typewriter
+  Weight = Semilight
+  Width = Fixed
+  Shape = Italic Serif
+  Foundry = Monotype
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Georgia.ttf
+  Family = Georgia
+  FontName = Georgia-Regular
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251
+  GeneralFamily = Roman
+  Weight = Medium
+  Width = Variable
+  Shape = Serif Upright
+  Foundry = Microsoft
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Georgia_Bold.ttf
+  Family = Georgia
+  FontName = Georgia-Bold
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251
+  GeneralFamily = Roman
+  Weight = Bold
+  Width = Variable
+  Shape = Serif Upright
+  Foundry = Microsoft
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Georgia_Bold_Italic.ttf
+  Family = Georgia
+  FontName = Georgia-BoldItalic
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251
+  GeneralFamily = Roman
+  Weight = Bold
+  Width = Variable
+  Shape = Serif Italic
+  Foundry = Microsoft
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Georgia_Italic.ttf
+  Family = Georgia
+  FontName = Georgia-Italic
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251
+  GeneralFamily = Roman
+  Weight = Medium
+  Width = Variable
+  Shape = Serif Italic
+  Foundry = Microsoft
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Impact.ttf
+  Family = Impact
+  FontName = Impact
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251
+  GeneralFamily = SansSerif
+  Weight = Bold
+  Width = Variable
+  Shape = NoSerif Upright Condensed
+  Foundry = Monotype
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Times_New_Roman.ttf
+  Family = Times-New-Roman
+  FontName = TimesNewRoman-Regular
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Vietnamese Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-6 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-6 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR
+  GeneralFamily = Roman
+  Weight = Medium
+  Width = Variable
+  Shape = Serif Upright
+  Foundry = Monotype
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Times_New_Roman_Bold.ttf
+  Family = Times-New-Roman
+  FontName = TimesNewRoman-Bold
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Vietnamese Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-6 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-6 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR
+  GeneralFamily = Roman
+  Weight = Bold
+  Width = Variable
+  Shape = Serif Upright
+  Foundry = Monotype
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Times_New_Roman_Bold_Italic.ttf
+  Family = Times-New-Roman
+  FontName = TimesNewRoman-BoldItalic
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Vietnamese Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR
+  GeneralFamily = Roman
+  Weight = Bold
+  Width = Variable
+  Shape = Serif Italic
+  Foundry = Monotype
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Times_New_Roman_Italic.ttf
+  Family = Times-New-Roman
+  FontName = TimesNewRoman-Italic
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Vietnamese Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR
+  GeneralFamily = Roman
+  Weight = Medium
+  Width = Variable
+  Shape = Serif Italic
+  Foundry = Monotype
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Trebuchet_MS.ttf
+  Family = Trebuchet-MS
+  FontName = TrebuchetMS-Regular
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251
+  GeneralFamily = SansSerif
+  Weight = Medium
+  Width = Variable
+  Shape = NoSerif Upright
+  Foundry = Microsoft
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Trebuchet_MS_Bold.ttf
+  Family = Trebuchet-MS
+  FontName = TrebuchetMS-Bold
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251
+  GeneralFamily = SansSerif
+  Weight = Bold
+  Width = Variable
+  Shape = NoSerif Upright
+  Foundry = Microsoft
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Trebuchet_MS_Bold_Italic.ttf
+  Family = Trebuchet-MS
+  FontName = TrebuchetMS-BoldItalic
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251
+  GeneralFamily = SansSerif
+  Weight = Bold
+  Width = Variable
+  Shape = Serif Italic
+  Foundry = Microsoft
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Trebuchet_MS_Italic.ttf
+  Family = Trebuchet-MS
+  FontName = TrebuchetMS-Italic
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251
+  GeneralFamily = SansSerif
+  Weight = Medium
+  Width = Variable
+  Shape = NoSerif Italic
+  Foundry = Microsoft
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Verdana.ttf
+  Family = Verdana
+  FontName = Verdana-Regular
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251 VISCII1.1-1 TCVN-5712 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251 VISCII1.1-1 TCVN-5712
+  GeneralFamily = SansSerif
+  Weight = Medium
+  Width = Variable
+  Shape = NoSerif Upright
+  Foundry = Microsoft
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Verdana_Bold.ttf
+  Family = Verdana
+  FontName = Verdana-Bold
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251 VISCII1.1-1 TCVN-5712 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251 VISCII1.1-1 TCVN-5712
+  GeneralFamily = SansSerif
+  Weight = Bold
+  Width = Variable
+  Shape = NoSerif Upright
+  Foundry = Microsoft
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Verdana_Bold_Italic.ttf
+  Family = Verdana
+  FontName = Verdana-BoldItalic
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251 VISCII1.1-1 TCVN-5712 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251 VISCII1.1-1 TCVN-5712
+  GeneralFamily = SansSerif
+  Weight = Bold
+  Width = Variable
+  Shape = NoSerif Italic
+  Foundry = Microsoft
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Verdana_Italic.ttf
+  Family = Verdana
+  FontName = Verdana-Italic
+  Encoding = Unicode
+  Location = Magyar Dutch Spanish Czech Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251 VISCII1.1-1 TCVN-5712 ISO10646-1
+  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP1251 VISCII1.1-1 TCVN-5712
+  GeneralFamily = SansSerif
+  Weight = Medium
+  Width = Variable
+  Shape = NoSerif Italic
+  Foundry = Microsoft
+  Priority = 20
+end
+begin /usr/share/fonts/truetype/msttcorefonts/Webdings.ttf
+  Family = Webdings
+  FontName = Webdings
+  Encoding = Symbol
+  Location = Magyar Dutch Spanish Czech Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
+  Charset = font-specific
+  GeneralFamily = Symbol
+  Weight = Medium
+  Width = Variable
+  Shape
+  Foundry = Microsoft
+  Priority = 20
+end

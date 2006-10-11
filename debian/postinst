@@ -1,0 +1,37 @@
+#!/bin/sh
+set -e
+
+. /usr/share/debconf/confmodule
+#DEBHELPER#
+
+db_get msttcorefonts/dldir
+LOCALCOPY=$RET
+
+db_get msttcorefonts/savedir
+
+SAVEDIR=${RET:+-s$RET}
+
+db_get msttcorefonts/dlurl
+URLOVERRIDE=${RET:+-u$RET}
+
+if [ -e /usr/share/fonts/truetype/ms-fonts ] ; then
+  cp -p /usr/share/fonts/truetype/ms-fonts /var/lib/msttcorefonts/ms-fonts
+  rm -f /usr/share/fonts/truetype/ms-fonts
+fi
+
+if [ -d /var/state/msttcorefonts ] ; then
+ cp -p /var/state/msttcorefonts/* /var/lib/msttcorefonts/ 2>/dev/null || true
+ rm -rf /var/state/msttcorefonts/
+
+ # It's not FHS, and it's probably our fault this is here,
+ # so delete it if we can.
+ rmdir /var/state/ 2> /dev/null || true
+fi
+
+# Since we moved the fonts from /usr/share/fonts/truetype to
+#/usr/share/fonts/truetype/msttcorefonts, run update-fonts-dir in
+#/usr/share/fonts/truetype
+
+update-fonts-dir truetype
+
+update-ms-fonts $URLOVERRIDE $SAVEDIR $LOCALCOPY

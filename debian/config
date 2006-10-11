@@ -1,0 +1,126 @@
+#!/bin/sh
+# Config prior to download/install of Microsoft Core Fonts for the Web
+#
+# (C) 2001 Eric Sharkey.
+# You may freely distribute this file under the terms of the GNU General
+# Public License, version 2 or later
+
+set -e
+
+# Source debconf library.
+. /usr/share/debconf/confmodule
+
+#Check if we need anything updated.
+MD5SUMS="
+663974c9fe3ba55b228724fd4d4e445f=Andale_Mono.ttf
+3e7043e8125f1c8998347310f2c315bc=Arial_Black.ttf
+f11c0317db527bdd80fa0afa04703441=Arial.ttf
+34cd8fd9e4fae9f075d4c9a2c971d065=Arial_Bold.ttf
+a2b3bcdb39097b6aed17a766652b92b2=Arial_Bold_Italic.ttf
+25633f73d92a0646e733e50cf2cc3b07=Arial_Italic.ttf
+a50f9c96a76356e3d01013e0b042989f=Comic_Sans_MS.ttf
+81d64ec3675c4adc14e9ad2c5c8103a7=Comic_Sans_MS_Bold.ttf
+20f23317e90516cbb7d38bd53b3d1c5b=Courier_New.ttf
+7d94f95bf383769b51379d095139f2d7=Courier_New_Bold.ttf
+167e27add66e9e8eb0d28a1235dd3bda=Courier_New_Italic.ttf
+da414c01f951b020bb09a4165d3fb5fa=Courier_New_Bold_Italic.ttf
+f4b306eed95aa7d274840533be635532=Georgia.ttf
+c61b355a5811e56ed3d7cea5d67c900e=Georgia_Bold.ttf
+1e4e5d1975bdf4a5c648afbf8872fa13=Georgia_Italic.ttf
+e5d52bbfff45e1044381bacb7fc8e300=Georgia_Bold_Italic.ttf
+8fc622c3a2e2d992ec059cca61e3dfc0=Impact.ttf
+4f97f4d6ba74767259ccfb242ce0e3f7=Times_New_Roman.ttf
+ed6e29caf3843142d739232aa8642158=Times_New_Roman_Bold.ttf
+6d2bd425ff00a79dd02e4c95f689861b=Times_New_Roman_Bold_Italic.ttf
+957dd4f17296522dead302ab4fcdfa8d=Times_New_Roman_Italic.ttf
+70e7be8567bc05f771b59abd9d696407=Trebuchet_MS.ttf
+055460df9ab3c8aadd3330bd30805f11=Trebuchet_MS_Bold.ttf
+8f308fe77b584e20b246aa1f8403d2e9=Trebuchet_MS_Italic.ttf
+fb5d68cb58c6ad7e88249d65f6900740=Trebuchet_MS_Bold_Italic.ttf
+3ba52ab1fa0cd726e7868e9c6673902c=Verdana.ttf
+a2b4dc9afc18e76cfcaa0071fa7cd0da=Verdana_Bold.ttf
+24b3a293c865a2c265280f017fb24ba5=Verdana_Italic.ttf
+f7310c29df0070530c48a47f2dca9014=Verdana_Bold_Italic.ttf
+1a56b45a66b07b4c576d5ead048ed992=Webdings.ttf"
+
+EXEMD5S="
+cbdc2fdd7d2ed0832795e86a8b9ee19a=andale32.exe
+9637df0e91703179f0723ec095a36cb5=arial32.exe
+c9089ae0c3b3d0d8c4b0a95979bb9ff0=arialb32.exe
+2b30de40bb5e803a0452c7715fc835d1=comic32.exe
+4e412c772294403ab62fb2d247d85c60=courie32.exe
+4d90016026e2da447593b41a8d8fa8bd=georgi32.exe
+7907c7dd6684e9bade91cff82683d9d7=impact32.exe
+ed39c8ef91b9fb80f76f702568291bd5=times32.exe
+0d7ea16cac6261f8513a061fbfcdb2b5=trebuc32.exe
+12d2a75f8156e10607be1eaa8e8ef120=verdan32.exe
+230a1d13a365b22815f502eb24d9149b=webdin32.exe"
+
+NEEDUPDATE=""
+
+for f in $MD5SUMS ; do
+  THISSUM=`echo $f|awk -F "=" '{print $1}'`
+  THISFILE=/usr/share/fonts/truetype/msttcorefonts/`echo $f|awk -F "=" '{print $2}'`
+  if [ ! -f $THISFILE ] || [ `md5sum $THISFILE | awk '{print $1}'` != $THISSUM ] ; then
+    NEEDUPDATE=1
+    break;
+  fi
+done
+
+if [ -n "$NEEDUPDATE" ] ; then
+  db_reset msttcorefonts/blurb
+  db_input low msttcorefonts/blurb || true
+  db_input low msttcorefonts/dldir || true
+  db_go
+  db_get msttcorefonts/dldir
+  while [ -n "$RET" ] && [ `echo $RET | tr [:upper:] [:lower:] ` != "none" ] ; do
+    BADDIR=""
+    for f in $EXEMD5S ; do
+      THISSUM=`echo $f|awk -F "=" '{print $1}'`
+      THISFILE=$RET/`echo $f|awk -F "=" '{print $2}'`
+      echo checking $THISFILE
+      if [ ! -f $THISFILE ] || [ `md5sum $THISFILE | awk '{print $1}'` != $THISSUM ] ; then
+        BADDIR=1
+        break;
+      fi
+    done
+    if [ -n "$BADDIR" ] ; then
+        db_fset msttcorefonts/baddldir seen false
+        db_fset msttcorefonts/dldir seen false
+        db_input critical msttcorefonts/baddldir || true
+        db_input critical msttcorefonts/dldir || true
+        db_go
+        db_get msttcorefonts/dldir
+    else
+        break
+    fi
+  done
+  if [ -z "$RET" ]; then
+    db_input low msttcorefonts/savedir || true
+    db_go
+    db_get msttcorefonts/savedir
+  fi
+  
+  db_get msttcorefonts/dldir
+
+  if [ -z "$RET" ]; then
+      db_input low msttcorefonts/dlurl || true
+      db_go || true
+  fi
+fi
+
+# check if X is configured for defoma
+
+XCONF=/etc/X11/XF86Config-4
+
+if [ ! -e $XCONF ] ; then
+  XCONF=/etc/X11/XF86Config
+fi
+
+if [ -e $XCONF ] ; then
+ if ! grep -q '/var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType' $XCONF ; then
+     db_input high msttcorefonts/defoma || true
+     db_go
+  fi
+fi
+

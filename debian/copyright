@@ -1,0 +1,12 @@
+This is msttcorefonts, originally created by Eric Sharkey <sharkey@debian.org>
+on Sun Sep 17 13:34:12 EDT 2000.
+
+The packaging and the update-ms-fonts script are
+Copyright (C) 2000 Eric Sharkey, and subject to the GPL.  Special thanks
+to Chris Lawrence, who's xanim-modules installer provided inspiration
+for this package.
+
+The full text of the GPL is available in /usr/share/common-licenses/GPL.
+
+Please read the READ_ME! file in /usr/share/doc/msttcorefonts for
+licensing terms for the fonts themselves.

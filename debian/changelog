@@ -1,0 +1,299 @@
+msttcorefonts (1.2) unstable; urgency=high
+
+  * Run update-fonts-dir in /usr/share/fonts/truetype to get rid of
+    obsolete entries.  (closes: #252895, #280462, #279380)
+  
+ -- Tollef Fog Heen <tfheen@debian.org>  Sun,  2 Jan 2005 10:59:46 +0100
+
+msttcorefonts (1.1.12) unstable; urgency=low
+
+  * Really fix the preinst test.  (#272939, again).  Thanks to Arne Rusek
+    for reproducing.
+  * Only ask about downloading the files if they're not on disk.  Thanks
+    to AKL. Mantas Kriauciunas for spotting this.
+
+ -- Tollef Fog Heen <tfheen@debian.org>  Thu,  7 Oct 2004 13:02:25 +0200
+
+msttcorefonts (1.1.11) unstable; urgency=low
+
+  * Handle the case of /usr/X11R6/lib/X11/TrueType being a broken symlink in
+    preinst.  (closes: #272939, hopefully)
+
+ -- Tollef Fog Heen <tfheen@debian.org>  Sun, 26 Sep 2004 23:53:15 +0200
+
+msttcorefonts (1.1.10) unstable; urgency=low
+
+  * Add defoma to build-deps (closes: #273263, #273238)
+  * Update French debconf template (closes: #273471)
+
+ -- Tollef Fog Heen <tfheen@debian.org>  Sun, 26 Sep 2004 23:41:24 +0200
+
+msttcorefonts (1.1.9) unstable; urgency=medium
+
+  * Use mktemp in update-ms-fonts. (Thanks to David Pashley for stumbling
+    over this one)
+  * Make sure msttcorefonts/dldir and msttcorefonts/baddldir aren't set to
+    seen.   (closes: #272957)  This also removes some redundant code from
+    update-ms-fonts.  Thanks to Ken Bloom <kabloom@ucdavis.edu> for helping me
+    debug the problem.
+  * Quote tr's arguments in update-ms-fonts.  Thanks to Aaron M. Ucko
+    <ucko@debian.org> for spotting this.
+  
+ -- Tollef Fog Heen <tfheen@debian.org>  Thu, 23 Sep 2004 13:05:16 +0200
+
+msttcorefonts (1.1.8) unstable; urgency=low
+
+  * Add preseeding support. Thanks to Steinar H. Gunderson for the idea
+    and a bit of the patch.  (closes: #219834, #239287)
+  * Fix up update-ms-fonts so -s works again.
+
+ -- Tollef Fog Heen <tfheen@debian.org>  Wed, 22 Sep 2004 17:43:54 +0200
+
+msttcorefonts (1.1.7) unstable; urgency=low
+
+  * Add 8.3 compat symlinks (closes: #272808)
+  * Make the download script a bit more solid.
+  * Move fonts to /usr/share/fonts/truetype/msttcorefonts
+  * Don't use update-fonts-scale at all, it should be handled by defoma now,
+    rather.  This also means gtk1.2 applications can see our fonts.
+    Openoffice.org also seems to be happy with this. In addition, this should
+    have fixed antialiasing where it before was missing.
+    (closes: #272313, #172006, #269862, #188926, #161503)
+  * Fix up the hints file to tell that Impact is variable-width and not
+    fixed-width (closes: #184869)
+  * Try to get rid of /usr/X11R6/lib/X11/fonts/TrueType in preinst 
+    (closes: #188454)
+
+ -- Tollef Fog Heen <tfheen@debian.org>  Wed, 22 Sep 2004 14:26:35 +0200
+
+msttcorefonts (1.1.6) unstable; urgency=low
+
+  * Adopt package (closes: #263485)
+  * Lower priority of savedir question
+  * Fix typo in template (closes: #268588)
+  * Change section to contrib/x11 (closes: #249450)
+  * Update Danish debconf translation (closes: #263829)
+    (Thanks to Morten Brix Pedersen <morten@wtf.dk>)
+  * Update Japanese translation (closes: #264631)
+    (Thanks to Hideki Yamane <henrich@samba.gr.jp>)
+  * Add Lithuanian translation (closes: #265722)
+    (Thanks to Mykolas OK <mykolas@uzupis.com>)
+  * Update Brazilian translation (closes: #267328)
+    (Thanks to Andre Luis Lopes <andrelop@debian.org>)
+  * Update French translation (closes: #268060)
+    (Thanks to Yves Rutschle <bts@rutschle.net>)
+  * Update Czech translation (closes: #268593)
+    (Thanks to Marcel Sebek <sebek64@post.cz>)
+  * Update German translation (closes: #270306)
+    (Thanks to Mario Scheel <marioscheel@web.de>)
+  * Make sure you only get asked once about downloading the fonts 
+    (closes: #155605)
+
+ -- Tollef Fog Heen <tfheen@debian.org>  Wed, 15 Sep 2004 18:36:35 +0200
+
+msttcorefonts (1.1.5) unstable; urgency=low
+
+  * don't try to rmdir on a symlink (Closes: #249182)
+  * Add Danish (Closes: #240811)
+  * Add Czech (Closes: #247555)
+  * Add French (Closes: #250279)
+  * Add Japanese (Closes: #254494)
+  * Tweak templates (Closes: #245945)
+
+ -- Eric Sharkey <sharkey@debian.org>  Thu, 05 Aug 2004 09:55:42 -0400
+
+msttcorefonts (1.1.4) unstable; urgency=low
+
+  * do not imply that these fonts will be downloaded from MS web site
+    neither from the description nor from the templates, nor the script
+    itself (Closes: #161411) 
+  * s/X-windows/X Window System/ (Closes: #191287)
+  * name the files to download in the template to allow the user
+    to find them more easily (Closes: #166889)
+  * Explain what defoma is to help users (Closes: #167233)
+  * Explain that the dependency on x-ttcidfont-conf is only needed under X
+    (Closes: #166765, #166761) and that the documentation of this package
+    is only installed when the package is (how bizarre). (Closes: #174806)
+  * Switch debconf templates to po-debconf (Closes: #184054)
+  * Ask wget to timeout a bit more aggressivly so that the multiple URLROOTS
+    mechanism works better (Closes: #221832)
+  * Thanks to Martin Quinson <martin.quinson@tuxfamily.org> for much
+    of the work on this release
+
+ -- Eric Sharkey <sharkey@debian.org>  Fri, 26 Mar 2004 17:08:56 -0500
+
+msttcorefonts (1.1.3) unstable; urgency=low
+
+  * Handle multiple URLROOTS, in case one site is unavailable (Closes: #203524)
+  * Fix assumption mkfontdir is in path (Closes: #174504)
+  * Call mkfontscale (Closes: #203263)
+
+ -- Eric Sharkey <sharkey@debian.org>  Sun, 10 Aug 2003 09:57:24 -0400
+
+msttcorefonts (1.1.2) unstable; urgency=low
+
+  * Use /var/lib instead of /var/state, Closes: #168325
+  * Cleanup old fonts.dir under the X11 dir, Closes: #171765
+  * Apply patch to add more encodings, Closes: #169651, #159951, #168145
+  * Handle non-existent /usr/lib/X11/fonts/TrueType, Closes: #168815
+
+ -- Eric Sharkey <sharkey@debian.org>  Thu, 05 Dec 2002 12:51:12 -0500
+
+msttcorefonts (1.1.1) unstable; urgency=low
+
+  * Remove scale file, Closes: #161435
+  * explain defoma conf on systems that seem not to be
+    configured, Closes: #162557
+  * Clean up empty TrueType directory, if it exists, Closes: #163383
+  
+ -- Eric Sharkey <sharkey@debian.org>  Sat, 26 Oct 2002 14:48:49 -0400
+
+msttcorefonts (1.1.0) unstable; urgency=low
+
+  * integrate with defoma, Closes: #100566
+  * rerun update-fonts-scale on postrm, Closes: #146281
+  * Fix potential namespace collisions, Closes: #147395
+  * Change base URL, Closes: #156503
+  * Move installed font list to /var/state
+
+ -- Eric Sharkey <sharkey@debian.org>  Thu, 05 Sep 2002 20:55:10 -0400
+
+msttcorefonts (1.0.1) unstable; urgency=low
+
+  * add encodings to mkfontdir command, Closes: #135862, #140936
+  * add Spanish, Closes: #143189
+
+ -- Eric Sharkey <sharkey@debian.org>  Mon,  6 May 2002 19:45:10 -0400
+
+msttcorefonts (1.0.0) unstable; urgency=low
+
+  * regenerate scale file, Closes: #121471, #105764
+
+ -- Eric Sharkey <sharkey@debian.org>  Sun, 17 Mar 2002 15:14:42 -0500
+
+msttcorefonts (0.9.9) unstable; urgency=low
+
+  * Remove bashism, Closes: #122002
+  * Accept "-s" as explicitly requesting no savedir (as opposed to -s<dir>)
+
+ -- Eric Sharkey <sharkey@debian.org>  Wed, 12 Dec 2001 14:43:24 -0500
+
+msttcorefonts (0.9.8) unstable; urgency=low
+
+  * Add path to mkfontdir, Closes: #107230
+  * Add German translation, Closes: #107711
+  * Optionally save downloaded files, Closes: #111649
+  * Indicate size of download required, Closes: #113701
+
+ -- Eric Sharkey <sharkey@debian.org>  Sat, 27 Oct 2001 14:03:18 -0400
+
+msttcorefonts (0.9.7) unstable; urgency=low
+
+  * Placate Joey Hess by not using debconf's text type (#106342)
+  * Remove blank defaults from templates file, Closes: #106359
+  * Add Brazilian Portuguese debconf translations, Closes: #106753
+
+ -- Eric Sharkey <sharkey@debian.org>  Mon, 30 Jul 2001 17:49:47 -0400
+
+msttcorefonts (0.9.6) unstable; urgency=low
+
+  * Integrate with debconf to handle local/deferred installations,
+    Closes: #103111
+
+ -- Eric Sharkey <sharkey@debian.org>  Fri, 13 Jul 2001 12:11:32 -0400
+
+msttcorefonts (0.9.5) unstable; urgency=low
+
+  * Relax permission checking on /tmp/msttcorefonts to allow sgid
+    /tmp's, Closes: #99000
+
+ -- Eric Sharkey <sharkey@debian.org>  Wed, 30 May 2001 09:59:50 -0400
+
+msttcorefonts (0.9.4) unstable; urgency=high
+
+  * Check permissions on /tmp/msttcorefonts to avoid security problems,
+    Closes: #98408
+
+ -- Eric Sharkey <sharkey@debian.org>  Tue, 22 May 2001 16:19:56 -0400
+
+msttcorefonts (0.9.3) unstable; urgency=low
+
+  * Make symlinks under /usr/lib/X11/fonts and provide scale file,
+    Closes: #92495
+
+ -- Eric Sharkey <sharkey@debian.org>  Mon, 14 May 2001 22:32:56 -0400
+
+msttcorefonts (0.9.2) unstable; urgency=low
+
+  * Manually fold all files to lower case to avoid probless with
+    sloppy MS file naming practices
+  * Make sure to re-download even if .done file is present if the
+    current file is no longer available (erased by previous run)
+
+ -- Eric Sharkey <sharkey@debian.org>  Mon, 14 May 2001 13:16:01 -0400
+
+msttcorefonts (0.9.1) unstable; urgency=low
+
+  * Explicitly specify wget directory prefix, Closes: #96393
+
+ -- Eric Sharkey <sharkey@debian.org>  Mon,  7 May 2001 16:49:51 -0400
+
+msttcorefonts (0.9.0) unstable; urgency=low
+
+  * Internally store the md5sum signatures of all fonts
+    and compared the installed font to the md5sum, upgrade
+    iff different
+  * Always run update-ms-fonts after postinst, since it's harmless now
+
+ -- Eric Sharkey <sharkey@debian.org>  Thu,  3 May 2001 18:15:23 -0400
+
+msttcorefonts (0.8.3) unstable; urgency=low
+
+  * Change case of updated Trebuc font files, Closes: #96073
+
+ -- Eric Sharkey <sharkey@debian.org>  Wed,  2 May 2001 14:59:50 -0400
+
+msttcorefonts (0.8.2) unstable; urgency=low
+
+  * fix grammar and formatting in description, Closes: #85286
+
+ -- Eric Sharkey <sharkey@debian.org>  Fri,  9 Feb 2001 21:20:45 +0900
+
+msttcorefonts (0.8.1) unstable; urgency=low
+
+  * resume aborted transfers, Closes: #84282
+  * download all files first, then unpack and install
+
+ -- Eric Sharkey <sharkey@debian.org>  Thu,  1 Feb 2001 21:27:13 +0900
+
+msttcorefonts (0.8.0) unstable; urgency=low
+
+  * Nearly complete rewrite to use cabextract to unpack the .EXE files
+    rather than the macintosh .hqx files
+  * Remove bashisms, Closes: #80116
+  * Remove dependency on macutils & appletalk, Closes: #80098, Closes: #80145
+  * All 11 fonts now installed, Closes: #81364
+
+ -- Eric Sharkey <sharkey@debian.org>  Wed, 24 Jan 2001 23:46:09 -0500
+
+msttcorefonts (0.2.1) unstable; urgency=low
+
+  * Change my email address to @debian.org
+  * Closes: bug#79686
+
+ -- Eric Sharkey <sharkey@debian.org>  Fri, 15 Dec 2000 13:52:58 -0400
+
+msttcorefonts (0.2.0) unstable; urgency=low
+
+  * Fixed misleading statements in man page
+  * Added support to update-ms-fonts to be rerun with files downloaded to
+    a local directory
+
+ -- Eric Sharkey <sharkey@superk.physics.sunysb.edu>  Tue, 14 Nov 2000 20:57:18 +0900
+
+msttcorefonts (0.1.0) unstable; urgency=low
+
+  * Initial Release; installer for MS TrueType core fonts for the Web
+
+ -- Eric Sharkey <sharkey@superk.physics.sunysb.edu>  Sun, 17 Sep 2000 13:34:12 -0400
+

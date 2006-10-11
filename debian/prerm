@@ -1,0 +1,19 @@
+#!/bin/sh
+set -e
+
+#DEBHELPER#
+
+if [ "$1" = "remove" -a -e /var/lib/msttcorefonts/ms-fonts ]; then
+        if [ -d /usr/lib/X11/fonts/TrueType ] && [ ! -L /usr/lib/X11/fonts/TrueType ] ; then
+          cd /usr/lib/X11/fonts/TrueType
+          rm -f `cat /var/lib/msttcorefonts/ms-fonts`
+          /usr/X11R6/bin/mkfontdir -e /usr/X11R6/lib/X11/fonts/encodings /usr/lib/X11/fonts/TrueType
+        fi
+        cd /usr/share/fonts/truetype/msttcorefonts
+	rm -f `cat /var/lib/msttcorefonts/ms-fonts`
+	rm -f /usr/share/doc/msttcorefonts/READ_ME!.gz
+        rm -r /var/lib/msttcorefonts/ms-fonts
+        rmdir --ignore-fail-on-non-empty /usr/share/fonts/truetype/msttcorefonts
+fi
+
+exit 0

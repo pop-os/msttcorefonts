@@ -1,0 +1,28 @@
+.TH update-ms-fonts 8
+.SH NAME
+update-ms-fonts \- download updated Microsoft Web fonts
+.SH SYNOPSIS
+.B update-ms-fonts [-sSAVEDIR] [path]
+.SH "DESCRIPTION"
+This manual page briefly documents the
+.BR update-ms-fonts
+command.
+.PP
+.B update-ms-fonts
+downloads updated TrueType fonts provided by Microsoft for the
+purpose of cross-platform compatibility in Web document.
+.PP
+.SH OPTIONS
+.TP
+.B -sSAVEDIR
+If present, the directory into which downloaded files will be
+permanently archived.
+.TP
+.B -uURLOVERRIDE
+If present, the URL which will be used for downloading the files
+instead of the built-in set of mirrors.
+.TP
+.B path
+Specified path into which the font files have been downloaded.
+.SH FILES
+/usr/share/fonts/truetype
