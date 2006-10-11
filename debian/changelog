@@ -6,6 +6,12 @@ msttcorefonts (1.3) unstable; urgency=low
   * Add debconf-2.0 alternate to debconf dependency (closes: #332036).
   * Drop empty postrm (closes: #354924).
   * Move debhelper from Build-Depends-Indep to Build-Depends.
+  * Updated translations:
+    - Swedish by Daniel Nylander (closes: 331032);
+    - Portuguese by Miguel Figueiredo (closes: 331493);
+    - Dutch by Esther Hanko (closes: 355390);
+    - Polish by Emil Nowak (closes: 384621);
+    - Italian by Luca Monducci (closes: 363101).
 
  -- Thijs Kinkhorst <thijs@debian.org>  Wed, 11 Oct 2006 15:08:45 +0200
 

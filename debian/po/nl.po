@@ -1,0 +1,158 @@
+# translation of msttfontstemplate.po to nederlands
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans#
+#    Developers do not need to manually edit POT or PO files.
+# Esther <ehanko@xs4all.nl>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: msttfontstemplate\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-09-15 19:09+0200\n"
+"PO-Revision-Date: 2006-02-22 15:11+0100\n"
+"Last-Translator: Esther <ehanko@xs4all.nl>\n"
+"Language-Team: nederlands <debian-l10n-dutch@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#. Type: note
+#. Description
+#: ../templates:3
+msgid "These fonts are not free."
+msgstr "Deze lettertypen zijn niet vrij."
+
+#. Type: note
+#. Description
+#: ../templates:3
+msgid ""
+"These fonts were provided by Microsoft \"in the interest of cross-platform "
+"compatibility\". This is no longer the case, but they are still available "
+"from third parties."
+msgstr "Deze lettertypen werden door Microsoft geleverd \"om de compatibiliteit tussen verschillende platformen te bevorderen\". Dit is niet meer het geval, ze zijn echter nog wel verkrijgbaar."
+
+#. Type: note
+#. Description
+#: ../templates:3
+msgid ""
+"You are free to download these fonts and use them for your own use, but you "
+"may not redistribute them in modified form, including changes to the file "
+"name or packaging format."
+msgstr "Het staat u vrij deze lettertypen te downloaden en te gebruiken voor eigen gebruik, u mag ze echter niet verspreiden in gewijzigde vorm, met inbegrip van wijzigingen in de bestandsnaam of het pakketformaat."
+
+#. Type: string
+#. Description
+#: ../templates:14
+msgid "Directory holding MS fonts (if already downloaded):"
+msgstr "De map met de MS-lettertypen (indien reed gedownload):"
+
+#. Type: string
+#. Description
+#: ../templates:14
+msgid ""
+"If you have already downloaded Microsoft's TrueType Core Fonts for the web, "
+"type the name of the directory which contains them. Those files are in the "
+"Microsoft Windows self-installing format, and are named andale32.exe, "
+"arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
+"exe, times32.exe, trebuc32.exe, verdan32.exe and webdin32.exe."
+msgstr ""
+"Als u de Microsofts TrueType Core Fonts voor het Web van Microsoft reeds gedownload heeft, voer dan hier de naam in van de map waar ze zijn opgeslagen. Deze bestanden zijn in het Microsoft Windows zelf-installerende formaat en hebben de volgende namen:"
+"andale32.exe,"
+"arial32.exe,"
+"arialb32.exe,"
+"comic32.exe,"
+"courie32.exe,"
+"georgi32.exe,"
+"impact32.exe,"
+"times32.exe,"
+"trebuc32.exe,"
+"verdan32.exe"
+"en webdin32.exe."
+
+#. Type: string
+#. Description
+#: ../templates:14
+msgid ""
+"If you haven't yet downloaded these fonts, leave this blank and the fonts "
+"will be downloaded for you. Approximately 4 MB will need to be downloaded."
+msgstr "Als u de lettertypen nog niet heeft gedownload laat u dit leeg, de lettertypen worden dan voor u gedownload. Er wordt dan ongeveer 4 MB gedownload."
+
+#. Type: string
+#. Description
+#: ../templates:14
+msgid ""
+"If you are not connected to the internet or do not wish to download these "
+"fonts now, enter \"none\" to abort."
+msgstr "Als u geen verbinding heeft met het internet of de lettertypen nu niet wilt downloaden, voert u \"none\" (geen) in om de installatie stop te zetten."
+
+#. Type: note
+#. Description
+#: ../templates:29
+msgid "Font files not found."
+msgstr "Lettertypebestanden niet gevonden."
+
+#. Type: note
+#. Description
+#: ../templates:29
+msgid ""
+"The directory you entered either did not exist, did not contain the "
+"Microsoft TrueType Core Fonts for the Web Microsoft Windows 9x self "
+"installing executables, or those executables did not match the versions "
+"expected by this script.  Please re-enter the directory containing the "
+"Microsoft font files or enter \"none\" to abort."
+msgstr "De map die u heeft ingevoerd bestaat niet, bevat niet de Microsoft TrueType Core Fonts voor het Web Microsoft Windows 9x Zelf-Installerende Uitvoerbare Bestanden of de versies van de uitvoerbare bestanden zijn niet gelijk aan de versies die door dit script verwacht worden. Voer de map in waar de Microsoft lettertypebestanden instaan of voer \"none\" (geen) in om te stoppen."
+
+#. Type: string
+#. Description
+#: ../templates:38
+msgid "Where should these files be be archived (optional):"
+msgstr "Waar moeten de bestanden gearchiveerd worden (dit is optioneel):"
+
+#. Type: string
+#. Description
+#: ../templates:38
+msgid ""
+"If you would like to keep a permanent archive of the compressed Windows self "
+"extracting files, enter the directory where you'd like them stored.  If you "
+"leave this blank, the files will be deleted after installation."
+msgstr "Als u graag een permanent archief zou willen hebben van de gecomprimeerde zelf-installerende bestanden, voer dan hier de map in waar u deze zou willen opslaan. Als u dit leeg laat, zullen de bestanden worden verwijderd na installatie."
+
+#. Type: note
+#. Description
+#: ../templates:45
+msgid "msttcorefonts uses defoma."
+msgstr "msttcorefonts maakt gebruik van defoma."
+
+#. Type: note
+#. Description
+#: ../templates:45
+msgid ""
+"Msttcorefonts now uses the DEbian FOnt MAnager (defoma).  If you wish to use "
+"the fonts provided by this package under the X Window System, you must "
+"configure it to use defoma fonts."
+msgstr "Msttcorefonts maakt nu gebruik van defoma, de Debian-lettertypebeheerder. Als u de lettertypen die dit pakket levert wilt gebruiken in het X Window System, moet u deze configureren voor het gebruik van defoma lettertypen."
+
+#. Type: note
+#. Description
+#: ../templates:45
+msgid ""
+"The easiest way to do so is to use the x-ttcidfont-conf package. For more "
+"information, install the x-ttcidfont-conf package and consult its "
+"documentation under /usr/share/doc/x-ttcidfont-conf."
+msgstr "De eenvoudigste manier om dat te doen is met behulp van het pakket x-ttcidfont-conf. Voor meer informatie installeert u het pakket x-ttcidfont-conf  en raadpleegt u de documentatie in /usr/share/doc/x-ttcidfont-conf."
+
+#. Type: note
+#. Description
+#: ../templates:45
+msgid ""
+"For uses of msttcorefonts not related to the X Window System (e.g. printing) "
+"this is not required."
+msgstr "Voor gebruik van msttcorefonts dat niet gerelateerd is aan het X Window System (zoals printen), is dit niet nodig."
