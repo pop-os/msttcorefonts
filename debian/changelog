@@ -1,3 +1,9 @@
+msttcorefonts (1.3) unstable; urgency=low
+
+  * New maintainer.
+
+ -- Thijs Kinkhorst <thijs@debian.org>  Wed, 11 Oct 2006 15:08:45 +0200
+
 msttcorefonts (1.2) unstable; urgency=high
 
   * Run update-fonts-dir in /usr/share/fonts/truetype to get rid of

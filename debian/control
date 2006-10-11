@@ -1,7 +1,7 @@
 Source: msttcorefonts
 Section: contrib/x11
 Priority: optional
-Maintainer: Tollef Fog Heen <tfheen@debian.org>
+Maintainer: Thijs Kinkhorst <thijs@debian.org>
 Standards-Version: 3.6.1.1
 Build-Depends-Indep: debhelper (>= 4.1.16), defoma
 
