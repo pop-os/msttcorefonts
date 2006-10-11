@@ -1,6 +1,7 @@
 msttcorefonts (1.3) unstable; urgency=low
 
   * New maintainer.
+  * Update list of SourceForge.net download mirrors (closes: 308924).
   * Reference READ_ME!.gz, not READ_ME! from copyright (closes: #337101).
 
 
