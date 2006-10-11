@@ -3,7 +3,8 @@ Section: contrib/x11
 Priority: optional
 Maintainer: Thijs Kinkhorst <thijs@debian.org>
 Standards-Version: 3.6.1
-Build-Depends-Indep: debhelper (>= 4.1.16), defoma
+Build-Depends: debhelper (>= 4.1.16)
+Build-Depends-Indep: defoma
 
 Package: msttcorefonts
 Architecture: all
