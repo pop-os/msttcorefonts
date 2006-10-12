@@ -1,0 +1,49 @@
+Some users have reported that after installing the msttcorefonts package
+many older X clients (such as xmessage, xfontsel, etc) display text using
+the 'Comic Sans MS' font, that looks... somewhat strange.
+
+This is caused by the following:
+- users have /var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType as the first
+  element in X font path;
+- msttcorefonts is the only truetype font package installed;
+- '-microsoft-comic sans ms-...' happens to be alphabetically first font
+  provided by msttcorefonts;
+- older applications request any font that match a generic pattern, and get
+  the comic font.
+
+This may be worked around by several ways.
+
+1. Install other font packages, and/or make another directory first in the
+   font path. X clients will get other fonts by default.
+
+2. If for whatever reason you don't want to install other fonts, and really
+   want to keep the truetype directory first in the font path, you may
+   manually configure clients to use another font.
+   E.g. add the following line:
+     *font: -microsoft-verdana-medium-r-normal--*-*-*-*-*-*-*
+   to /etc/X11/Xresources/local
+   If that causes unwanted font change in some apps (e.g. motif/lesstif-based),
+   you may be a bit more specific, e.g.:
+     xmessage*font: -microsoft-verdana-medium-r-normal--*-*-*-*-*-*-*
+
+3. Instead, it is possible to do fancy configuration using defoma.
+   It is possible to make another font alphabetically first in
+   /var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType directory, by 'aliasing'
+   the font foundry. To do so:
+   - create an empty directory, e.g. /usr/local/share/fonts/deuglify
+   - symlink a few fonts there:
+        arialbolditalic.ttf -> /usr/share/fonts/truetype/Arial_Bold_Italic.ttf
+        arialbold.ttf -> /usr/share/fonts/truetype/Arial_Bold.ttf
+        arialitalic.ttf -> /usr/share/fonts/truetype/Arial_Italic.ttf
+        arial.ttf -> /usr/share/fonts/truetype/Arial.ttf
+     Note different file names used for links - that is required.
+   - create a new file in /etc/defoma/hints, e.g. 'deuglify.hints'
+   - for each font you have symlinked above, copy appropriate section from
+     msttcorefonts.hints to deuglify.hints; change font pathname to symlink
+     pathname, and change Foundry to something like '000'
+   - run 
+       /usr/bin/defoma-font reregister-all /etc/defoma/hints/deuglify.hints
+   Now, after 'xset fp rehash' (or X server or xfs restart) new font names will
+   become available, in the above example '-000-arial-*'. Now those are
+   alphabetically first, and will be used by default by xmessage & co.
+
