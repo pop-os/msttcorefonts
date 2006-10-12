@@ -39,7 +39,7 @@ msgid ""
 "from third parties."
 msgstr ""
 "Deze lettertypen werden door Microsoft geleverd \"om de compatibiliteit "
-"tussen verschillende platformen te bevorderen\". Dit is niet meer het geval, "
+"tussen verschillende platforms te bevorderen\". Dit is niet meer het geval, "
 "ze zijn echter nog wel verkrijgbaar."
 
 #. Type: note
@@ -73,9 +73,9 @@ msgstr ""
 "Als u de Microsofts TrueType Core Fonts voor het Web van Microsoft reeds "
 "gedownload heeft, voer dan hier de naam in van de map waar ze zijn "
 "opgeslagen. Deze bestanden zijn in het Microsoft Windows zelf-installerende "
-"formaat en hebben de volgende namen:andale32.exe,arial32.exe,arialb32.exe,"
-"comic32.exe,courie32.exe,georgi32.exe,impact32.exe,times32.exe,trebuc32.exe,"
-"verdan32.exeen webdin32.exe."
+"formaat en hebben de volgende namen: andale32.exe, arial32.exe, arialb32.exe"
+", comic32.exe, courie32.exe, georgi32.exe, impact32.exe, times32.exe, "
+"trebuc32.exe, verdan32.exe en webdin32.exe."
 
 #. Type: string
 #. Description
