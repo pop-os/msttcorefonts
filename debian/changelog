@@ -1,12 +1,15 @@
 msttcorefonts (1.4) unstable; urgency=low
 
+  * Tighten dependency from xutils to xfonts-utils, because this provides
+    just what we need. Thanks Adrian Bunk (Closes: #392917).
   * Add README.comic-font describing a solution when older X applications
     start to display in the Comic Sans font. Thanks to Nikita Youshchenko.
     (Closes: #258958).
   * Updated translations:
     - Swedish by Daniel Nylander.
+    - Basque by Piarres Beobide.
 
- -- Thijs Kinkhorst <thijs@debian.org>  Thu, 12 Oct 2006 11:00:36 +0200
+ -- Thijs Kinkhorst <thijs@debian.org>  Sat, 14 Oct 2006 23:30:18 +0200
 
 msttcorefonts (1.3) unstable; urgency=low
 
