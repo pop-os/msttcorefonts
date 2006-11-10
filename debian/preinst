@@ -10,7 +10,7 @@ if [ -e /var/lib/msttcorefonts/ms-fonts ]; then
 
             # Those will be reregistered by postinst, but we want to get rid of
             # any possible dangling symlinks.
-            defoma-font unregister truetype "/usr/share/fonts/truetype/$f"
+            defoma-font -t unregister truetype "/usr/share/fonts/truetype/$f" || true
         fi
     done
 fi
