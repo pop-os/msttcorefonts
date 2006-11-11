@@ -8,10 +8,10 @@ This is caused by the following:
 - msttcorefonts is the only truetype font package installed;
 - '-microsoft-comic sans ms-...' happens to be alphabetically first font
   provided by msttcorefonts;
-- older applications request any font that match a generic pattern, and get
+- older applications request any font that matches a generic pattern, and get
   the comic font.
 
-This may be worked around by several ways.
+This may be worked around in several ways.
 
 1. Install other font packages, and/or make another directory first in the
    font path. X clients will get other fonts by default.
@@ -22,7 +22,7 @@ This may be worked around by several ways.
    E.g. add the following line:
      *font: -microsoft-verdana-medium-r-normal--*-*-*-*-*-*-*
    to /etc/X11/Xresources/local
-   If that causes unwanted font change in some apps (e.g. motif/lesstif-based),
+   If that causes unwanted font changes in some apps (e.g. motif/lesstif-based),
    you may be a bit more specific, e.g.:
      xmessage*font: -microsoft-verdana-medium-r-normal--*-*-*-*-*-*-*
 
