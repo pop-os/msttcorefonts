@@ -55,6 +55,7 @@ fi
 
 if [ -z "$QUIET_MODE" ] ; then
     cat <<EOF
+
 These fonts were provided by Microsoft "in the interest of cross-
 platform compatibility".  This is no longer the case, but they are
 still available from third parties.
@@ -62,6 +63,7 @@ still available from third parties.
 You are free to download these fonts and use them for your own use,
 but you may not redistribute them in modified form, including changes
 to the file name or packaging format.
+
 EOF
 fi
 
