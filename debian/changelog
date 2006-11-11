@@ -2,8 +2,9 @@ msttcorefonts (1.5) unstable; urgency=medium
 
   * Make defoma-font not fail if font already unregistered in preinst,
     thanks Tomas Pospisek for the help (Closes: #290971, #369962).
+  * Fix some documentation typos.
 
- -- Thijs Kinkhorst <thijs@debian.org>  Fri, 10 Nov 2006 23:33:48 +0100
+ -- Thijs Kinkhorst <thijs@debian.org>  Sat, 11 Nov 2006 16:10:57 +0100
 
 msttcorefonts (1.4) unstable; urgency=low
 
