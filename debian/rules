@@ -47,7 +47,6 @@ install-stamp: build-stamp
 
 # Build architecture-independent files here.
 binary-indep: build install
-#	dh_testversion
 	dh_testdir
 	dh_testroot
 	dh_installdebconf
@@ -55,17 +54,13 @@ binary-indep: build install
 	dh_installdefoma
 	dh_installexamples
 	dh_installmenu
-#	dh_installemacsen
-#	dh_installinit
 	dh_installcron
 	dh_installman update-ms-fonts.8
-#	dh_undocumented
 	dh_installchangelogs 
 	dh_link
 	dh_strip
 	dh_compress
 	dh_fixperms
-#	dh_makeshlibs
 	dh_installdeb
 	dh_shlibdeps
 	dh_gencontrol
