@@ -1,3 +1,10 @@
+msttcorefonts (1.6) unRELEASED; urgency=low
+
+  * Updated translations:
+    - German by Mario Scheel (Closes: #400123).
+
+ -- Thijs Kinkhorst <thijs@debian.org>  Mon, 27 Nov 2006 11:59:14 +0100
+
 msttcorefonts (1.5) unstable; urgency=medium
 
   * Make defoma-font not fail if font already unregistered in preinst,

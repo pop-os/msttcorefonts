@@ -16,9 +16,9 @@ msgstr ""
 "Project-Id-Version: msttcorefonts_1.1.5_templates\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
 "POT-Creation-Date: 2006-10-11 15:47+0200\n"
-"PO-Revision-Date: 2004-09-06 19:29+0200\n"
+"PO-Revision-Date: 2006-11-18 18:40+0100\n"
 "Last-Translator: Mario Scheel <marioscheel@web.de>\n"
-"Language-Team: Deutsch <de <debian-l10n-german@lists.debian.org>>\n"
+"Language-Team: German <debian-l10n-german@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,14 +33,13 @@ msgstr "Diese Schriftarten sind nicht Frei."
 #. Type: note
 #. Description
 #: ../templates:1001
-#, fuzzy
 msgid ""
 "These fonts were provided by Microsoft \"in the interest of cross-platform "
 "compatibility\". This is no longer the case, but they are still available "
 "from third parties."
 msgstr ""
-"Diese Schriftarten wurde von Microsoft \"im Interesse der Cross-Plattform "
-"Kompatibilität\" zur Verfügung gestellt. Dies ist nur nicht mehr der Fall, "
+"Diese Schriftarten wurde von Microsoft »im Interesse der Cross-Plattform "
+"Kompatibilität« zur Verfügung gestellt. Dies ist nur nicht mehr der Fall, "
 "sie sind aber immer noch bei Dritten verfügbar. "
 
 #. Type: note
@@ -97,7 +96,7 @@ msgid ""
 "fonts now, enter \"none\" to abort."
 msgstr ""
 "Wenn Sie nicht mit dem Internet verbunden sind oder es nicht wollen das sie "
-"heruntergeladen werden, dann geben Sie \"none\" ein zum abbrechen."
+"heruntergeladen werden, dann geben Sie zum Abbrechen »none« ein."
 
 #. Type: note
 #. Description
@@ -118,8 +117,8 @@ msgstr ""
 "Das Verzeichnis welches Sie eingeben haben existiert nicht. oder es enthält "
 "nicht die Microsoft TrueType Schriftarten im selbst entpackendem Format, "
 "oder die Dateien haben nicht die von diesem Skript erwarteten "
-"Versionsnummern.  Geben Sie das Verzeichnis ein in der die Schriftarten "
-"liegen oder \"none\" für abbrechen."
+"Versionsnummern. Geben Sie das Verzeichnis ein in der die Schriftarten "
+"liegen oder »none« zum Abbrechen."
 
 #. Type: string
 #. Description
@@ -137,7 +136,7 @@ msgid ""
 msgstr ""
 "Wenn Sie wollen das die Dateien im komprimierten selbst entpackenden Windows "
 "Format archiviert werden sollen, geben Sie das Verzeichnis in welches die "
-"Dateien gespeichert werden sollen. Lassen Sie das Feld leer wenn sie danach "
+"Dateien gespeichert werden sollen. Lassen Sie das Feld leer, wenn sie danach "
 "gelöscht werden sollen."
 
 #. Type: note
@@ -156,7 +155,7 @@ msgid ""
 msgstr ""
 "Msttcorefonts nutzt den DEbian FOnt MAnager (defoma). Wenn Sie die Dateien "
 "die von diesem Paket zur Verfügung gestellt werden unter dem X-Window-System "
-"nutzen wollen, müssen sie es so konfigurieren das es defoma nutzt."
+"nutzen wollen, müssen Sie es so konfigurieren das es defoma nutzt."
 
 #. Type: note
 #. Description
@@ -166,8 +165,9 @@ msgid ""
 "information, install the x-ttcidfont-conf package and consult its "
 "documentation under /usr/share/doc/x-ttcidfont-conf."
 msgstr ""
-"Der einfachste Weg ist, Sie installieren das \"x-ttcidfont-conf\" Paket. Für "
-"mehr Informationen, installieren das \"x-ttcidfont-conf\" Paket und schauen "
+"Der einfachste Weg ist es, dass Sie das »x-ttcidfont-conf«-Paket "
+"installieren. Für "
+"weitere Informationen installieren das »x-ttcidfont-conf«-Paket und schauen "
 "Sie in die Dokumentation unter /usr/share/doc/x-ttcidfont-conf."
 
 #. Type: note
@@ -177,5 +177,5 @@ msgid ""
 "For uses of msttcorefonts not related to the X Window System (e.g. printing) "
 "this is not required."
 msgstr ""
-"Für die Benutzung der msttcorefonts nicht im X Window System, z.B. für das "
-"drucken) ist dieser Schritt nicht notwendig."
+"Für die Benutzung der msttcorefonts außerhalb im X Window-Systems (z.B. zum "
+"Drucken) ist dieser Schritt nicht notwendig."
