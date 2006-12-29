@@ -1,7 +1,12 @@
-msttcorefonts (1.6) unRELEASED; urgency=low
+msttcorefonts (1.7) unRELEASED; urgency=low
 
-  * Updated translations:
-    - German by Mario Scheel (Closes: #400123).
+  * 
+
+ -- Thijs Kinkhorst <thijs@debian.org>  Fri, 29 Dec 2006 12:29:16 +0100
+
+msttcorefonts (1.6) unstable; urgency=medium
+
+  * Updated translation: German by Mario Scheel (Closes: #400123).
 
  -- Thijs Kinkhorst <thijs@debian.org>  Mon, 27 Nov 2006 11:59:14 +0100
 
