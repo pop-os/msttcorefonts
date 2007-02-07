@@ -1,9 +1,10 @@
 msttcorefonts (1.8) unRELEASED; urgency=low
 
   * Updated Spanish by Steve Lord Flaubert (Closes: #409803).
-  * Updated Galician by Jacobo Tarrio (Closes: #409846).
+  * Added Galician by Jacobo Tarrio (Closes: #409846).
+  * Added Vietnamese by Clytie Siddall.
 
- -- Thijs Kinkhorst <thijs@debian.org>  Tue,  6 Feb 2007 10:33:56 +0100
+ -- Thijs Kinkhorst <thijs@debian.org>  Wed,  7 Feb 2007 10:03:29 +0100
 
 msttcorefonts (1.7) unstable; urgency=medium
 
