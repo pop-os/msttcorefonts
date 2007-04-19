@@ -10,7 +10,8 @@ msttcorefonts (2.0) unstable; urgency=low
   * Add support for setting a HTTP proxy during installation.
     Unfortunately it turns out to be difficult to pass the
     http_proxy environment variable around properly between
-    different shells, so this is needed for some situations
+    different shells, especially for those using sudo, so
+    this is needed for some situations
     (Closes: #333012, #413646).
   * Update to debhelper compatibility level 5 (from 1).
   * Remove obsolete upgrading code causing warnings
@@ -28,7 +29,7 @@ msttcorefonts (2.0) unstable; urgency=low
   * Basque by Piarres Beobide (Closes: #420073).
   * Galician by Jacobo Tarrio (Closes: #420071).
 
- -- Thijs Kinkhorst <thijs@debian.org>  Thu, 19 Apr 2007 21:54:36 +0200
+ -- Thijs Kinkhorst <thijs@debian.org>  Thu, 19 Apr 2007 23:14:42 +0200
 
 msttcorefonts (1.8) unstable; urgency=high
 

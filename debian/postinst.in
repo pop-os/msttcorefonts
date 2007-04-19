@@ -8,13 +8,13 @@ db_get msttcorefonts/dldir
 LOCALCOPY=$RET
 
 db_get msttcorefonts/savedir
-SAVEDIR=${RET:+-s$RET}
+SAVEDIR=$RET
 
 db_get msttcorefonts/dlurl
-URLOVERRIDE=${RET:+-u$RET}
+URLOVERRIDE=$RET
 
 db_get msttcorefonts/http_proxy
-HTTP_PROXY=${RET:+-p$RET}
+http_proxy=$RET
 
 if [ -e /usr/share/fonts/truetype/ms-fonts ] ; then
   cp -p /usr/share/fonts/truetype/ms-fonts /var/lib/msttcorefonts/ms-fonts
