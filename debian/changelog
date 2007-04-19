@@ -19,7 +19,11 @@ msttcorefonts (2.0) unstable; urgency=low
     (Closes: #388936).
   * Update the list of SF.net mirrors.
 
- -- Thijs Kinkhorst <thijs@debian.org>  Thu, 19 Apr 2007 21:05:13 +0200
+  [ Translations ]
+  * Basque by Piarres Beobide (Closes: #420073).
+  * Galician by Jacobo Tarrio (Closes: #420071).
+
+ -- Thijs Kinkhorst <thijs@debian.org>  Thu, 19 Apr 2007 21:42:01 +0200
 
 msttcorefonts (1.8) unstable; urgency=high
 

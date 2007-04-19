@@ -1,14 +1,14 @@
-# translation of msttcorefonts-eu.po to librezale
+# translation of msttcorefonts2.0-eu.po to librezale
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Piarres Beobide <pi@beobide.net>, 2006.
+# Piarres Beobide <pi@beobide.net>, 2006, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: msttcorefonts-eu\n"
+"Project-Id-Version: msttcorefonts2.0-eu\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
 "POT-Creation-Date: 2007-04-19 19:26+0200\n"
-"PO-Revision-Date: 2006-10-14 00:07+0200\n"
+"PO-Revision-Date: 2007-04-19 21:24+0200\n"
 "Last-Translator: Piarres Beobide <pi@beobide.net>\n"
 "Language-Team: librezale <librezale@librezale.org>\n"
 "MIME-Version: 1.0\n"
@@ -108,13 +108,12 @@ msgstr "msttcorefonts defoma erabiltzen du"
 #. Type: note
 #. Description
 #: ../templates:4001
-#, fuzzy
 msgid ""
 "Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to use the "
 "fonts provided by this package under the X Window System, you must configure "
 "it to use defoma fonts."
 msgstr ""
-"Msttcorefonts paketeak orain DEbian FOnt MAnager (defoma) erabiltzen du.  "
+"Msttcorefonts paketeak DEbian FOnt MAnager (defoma) erabiltzen du.  "
 "Pakete honen letra-tipoak X Leiho Sisteman erabili nahi izan ezkero, berau "
 "defoma letra-tipoak erabiltzeko konfiguratu behar da"
 
@@ -140,23 +139,3 @@ msgstr ""
 "X Leiho Sistematik kanpoko erabilpenetarako (adib. Inprimatzea) hau ez da "
 "beharrezkoa."
 
-#~ msgid "These fonts are not free."
-#~ msgstr "Letra-tipo hauek ez dira libreak."
-
-#~ msgid ""
-#~ "These fonts were provided by Microsoft \"in the interest of cross-"
-#~ "platform compatibility\". This is no longer the case, but they are still "
-#~ "available from third parties."
-#~ msgstr ""
-#~ "Letra-tipo hauek Microsoft-ek \"plataforma harteko bateragarritasunaren "
-#~ "interesean\" banatu zituen. Hori ez da kasua orain baina hirugarrenek "
-#~ "ipintzen dituzte erabilgarri."
-
-#~ msgid ""
-#~ "You are free to download these fonts and use them for your own use, but "
-#~ "you may not redistribute them in modified form, including changes to the "
-#~ "file name or packaging format."
-#~ msgstr ""
-#~ "Letra-tipo hauek deskargatu eta erabilpen pribatua egiteko eskubidea "
-#~ "duzu, baina ezin dituzu zabaldu eraldatuak izan badira, fitxategi izena "
-#~ "edo pakete formatua barne."
