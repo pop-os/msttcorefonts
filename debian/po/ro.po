@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ro\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
-"POT-Creation-Date: 2007-04-19 22:15+0200\n"
+"POT-Creation-Date: 2007-04-19 22:20+0200\n"
 "PO-Revision-Date: 2007-02-08 01:26+0200\n"
 "Last-Translator: Eddy Petrișor <eddy.petrisor@gmail.com>\n"
 "Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
@@ -164,7 +164,7 @@ msgstr ""
 #. Type: string
 #. Description
 #: ../templates:6001
-msgid "Do you use a proxy?"
+msgid "HTTP proxy to use:"
 msgstr ""
 
 #. Type: string
@@ -172,7 +172,7 @@ msgstr ""
 #: ../templates:6001
 msgid ""
 "If you need to use a proxy server, please enter it here (example: "
-"http://192.168.0.1:8080).  This will cause the font files to be downloaded "
+"http://192.168.0.1:8080). This will cause the font files to be downloaded "
 "using your proxy."
 msgstr ""
 

@@ -57,7 +57,7 @@ Template: msttcorefonts/http_proxy
 Type: string
 _Description: HTTP proxy to use:
  If you need to use a proxy server, please enter it here (example:
- http://192.168.0.1:8080).  This will cause the font files to be
+ http://192.168.0.1:8080). This will cause the font files to be
  downloaded using your proxy.
  .
  Leave this option blank if you don't use a proxy server.
