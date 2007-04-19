@@ -6,8 +6,9 @@ msttcorefonts (1.9) unstable; urgency=low
   * Remove obsolete upgrading code.
   * Checked for policy 3.7.2, no changes.
   * X config location is now xorg.conf, not XF86Config-4.
+  * Fix some non-POSIX shell code (Closes: #354926).
 
- -- Thijs Kinkhorst <thijs@debian.org>  Thu, 19 Apr 2007 18:06:39 +0200
+ -- Thijs Kinkhorst <thijs@debian.org>  Thu, 19 Apr 2007 18:39:46 +0200
 
 msttcorefonts (1.8) unstable; urgency=high
 

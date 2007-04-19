@@ -25,7 +25,7 @@ for opt in "$@"; do
         *) LOCALCOPY=$opt ;;
     esac
 done
-if [ "$(echo $LOCALCOPY | tr '[:upper:]' '[:lower:]')" = "none" ] ; then
+if [ "`echo $LOCALCOPY | tr '[:upper:]' '[:lower:]'`" = "none" ] ; then
   exit 0
 fi
 
@@ -68,7 +68,7 @@ to the file name or packaging format.
 EOF
 fi
 
-SCRATCHDIR=$(mktemp -t -d msttcorefonts.XXXXXX)
+SCRATCHDIR=`mktemp -t -d msttcorefonts.XXXXXX`
 chmod 0755 $SCRATCHDIR
 cd $SCRATCHDIR
 
@@ -108,7 +108,7 @@ EOF
 
 for ttf in `awk '{print $2}' msfonts.info` ; do
     if [ ! -e $FONTDIR/$ttf ] || \
-        [ `md5sum $FONTDIR/$ttf | awk '{print $1}'` != $(awk "/$ttf/ {print \$1 }" msfonts.info) ]
+        [ `md5sum $FONTDIR/$ttf | awk '{print $1}'` != `awk "/$ttf/ {print \\$1 }" msfonts.info` ]
         then
         THISFILE=`grep $ttf msfonts.info | awk '{print $3}'`
         if ! echo $FONTFILES | grep -q $THISFILE ; then
@@ -145,7 +145,7 @@ elif [ -n "$FONTFILES" ] ; then
     fi
     for ff in $FONTFILES; do
         cabextract $ff 1>&2
-        if [ $ff == wd97vwr32.exe ] ; then
+        if [ $ff = wd97vwr32.exe ] ; then
             cabextract Viewer1.cab 1>&2
         fi
         if [ -n "$SAVEDIR" ] ; then
@@ -168,12 +168,12 @@ elif [ -n "$FONTFILES" ] ; then
     
     mkdir -p /usr/share/doc/msttcorefonts $FONTDIR
     if [ -e licen.txt ] ; then
-        mv licen.txt "/usr/share/doc/msttcorefonts/READ_ME!"
-        gzip -f "/usr/share/doc/msttcorefonts/READ_ME!"
+        mv licen.txt '/usr/share/doc/msttcorefonts/READ_ME!'
+        gzip -f '/usr/share/doc/msttcorefonts/READ_ME!'
     fi
     for ff in $FONTFILES; do
         for ttf in `grep $ff msfonts.info | awk '{print $4}'`; do
-            longname=$(awk "/$ttf/ { print \$2 }" msfonts.info )
+            longname=`awk "/$ttf/ { print \\$2 }" msfonts.info`
             mv $ttf $FONTDIR/$longname
             ln -sf $longname $FONTDIR/$ttf
         done
@@ -194,7 +194,7 @@ if [ -z "$CHECK_ONLY" ] ; then
     fi
   done
   rm -f /usr/lib/X11/fonts/TrueType/msttcorefonts.scale
-  if [ -d /usr/lib/X11/fonts/TrueType -a ! -L /usr/lib/X11/fonts/TrueType ] ; then
+  if [ -d /usr/lib/X11/fonts/TrueType ] && ! [ -L /usr/lib/X11/fonts/TrueType ] ; then
     rmdir --ignore-fail-on-non-empty /usr/lib/X11/fonts/TrueType
   fi
   # Make sure X knows those fonts are gone
