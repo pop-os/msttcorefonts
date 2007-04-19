@@ -3,14 +3,14 @@ Section: contrib/x11
 Priority: optional
 Maintainer: Thijs Kinkhorst <thijs@debian.org>
 Standards-Version: 3.6.1
-Build-Depends: debhelper (>= 4.1.16)
+Build-Depends: debhelper (>> 5)
 Build-Depends-Indep: defoma
 Xs-Vcs-Svn: https://svn.kinkhorst.nl/svn/debian/msttcorefonts/trunk
 Xs-Vcs-Browse: https://aphrodite.kinkhorst.nl/wsvn/debian/msttcorefonts/
 
 Package: msttcorefonts
 Architecture: all
-Depends: wget (>= 1.9.1-4), cabextract, xfonts-utils, debconf (>= 1.2.0) | debconf-2.0, defoma
+Depends: wget, cabextract, xfonts-utils, debconf (>= 1.2.0) | debconf-2.0, defoma
 Recommends: x-ttcidfont-conf
 Description: Installer for Microsoft TrueType core fonts
  This package allows for easy installation of the Microsoft True Type
