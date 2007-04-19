@@ -1,14 +1,3 @@
-Template: msttcorefonts/blurb
-Type: note
-_Description: These fonts are not free.
- These fonts were provided by Microsoft "in the interest of cross-platform
- compatibility". This is no longer the case, but they are still
- available from third parties.
- .
- You are free to download these fonts and use them for your own use,
- but you may not redistribute them in modified form, including
- changes to the file name or packaging format.
-
 Template: msttcorefonts/dldir
 Type: string
 _Description: Directory holding MS fonts (if already downloaded):

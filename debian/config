@@ -70,8 +70,6 @@ for f in $MD5SUMS ; do
 done
 
 if [ -n "$NEEDUPDATE" ] ; then
-  db_reset msttcorefonts/blurb
-  db_input low msttcorefonts/blurb || true
   db_input low msttcorefonts/dldir || true
   db_go
   db_get msttcorefonts/dldir
