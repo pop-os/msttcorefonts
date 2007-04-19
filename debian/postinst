@@ -19,15 +19,6 @@ if [ -e /usr/share/fonts/truetype/ms-fonts ] ; then
   rm -f /usr/share/fonts/truetype/ms-fonts
 fi
 
-if [ -d /var/state/msttcorefonts ] ; then
- cp -p /var/state/msttcorefonts/* /var/lib/msttcorefonts/ 2>/dev/null || true
- rm -rf /var/state/msttcorefonts/
-
- # It's not FHS, and it's probably our fault this is here,
- # so delete it if we can.
- rmdir /var/state/ 2> /dev/null || true
-fi
-
 # Since we moved the fonts from /usr/share/fonts/truetype to
 #/usr/share/fonts/truetype/msttcorefonts, run update-fonts-dir in
 #/usr/share/fonts/truetype

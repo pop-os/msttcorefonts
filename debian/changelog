@@ -3,6 +3,7 @@ msttcorefonts (1.9) unstable; urgency=low
   * Add new font: Tahoma. Based on patch from Michael Gilbert,
     thanks! (Closes: #380294).
   * Update to debhelper compatibility level 5 (from 1).
+  * Remove obsolete upgrading code.
 
  -- Thijs Kinkhorst <thijs@debian.org>  Thu, 19 Apr 2007 16:15:04 +0200
 

@@ -1,20 +1,5 @@
 #! /bin/sh -e
 
-if [ -e /var/lib/msttcorefonts/ms-fonts ]; then
-   # Possible upgrade; this should be removed at etch + 1
-   
-    mkdir -p /usr/share/fonts/truetype/msttcorefonts/
-    for f in $(cat /var/lib/msttcorefonts/ms-fonts); do
-        if [ -e "/usr/share/fonts/truetype/$f" ]; then \
-            mv "/usr/share/fonts/truetype/$f" "/usr/share/fonts/truetype/msttcorefonts/$f"
-
-            # Those will be reregistered by postinst, but we want to get rid of
-            # any possible dangling symlinks.
-            defoma-font -t unregister truetype "/usr/share/fonts/truetype/$f" || true
-        fi
-    done
-fi
-
 if [ -d /usr/X11R6/lib/X11/fonts/TrueType ]; then
     update-fonts-dir /usr/X11R6/lib/X11/fonts/TrueType
     if [ ! -L /usr/X11R6/lib/X11/fonts/TrueType ]; then
