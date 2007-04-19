@@ -8,7 +8,8 @@ msttcorefonts (2.0) unstable; urgency=low
     thanks! This unfortunately nearly doubles the download size
     (Closes: #380294).
   * Update to debhelper compatibility level 5 (from 1).
-  * Remove obsolete upgrading code (Closes: #392544).
+  * Remove obsolete upgrading code causing warnings
+    (Closes: #290856, #392544, #405658).
   * Checked for policy 3.7.2, no changes.
   * X config location is now xorg.conf, not XF86Config-4.
   * Fix some non-POSIX shell code (Closes: #354926).
@@ -17,7 +18,7 @@ msttcorefonts (2.0) unstable; urgency=low
     make baddldir of type error and some minor corrections
     (Closes: #388936).
 
- -- Thijs Kinkhorst <thijs@debian.org>  Thu, 19 Apr 2007 20:05:35 +0200
+ -- Thijs Kinkhorst <thijs@debian.org>  Thu, 19 Apr 2007 20:32:55 +0200
 
 msttcorefonts (1.8) unstable; urgency=high
 
