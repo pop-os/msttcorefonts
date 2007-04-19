@@ -2,6 +2,7 @@
 # Download and install the Microsoft Core Fonts for the Web
 #
 # (C) 2000,2001 Eric Sharkey.
+# (C) 2006 Michael Gilbert.
 # You may freely distribute this file under the terms of the GNU General
 # Public License, version 2 or later.
 
@@ -89,6 +90,7 @@ c61b355a5811e56ed3d7cea5d67c900e  Georgia_Bold.ttf                georgi32.exe g
 1e4e5d1975bdf4a5c648afbf8872fa13  Georgia_Italic.ttf              georgi32.exe georgiai.ttf
 e5d52bbfff45e1044381bacb7fc8e300  Georgia_Bold_Italic.ttf         georgi32.exe georgiaz.ttf
 8fc622c3a2e2d992ec059cca61e3dfc0  Impact.ttf                      impact32.exe impact.ttf
+9735423a8c03142f56103c1d751444f4  Tahoma.ttf                      wd97vwr32.exe tahoma.ttf
 4f97f4d6ba74767259ccfb242ce0e3f7  Times_New_Roman.ttf             times32.exe  times.ttf
 ed6e29caf3843142d739232aa8642158  Times_New_Roman_Bold.ttf        times32.exe  timesbd.ttf
 6d2bd425ff00a79dd02e4c95f689861b  Times_New_Roman_Bold_Italic.ttf times32.exe  timesbi.ttf
@@ -143,6 +145,9 @@ elif [ -n "$FONTFILES" ] ; then
     fi
     for ff in $FONTFILES; do
         cabextract $ff 1>&2
+        if [ $ff == wd97vwr32.exe ] ; then
+            cabextract Viewer1.cab 1>&2
+        fi
         if [ -n "$SAVEDIR" ] ; then
             cp $ff "$SAVEDIR"
         fi
