@@ -28,7 +28,7 @@ msgstr ""
 #. Description
 #: ../templates:1001
 msgid "Directory holding MS fonts (if already downloaded):"
-msgstr "De map met de MS-lettertypen (indien reed gedownload):"
+msgstr "De map met de MS-lettertypen (indien reeds gedownload):"
 
 #. Type: string
 #. Description
@@ -126,7 +126,7 @@ msgid ""
 msgstr ""
 "Msttcorefonts maakt gebruik van defoma, de Debian-lettertypebeheerder. "
 "Als u de lettertypen die dit pakket levert wilt gebruiken in het X Window "
-"System, moet u deze configureren voor het gebruik van defoma lettertypen."
+"System, moet u deze configureren voor het gebruik van defoma-lettertypen."
 
 #. Type: note
 #. Description
@@ -138,7 +138,7 @@ msgid ""
 msgstr ""
 "De eenvoudigste manier om dat te doen is met behulp van het pakket x-"
 "ttcidfont-conf. Voor meer informatie installeert u het pakket x-ttcidfont-"
-"conf  en raadpleegt u de documentatie in /usr/share/doc/x-ttcidfont-conf."
+"conf en raadpleegt u de documentatie in /usr/share/doc/x-ttcidfont-conf."
 
 #. Type: note
 #. Description
