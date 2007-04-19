@@ -4,6 +4,7 @@ msttcorefonts (1.9) unstable; urgency=low
     thanks! (Closes: #380294).
   * Update to debhelper compatibility level 5 (from 1).
   * Remove obsolete upgrading code.
+  * Checked for policy 3.7.2, no changes.
 
  -- Thijs Kinkhorst <thijs@debian.org>  Thu, 19 Apr 2007 18:06:39 +0200
 
