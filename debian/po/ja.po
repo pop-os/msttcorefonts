@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: msttcorefonts 1.1.5\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
-"POT-Creation-Date: 2006-10-11 15:47+0200\n"
+"POT-Creation-Date: 2007-04-19 19:26+0200\n"
 "PO-Revision-Date: 2004-08-08 20:39+0900\n"
 "Last-Translator: Hideki Yamane <henrich@samba.gr.jp>\n"
 "Language-Team: Japanese <debian-japanese@lists.debian.org>\n"
@@ -24,71 +24,42 @@ msgstr ""
 "Content-Type: text/plain; charset=EUC-JP\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. Type: note
-#. Description
-#: ../templates:1001
-msgid "These fonts are not free."
-msgstr "これらのフォントはフリーではありません。"
-
-#. Type: note
-#. Description
-#: ../templates:1001
-msgid ""
-"These fonts were provided by Microsoft \"in the interest of cross-platform "
-"compatibility\". This is no longer the case, but they are still available "
-"from third parties."
-msgstr ""
-"これらのフォントは \"プラットフォーム間の互換性のため\"、Microsoft によって提"
-"供されていました。これはすでに過去のものとなっていますが、しかし現在でもサー"
-"ドパーティから入手可能です。"
-
-#. Type: note
-#. Description
-#: ../templates:1001
-msgid ""
-"You are free to download these fonts and use them for your own use, but you "
-"may not redistribute them in modified form, including changes to the file "
-"name or packaging format."
-msgstr ""
-"これらのフォントをダウンロードして自己の目的のために使用するのは自由ですが、"
-"ファイル名やパッケージ形式の変更などを含め、変更を加えた形での再配布は許可さ"
-"れません。"
-
 #. Type: string
 #. Description
-#: ../templates:2001
+#: ../templates:1001
 msgid "Directory holding MS fonts (if already downloaded):"
 msgstr "MS font があるディレクトリ (すでにダウンロードされている場合):"
 
 #. Type: string
 #. Description
-#: ../templates:2001
+#: ../templates:1001
 msgid ""
 "If you have already downloaded Microsoft's TrueType Core Fonts for the web, "
 "type the name of the directory which contains them. Those files are in the "
 "Microsoft Windows self-installing format, and are named andale32.exe, "
 "arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
-"exe, times32.exe, trebuc32.exe, verdan32.exe and webdin32.exe."
+"exe, times32.exe, trebuc32.exe, verdan32.exe, wd97vwr32.exe and webdin32.exe."
 msgstr ""
 "すでに Microsoft TrueType Core Fonts for the web をダウンロードしている場合、"
 "そのファイルが存在するディレクトリ名を入力してください。ファイルは Microsoft "
 "Windows 自己解凍形式で、andale32.exe、arial32.exe、arialb32.exe、comic32."
 "exe、courie32.exe、georgi32.exe、impact32.exe、times32.exe、trebuc32.exe、"
-"verdan32.exe、webdin32.exe という名前になっています。"
+"verdan32.exe、wd97vwr32.exe、webdin32.exe という名前になっています。"
 
 #. Type: string
 #. Description
-#: ../templates:2001
+#: ../templates:1001
+#, fuzzy
 msgid ""
 "If you haven't yet downloaded these fonts, leave this blank and the fonts "
-"will be downloaded for you. Approximately 4 MB will need to be downloaded."
+"will be downloaded for you. Approximately 8 MB will need to be downloaded."
 msgstr ""
 "まだフォントをダウンロードしていない場合、ここで何も入力しないとダウンロード"
-"を開始します。ダウンロードにはおおよそ 4 MB の容量が必要です。"
+"を開始します。ダウンロードにはおおよそ 8 MB の容量が必要です。"
 
 #. Type: string
 #. Description
-#: ../templates:2001
+#: ../templates:1001
 msgid ""
 "If you are not connected to the internet or do not wish to download these "
 "fonts now, enter \"none\" to abort."
@@ -96,15 +67,16 @@ msgstr ""
 "インターネットに接続していない、またはフォントを今はダウンロードしたくないと"
 "いう場合、\"none\" と入力して終了してください。"
 
-#. Type: note
+#. Type: error
 #. Description
-#: ../templates:3001
-msgid "Font files not found."
+#: ../templates:2001
+#, fuzzy
+msgid "Font files not found"
 msgstr "フォントのファイルが見つかりません。"
 
-#. Type: note
+#. Type: error
 #. Description
-#: ../templates:3001
+#: ../templates:2001
 msgid ""
 "The directory you entered either did not exist, did not contain the "
 "Microsoft TrueType Core Fonts for the Web Microsoft Windows 9x self "
@@ -120,13 +92,13 @@ msgstr ""
 
 #. Type: string
 #. Description
-#: ../templates:4001
+#: ../templates:3001
 msgid "Where should these files be be archived (optional):"
 msgstr "どこにファイルを保存しますか (オプションです):"
 
 #. Type: string
 #. Description
-#: ../templates:4001
+#: ../templates:3001
 msgid ""
 "If you would like to keep a permanent archive of the compressed Windows self "
 "extracting files, enter the directory where you'd like them stored.  If you "
@@ -138,17 +110,19 @@ msgstr ""
 
 #. Type: note
 #. Description
-#: ../templates:5001
-msgid "msttcorefonts uses defoma."
+#: ../templates:4001
+#, fuzzy
+msgid "msttcorefonts uses defoma"
 msgstr "msttcorefonts では defoma を利用します。"
 
 #. Type: note
 #. Description
-#: ../templates:5001
+#: ../templates:4001
+#, fuzzy
 msgid ""
-"Msttcorefonts now uses the DEbian FOnt MAnager (defoma).  If you wish to use "
-"the fonts provided by this package under the X Window System, you must "
-"configure it to use defoma fonts."
+"Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to use the "
+"fonts provided by this package under the X Window System, you must configure "
+"it to use defoma fonts."
 msgstr ""
 "mscorefonts は DEbian FOnt MAnager (defoma) を利用するようになりました。X "
 "Window System で、このパッケージが扱っているフォントを利用したい場合、defoma "
@@ -156,7 +130,7 @@ msgstr ""
 
 #. Type: note
 #. Description
-#: ../templates:5001
+#: ../templates:4001
 msgid ""
 "The easiest way to do so is to use the x-ttcidfont-conf package. For more "
 "information, install the x-ttcidfont-conf package and consult its "
@@ -168,10 +142,31 @@ msgstr ""
 
 #. Type: note
 #. Description
-#: ../templates:5001
+#: ../templates:4001
 msgid ""
 "For uses of msttcorefonts not related to the X Window System (e.g. printing) "
 "this is not required."
 msgstr ""
 "msttcorefonts を利用するのに X Window System は関係がない (例えば印刷) ので、"
 "必要ではありません。"
+
+#~ msgid "These fonts are not free."
+#~ msgstr "これらのフォントはフリーではありません。"
+
+#~ msgid ""
+#~ "These fonts were provided by Microsoft \"in the interest of cross-"
+#~ "platform compatibility\". This is no longer the case, but they are still "
+#~ "available from third parties."
+#~ msgstr ""
+#~ "これらのフォントは \"プラットフォーム間の互換性のため\"、Microsoft によっ"
+#~ "て提供されていました。これはすでに過去のものとなっていますが、しかし現在で"
+#~ "もサードパーティから入手可能です。"
+
+#~ msgid ""
+#~ "You are free to download these fonts and use them for your own use, but "
+#~ "you may not redistribute them in modified form, including changes to the "
+#~ "file name or packaging format."
+#~ msgstr ""
+#~ "これらのフォントをダウンロードして自己の目的のために使用するのは自由です"
+#~ "が、ファイル名やパッケージ形式の変更などを含め、変更を加えた形での再配布は"
+#~ "許可されません。"

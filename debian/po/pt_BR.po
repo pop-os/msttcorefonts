@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: msttcorefonts\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
-"POT-Creation-Date: 2006-10-11 15:47+0200\n"
+"POT-Creation-Date: 2007-04-19 19:26+0200\n"
 "PO-Revision-Date: 2004-08-21 21:46-0300\n"
 "Last-Translator: André Luís Lopes <andrelop@debian.org>\n"
 "Language-Team: Debian-BR Project <debian-l10n-portuguese@lists.debian.org>\n"
@@ -23,73 +23,43 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. Type: note
-#. Description
-#: ../templates:1001
-msgid "These fonts are not free."
-msgstr "Estas fontes não são livres/gratuitas."
-
-#. Type: note
-#. Description
-#: ../templates:1001
-msgid ""
-"These fonts were provided by Microsoft \"in the interest of cross-platform "
-"compatibility\". This is no longer the case, but they are still available "
-"from third parties."
-msgstr ""
-"Estas fontes foram fornecidas pela Microsoft \"no interesse de "
-"compatibilidade multiplataforma\". Este não é mais o caso, mas as mesmas "
-"ainda estão sãodisponibilizadas por terceiros."
-
-#. Type: note
-#. Description
-#: ../templates:1001
-msgid ""
-"You are free to download these fonts and use them for your own use, but you "
-"may not redistribute them in modified form, including changes to the file "
-"name or packaging format."
-msgstr ""
-"Você é livre para fazer o download destas fontes e usá-las para uso pessoal, "
-"mas você não pode redistribuí-las em formato modificado, incluíndo mudanças "
-"no nome dos arquivos ou formato de empacotamento."
-
 #. Type: string
 #. Description
-#: ../templates:2001
+#: ../templates:1001
 msgid "Directory holding MS fonts (if already downloaded):"
 msgstr "Diretórios que contém as fontes MS (caso já feito o download) :"
 
 #. Type: string
 #. Description
-#: ../templates:2001
+#: ../templates:1001
 msgid ""
 "If you have already downloaded Microsoft's TrueType Core Fonts for the web, "
 "type the name of the directory which contains them. Those files are in the "
 "Microsoft Windows self-installing format, and are named andale32.exe, "
 "arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
-"exe, times32.exe, trebuc32.exe, verdan32.exe and webdin32.exe."
+"exe, times32.exe, trebuc32.exe, verdan32.exe, wd97vwr32.exe and webdin32.exe."
 msgstr ""
 "Caso você já tenha feito o download das TrueType Core Fonts para web da "
 "Microsoft, informe o nome do diretório onde você armazena essas fontes. "
 "Esses arquivos estão no formato de auto-instalação do Microsft Windows e são "
 "nomeados andale32.exe, arial32.exe, arialb32.exe, comic32.exe, courier32."
-"exe, georgi32.exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe e "
-"webdin32.exe."
+"exe, georgi32.exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe, "
+"wd97vwr32.exe e webdin32.exe."
 
 #. Type: string
 #. Description
-#: ../templates:2001
+#: ../templates:1001
 msgid ""
 "If you haven't yet downloaded these fonts, leave this blank and the fonts "
-"will be downloaded for you. Approximately 4 MB will need to be downloaded."
+"will be downloaded for you. Approximately 8 MB will need to be downloaded."
 msgstr ""
 "Caso você ainda não tenha feito o download dessas fontes, mantenha este "
 "campo em branco e as o download das mesmas será feito automaticamente para "
-"você. Será necessário fazer o download de aproximadamente 4MB."
+"você. Será necessário fazer o download de aproximadamente 8MB."
 
 #. Type: string
 #. Description
-#: ../templates:2001
+#: ../templates:1001
 msgid ""
 "If you are not connected to the internet or do not wish to download these "
 "fonts now, enter \"none\" to abort."
@@ -97,15 +67,15 @@ msgstr ""
 "Caso você não esteja conectado a Internet ou não deseja fazer o download "
 "dessas fontes agora, informe \"none\" para abortar."
 
-#. Type: note
+#. Type: error
 #. Description
-#: ../templates:3001
-msgid "Font files not found."
-msgstr "Arquivos de fontes não encontrados."
+#: ../templates:2001
+msgid "Font files not found"
+msgstr "Arquivos de fontes não encontrados"
 
-#. Type: note
+#. Type: error
 #. Description
-#: ../templates:3001
+#: ../templates:2001
 msgid ""
 "The directory you entered either did not exist, did not contain the "
 "Microsoft TrueType Core Fonts for the Web Microsoft Windows 9x self "
@@ -121,13 +91,13 @@ msgstr ""
 
 #. Type: string
 #. Description
-#: ../templates:4001
+#: ../templates:3001
 msgid "Where should these files be be archived (optional):"
 msgstr "Onde esses arquivos devem ser armazenados (opcional) :"
 
 #. Type: string
 #. Description
-#: ../templates:4001
+#: ../templates:3001
 msgid ""
 "If you would like to keep a permanent archive of the compressed Windows self "
 "extracting files, enter the directory where you'd like them stored.  If you "
@@ -140,17 +110,18 @@ msgstr ""
 
 #. Type: note
 #. Description
-#: ../templates:5001
-msgid "msttcorefonts uses defoma."
-msgstr "O msttcorefonts utiliza o defoma."
+#: ../templates:4001
+msgid "msttcorefonts uses defoma"
+msgstr "O msttcorefonts utiliza o defoma"
 
 #. Type: note
 #. Description
-#: ../templates:5001
+#: ../templates:4001
+#, fuzzy
 msgid ""
-"Msttcorefonts now uses the DEbian FOnt MAnager (defoma).  If you wish to use "
-"the fonts provided by this package under the X Window System, you must "
-"configure it to use defoma fonts."
+"Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to use the "
+"fonts provided by this package under the X Window System, you must configure "
+"it to use defoma fonts."
 msgstr ""
 "O pacote msttcorefonts agora utiliza O Gerenciador de Fontes Debian "
 "(defoma). Caso vocè deseje usar as fontes fornecidas por este pacotes sob o "
@@ -158,7 +129,7 @@ msgstr ""
 
 #. Type: note
 #. Description
-#: ../templates:5001
+#: ../templates:4001
 msgid ""
 "The easiest way to do so is to use the x-ttcidfont-conf package. For more "
 "information, install the x-ttcidfont-conf package and consult its "
@@ -170,13 +141,34 @@ msgstr ""
 
 #. Type: note
 #. Description
-#: ../templates:5001
+#: ../templates:4001
 msgid ""
 "For uses of msttcorefonts not related to the X Window System (e.g. printing) "
 "this is not required."
 msgstr ""
 "Para usos do msttcorefonts não relacionados com o Sistema de Janelas X (por "
 "exemplo, impressão) isso não é necessário."
+
+#~ msgid "These fonts are not free."
+#~ msgstr "Estas fontes não são livres/gratuitas."
+
+#~ msgid ""
+#~ "These fonts were provided by Microsoft \"in the interest of cross-"
+#~ "platform compatibility\". This is no longer the case, but they are still "
+#~ "available from third parties."
+#~ msgstr ""
+#~ "Estas fontes foram fornecidas pela Microsoft \"no interesse de "
+#~ "compatibilidade multiplataforma\". Este não é mais o caso, mas as mesmas "
+#~ "ainda estão sãodisponibilizadas por terceiros."
+
+#~ msgid ""
+#~ "You are free to download these fonts and use them for your own use, but "
+#~ "you may not redistribute them in modified form, including changes to the "
+#~ "file name or packaging format."
+#~ msgstr ""
+#~ "Você é livre para fazer o download destas fontes e usá-las para uso "
+#~ "pessoal, mas você não pode redistribuí-las em formato modificado, "
+#~ "incluíndo mudanças no nome dos arquivos ou formato de empacotamento."
 
 #~ msgid ""
 #~ "If you have already downloaded Microsoft's TrueType Core Fonts for the "

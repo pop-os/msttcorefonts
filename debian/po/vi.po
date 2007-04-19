@@ -3,10 +3,10 @@
 # Clytie Siddall <clytie@riverland.net.au>, 2007
 # 
 msgid ""
-""
-msgstr "Project-Id-Version: msttcorefonts\n"
+msgstr ""
+"Project-Id-Version: msttcorefonts\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
-"POT-Creation-Date: 2006-10-11 15:47+0200\n"
+"POT-Creation-Date: 2007-04-19 19:26+0200\n"
 "PO-Revision-Date: 2007-02-07 18:47+1030\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
@@ -16,123 +16,146 @@ msgstr "Project-Id-Version: msttcorefonts\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: LocFactoryEditor 1.6fc1\n"
 
-#.Type: note
-#.Description
+#. Type: string
+#. Description
 #: ../templates:1001
-msgid "These fonts are not free."
-msgstr "Những phông này không phải tự do."
-
-#.Type: note
-#.Description
-#: ../templates:1001
-msgid ""
-"These fonts were provided by Microsoft \"in the interest of cross-platform "
-"compatibility\". This is no longer the case, but they are still available "
-"from third parties."
-msgstr "Những phông này được cung cấp bởi công ty Microsoft « vì lợi ích của tính tương thích đa nền ». Không còn là trường hợp lại, nhưng chúng vẫn còn sẵn sàng từ người khác."
-
-#.Type: note
-#.Description
-#: ../templates:1001
-msgid ""
-"You are free to download these fonts and use them for your own use, but you "
-"may not redistribute them in modified form, including changes to the file "
-"name or packaging format."
-msgstr "Bạn có quyền tải về các phông này để sử dụng riêng, nhưng không cho phép bạn phân phối lại những phông này sau khi sửa đổi, gồm thay đổi trong tên tập tin hay định dạng đóng gói."
-
-#.Type: string
-#.Description
-#: ../templates:2001
 msgid "Directory holding MS fonts (if already downloaded):"
 msgstr "Thư mục chứa phông MS™ (nếu được tải về):"
 
-#.Type: string
-#.Description
-#: ../templates:2001
+#. Type: string
+#. Description
+#: ../templates:1001
 msgid ""
 "If you have already downloaded Microsoft's TrueType Core Fonts for the web, "
 "type the name of the directory which contains them. Those files are in the "
 "Microsoft Windows self-installing format, and are named andale32.exe, "
 "arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
-"exe, times32.exe, trebuc32.exe, verdan32.exe and webdin32.exe."
-msgstr "Nếu bạn đã tải về các Phông Lõi TrueType cho Mạng của công ty Microsoft™, gõ vào đây tên của thư mục chứa chúng. Các tập tin này theo định dạng tự cài đặt của hệ thống MS™ Windows: có tên andale32.exe, arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe và webdin32.exe."
+"exe, times32.exe, trebuc32.exe, verdan32.exe, wd97vwr32.exe and webdin32.exe."
+msgstr ""
+"Nếu bạn đã tải về các Phông Lõi TrueType cho Mạng của công ty Microsoft™, gõ "
+"vào đây tên của thư mục chứa chúng. Các tập tin này theo định dạng tự cài "
+"đặt của hệ thống MS™ Windows: có tên andale32.exe, arial32.exe, arialb32."
+"exe, comic32.exe, courie32.exe, georgi32.exe, impact32.exe, times32.exe, "
+"trebuc32.exe, verdan32.exe, wd97vwr32.exe và webdin32.exe."
 
-#.Type: string
-#.Description
-#: ../templates:2001
+#. Type: string
+#. Description
+#: ../templates:1001
 msgid ""
 "If you haven't yet downloaded these fonts, leave this blank and the fonts "
-"will be downloaded for you. Approximately 4 MB will need to be downloaded."
-msgstr "Chưa tải về thì bỏ trống để nhận các phông tự động được tải xuống. Cần phải tải xuống tập tin chiếm sức chứa khoảng 4 MB."
+"will be downloaded for you. Approximately 8 MB will need to be downloaded."
+msgstr ""
+"Chưa tải về thì bỏ trống để nhận các phông tự động được tải xuống. Cần phải "
+"tải xuống tập tin chiếm sức chứa khoảng 8 MB."
 
-#.Type: string
-#.Description
-#: ../templates:2001
+#. Type: string
+#. Description
+#: ../templates:1001
 msgid ""
 "If you are not connected to the internet or do not wish to download these "
 "fonts now, enter \"none\" to abort."
-msgstr "Không hiện thời kết nối đến Mạng, hoặc lúc này không muốn tải về phông thì gõ « không có » để hủy bỏ việc này."
+msgstr ""
+"Không hiện thời kết nối đến Mạng, hoặc lúc này không muốn tải về phông thì "
+"gõ « không có » để hủy bỏ việc này."
 
-#.Type: note
-#.Description
-#: ../templates:3001
-msgid "Font files not found."
-msgstr "Không tìm thấy tập tin phông."
+#. Type: error
+#. Description
+#: ../templates:2001
+msgid "Font files not found"
+msgstr "Không tìm thấy tập tin phông"
 
-#.Type: note
-#.Description
-#: ../templates:3001
+#. Type: error
+#. Description
+#: ../templates:2001
 msgid ""
 "The directory you entered either did not exist, did not contain the "
 "Microsoft TrueType Core Fonts for the Web Microsoft Windows 9x self "
 "installing executables, or those executables did not match the versions "
 "expected by this script.  Please re-enter the directory containing the "
 "Microsoft font files or enter \"none\" to abort."
-msgstr "Bạn đã nhập một thư mục không tồn tại, đã nhập thư mục không chứa các tập tin tự cài đặt có khả năng thực hiện trên MS™ Windows 9x Phông Lõi TrueType Microsoft™ cho Mạng, hoặc các tập tin thực hiện được này không khớp với những phiên bản trông đợi trong văn lệnh này. Hãy gõ lại tên thư mục chứa các tập tin phông MS™, hoặc gõ « không có » để hủy bỏ."
+msgstr ""
+"Bạn đã nhập một thư mục không tồn tại, đã nhập thư mục không chứa các tập "
+"tin tự cài đặt có khả năng thực hiện trên MS™ Windows 9x Phông Lõi TrueType "
+"Microsoft™ cho Mạng, hoặc các tập tin thực hiện được này không khớp với "
+"những phiên bản trông đợi trong văn lệnh này. Hãy gõ lại tên thư mục chứa "
+"các tập tin phông MS™, hoặc gõ « không có » để hủy bỏ."
 
-#.Type: string
-#.Description
-#: ../templates:4001
+#. Type: string
+#. Description
+#: ../templates:3001
 msgid "Where should these files be be archived (optional):"
 msgstr "(Tùy chọn) Các tập tin này nên được nén lưu ở :"
 
-#.Type: string
-#.Description
-#: ../templates:4001
+#. Type: string
+#. Description
+#: ../templates:3001
 msgid ""
 "If you would like to keep a permanent archive of the compressed Windows self "
 "extracting files, enter the directory where you'd like them stored.  If you "
 "leave this blank, the files will be deleted after installation."
-msgstr "Bạn muốn giữ kho nén bền bỉ của các tập tin tự giải nén Windows đã nén này thì gõ tên thư mục vào đó cần nén lưu chúng. Bỏ trống nên các tập tin được xoá sau khi cài đặt."
+msgstr ""
+"Bạn muốn giữ kho nén bền bỉ của các tập tin tự giải nén Windows đã nén này "
+"thì gõ tên thư mục vào đó cần nén lưu chúng. Bỏ trống nên các tập tin được "
+"xoá sau khi cài đặt."
 
-#.Type: note
-#.Description
-#: ../templates:5001
-msgid "msttcorefonts uses defoma."
-msgstr "msttcorefonts dùng defoma."
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid "msttcorefonts uses defoma"
+msgstr "msttcorefonts dùng defoma"
 
-#.Type: note
-#.Description
-#: ../templates:5001
+#. Type: note
+#. Description
+#: ../templates:4001
+#, fuzzy
 msgid ""
-"Msttcorefonts now uses the DEbian FOnt MAnager (defoma).  If you wish to use "
-"the fonts provided by this package under the X Window System, you must "
-"configure it to use defoma fonts."
-msgstr "Gói msttcorefonts lúc bây giờ sử dụng phần mềm quản lý phông Debian (DEbian FOnt MAnager: defoma). Bạn muốn sử dụng phông nào của gói này dưới hệ thống cửa sổ X thì cần phải cấu hình nó để sử dụng phông kiểu defoma."
+"Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to use the "
+"fonts provided by this package under the X Window System, you must configure "
+"it to use defoma fonts."
+msgstr ""
+"Gói msttcorefonts lúc bây giờ sử dụng phần mềm quản lý phông Debian (DEbian "
+"FOnt MAnager: defoma). Bạn muốn sử dụng phông nào của gói này dưới hệ thống "
+"cửa sổ X thì cần phải cấu hình nó để sử dụng phông kiểu defoma."
 
-#.Type: note
-#.Description
-#: ../templates:5001
+#. Type: note
+#. Description
+#: ../templates:4001
 msgid ""
 "The easiest way to do so is to use the x-ttcidfont-conf package. For more "
 "information, install the x-ttcidfont-conf package and consult its "
 "documentation under /usr/share/doc/x-ttcidfont-conf."
-msgstr "Phương pháp dễ nhất là dùng gói « x-ttcidfont-conf ». Để tìm thêm thông tin, hãy cài đặt gói « x-ttcidfont-conf » và đọc tài liệu dưới thư mục « /usr/share/doc/x-ttcidfont-conf »."
+msgstr ""
+"Phương pháp dễ nhất là dùng gói « x-ttcidfont-conf ». Để tìm thêm thông tin, "
+"hãy cài đặt gói « x-ttcidfont-conf » và đọc tài liệu dưới thư mục « /usr/"
+"share/doc/x-ttcidfont-conf »."
 
-#.Type: note
-#.Description
-#: ../templates:5001
+#. Type: note
+#. Description
+#: ../templates:4001
 msgid ""
 "For uses of msttcorefonts not related to the X Window System (e.g. printing) "
 "this is not required."
-msgstr "Không cần làm như thế để sử dụng msttcorefonts bằng cách nào không liên quan đến hệ thống cửa sổ X (v.d. in tài liệu)."
+msgstr ""
+"Không cần làm như thế để sử dụng msttcorefonts bằng cách nào không liên quan "
+"đến hệ thống cửa sổ X (v.d. in tài liệu)."
+
+#~ msgid "These fonts are not free."
+#~ msgstr "Những phông này không phải tự do."
+
+#~ msgid ""
+#~ "These fonts were provided by Microsoft \"in the interest of cross-"
+#~ "platform compatibility\". This is no longer the case, but they are still "
+#~ "available from third parties."
+#~ msgstr ""
+#~ "Những phông này được cung cấp bởi công ty Microsoft « vì lợi ích của tính "
+#~ "tương thích đa nền ». Không còn là trường hợp lại, nhưng chúng vẫn còn "
+#~ "sẵn sàng từ người khác."
+
+#~ msgid ""
+#~ "You are free to download these fonts and use them for your own use, but "
+#~ "you may not redistribute them in modified form, including changes to the "
+#~ "file name or packaging format."
+#~ msgstr ""
+#~ "Bạn có quyền tải về các phông này để sử dụng riêng, nhưng không cho phép "
+#~ "bạn phân phối lại những phông này sau khi sửa đổi, gồm thay đổi trong tên "
+#~ "tập tin hay định dạng đóng gói."
