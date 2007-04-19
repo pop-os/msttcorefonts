@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: msttfontstemplate\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
-"POT-Creation-Date: 2007-04-19 19:26+0200\n"
+"POT-Creation-Date: 2007-04-19 22:15+0200\n"
 "PO-Revision-Date: 2006-02-22 15:11+0100\n"
 "Last-Translator: Esther <ehanko@xs4all.nl>\n"
 "Language-Team: nederlands <debian-l10n-dutch@lists.debian.org>\n"
@@ -124,9 +124,9 @@ msgid ""
 "fonts provided by this package under the X Window System, you must configure "
 "it to use defoma fonts."
 msgstr ""
-"Msttcorefonts maakt gebruik van defoma, de Debian-lettertypebeheerder. "
-"Als u de lettertypen die dit pakket levert wilt gebruiken in het X Window "
-"System, moet u deze configureren voor het gebruik van defoma-lettertypen."
+"Msttcorefonts maakt gebruik van defoma, de Debian-lettertypebeheerder. Als u "
+"de lettertypen die dit pakket levert wilt gebruiken in het X Window System, "
+"moet u deze configureren voor het gebruik van defoma-lettertypen."
 
 #. Type: note
 #. Description
@@ -149,3 +149,40 @@ msgid ""
 msgstr ""
 "Voor gebruik van msttcorefonts dat niet gerelateerd is aan het X Window "
 "System (zoals printen), is dit niet nodig."
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "Mirror to download from:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid ""
+"This package already contains a built-in set of mirrors, which should be "
+"sufficient for most people. However, if you'd like to use a different "
+"(possibly local) mirror instead, please enter the full URL to the directory "
+"containing the relevant files here. If not, just leave the field blank."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid "Do you use a proxy?"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid ""
+"If you need to use a proxy server, please enter it here (example: "
+"http://192.168.0.1:8080).  This will cause the font files to be downloaded "
+"using your proxy."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid "Leave this option blank if you don't use a proxy server."
+msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: msttcorefonts2.0-eu\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
-"POT-Creation-Date: 2007-04-19 19:26+0200\n"
+"POT-Creation-Date: 2007-04-19 22:15+0200\n"
 "PO-Revision-Date: 2007-04-19 21:24+0200\n"
 "Last-Translator: Piarres Beobide <pi@beobide.net>\n"
 "Language-Team: librezale <librezale@librezale.org>\n"
@@ -37,7 +37,8 @@ msgstr ""
 "hauek dauden direktorioaren kokalekua idatzi. Fitxategi hauek Microsoft "
 "Windows auto instalatze formatuan daude, eta andale32.exe, arial32.exe, "
 "arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32.exe, times32."
-"exe, trebuc32.exe, verdan32.exe, wd97vwr32.exe eta webdin32.exe izenak dituzte."
+"exe, trebuc32.exe, verdan32.exe, wd97vwr32.exe eta webdin32.exe izenak "
+"dituzte."
 
 #. Type: string
 #. Description
@@ -113,9 +114,9 @@ msgid ""
 "fonts provided by this package under the X Window System, you must configure "
 "it to use defoma fonts."
 msgstr ""
-"Msttcorefonts paketeak DEbian FOnt MAnager (defoma) erabiltzen du.  "
-"Pakete honen letra-tipoak X Leiho Sisteman erabili nahi izan ezkero, berau "
-"defoma letra-tipoak erabiltzeko konfiguratu behar da"
+"Msttcorefonts paketeak DEbian FOnt MAnager (defoma) erabiltzen du.  Pakete "
+"honen letra-tipoak X Leiho Sisteman erabili nahi izan ezkero, berau defoma "
+"letra-tipoak erabiltzeko konfiguratu behar da"
 
 #. Type: note
 #. Description
@@ -139,3 +140,39 @@ msgstr ""
 "X Leiho Sistematik kanpoko erabilpenetarako (adib. Inprimatzea) hau ez da "
 "beharrezkoa."
 
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "Mirror to download from:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid ""
+"This package already contains a built-in set of mirrors, which should be "
+"sufficient for most people. However, if you'd like to use a different "
+"(possibly local) mirror instead, please enter the full URL to the directory "
+"containing the relevant files here. If not, just leave the field blank."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid "Do you use a proxy?"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid ""
+"If you need to use a proxy server, please enter it here (example: "
+"http://192.168.0.1:8080).  This will cause the font files to be downloaded "
+"using your proxy."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid "Leave this option blank if you don't use a proxy server."
+msgstr ""

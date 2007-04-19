@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
-"POT-Creation-Date: 2007-04-19 19:26+0200\n"
+"POT-Creation-Date: 2007-04-19 22:15+0200\n"
 "PO-Revision-Date: 2004-08-18 16:14+0300\n"
 "Last-Translator: Mantas Kriaučiūnas <mantas@akl.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
@@ -46,8 +46,8 @@ msgstr ""
 "TrueType šriftus, nurodykite katalogą, kuriame jie yra. Jie turi būti "
 "automatiškai išsipakuojančių MS Windows archyvų (cab) formate, pavadinti "
 "andale32.exe, arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32."
-"exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe, wd97vwr32.exe "
-"ir webdin32.exe."
+"exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe, wd97vwr32.exe ir "
+"webdin32.exe."
 
 #. Type: string
 #. Description
@@ -151,6 +151,43 @@ msgid ""
 msgstr ""
 "Šriftų msttcorefonts panaudojimui, nesusijusiam su X-Window sistema (grafine "
 "aplinka), šie veiksmai nėra būtini."
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "Mirror to download from:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid ""
+"This package already contains a built-in set of mirrors, which should be "
+"sufficient for most people. However, if you'd like to use a different "
+"(possibly local) mirror instead, please enter the full URL to the directory "
+"containing the relevant files here. If not, just leave the field blank."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid "Do you use a proxy?"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid ""
+"If you need to use a proxy server, please enter it here (example: "
+"http://192.168.0.1:8080).  This will cause the font files to be downloaded "
+"using your proxy."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid "Leave this option blank if you don't use a proxy server."
+msgstr ""
 
 #~ msgid "These fonts are not free."
 #~ msgstr "Šie šriftai nėra laisvi."

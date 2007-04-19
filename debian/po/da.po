@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: msttcorefonts 1.1.5\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
-"POT-Creation-Date: 2007-04-19 19:26+0200\n"
+"POT-Creation-Date: 2007-04-19 22:15+0200\n"
 "PO-Revision-Date: 2004-08-05 22:07+0200\n"
 "Last-Translator: Morten Brix Pedersen <morten@wtf.dk>\n"
 "Language-Team: Danish <dansk@klid.dk>\n"
@@ -144,6 +144,43 @@ msgid ""
 msgstr ""
 "Hvis du ikke skal bruge msttcorefonts under X Window Systemet (f.eks. "
 "udskrivning) er dette ikke krævet."
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "Mirror to download from:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid ""
+"This package already contains a built-in set of mirrors, which should be "
+"sufficient for most people. However, if you'd like to use a different "
+"(possibly local) mirror instead, please enter the full URL to the directory "
+"containing the relevant files here. If not, just leave the field blank."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid "Do you use a proxy?"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid ""
+"If you need to use a proxy server, please enter it here (example: "
+"http://192.168.0.1:8080).  This will cause the font files to be downloaded "
+"using your proxy."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid "Leave this option blank if you don't use a proxy server."
+msgstr ""
 
 #~ msgid "These fonts are not free."
 #~ msgstr "Disse skrifttyper er ikke \"frie\"."

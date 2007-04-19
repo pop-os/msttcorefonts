@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: msttcorefonts\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
-"POT-Creation-Date: 2007-04-19 19:26+0200\n"
+"POT-Creation-Date: 2007-04-19 22:15+0200\n"
 "PO-Revision-Date: 2006-08-25 15:11+0200\n"
 "Last-Translator: Emil Nowak <emil5@go2.pl>\n"
 "Language-Team: Polish <pl@li.org>\n"
@@ -145,6 +145,48 @@ msgstr ""
 "Je¿eli chcesz wykorzystywaæ msttcorefonts do operacji nie zwi±zanych z X "
 "Window System (np. drukowaniem) ¿adne dodatkowe czynno¶ci nie s± wymagane."
 
+#. Type: string
+#. Description
+#: ../templates:5001
+#, fuzzy
+msgid "Mirror to download from:"
+msgstr "Wybierz serwer z którego chcesz pobraæ pliki"
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid ""
+"This package already contains a built-in set of mirrors, which should be "
+"sufficient for most people. However, if you'd like to use a different "
+"(possibly local) mirror instead, please enter the full URL to the directory "
+"containing the relevant files here. If not, just leave the field blank."
+msgstr ""
+"Ten pakiet zawiera wbudowan± listê kilku serwerów z których mo¿na pobraæ "
+"fonty. W razie potrzeby mo¿na jednak u¿yæ w³asnego (lokalnego) serwera. "
+"Proszê podaæ URL do katalogu w którym znajduj± siê odpowiednie pliki.\n"
+"Mo¿esz zostawiæ to pole puste."
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid "Do you use a proxy?"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid ""
+"If you need to use a proxy server, please enter it here (example: "
+"http://192.168.0.1:8080).  This will cause the font files to be downloaded "
+"using your proxy."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid "Leave this option blank if you don't use a proxy server."
+msgstr ""
+
 #~ msgid "These fonts are not free."
 #~ msgstr "Instalowane fonty nie s± rozprowadzane na Wolnej licencji."
 
@@ -176,18 +218,3 @@ msgstr ""
 #~ "Mo¿esz wybraæ katalog, w którym zostanie zapisana kopia fontów w "
 #~ "skompresowanych samorozpakowuj±cym siê archiwach.  Je¿eli nie "
 #~ "potrzebujesz dodatkowej kopii mo¿esz pozostawiæ, to pole puste."
-
-#~ msgid "What mirror would you like to download from?"
-#~ msgstr "Wybierz serwer z którego chcesz pobraæ pliki"
-
-#~ msgid ""
-#~ "This package already contains a built-in set of mirrors, which should be "
-#~ "sufficient for most people. However, if you'd like to use a different "
-#~ "(possibly local) mirror instead, please enter the full URL to the "
-#~ "directory containing the relevant files here. If not, just leave the "
-#~ "field blank."
-#~ msgstr ""
-#~ "Ten pakiet zawiera wbudowan± listê kilku serwerów z których mo¿na pobraæ "
-#~ "fonty. W razie potrzeby mo¿na jednak u¿yæ w³asnego (lokalnego) serwera. "
-#~ "Proszê podaæ URL do katalogu w którym znajduj± siê odpowiednie pliki.\n"
-#~ "Mo¿esz zostawiæ to pole puste."

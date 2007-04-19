@@ -13,6 +13,9 @@ SAVEDIR=${RET:+-s$RET}
 db_get msttcorefonts/dlurl
 URLOVERRIDE=${RET:+-u$RET}
 
+db_get msttcorefonts/http_proxy
+HTTP_PROXY=${RET:+-p$RET}
+
 if [ -e /usr/share/fonts/truetype/ms-fonts ] ; then
   cp -p /usr/share/fonts/truetype/ms-fonts /var/lib/msttcorefonts/ms-fonts
   rm -f /usr/share/fonts/truetype/ms-fonts
