@@ -35,7 +35,6 @@ EXITCODE=0
 ##URLROOT="http://unc.dl.sourceforge.net/sourceforge/corefonts/"
 
 URLROOTS="http://surfnet.dl.sourceforge.net/sourceforge/corefonts/
-         http://optusnet.dl.sourceforge.net/sourceforge/corefonts/
          http://internap.dl.sourceforge.net/sourceforge/corefonts/
          http://puzzle.dl.sourceforge.net/sourceforge/corefonts/
          http://heanet.dl.sourceforge.net/sourceforge/corefonts/
@@ -44,7 +43,6 @@ URLROOTS="http://surfnet.dl.sourceforge.net/sourceforge/corefonts/
          http://easynews.dl.sourceforge.net/sourceforge/corefonts/
          http://jaist.dl.sourceforge.net/sourceforge/corefonts/
          http://mesh.dl.sourceforge.net/sourceforge/corefonts/
-         http://belnet.dl.sourceforge.net/sourceforge/corefonts/
          http://nchc.dl.sourceforge.net/sourceforge/corefonts/
          http://kent.dl.sourceforge.net/sourceforge/corefonts/
          http://umn.dl.sourceforge.net/sourceforge/corefonts/

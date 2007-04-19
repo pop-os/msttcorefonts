@@ -17,8 +17,9 @@ msttcorefonts (2.0) unstable; urgency=low
     as per policy 3.9.1 (no copyright messages in debconf),
     make baddldir of type error and some minor corrections
     (Closes: #388936).
+  * Update the list of SF.net mirrors.
 
- -- Thijs Kinkhorst <thijs@debian.org>  Thu, 19 Apr 2007 20:32:55 +0200
+ -- Thijs Kinkhorst <thijs@debian.org>  Thu, 19 Apr 2007 21:05:13 +0200
 
 msttcorefonts (1.8) unstable; urgency=high
 
