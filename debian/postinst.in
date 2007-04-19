@@ -8,7 +8,6 @@ db_get msttcorefonts/dldir
 LOCALCOPY=$RET
 
 db_get msttcorefonts/savedir
-
 SAVEDIR=${RET:+-s$RET}
 
 db_get msttcorefonts/dlurl
@@ -19,10 +18,5 @@ if [ -e /usr/share/fonts/truetype/ms-fonts ] ; then
   rm -f /usr/share/fonts/truetype/ms-fonts
 fi
 
-# Since we moved the fonts from /usr/share/fonts/truetype to
-#/usr/share/fonts/truetype/msttcorefonts, run update-fonts-dir in
-#/usr/share/fonts/truetype
+## Content of update-ms-fonts will be concatenated below
 
-update-fonts-dir truetype
-
-update-ms-fonts $URLOVERRIDE $SAVEDIR $LOCALCOPY

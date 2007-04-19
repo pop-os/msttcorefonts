@@ -1,9 +1,14 @@
-msttcorefonts (1.9) unstable; urgency=low
+msttcorefonts (2.0) unstable; urgency=low
 
+  * No longer install the update-ms-fonts command. It's only
+    needed upon package installation/upgrade, so it's now part
+    of the package postinst. In the rare case that it needs to
+    be ran again, just dpkg-reconfigure (Closes: #401698).
   * Add new font: Tahoma. Based on patch from Michael Gilbert,
-    thanks! (Closes: #380294).
+    thanks! This unfortunately nearly doubles the download size
+    (Closes: #380294).
   * Update to debhelper compatibility level 5 (from 1).
-  * Remove obsolete upgrading code.
+  * Remove obsolete upgrading code (Closes: #392544).
   * Checked for policy 3.7.2, no changes.
   * X config location is now xorg.conf, not XF86Config-4.
   * Fix some non-POSIX shell code (Closes: #354926).
@@ -12,7 +17,7 @@ msttcorefonts (1.9) unstable; urgency=low
     make baddldir of type error and some minor corrections
     (Closes: #388936).
 
- -- Thijs Kinkhorst <thijs@debian.org>  Thu, 19 Apr 2007 19:25:31 +0200
+ -- Thijs Kinkhorst <thijs@debian.org>  Thu, 19 Apr 2007 20:05:35 +0200
 
 msttcorefonts (1.8) unstable; urgency=high
 

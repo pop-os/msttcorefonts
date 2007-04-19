@@ -11,12 +11,14 @@ fonttype = truetype
 texmf = usr/share/texmf
 fontpath = usr/share/fonts/$(fonttype)
 
-build:
-
+build: build-stamp
+build-stamp:
+	cat debian/postinst.in update-ms-fonts >> debian/postinst
+	touch build-stamp
 clean:
 	dh_testdir
 	dh_testroot
-	rm -f install-stamp
+	rm -f install-stamp debian/postinst build-stamp
 	dh_clean
 
 install: install-stamp
@@ -35,10 +37,6 @@ binary-indep: build install
 	dh_installdebconf
 	dh_installdocs
 	dh_installdefoma
-	dh_installexamples
-	dh_installmenu
-	dh_installcron
-	dh_installman update-ms-fonts.8
 	dh_installchangelogs 
 	dh_link
 	dh_strip

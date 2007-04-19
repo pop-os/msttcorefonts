@@ -7,24 +7,24 @@
 # Public License, version 2 or later.
 
 #abort if anything goes wrong
-set -e
+#set -e
 
 FONTDIR=/usr/share/fonts/truetype/msttcorefonts
 
-if [ `id -u` != 0 ] ; then
-  echo "update-ms-fonts can only be run as root."
-  exit -1
-fi
-
-for opt in "$@"; do
-    case "$opt" in
-        -q) QUIET_MODE=1 ;;
-        -c) CHECK_ONLY=1 ;;
-        -s*) SAVEDIR=${opt#-s} ;;
-        -u*) URLOVERRIDE=${opt#-u} ;;
-        *) LOCALCOPY=$opt ;;
-    esac
-done
+#if [ `id -u` != 0 ] ; then
+#  echo "update-ms-fonts can only be run as root."
+#  exit -1
+#fi
+#
+#for opt in "$@"; do
+#    case "$opt" in
+#        -q) QUIET_MODE=1 ;;
+#        -c) CHECK_ONLY=1 ;;
+#        -s*) SAVEDIR=${opt#-s} ;;
+#        -u*) URLOVERRIDE=${opt#-u} ;;
+#        *) LOCALCOPY=$opt ;;
+#    esac
+#done
 if [ "`echo $LOCALCOPY | tr '[:upper:]' '[:lower:]'`" = "none" ] ; then
   exit 0
 fi

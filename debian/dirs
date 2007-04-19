@@ -1,4 +1,3 @@
 var/lib/msttcorefonts
 etc/defoma/hints
 usr/share/fonts/truetype
-usr/sbin
