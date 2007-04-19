@@ -7,10 +7,12 @@ msttcorefonts (1.9) unstable; urgency=low
   * Checked for policy 3.7.2, no changes.
   * X config location is now xorg.conf, not XF86Config-4.
   * Fix some non-POSIX shell code (Closes: #354926).
-  * Drop template 'blurb' as per policy 3.9.1 (no copyright
-    messages in debconf).
+  * Refactor debconf prompting: drop template 'blurb'
+    as per policy 3.9.1 (no copyright messages in debconf),
+    make baddldir of type error and some minor corrections
+    (Closes: #388936).
 
- -- Thijs Kinkhorst <thijs@debian.org>  Thu, 19 Apr 2007 18:39:46 +0200
+ -- Thijs Kinkhorst <thijs@debian.org>  Thu, 19 Apr 2007 19:25:31 +0200
 
 msttcorefonts (1.8) unstable; urgency=high
 
