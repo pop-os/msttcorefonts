@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: msttcorefonts\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
 "POT-Creation-Date: 2007-04-19 22:20+0200\n"
-"PO-Revision-Date: 2007-04-19 21:17+0200\n"
+"PO-Revision-Date: 2007-04-20 09:31+0200\n"
 "Last-Translator: Jacobo Tarrio <jtarrio@debian.org>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "MIME-Version: 1.0\n"
@@ -141,7 +141,7 @@ msgstr ""
 #. Description
 #: ../templates:5001
 msgid "Mirror to download from:"
-msgstr ""
+msgstr "Réplica da que descargar:"
 
 #. Type: string
 #. Description
@@ -152,12 +152,16 @@ msgid ""
 "(possibly local) mirror instead, please enter the full URL to the directory "
 "containing the relevant files here. If not, just leave the field blank."
 msgstr ""
+"Este paquete xa contén un xogo de réplicas que debería ser dabondo para a "
+"maioría da xente. Nembargantes, se quere empregar outra réplica "
+"(posiblemente local), introduza aquí o URL completo do directorio que contén "
+"os ficheiros relevantes. Se non, deixe o campo en branco."
 
 #. Type: string
 #. Description
 #: ../templates:6001
 msgid "HTTP proxy to use:"
-msgstr ""
+msgstr "Proxy HTTP a empregar:"
 
 #. Type: string
 #. Description
@@ -167,12 +171,15 @@ msgid ""
 "http://192.168.0.1:8080). This will cause the font files to be downloaded "
 "using your proxy."
 msgstr ""
+"Se precisa de empregar un servidor proxy, introdúzao aquí (exemplo: "
+"http://192.168.0.1:8080). Isto ha facer que os ficheiros de tipos de letras "
+"se descarguen empregando o proxy."
 
 #. Type: string
 #. Description
 #: ../templates:6001
 msgid "Leave this option blank if you don't use a proxy server."
-msgstr ""
+msgstr "Deixe esta opción en branco se non emprega un servidor proxy."
 
 #~ msgid "These fonts are not free."
 #~ msgstr "Estes tipos de letra non son libres."

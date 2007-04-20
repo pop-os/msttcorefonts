@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: msttcorefonts\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
 "POT-Creation-Date: 2007-04-19 22:20+0200\n"
-"PO-Revision-Date: 2006-10-11 16:21+0100\n"
+"PO-Revision-Date: 2007-04-20 09:16+0100\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "MIME-Version: 1.0\n"
@@ -31,38 +31,20 @@ msgstr "Katalog som innehåller MS-typsnitt (om de redan är hämtade):"
 #. Type: string
 #. Description
 #: ../templates:1001
-msgid ""
-"If you have already downloaded Microsoft's TrueType Core Fonts for the web, "
-"type the name of the directory which contains them. Those files are in the "
-"Microsoft Windows self-installing format, and are named andale32.exe, "
-"arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
-"exe, times32.exe, trebuc32.exe, verdan32.exe, wd97vwr32.exe and webdin32.exe."
-msgstr ""
-"Om du redan hämtat ner Microsofts TrueType Core Fonts för webben, ange "
-"namnet på katalogen där de finns lagrade. Dessa filer är i ett "
-"självuppackande Microsoft Windows-format och har namnen andale32.exe, "
-"arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
-"exe, times32.exe, trebuc32.exe, verdan32.exe, wd97vwr32.exe och webdin32.exe."
+msgid "If you have already downloaded Microsoft's TrueType Core Fonts for the web, type the name of the directory which contains them. Those files are in the Microsoft Windows self-installing format, and are named andale32.exe, arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe, wd97vwr32.exe and webdin32.exe."
+msgstr "Om du redan hämtat ner Microsofts TrueType Core Fonts för webben, ange namnet på katalogen där de finns lagrade. Dessa filer är i ett självuppackande Microsoft Windows-format och har namnen andale32.exe, arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe, wd97vwr32.exe och webdin32.exe."
 
 #. Type: string
 #. Description
 #: ../templates:1001
-msgid ""
-"If you haven't yet downloaded these fonts, leave this blank and the fonts "
-"will be downloaded for you. Approximately 8 MB will need to be downloaded."
-msgstr ""
-"Om du inte redan har hämtat ner dessa typsnitt, lämna då detta blankt och "
-"typsnitten kommer att hämtas ner åt dig. Ungefär 8 MB kommer att hämtas."
+msgid "If you haven't yet downloaded these fonts, leave this blank and the fonts will be downloaded for you. Approximately 8 MB will need to be downloaded."
+msgstr "Om du inte redan har hämtat ner dessa typsnitt, lämna då detta blankt och typsnitten kommer att hämtas ner åt dig. Ungefär 8 MB kommer att hämtas."
 
 #. Type: string
 #. Description
 #: ../templates:1001
-msgid ""
-"If you are not connected to the internet or do not wish to download these "
-"fonts now, enter \"none\" to abort."
-msgstr ""
-"Om du inte är ansluten mot Internet eller att du inte vill hämta ner dessa "
-"typsnitt nu, ange \"none\" för att avbryta."
+msgid "If you are not connected to the internet or do not wish to download these fonts now, enter \"none\" to abort."
+msgstr "Om du inte är ansluten till Internet eller att du inte vill hämta ner dessa typsnitt nu, ange \"none\" för att avbryta."
 
 #. Type: error
 #. Description
@@ -73,18 +55,8 @@ msgstr "Typsnittsfilerna hittades inte"
 #. Type: error
 #. Description
 #: ../templates:2001
-msgid ""
-"The directory you entered either did not exist, did not contain the "
-"Microsoft TrueType Core Fonts for the Web Microsoft Windows 9x self "
-"installing executables, or those executables did not match the versions "
-"expected by this script.  Please re-enter the directory containing the "
-"Microsoft font files or enter \"none\" to abort."
-msgstr ""
-"Katalogen du angav finns antagligen inte, innehöll inte Microsoft TrueType "
-"Core Fonts för Web Microsoft Windows 9x självuppackande binärer eller så "
-"matchade inte de binärerna det som detta skript förväntade sig.  Vänligen "
-"ange katalogen som innehåller Microsofts typsnittsfiler eller ange \"none\" "
-"för att avbryta."
+msgid "The directory you entered either did not exist, did not contain the Microsoft TrueType Core Fonts for the Web Microsoft Windows 9x self installing executables, or those executables did not match the versions expected by this script.  Please re-enter the directory containing the Microsoft font files or enter \"none\" to abort."
+msgstr "Katalogen du angav finns antagligen inte, innehöll inte Microsoft TrueType Core Fonts för Web Microsoft Windows 9x självuppackande binärer eller så matchade inte de binärerna det som detta skript förväntade sig.  Vänligen ange katalogen som innehåller Microsofts typsnittsfiler eller ange \"none\" för att avbryta."
 
 #. Type: string
 #. Description
@@ -95,14 +67,8 @@ msgstr "Var ska dessa filer arkiveras (valfritt):"
 #. Type: string
 #. Description
 #: ../templates:3001
-msgid ""
-"If you would like to keep a permanent archive of the compressed Windows self "
-"extracting files, enter the directory where you'd like them stored.  If you "
-"leave this blank, the files will be deleted after installation."
-msgstr ""
-"Om du vill spara ett arkiv med de komprimerade självuppackande Windows-"
-"filerna, ange katalogen dit du vill spara dem.  Om du lämnar detta blank "
-"kommer filerna att raderas när installationen är klar."
+msgid "If you would like to keep a permanent archive of the compressed Windows self extracting files, enter the directory where you'd like them stored.  If you leave this blank, the files will be deleted after installation."
+msgstr "Om du vill behålla ett arkiv med de komprimerade självuppackande Windows-filerna, ange katalogen dit du vill spara dem.  Om du lämnar detta alternativ blankt kommer filerna att raderas när installationen är klar."
 
 #. Type: note
 #. Description
@@ -113,78 +79,53 @@ msgstr "msttcorefonts använder defoma"
 #. Type: note
 #. Description
 #: ../templates:4001
-#, fuzzy
-msgid ""
-"Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to use the "
-"fonts provided by this package under the X Window System, you must configure "
-"it to use defoma fonts."
-msgstr ""
-"Msttcorefonts använder numera DEbian FOnt MAnager (defoma).  Om du önskar "
-"använda typsnitten som kommer med detta paket under X Window System måste du "
-"konfigurera det att använda defoma-typsnitten."
+msgid "Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to use the fonts provided by this package under the X Window System, you must configure it to use defoma fonts."
+msgstr "Msttcorefonts använder DEbian FOnt MAnager (defoma).  Om du önskar använda typsnitten som kommer med detta paket under X Window System måste du konfigurera det till att använda defoma-typsnitten."
 
 #. Type: note
 #. Description
 #: ../templates:4001
-msgid ""
-"The easiest way to do so is to use the x-ttcidfont-conf package. For more "
-"information, install the x-ttcidfont-conf package and consult its "
-"documentation under /usr/share/doc/x-ttcidfont-conf."
-msgstr ""
-"Det enklaste sättet att göra det är att använda paketet x-ttcidfont-conf. "
-"För mer information, installera paketet x-ttcidfont-conf och läs "
-"dokumentationen som finns i /usr/share/doc/x-ttcidfont-conf."
+msgid "The easiest way to do so is to use the x-ttcidfont-conf package. For more information, install the x-ttcidfont-conf package and consult its documentation under /usr/share/doc/x-ttcidfont-conf."
+msgstr "Det enklaste sättet att göra det på är att använda paketet x-ttcidfont-conf. För mer information, installera paketet x-ttcidfont-conf och läs dokumentationen som finns i /usr/share/doc/x-ttcidfont-conf."
 
 #. Type: note
 #. Description
 #: ../templates:4001
-msgid ""
-"For uses of msttcorefonts not related to the X Window System (e.g. printing) "
-"this is not required."
-msgstr ""
-"För användning av msttcorefonts som inte är relaterat till X Window System "
-"(till exempel utskrifter) är detta inte ett krav."
+msgid "For uses of msttcorefonts not related to the X Window System (e.g. printing) this is not required."
+msgstr "Detta är inte ett krav för användning av msttcorefonts som inte är relaterad till X Window System (till exempel utskrifter)."
 
 #. Type: string
 #. Description
 #: ../templates:5001
 msgid "Mirror to download from:"
-msgstr ""
+msgstr "Spegelserver att hämta från:"
 
 #. Type: string
 #. Description
 #: ../templates:5001
-msgid ""
-"This package already contains a built-in set of mirrors, which should be "
-"sufficient for most people. However, if you'd like to use a different "
-"(possibly local) mirror instead, please enter the full URL to the directory "
-"containing the relevant files here. If not, just leave the field blank."
-msgstr ""
+msgid "This package already contains a built-in set of mirrors, which should be sufficient for most people. However, if you'd like to use a different (possibly local) mirror instead, please enter the full URL to the directory containing the relevant files here. If not, just leave the field blank."
+msgstr "Det här paketet innehåller redan en uppsättning spegelservrar som bör räcka för de flesta. Dock, om du vill använda en annan (kanske lokal) spegelserver istället, kan du ange den fullständiga url:en här till den katalog som innehåller de relevanta filerna. Om inte, lämna fältet blankt."
 
 #. Type: string
 #. Description
 #: ../templates:6001
 msgid "HTTP proxy to use:"
-msgstr ""
+msgstr "HTTP-proxyserver att använda:"
 
 #. Type: string
 #. Description
 #: ../templates:6001
-msgid ""
-"If you need to use a proxy server, please enter it here (example: "
-"http://192.168.0.1:8080). This will cause the font files to be downloaded "
-"using your proxy."
-msgstr ""
+msgid "If you need to use a proxy server, please enter it here (example: http://192.168.0.1:8080). This will cause the font files to be downloaded using your proxy."
+msgstr "Om du behöver använda en proxyserver, ange den här (exempelvis: http://192.168.0.1:8080). Det här innebär att typsnittsfilerna kommer att hämtas med hjälp av din proxyserver."
 
 #. Type: string
 #. Description
 #: ../templates:6001
 msgid "Leave this option blank if you don't use a proxy server."
-msgstr ""
+msgstr "Lämna det här alternativet blankt om du inte använder en proxyserver."
 
 #~ msgid "These fonts are not free."
 #~ msgstr "Dessa typsnitt är inte fria."
-
 #~ msgid ""
 #~ "These fonts were provided by Microsoft \"in the interest of cross-"
 #~ "platform compatibility\". This is no longer the case, but they are still "
@@ -193,7 +134,6 @@ msgstr ""
 #~ "Dessa typsnitt tillhandahölls av Microsoft \"i intresset för "
 #~ "kompatibilitet mellan plattformar\". Detta är inte längre fallet, men de "
 #~ "finns fortfarande tillgängliga från tredjepartsleverantörer."
-
 #~ msgid ""
 #~ "You are free to download these fonts and use them for your own use, but "
 #~ "you may not redistribute them in modified form, including changes to the "
@@ -202,3 +142,4 @@ msgstr ""
 #~ "Du är fri att hämta ner dessa typsnitt och använda dem för eget bruk, men "
 #~ "du får inte distribuera dem i ändrad form, inkluderat ändringar i "
 #~ "filnamnet eller paketerat format."
+

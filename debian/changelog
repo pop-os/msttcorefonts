@@ -28,8 +28,11 @@ msttcorefonts (2.0) unstable; urgency=low
   [ Translations ]
   * Basque by Piarres Beobide (Closes: #420073).
   * Galician by Jacobo Tarrio (Closes: #420071).
+  * Portuguese by Rui Branco.
+  * Danish by Kenneth Nielsen.
+  * Swedish by Daniel Nylander.
 
- -- Thijs Kinkhorst <thijs@debian.org>  Thu, 19 Apr 2007 23:14:42 +0200
+ -- Thijs Kinkhorst <thijs@debian.org>  Fri, 20 Apr 2007 13:18:51 +0200
 
 msttcorefonts (1.8) unstable; urgency=high
 

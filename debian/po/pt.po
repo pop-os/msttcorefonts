@@ -1,7 +1,8 @@
 # Portuguese translation of msttcorefonts's debconf messages.
-# 2005, Rui Branco <ruipb@netcabo.pt>>
+# 2005, Rui Branco <ruipb@debianpt.org>
 #
-# 2005-09-29 - Rui Branco <ruipb@netcabo.pt>
+# 2005-09-29 - Rui Branco <ruipb@debianpt.org>
+# 2007-04-19 - Rui Branco <ruipb@debianpt.org>
 #
 msgid ""
 msgstr ""
@@ -110,16 +111,14 @@ msgstr "Os tipos de letra msttcorefonts usam defoma"
 #. Type: note
 #. Description
 #: ../templates:4001
-#, fuzzy
 msgid ""
 "Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to use the "
 "fonts provided by this package under the X Window System, you must configure "
 "it to use defoma fonts."
 msgstr ""
-"Os tipos de letra Msttcorefonts utilizam agora o DEbian FOnt MAnager "
-"(defoma).  Se desejar utilizar os tipos de letra fornecidas por este pacote "
-"no X Window System terá de o configurar para que utilize os tipos de letra "
-"defoma."
+"Os tipos de letra Msttcorefonts utilizam o DEbian FOnt MAnager (defoma). Se "
+"desejar utilizar os tipos de letra fornecidas por este pacote no X Window "
+"System terá de o configurar para que utilize os tipos de letra defoma."
 
 #. Type: note
 #. Description
@@ -179,24 +178,3 @@ msgstr ""
 #: ../templates:6001
 msgid "Leave this option blank if you don't use a proxy server."
 msgstr ""
-
-#~ msgid "These fonts are not free."
-#~ msgstr "Estes tipos de letra não são livres."
-
-#~ msgid ""
-#~ "These fonts were provided by Microsoft \"in the interest of cross-"
-#~ "platform compatibility\". This is no longer the case, but they are still "
-#~ "available from third parties."
-#~ msgstr ""
-#~ "Estes tipos de letra são fornecidos pela Microsoft \"ao abrigo do "
-#~ "interesse da compatibilidade cruzada entre plataformas\". Não sendo já o "
-#~ "caso, estão ainda disponíveis a partir de terceiros."
-
-#~ msgid ""
-#~ "You are free to download these fonts and use them for your own use, but "
-#~ "you may not redistribute them in modified form, including changes to the "
-#~ "file name or packaging format."
-#~ msgstr ""
-#~ "É livre de descarregar estes tipos de letra, bem como usá-los para seu "
-#~ "uso pessoal, no entanto não os poderá distribuir ou modificar, incluíndo "
-#~ "modificações ao nome de ficheiro ou ao formato do pacote."

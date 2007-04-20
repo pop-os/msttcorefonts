@@ -144,7 +144,7 @@ msgstr ""
 #. Description
 #: ../templates:5001
 msgid "Mirror to download from:"
-msgstr ""
+msgstr "Deskargatzeko erabiliko de ispilua:"
 
 #. Type: string
 #. Description
@@ -155,12 +155,16 @@ msgid ""
 "(possibly local) mirror instead, please enter the full URL to the directory "
 "containing the relevant files here. If not, just leave the field blank."
 msgstr ""
+"Pakete honek baditu jende gehienarentzat aski izan beharko lirateken "
+"ispilu bilduma bat ezarririk. Hala ere, hauek beharrean beste ispilu bat "
+"(lokala posibleki) erabili nahi izanez gero, mesedez idatzi fitxategiak "
+"dituen direktorioaren URL helbide osoa. Bestela hutsik utzi ezazu."
 
 #. Type: string
 #. Description
 #: ../templates:6001
 msgid "HTTP proxy to use:"
-msgstr ""
+msgstr "Erabiliko den HTTP proxy-a:"
 
 #. Type: string
 #. Description
@@ -170,9 +174,12 @@ msgid ""
 "http://192.168.0.1:8080). This will cause the font files to be downloaded "
 "using your proxy."
 msgstr ""
+"Proxy zerbitzari bat erabili behar baduzu, idatzi ezazu hemen (adibidez: "
+"http://192.168.0.1:8080). Honek letra-tipoak proxy zerbitzarian bidez "
+"deskargatzea eragingo du."
 
 #. Type: string
 #. Description
 #: ../templates:6001
 msgid "Leave this option blank if you don't use a proxy server."
-msgstr ""
+msgstr "Aukera hau hutsik dezakezu proxy zerbitzaririk erabili nahi ez baduzu."

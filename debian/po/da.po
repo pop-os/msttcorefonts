@@ -1,3 +1,6 @@
+# Translators on this file
+# Morten Brix Pedersen <morten@wtf.dk> 2004-2006
+# Kenneth Nielsen <k.nielsen81@gmail.com> 2007
 #
 #    Translators, if you are not familiar with the PO format, gettext
 #    documentation is worth reading, especially sections dedicated to
@@ -16,9 +19,9 @@ msgstr ""
 "Project-Id-Version: msttcorefonts 1.1.5\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
 "POT-Creation-Date: 2007-04-19 22:20+0200\n"
-"PO-Revision-Date: 2004-08-05 22:07+0200\n"
-"Last-Translator: Morten Brix Pedersen <morten@wtf.dk>\n"
-"Language-Team: Danish <dansk@klid.dk>\n"
+"PO-Revision-Date: 2007-04-20 02:35+0200\n"
+"Last-Translator: Kenneth Nielsen <k.nielsen81@gmail.com>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -113,15 +116,14 @@ msgstr "msttcorefonts bruger defoma"
 #. Type: note
 #. Description
 #: ../templates:4001
-#, fuzzy
 msgid ""
 "Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to use the "
 "fonts provided by this package under the X Window System, you must configure "
 "it to use defoma fonts."
 msgstr ""
-"Msttcorefonts bruger nu DEbian FOnt MAnager (defoma). Hvis du ønsker at "
-"bruge disse skrifttyper under X Window Systemet, skal du sætte det op til at "
-"bruge defoma skrifttyper."
+"Msttcorefonts bruger DEbian FOnt MAnager (defoma). Hvis du ønsker at bruge "
+"skrifttyperne fra denne pakke under X Window systemet, skal du sætte det op "
+"til at bruge defoma-skrifttyperne."
 
 #. Type: note
 #. Description
