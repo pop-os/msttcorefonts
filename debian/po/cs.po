@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: msttcorefonts\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
 "POT-Creation-Date: 2007-04-19 22:20+0200\n"
-"PO-Revision-Date: 2004-08-28 11:44+0200\n"
+"PO-Revision-Date: 2007-04-20 20:05+0200\n"
 "Last-Translator: Marcel Sebek <sebek64@post.cz>\n"
 "Language-Team: Czech <provoz@debian.cz>\n"
 "MIME-Version: 1.0\n"
@@ -114,14 +114,13 @@ msgstr "msttcorefonts používá defoma"
 #. Type: note
 #. Description
 #: ../templates:4001
-#, fuzzy
 msgid ""
 "Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to use the "
 "fonts provided by this package under the X Window System, you must configure "
 "it to use defoma fonts."
 msgstr ""
-"Msttcoreconts nyní používá DEbian FOnt MAnager (defoma). Pokud chcete "
-"využívat fonty poskytnuté tímto balíčkem pod X Window Systemem, musíte jej "
+"Msttcoreconts používá DEbian FOnt MAnager (defoma). Pokud chcete využívat "
+"fonty poskytnuté tímto balíčkem pod X Window Systemem, musíte jej "
 "nakonfigurovat pro používání defoma fontů."
 
 #. Type: note
@@ -143,14 +142,14 @@ msgid ""
 "For uses of msttcorefonts not related to the X Window System (e.g. printing) "
 "this is not required."
 msgstr ""
-"Pro použití msttcorefonts nevztahující se k X Window Systemu (např. tisk), "
+"Pro použití msttcorefonts nevztahující se k X Window Systemu (např. tisk) "
 "toto není nutné."
 
 #. Type: string
 #. Description
 #: ../templates:5001
 msgid "Mirror to download from:"
-msgstr ""
+msgstr "Zrcadlo, ze kterého chcete stahovat:"
 
 #. Type: string
 #. Description
@@ -161,12 +160,16 @@ msgid ""
 "(possibly local) mirror instead, please enter the full URL to the directory "
 "containing the relevant files here. If not, just leave the field blank."
 msgstr ""
+"Tento balíček obsahuje seznam zrcadel, který je pro většinu lidí "
+"postačující. Pokud však chcete použít jiné zrcadlo (např. lokální), prosím "
+"uveďte zde celé URL k adresáři, který obsahuje příslušné soubory. V opačném "
+"případě ponechte pole prázdné."
 
 #. Type: string
 #. Description
 #: ../templates:6001
 msgid "HTTP proxy to use:"
-msgstr ""
+msgstr "HTTP proxy:"
 
 #. Type: string
 #. Description
@@ -176,12 +179,14 @@ msgid ""
 "http://192.168.0.1:8080). This will cause the font files to be downloaded "
 "using your proxy."
 msgstr ""
+"Pokud potřebujete pro stažení souborů s fonty využít proxy server, uveďte "
+"zde jeho adresu (napříkad: http://192.168.0.1:8080)."
 
 #. Type: string
 #. Description
 #: ../templates:6001
 msgid "Leave this option blank if you don't use a proxy server."
-msgstr ""
+msgstr "Pokud nepoužíváte proxy server, ponechte toto pole prázdné."
 
 #~ msgid "These fonts are not free."
 #~ msgstr "Tyto fonty nejsou free."

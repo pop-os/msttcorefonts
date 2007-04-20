@@ -32,6 +32,7 @@ msttcorefonts (2.0) unstable; urgency=low
   * Danish by Kenneth Nielsen.
   * Swedish by Daniel Nylander.
   * Polish by Emil Nowak.
+  * Czech by Marcel Sebek.
 
  -- Thijs Kinkhorst <thijs@debian.org>  Fri, 20 Apr 2007 19:53:10 +0200
 
