@@ -1,20 +1,20 @@
 # Portuguese translation of msttcorefonts's debconf messages.
 # 2005, Rui Branco <ruipb@debianpt.org>
-#
 # 2005-09-29 - Rui Branco <ruipb@debianpt.org>
-# 2007-04-19 - Rui Branco <ruipb@debianpt.org>
-#
+# 2007-04-20 - Rui Branco <ruipb@debianpt.org> - 5u1f
+# 
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: msttcorefonts 1.2\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
 "POT-Creation-Date: 2007-04-19 22:20+0200\n"
-"PO-Revision-Date: 2005-10-01 19:57+0100\n"
+"PO-Revision-Date: 2007-04-20 19:05+0100\n"
 "Last-Translator: Rui Branco <ruipb@netcabo.pt>\n"
 "Language-Team: Portuguese <traduz@debianpt.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: 8bit"
 
 #. Type: string
 #. Description
@@ -116,9 +116,9 @@ msgid ""
 "fonts provided by this package under the X Window System, you must configure "
 "it to use defoma fonts."
 msgstr ""
-"Os tipos de letra Msttcorefonts utilizam o DEbian FOnt MAnager (defoma). Se "
-"desejar utilizar os tipos de letra fornecidas por este pacote no X Window "
-"System terá de o configurar para que utilize os tipos de letra defoma."
+"O Msttcorefonts utiliza o DEbian FOnt MAnager (defoma).  Se desejar utilizar os "
+"tipos de letra fornecidas por este pacote no X Window System terá de o configurar "
+"para que utilize os tipos de letra defoma."
 
 #. Type: note
 #. Description
@@ -146,7 +146,7 @@ msgstr ""
 #. Description
 #: ../templates:5001
 msgid "Mirror to download from:"
-msgstr ""
+msgstr "Mirror para fazer download:"
 
 #. Type: string
 #. Description
@@ -157,12 +157,17 @@ msgid ""
 "(possibly local) mirror instead, please enter the full URL to the directory "
 "containing the relevant files here. If not, just leave the field blank."
 msgstr ""
+"Este pacote contém já um conjunto de mirrors, os quais deverão ser "
+"suficientes para a maioria das pessoas. No entanto, se quiser utilizar "
+"um mirror diferente (possivelmente local), por favor introduza o URL "
+"completo para o directório contendo os ficheiros relevantes agora. Em "
+"caso negativo, deixe apenas o campo em branco."
 
 #. Type: string
 #. Description
 #: ../templates:6001
 msgid "HTTP proxy to use:"
-msgstr ""
+msgstr "Proxy HTTP a utilizar:"
 
 #. Type: string
 #. Description
@@ -172,9 +177,13 @@ msgid ""
 "http://192.168.0.1:8080). This will cause the font files to be downloaded "
 "using your proxy."
 msgstr ""
+"Se necessitar de um servidor proxy, por favor introduza-o aqui (exemplo: "
+"http://192.168.0.1:8080). Isto irá causar a que os ficheiros de tipos de "
+"letra sejam descarregados do seu proxy."
 
 #. Type: string
 #. Description
 #: ../templates:6001
 msgid "Leave this option blank if you don't use a proxy server."
-msgstr ""
+msgstr "Deixa esta opção em branco se não quiser utilizar um servidor proxy."
+
