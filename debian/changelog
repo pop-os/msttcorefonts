@@ -33,8 +33,9 @@ msttcorefonts (2.0) unstable; urgency=low
   * Swedish by Daniel Nylander.
   * Polish by Emil Nowak.
   * Czech by Marcel Sebek.
+  * Italian by Luca Monducci (Closes: #420303).
 
- -- Thijs Kinkhorst <thijs@debian.org>  Fri, 20 Apr 2007 19:53:10 +0200
+ -- Thijs Kinkhorst <thijs@debian.org>  Sat, 21 Apr 2007 16:28:03 +0200
 
 msttcorefonts (1.8) unstable; urgency=high
 
