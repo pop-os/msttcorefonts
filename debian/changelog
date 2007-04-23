@@ -34,8 +34,11 @@ msttcorefonts (2.0) unstable; urgency=low
   * Polish by Emil Nowak.
   * Czech by Marcel Sebek.
   * Italian by Luca Monducci (Closes: #420303).
+  * Spanish by Steve Lord Flaubert (Closes: #420386).
+  * Japanese by Hideki Yamane (Closes: #420481).
+  * Russian by Yuri Kozlov (Closes: #420509).
 
- -- Thijs Kinkhorst <thijs@debian.org>  Sat, 21 Apr 2007 16:28:03 +0200
+ -- Thijs Kinkhorst <thijs@debian.org>  Mon, 23 Apr 2007 14:42:04 +0200
 
 msttcorefonts (1.8) unstable; urgency=high
 

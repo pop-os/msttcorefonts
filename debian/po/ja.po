@@ -14,21 +14,21 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: msttcorefonts 1.1.5\n"
+"Project-Id-Version: msttcorefonts 2.0\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
 "POT-Creation-Date: 2007-04-19 22:20+0200\n"
-"PO-Revision-Date: 2004-08-08 20:39+0900\n"
-"Last-Translator: Hideki Yamane <henrich@samba.gr.jp>\n"
+"PO-Revision-Date: 2007-04-21 18:39+0900\n"
+"Last-Translator: Hideki Yamane (Debian-JP) <henrich@debian.or.jp>\n"
 "Language-Team: Japanese <debian-japanese@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=EUC-JP\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. Type: string
 #. Description
 #: ../templates:1001
 msgid "Directory holding MS fonts (if already downloaded):"
-msgstr "MS font ¤¬¤¢¤ë¥Ç¥£¥ì¥¯¥È¥ê (¤¹¤Ç¤Ë¥À¥¦¥ó¥í¡¼¥É¤µ¤ì¤Æ¤¤¤ë¾ì¹ç):"
+msgstr "MS font ãŒã‚ã‚‹ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª (ã™ã§ã«ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã•ã‚Œã¦ã„ã‚‹å ´åˆ):"
 
 #. Type: string
 #. Description
@@ -40,22 +40,21 @@ msgid ""
 "arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
 "exe, times32.exe, trebuc32.exe, verdan32.exe, wd97vwr32.exe and webdin32.exe."
 msgstr ""
-"¤¹¤Ç¤Ë Microsoft TrueType Core Fonts for the web ¤ò¥À¥¦¥ó¥í¡¼¥É¤·¤Æ¤¤¤ë¾ì¹ç¡¢"
-"¤½¤Î¥Õ¥¡¥¤¥ë¤¬Â¸ºß¤¹¤ë¥Ç¥£¥ì¥¯¥È¥êÌ¾¤òÆşÎÏ¤·¤Æ¤¯¤À¤µ¤¤¡£¥Õ¥¡¥¤¥ë¤Ï Microsoft "
-"Windows ¼«¸Ê²òÅà·Á¼°¤Ç¡¢andale32.exe¡¢arial32.exe¡¢arialb32.exe¡¢comic32."
-"exe¡¢courie32.exe¡¢georgi32.exe¡¢impact32.exe¡¢times32.exe¡¢trebuc32.exe¡¢"
-"verdan32.exe¡¢wd97vwr32.exe¡¢webdin32.exe ¤È¤¤¤¦Ì¾Á°¤Ë¤Ê¤Ã¤Æ¤¤¤Ş¤¹¡£"
+"ã™ã§ã« Microsoft TrueType Core Fonts for the web ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¦ã„ã‚‹å ´åˆã€"
+"ãã®ãƒ•ã‚¡ã‚¤ãƒ«ãŒå­˜åœ¨ã™ã‚‹ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªåã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚ãƒ•ã‚¡ã‚¤ãƒ«ã¯ Microsoft "
+"Windows è‡ªå·±è§£å‡å½¢å¼ã§ã€andale32.exeã€arial32.exeã€arialb32.exeã€comic32."
+"exeã€courie32.exeã€georgi32.exeã€impact32.exeã€times32.exeã€trebuc32.exeã€"
+"verdan32.exeã€wd97vwr32.exeã€webdin32.exe ã¨ã„ã†åå‰ã«ãªã£ã¦ã„ã¾ã™ã€‚"
 
 #. Type: string
 #. Description
 #: ../templates:1001
-#, fuzzy
 msgid ""
 "If you haven't yet downloaded these fonts, leave this blank and the fonts "
 "will be downloaded for you. Approximately 8 MB will need to be downloaded."
 msgstr ""
-"¤Ş¤À¥Õ¥©¥ó¥È¤ò¥À¥¦¥ó¥í¡¼¥É¤·¤Æ¤¤¤Ê¤¤¾ì¹ç¡¢¤³¤³¤Ç²¿¤âÆşÎÏ¤·¤Ê¤¤¤È¥À¥¦¥ó¥í¡¼¥É"
-"¤ò³«»Ï¤·¤Ş¤¹¡£¥À¥¦¥ó¥í¡¼¥É¤Ë¤Ï¤ª¤ª¤è¤½ 8 MB ¤ÎÍÆÎÌ¤¬É¬Í×¤Ç¤¹¡£"
+"ã¾ã ãƒ•ã‚©ãƒ³ãƒˆã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¦ã„ãªã„å ´åˆã€ã“ã“ã§ä½•ã‚‚å…¥åŠ›ã—ãªã„ã¾ã¾ã«ã—ã¦ãŠã‘ã°"
+"ãƒ•ã‚©ãƒ³ãƒˆã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¾ã™ã€‚ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã«ã¯ãŠãŠã‚ˆã 8 MB ã®å®¹é‡ãŒå¿…è¦ã§ã™ã€‚"
 
 #. Type: string
 #. Description
@@ -64,15 +63,14 @@ msgid ""
 "If you are not connected to the internet or do not wish to download these "
 "fonts now, enter \"none\" to abort."
 msgstr ""
-"¥¤¥ó¥¿¡¼¥Í¥Ã¥È¤ËÀÜÂ³¤·¤Æ¤¤¤Ê¤¤¡¢¤Ş¤¿¤Ï¥Õ¥©¥ó¥È¤òº£¤Ï¥À¥¦¥ó¥í¡¼¥É¤·¤¿¤¯¤Ê¤¤¤È"
-"¤¤¤¦¾ì¹ç¡¢\"none\" ¤ÈÆşÎÏ¤·¤Æ½ªÎ»¤·¤Æ¤¯¤À¤µ¤¤¡£"
+"ã‚¤ãƒ³ã‚¿ãƒ¼ãƒãƒƒãƒˆã«æ¥ç¶šã—ã¦ã„ãªã„ã€ã¾ãŸã¯ãƒ•ã‚©ãƒ³ãƒˆã‚’ä»Šã¯ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ãŸããªã„ã¨"
+"ã„ã†å ´åˆã€\"none\" ã¨å…¥åŠ›ã—ã¦çµ‚äº†ã—ã¦ãã ã•ã„ã€‚"
 
 #. Type: error
 #. Description
 #: ../templates:2001
-#, fuzzy
 msgid "Font files not found"
-msgstr "¥Õ¥©¥ó¥È¤Î¥Õ¥¡¥¤¥ë¤¬¸«¤Ä¤«¤ê¤Ş¤»¤ó¡£"
+msgstr "ãƒ•ã‚©ãƒ³ãƒˆã®ãƒ•ã‚¡ã‚¤ãƒ«ãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“"
 
 #. Type: error
 #. Description
@@ -84,17 +82,17 @@ msgid ""
 "expected by this script.  Please re-enter the directory containing the "
 "Microsoft font files or enter \"none\" to abort."
 msgstr ""
-"ÆşÎÏ¤µ¤ì¤¿¥Ç¥£¥ì¥¯¥È¥ê¤¬Â¸ºß¤·¤Ê¤¤¤«¡¢Microsoft Windows 9x ¼«¸Ê¥¤¥ó¥¹¥È¡¼¥ë¼Â"
-"¹Ô²ÄÇ½·Á¼°¤Î Microsoft TrueType Core Fonts for the web ¤ò´Ş¤ó¤Ç¤¤¤Ê¤¤¡¢¤Ş¤¿"
-"¤Ï¡¢¤³¤ì¤é¤Î¼Â¹Ô¥Õ¥¡¥¤¥ë¤¬¡¢¤³¤Î¥¹¥¯¥ê¥×¥È¤¬´üÂÔ¤·¤Æ¤¤¤ë¥Ğ¡¼¥¸¥ç¥ó¤Ë°ìÃ×¤·¤Æ"
-"¤¤¤Ş¤»¤ó¡£Microsoft ¤Î¥Õ¥©¥ó¥È¥Õ¥¡¥¤¥ë¤ò´Ş¤à¥Ç¥£¥ì¥¯¥È¥ê¤òºÆÆşÎÏ¤¹¤ë¤«¡¢"
-"\"none\" ¤ÈÆşÎÏ¤·¤Æ½ªÎ»¤·¤Æ¤¯¤À¤µ¤¤¡£"
+"å…¥åŠ›ã•ã‚ŒãŸãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªãŒå­˜åœ¨ã—ãªã„ã‹ã€Microsoft Windows 9x è‡ªå·±ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«å®Ÿ"
+"è¡Œå¯èƒ½å½¢å¼ã® Microsoft TrueType Core Fonts for the web ã‚’å«ã‚“ã§ã„ãªã„ã€ã¾ãŸ"
+"ã¯ã€ã“ã‚Œã‚‰ã®å®Ÿè¡Œãƒ•ã‚¡ã‚¤ãƒ«ãŒã€ã“ã®ã‚¹ã‚¯ãƒªãƒ—ãƒˆãŒæœŸå¾…ã—ã¦ã„ã‚‹ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã«ä¸€è‡´ã—ã¦"
+"ã„ã¾ã›ã‚“ã€‚Microsoft ã®ãƒ•ã‚©ãƒ³ãƒˆãƒ•ã‚¡ã‚¤ãƒ«ã‚’å«ã‚€ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’å†å…¥åŠ›ã™ã‚‹ã‹ã€"
+"\"none\" ã¨å…¥åŠ›ã—ã¦çµ‚äº†ã—ã¦ãã ã•ã„ã€‚"
 
 #. Type: string
 #. Description
 #: ../templates:3001
 msgid "Where should these files be be archived (optional):"
-msgstr "¤É¤³¤Ë¥Õ¥¡¥¤¥ë¤òÊİÂ¸¤·¤Ş¤¹¤« (¥ª¥×¥·¥ç¥ó¤Ç¤¹):"
+msgstr "ã©ã“ã«ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä¿å­˜ã—ã¾ã™ã‹ (ã‚ªãƒ—ã‚·ãƒ§ãƒ³ã§ã™):"
 
 #. Type: string
 #. Description
@@ -104,29 +102,27 @@ msgid ""
 "extracting files, enter the directory where you'd like them stored.  If you "
 "leave this blank, the files will be deleted after installation."
 msgstr ""
-"Windows ¼«¸Ê²òÅà·Á¼°¥Õ¥¡¥¤¥ë¤Î¥¢¡¼¥«¥¤¥Ö¤òÊİ»ı¤·¤¿¤¤¤È¤¤¤¦¾ì¹ç¡¢ÊİÂ¸¤·¤Æ¤ª¤­"
-"¤¿¤¤¥Ç¥£¥ì¥¯¥È¥ê¤òÆşÎÏ¤·¤Æ¤¯¤À¤µ¤¤¡£¶õ¤Î¤Ş¤Ş¤Ë¤·¤Æ¤ª¤¯¤È¡¢¥Õ¥¡¥¤¥ë¤Ï¥¤¥ó¥¹"
-"¥È¡¼¥ë¸å¤Ëºï½ü¤µ¤ì¤Ş¤¹¡£"
+"Windows è‡ªå·±è§£å‡å½¢å¼ãƒ•ã‚¡ã‚¤ãƒ«ã®ã‚¢ãƒ¼ã‚«ã‚¤ãƒ–ã‚’ä¿æŒã—ãŸã„ã¨ã„ã†å ´åˆã€ä¿å­˜ã—ã¦ãŠã"
+"ãŸã„ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚ç©ºã®ã¾ã¾ã«ã—ã¦ãŠãã¨ã€ãƒ•ã‚¡ã‚¤ãƒ«ã¯ã‚¤ãƒ³ã‚¹"
+"ãƒˆãƒ¼ãƒ«å¾Œã«å‰Šé™¤ã•ã‚Œã¾ã™ã€‚"
 
 #. Type: note
 #. Description
 #: ../templates:4001
-#, fuzzy
 msgid "msttcorefonts uses defoma"
-msgstr "msttcorefonts ¤Ç¤Ï defoma ¤òÍøÍÑ¤·¤Ş¤¹¡£"
+msgstr "msttcorefonts ã§ã¯ defoma ã‚’åˆ©ç”¨ã—ã¾ã™"
 
 #. Type: note
 #. Description
 #: ../templates:4001
-#, fuzzy
 msgid ""
 "Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to use the "
 "fonts provided by this package under the X Window System, you must configure "
 "it to use defoma fonts."
 msgstr ""
-"mscorefonts ¤Ï DEbian FOnt MAnager (defoma) ¤òÍøÍÑ¤¹¤ë¤è¤¦¤Ë¤Ê¤ê¤Ş¤·¤¿¡£X "
-"Window System ¤Ç¡¢¤³¤Î¥Ñ¥Ã¥±¡¼¥¸¤¬°·¤Ã¤Æ¤¤¤ë¥Õ¥©¥ó¥È¤òÍøÍÑ¤·¤¿¤¤¾ì¹ç¡¢defoma "
-"¤Î¥Õ¥©¥ó¥È´ÉÍı¤Ç¤³¤Î¥Õ¥©¥ó¥È¤òÍøÍÑ¤¹¤ë¤è¤¦¤ËÀßÄê¤¹¤ëÉ¬Í×¤¬¤¢¤ê¤Ş¤¹¡£"
+"mscorefonts ã¯ DEbian FOnt MAnager (defoma) ã‚’åˆ©ç”¨ã—ã¦ã„ã¾ã™ã€‚X Window System "
+"ã§ã€ã“ã®ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸ã®ãƒ•ã‚©ãƒ³ãƒˆã‚’åˆ©ç”¨ã—ãŸã„å ´åˆã€defoma ã®ãƒ•ã‚©ãƒ³ãƒˆç®¡ç†ã§ã“ã®ãƒ•ã‚©ãƒ³ãƒˆ"
+"ã‚’åˆ©ç”¨ã™ã‚‹ã‚ˆã†ã«è¨­å®šã™ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚"
 
 #. Type: note
 #. Description
@@ -136,9 +132,9 @@ msgid ""
 "information, install the x-ttcidfont-conf package and consult its "
 "documentation under /usr/share/doc/x-ttcidfont-conf."
 msgstr ""
-"ºÇ¤â´ÊÃ±¤Ê¤Î¤Ï x-ttcidfont-conf ¥Ñ¥Ã¥±¡¼¥¸¤ò»È¤¦ÊıË¡¤Ç¤¹¡£¤è¤ê¾ÜºÙ¤Ë¤Ä¤¤¤Æ"
-"¤Ï¡¢x-ttcidfont-conf ¤ò¥¤¥ó¥¹¥È¡¼¥ë¤·¤Æ /usr/share/doc/x-ttcidfont-conf °Ê²¼"
-"¤Î¥É¥­¥å¥á¥ó¥È¤Ë½¾¤Ã¤Æ¤¯¤À¤µ¤¤¡£"
+"æœ€ã‚‚ç°¡å˜ãªã®ã¯ x-ttcidfont-conf ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸ã‚’ä½¿ã†æ–¹æ³•ã§ã™ã€‚ã‚ˆã‚Šè©³ç´°ã«ã¤ã„ã¦"
+"ã¯ã€x-ttcidfont-conf ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ã¦ /usr/share/doc/x-ttcidfont-conf ä»¥ä¸‹"
+"ã®ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆã«å¾“ã£ã¦ãã ã•ã„ã€‚"
 
 #. Type: note
 #. Description
@@ -147,14 +143,14 @@ msgid ""
 "For uses of msttcorefonts not related to the X Window System (e.g. printing) "
 "this is not required."
 msgstr ""
-"msttcorefonts ¤òÍøÍÑ¤¹¤ë¤Î¤Ë X Window System ¤Ï´Ø·¸¤¬¤Ê¤¤ (Îã¤¨¤Ğ°õºş) ¤Î¤Ç¡¢"
-"É¬Í×¤Ç¤Ï¤¢¤ê¤Ş¤»¤ó¡£"
+"msttcorefonts ã‚’åˆ©ç”¨ã™ã‚‹ã®ã« X Window System ã¯é–¢ä¿‚ãŒãªã„ (ä¾‹ãˆã°å°åˆ·) ã®ã§ã€"
+"å¿…è¦ã§ã¯ã‚ã‚Šã¾ã›ã‚“ã€‚"
 
 #. Type: string
 #. Description
 #: ../templates:5001
 msgid "Mirror to download from:"
-msgstr ""
+msgstr "ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰å…ˆã®ãƒŸãƒ©ãƒ¼:"
 
 #. Type: string
 #. Description
@@ -165,12 +161,16 @@ msgid ""
 "(possibly local) mirror instead, please enter the full URL to the directory "
 "containing the relevant files here. If not, just leave the field blank."
 msgstr ""
+"ã“ã®ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸ã¯ç‹¬è‡ªã®ãƒŸãƒ©ãƒ¼ãƒªã‚¹ãƒˆã‚’æŒã£ã¦ãŠã‚Šã€ã»ã¨ã‚“ã©ã®äººãŒå•é¡Œãªãåˆ©ç”¨ã§ãã¾ã™ã€‚"
+"ã—ã‹ã—ã€ç•°ãªã‚‹ (ãŠãã‚‰ããƒ­ãƒ¼ã‚«ãƒ«ã®) ãƒŸãƒ©ãƒ¼ã‚’ä»£ã‚ã‚Šã«ä½¿ã„ãŸã„å ´åˆã€ã“ã“ã§é–¢é€£ã™ã‚‹"
+"ãƒ•ã‚¡ã‚¤ãƒ«ãŒç½®ã‹ã‚Œã¦ã„ã‚‹ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã® URL ã‚’å…¨ã¦å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚ãã†ã§ãªã„å ´åˆã¯"
+"ä½•ã‚‚å…¥åŠ›ã—ãªã„ã§ãã ã•ã„ã€‚"
 
 #. Type: string
 #. Description
 #: ../templates:6001
 msgid "HTTP proxy to use:"
-msgstr ""
+msgstr "åˆ©ç”¨ã™ã‚‹ãƒ—ãƒ­ã‚­ã‚·:"
 
 #. Type: string
 #. Description
@@ -180,30 +180,33 @@ msgid ""
 "http://192.168.0.1:8080). This will cause the font files to be downloaded "
 "using your proxy."
 msgstr ""
+"ãƒ—ãƒ­ã‚­ã‚·ã‚µãƒ¼ãƒã‚’ä½¿ã†å¿…è¦ãŒã‚ã‚‹å ´åˆã€ã“ã“ã§å…¥åŠ›ã‚’ã—ã¦ãã ã•ã„ "
+"(ä¾‹: http://192.168.0.1:8080)ã€‚ãƒ•ã‚©ãƒ³ãƒˆãƒ•ã‚¡ã‚¤ãƒ«ã‚’ãƒ—ãƒ­ã‚­ã‚·ã‚’ä½¿ã£ã¦ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰"
+"ã™ã‚‹ã‚ˆã†ã«ãªã‚Šã¾ã™ã€‚"
 
 #. Type: string
 #. Description
 #: ../templates:6001
 msgid "Leave this option blank if you don't use a proxy server."
-msgstr ""
+msgstr "ãƒ—ãƒ­ã‚­ã‚·ã‚’ä½¿ã‚ãªã„ã¨ã„ã†äººã¯ã“ã“ã§ä½•ã‚‚å…¥åŠ›ã—ãªã„ã§ãã ã•ã„ã€‚"
 
 #~ msgid "These fonts are not free."
-#~ msgstr "¤³¤ì¤é¤Î¥Õ¥©¥ó¥È¤Ï¥Õ¥ê¡¼¤Ç¤Ï¤¢¤ê¤Ş¤»¤ó¡£"
+#~ msgstr "ã“ã‚Œã‚‰ã®ãƒ•ã‚©ãƒ³ãƒˆã¯ãƒ•ãƒªãƒ¼ã§ã¯ã‚ã‚Šã¾ã›ã‚“ã€‚"
 
 #~ msgid ""
 #~ "These fonts were provided by Microsoft \"in the interest of cross-"
 #~ "platform compatibility\". This is no longer the case, but they are still "
 #~ "available from third parties."
 #~ msgstr ""
-#~ "¤³¤ì¤é¤Î¥Õ¥©¥ó¥È¤Ï \"¥×¥é¥Ã¥È¥Õ¥©¡¼¥à´Ö¤Î¸ß´¹À­¤Î¤¿¤á\"¡¢Microsoft ¤Ë¤è¤Ã"
-#~ "¤ÆÄó¶¡¤µ¤ì¤Æ¤¤¤Ş¤·¤¿¡£¤³¤ì¤Ï¤¹¤Ç¤Ë²áµî¤Î¤â¤Î¤È¤Ê¤Ã¤Æ¤¤¤Ş¤¹¤¬¡¢¤·¤«¤·¸½ºß¤Ç"
-#~ "¤â¥µ¡¼¥É¥Ñ¡¼¥Æ¥£¤«¤éÆş¼ê²ÄÇ½¤Ç¤¹¡£"
+#~ "ã“ã‚Œã‚‰ã®ãƒ•ã‚©ãƒ³ãƒˆã¯ \"ãƒ—ãƒ©ãƒƒãƒˆãƒ•ã‚©ãƒ¼ãƒ é–“ã®äº’æ›æ€§ã®ãŸã‚\"ã€Microsoft ã«ã‚ˆã£"
+#~ "ã¦æä¾›ã•ã‚Œã¦ã„ã¾ã—ãŸã€‚ã“ã‚Œã¯ã™ã§ã«éå»ã®ã‚‚ã®ã¨ãªã£ã¦ã„ã¾ã™ãŒã€ã—ã‹ã—ç¾åœ¨ã§"
+#~ "ã‚‚ã‚µãƒ¼ãƒ‰ãƒ‘ãƒ¼ãƒ†ã‚£ã‹ã‚‰å…¥æ‰‹å¯èƒ½ã§ã™ã€‚"
 
 #~ msgid ""
 #~ "You are free to download these fonts and use them for your own use, but "
 #~ "you may not redistribute them in modified form, including changes to the "
 #~ "file name or packaging format."
 #~ msgstr ""
-#~ "¤³¤ì¤é¤Î¥Õ¥©¥ó¥È¤ò¥À¥¦¥ó¥í¡¼¥É¤·¤Æ¼«¸Ê¤ÎÌÜÅª¤Î¤¿¤á¤Ë»ÈÍÑ¤¹¤ë¤Î¤Ï¼«Í³¤Ç¤¹"
-#~ "¤¬¡¢¥Õ¥¡¥¤¥ëÌ¾¤ä¥Ñ¥Ã¥±¡¼¥¸·Á¼°¤ÎÊÑ¹¹¤Ê¤É¤ò´Ş¤á¡¢ÊÑ¹¹¤ò²Ã¤¨¤¿·Á¤Ç¤ÎºÆÇÛÉÛ¤Ï"
-#~ "µö²Ä¤µ¤ì¤Ş¤»¤ó¡£"
+#~ "ã“ã‚Œã‚‰ã®ãƒ•ã‚©ãƒ³ãƒˆã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¦è‡ªå·±ã®ç›®çš„ã®ãŸã‚ã«ä½¿ç”¨ã™ã‚‹ã®ã¯è‡ªç”±ã§ã™"
+#~ "ãŒã€ãƒ•ã‚¡ã‚¤ãƒ«åã‚„ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸å½¢å¼ã®å¤‰æ›´ãªã©ã‚’å«ã‚ã€å¤‰æ›´ã‚’åŠ ãˆãŸå½¢ã§ã®å†é…å¸ƒã¯"
+#~ "è¨±å¯ã•ã‚Œã¾ã›ã‚“ã€‚"
