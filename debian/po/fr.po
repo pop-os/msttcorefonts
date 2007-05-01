@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: msttcorefonts 1.1.5\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
 "POT-Creation-Date: 2007-04-19 22:20+0200\n"
-"PO-Revision-Date: 2004-09-26 12:36+0100\n"
+"PO-Revision-Date: 2007-04-26 14:06+0200\n"
 "Last-Translator: Yves Rütschlé <l10n@rutschle.net>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr ""
 #: ../templates:1001
 msgid "Directory holding MS fonts (if already downloaded):"
 msgstr ""
-"Répertoire contenant les polices MS (si vous les avez déjà téléchargées) :"
+"Répertoire contenant les polices MS (si elles ont déjà été téléchargées) :"
 
 #. Type: string
 #. Description
@@ -37,16 +37,16 @@ msgstr ""
 msgid ""
 "If you have already downloaded Microsoft's TrueType Core Fonts for the web, "
 "type the name of the directory which contains them. Those files are in the "
-"Microsoft Windows self-installing format, and are named andale32.exe, "
-"arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
-"exe, times32.exe, trebuc32.exe, verdan32.exe, wd97vwr32.exe and webdin32.exe."
+"Microsoft Windows self-installing format, and are named andale32.exe, arial32."
+"exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32.exe, "
+"times32.exe, trebuc32.exe, verdan32.exe, wd97vwr32.exe and webdin32.exe."
 msgstr ""
 "Si vous avez déjà téléchargé les polices TrueType de base de Microsoft "
-"(« Microsoft's TrueType Core Fonts ») sur Internet, indiquez le répertoire "
-"où elles se trouvent. Il s'agit des archives d'installation pour Windows "
-"nommées andale32.exe, arial32.exe, arialb32.exe, comic32.exe, courie32.exe, "
-"georgi32.exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe, "
-"wd97vwr32.exe et webdin32.exe."
+"(« Microsoft's TrueType Core Fonts ») sur Internet, veuillez indiquer le "
+"répertoire où elles se trouvent. Il s'agit des archives d'installation pour "
+"Windows nommées andale32.exe, arial32.exe, arialb32.exe, comic32.exe, "
+"courie32.exe, georgi32.exe, impact32.exe, times32.exe, trebuc32.exe, verdan32."
+"exe, wd97vwr32.exe et webdin32.exe."
 
 #. Type: string
 #. Description
@@ -55,8 +55,8 @@ msgid ""
 "If you haven't yet downloaded these fonts, leave this blank and the fonts "
 "will be downloaded for you. Approximately 8 MB will need to be downloaded."
 msgstr ""
-"Si vous n'avez pas encore téléchargé ces polices, laissez ce champ vide, et "
-"le téléchargement sera automatique. Environ 8 Mo seront alors téléchargés."
+"Si vous n'avez pas encore téléchargé ces polices, laissez ce champ vide et le "
+"téléchargement sera automatique. Environ 8 Mo seront alors téléchargés."
 
 #. Type: string
 #. Description
@@ -65,9 +65,9 @@ msgid ""
 "If you are not connected to the internet or do not wish to download these "
 "fonts now, enter \"none\" to abort."
 msgstr ""
-"Si vous n'êtes pas connecté à Internet, ou si vous ne souhaitez pas "
-"télécharger ces polices maintenant, tapez « none » (aucun) pour interrompre "
-"l'installation."
+"Si vous n'êtes pas connecté à l'Internet, ou si vous ne souhaitez pas "
+"télécharger ces polices maintenant, indiquez « none » (aucun) pour "
+"interrompre l'installation."
 
 #. Type: error
 #. Description
@@ -79,11 +79,11 @@ msgstr "Fichiers de police introuvables"
 #. Description
 #: ../templates:2001
 msgid ""
-"The directory you entered either did not exist, did not contain the "
-"Microsoft TrueType Core Fonts for the Web Microsoft Windows 9x self "
-"installing executables, or those executables did not match the versions "
-"expected by this script.  Please re-enter the directory containing the "
-"Microsoft font files or enter \"none\" to abort."
+"The directory you entered either did not exist, did not contain the Microsoft "
+"TrueType Core Fonts for the Web Microsoft Windows 9x self installing "
+"executables, or those executables did not match the versions expected by this "
+"script.  Please re-enter the directory containing the Microsoft font files or "
+"enter \"none\" to abort."
 msgstr ""
 "Le répertoire indiqué n'existe pas, ne contient pas les polices TrueType de "
 "base de Microsoft (« Microsoft's TrueType Core Fonts ») sous le format "
@@ -107,8 +107,8 @@ msgid ""
 "leave this blank, the files will be deleted after installation."
 msgstr ""
 "Si vous souhaitez conserver une archive des fichiers Windows téléchargés, "
-"indiquez ici le répertoire où ils doivent être placés. Si vous laissez ce "
-"champ vide, les fichiers seront effacés après usage."
+"veuillez indiquer le répertoire où ils doivent être placés. Si vous laissez "
+"ce champ vide, les fichiers seront effacés après usage."
 
 #. Type: note
 #. Description
@@ -119,7 +119,6 @@ msgstr "Msttcorefonts utilise defoma"
 #. Type: note
 #. Description
 #: ../templates:4001
-#, fuzzy
 msgid ""
 "Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to use the "
 "fonts provided by this package under the X Window System, you must configure "
@@ -140,7 +139,7 @@ msgid ""
 msgstr ""
 "La solution la plus simple pour cela est d'utiliser le paquet x-ttcidfont-"
 "conf. Pour plus d'informations, installez ce paquet et consultez sa "
-"documentation, disponible sous /usr/share/doc/x-ttcidfont-conf."
+"documentation, disponible dans le répertoire /usr/share/doc/x-ttcidfont-conf."
 
 #. Type: note
 #. Description
@@ -156,7 +155,7 @@ msgstr ""
 #. Description
 #: ../templates:5001
 msgid "Mirror to download from:"
-msgstr ""
+msgstr "Miroir :"
 
 #. Type: string
 #. Description
@@ -167,12 +166,17 @@ msgid ""
 "(possibly local) mirror instead, please enter the full URL to the directory "
 "containing the relevant files here. If not, just leave the field blank."
 msgstr ""
+"Ce paquet contient une liste de miroirs qui devrait être suffisante pour la "
+"plupart des utilisateurs. Toutefois, si vous désirez utiliser un autre miroir "
+"(par exemple un miroir local), veuillez indiquer l'URL complète vers le "
+"répertoire contenant les fichiers des polices. Sinon, veuillez laisser ce "
+"champ vide."
 
 #. Type: string
 #. Description
 #: ../templates:6001
 msgid "HTTP proxy to use:"
-msgstr ""
+msgstr "Mandataire HTTP :"
 
 #. Type: string
 #. Description
@@ -182,31 +186,12 @@ msgid ""
 "http://192.168.0.1:8080). This will cause the font files to be downloaded "
 "using your proxy."
 msgstr ""
+"Si vous devez utiliser un mandataire HTTP (« proxy »), veuillez indiquer son "
+"adresse (par exemple : http://192.168.0.1:8080). Les fichiers des polices "
+"seront alors téléchargés via ce serveur mandataire."
 
 #. Type: string
 #. Description
 #: ../templates:6001
 msgid "Leave this option blank if you don't use a proxy server."
-msgstr ""
-
-#~ msgid "These fonts are not free."
-#~ msgstr "Polices de caractères non libres"
-
-#~ msgid ""
-#~ "These fonts were provided by Microsoft \"in the interest of cross-"
-#~ "platform compatibility\". This is no longer the case, but they are still "
-#~ "available from third parties."
-#~ msgstr ""
-#~ "Les polices de caractères de ce paquet étaient fournies par Microsoft "
-#~ "« pour favoriser l'interopérabilité entre les plates-formes ». Ce n'est "
-#~ "plus le cas, mais elles restent disponibles chez des tiers."
-
-#~ msgid ""
-#~ "You are free to download these fonts and use them for your own use, but "
-#~ "you may not redistribute them in modified form, including changes to the "
-#~ "file name or packaging format."
-#~ msgstr ""
-#~ "Vous avez le droit de les télécharger et de vous en servir pour votre "
-#~ "usage personnel, mais vous ne pouvez pas en redistribuer de forme "
-#~ "modifiée. Cette restriction interdit également tout renommage ou "
-#~ "changement de format des fichiers."
+msgstr "Vous pouvez laisser ce champ vide si vous n'utilisez pas de mandataire."

@@ -1,33 +1,25 @@
-#
-#    Translators, if you are not familiar with the PO format, gettext
-#    documentation is worth reading, especially sections dedicated to
-#    this format, e.g. by running:
-#         info -n '(gettext)PO Files'
-#         info -n '(gettext)Header Entry'
-#
-#    Some information specific to po-debconf are available at
-#            /usr/share/doc/po-debconf/README-trans
-#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
-#
-#    Developers do not need to manually edit POT or PO files.
+# msttcorefonts Brazilian Portuguese (pt_BR) debconf template translation.
+# Copyright (c) 2007 Andr√© Lu√≠s Lopes
+# This file is distributed under the same license as the msttcorefonts package.
+# Andr√© Lu√≠s Lopes <andrelop@debian.org>, 2007.
 #
 msgid ""
-msgstr ""
+msgstr "pt_BR utf-8\n"
 "Project-Id-Version: msttcorefonts\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
 "POT-Creation-Date: 2007-04-19 22:20+0200\n"
 "PO-Revision-Date: 2004-08-21 21:46-0300\n"
-"Last-Translator: AndrÈ LuÌs Lopes <andrelop@debian.org>\n"
+"Last-Translator: Andr√© Lu√≠s Lopes <andrelop@debian.org>\n"
 "Language-Team: Debian-BR Project <debian-l10n-portuguese@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. Type: string
 #. Description
 #: ../templates:1001
 msgid "Directory holding MS fonts (if already downloaded):"
-msgstr "DiretÛrios que contÈm as fontes MS (caso j· feito o download) :"
+msgstr "Diret√≥rios que cont√©m as fontes MS (caso j√° feito o download) :"
 
 #. Type: string
 #. Description
@@ -39,9 +31,9 @@ msgid ""
 "arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
 "exe, times32.exe, trebuc32.exe, verdan32.exe, wd97vwr32.exe and webdin32.exe."
 msgstr ""
-"Caso vocÍ j· tenha feito o download das TrueType Core Fonts para web da "
-"Microsoft, informe o nome do diretÛrio onde vocÍ armazena essas fontes. "
-"Esses arquivos est„o no formato de auto-instalaÁ„o do Microsft Windows e s„o "
+"Caso voc√™ j√° tenha feito o download das TrueType Core Fonts para web da "
+"Microsoft, informe o nome do diret√≥rio onde voc√™ armazena essas fontes. "
+"Esses arquivos est√£o no formato de auto-instala√ß√£o do Microsft Windows e s√£o "
 "nomeados andale32.exe, arial32.exe, arialb32.exe, comic32.exe, courier32."
 "exe, georgi32.exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe, "
 "wd97vwr32.exe e webdin32.exe."
@@ -53,9 +45,9 @@ msgid ""
 "If you haven't yet downloaded these fonts, leave this blank and the fonts "
 "will be downloaded for you. Approximately 8 MB will need to be downloaded."
 msgstr ""
-"Caso vocÍ ainda n„o tenha feito o download dessas fontes, mantenha este "
-"campo em branco e as o download das mesmas ser· feito automaticamente para "
-"vocÍ. Ser· necess·rio fazer o download de aproximadamente 8MB."
+"Caso voc√™ ainda n√£o tenha feito o download dessas fontes, mantenha este "
+"campo em branco e o download das mesmas ser√° feito automaticamente para "
+"voc√™. Ser√° necess√°rio fazer o download de aproximadamente 8MB."
 
 #. Type: string
 #. Description
@@ -64,14 +56,14 @@ msgid ""
 "If you are not connected to the internet or do not wish to download these "
 "fonts now, enter \"none\" to abort."
 msgstr ""
-"Caso vocÍ n„o esteja conectado a Internet ou n„o deseja fazer o download "
+"Caso voc√™ n√£o esteja conectado a Internet ou n√£o deseja fazer o download "
 "dessas fontes agora, informe \"none\" para abortar."
 
 #. Type: error
 #. Description
 #: ../templates:2001
 msgid "Font files not found"
-msgstr "Arquivos de fontes n„o encontrados"
+msgstr "Arquivos de fontes n√£o encontrados"
 
 #. Type: error
 #. Description
@@ -83,10 +75,10 @@ msgid ""
 "expected by this script.  Please re-enter the directory containing the "
 "Microsoft font files or enter \"none\" to abort."
 msgstr ""
-"O diretÛrio que vocÍ informou n„o existe, n„o contÈm as fontes TrueType Core "
-"para a Web auto-instal·veis da Microsoft para Windows 9x ou esses "
-"execut·veis n„o fornecem as mesmas versÙes esperadas por este script. Por "
-"favor, informe novamente o diretÛrio onde est„o armazenados os arquivos de "
+"O diret√≥rio que voc√™ informou n√£o existe, n√£o cont√©m as fontes TrueType Core "
+"para a Web auto-instal√°veis da Microsoft para Windows 9x ou esses "
+"execut√°veis n√£o fornecem as mesmas vers√¥es esperadas por este script. Por "
+"favor, informe novamente o diret√≥rio onde est√£o armazenados os arquivos de "
 "fontes Microsoft ou informe \"none\" para abortar."
 
 #. Type: string
@@ -103,10 +95,10 @@ msgid ""
 "extracting files, enter the directory where you'd like them stored.  If you "
 "leave this blank, the files will be deleted after installation."
 msgstr ""
-"Caso vocÍ deseja manter um arquivo permanente dos arquivos auto-"
-"descompact·veis Windows, informe o diretÛrio onde vocÍ gostaria de armazen·-"
-"los. Caso vocÍ mantenha este campo em branco, os arquivos ser„o apagados "
-"apÛs serem usados para instalaÁ„o."
+"Se voc√™ deseja manter um arquivo permanente dos arquivos auto-"
+"descompact√°veis Windows, informe o diret√≥rio onde voc√™ gostaria de armazen√°-"
+"los. Caso voc√™ mantenha este campo em branco, os arquivos ser√£o apagados "
+"ap√≥s serem usados para instala√ß√£o."
 
 #. Type: note
 #. Description
@@ -117,15 +109,14 @@ msgstr "O msttcorefonts utiliza o defoma"
 #. Type: note
 #. Description
 #: ../templates:4001
-#, fuzzy
 msgid ""
 "Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to use the "
 "fonts provided by this package under the X Window System, you must configure "
 "it to use defoma fonts."
 msgstr ""
-"O pacote msttcorefonts agora utiliza O Gerenciador de Fontes Debian "
-"(defoma). Caso vocË deseje usar as fontes fornecidas por este pacotes sob o "
-"Sistema de Janelas X, vocÍ dever· configur·-lo para utilizar fontes defoma."
+"O msttcorefonts utiliza o Gerenciador de Fontes Debian (defoma). Caso "
+"voc√® deseje usar as fontes fornecidas por este pacote sob o Sistema de "
+"Janelas X, voc√™ dever√° configur√°-lo para utilizar fontes defoma."
 
 #. Type: note
 #. Description
@@ -135,9 +126,9 @@ msgid ""
 "information, install the x-ttcidfont-conf package and consult its "
 "documentation under /usr/share/doc/x-ttcidfont-conf."
 msgstr ""
-"A maneira mais f·cil de fazÍ-lo È utilizar o pacote x-ttcidfont-conf. Para "
-"maiores informaÁıes, instale o pacote x-ttcidfont-conf e consulte a "
-"documentaÁ„o do mesmo no diretÛrio /usr/share/doc/x-ttcidfont-conf."
+"A maneira mais f√°cil de faz√™-lo √© utilizar o pacote x-ttcidfont-conf. Para "
+"maiores informa√ß√µes, instale o pacote x-ttcidfont-conf e consulte a "
+"documenta√ß√£o do mesmo no diret√≥rio /usr/share/doc/x-ttcidfont-conf."
 
 #. Type: note
 #. Description
@@ -146,14 +137,14 @@ msgid ""
 "For uses of msttcorefonts not related to the X Window System (e.g. printing) "
 "this is not required."
 msgstr ""
-"Para usos do msttcorefonts n„o relacionados com o Sistema de Janelas X (por "
-"exemplo, impress„o) isso n„o È necess·rio."
+"Para uso do msttcorefonts n√£o relacionado com o Sistema de Janelas X (por "
+"exemplo, impress√£o) isso n√£o √© necess√°rio."
 
 #. Type: string
 #. Description
 #: ../templates:5001
 msgid "Mirror to download from:"
-msgstr ""
+msgstr "Espelho a partir de onde fazer o download:"
 
 #. Type: string
 #. Description
@@ -164,12 +155,18 @@ msgid ""
 "(possibly local) mirror instead, please enter the full URL to the directory "
 "containing the relevant files here. If not, just leave the field blank."
 msgstr ""
+"Este pacote j√° cont√©m um conjunto de espelhos embutido, os quais devem "
+"ser suficientes para a maioria das pessoas. Por√©m, caso voc√™ deseje "
+"utilizar um espelho diferente (e possivelmente local), por favor, "
+"informe aqui a URL completa para o diret√≥rio que cont√©m os arquivos "
+"relevantes. Caso n√£o esteja interessado em fornecer um espelho "
+"diferente, simplesmente deixe o campo em branco."
 
 #. Type: string
 #. Description
 #: ../templates:6001
 msgid "HTTP proxy to use:"
-msgstr ""
+msgstr "Proxy HTTP a ser utilizado:"
 
 #. Type: string
 #. Description
@@ -179,15 +176,19 @@ msgid ""
 "http://192.168.0.1:8080). This will cause the font files to be downloaded "
 "using your proxy."
 msgstr ""
+"Caso voc√™ precise utilizar um servidor proxy, por favor, informe-o aqui "
+"(exemplo: http://192.168.0.1:8080). Isto far√° com que os arquivos de "
+"fontes sejam obtidos utilizando seu proxy."
 
 #. Type: string
 #. Description
 #: ../templates:6001
 msgid "Leave this option blank if you don't use a proxy server."
 msgstr ""
+"Mantenha esta op√ß√£o em branco caso voc√™ n√£o utilize um servidor proxy."
 
 #~ msgid "These fonts are not free."
-#~ msgstr "Estas fontes n„o s„o livres/gratuitas."
+#~ msgstr "Estas fontes n√£o s√£o livres/gratuitas."
 
 #~ msgid ""
 #~ "These fonts were provided by Microsoft \"in the interest of cross-"
@@ -195,17 +196,17 @@ msgstr ""
 #~ "available from third parties."
 #~ msgstr ""
 #~ "Estas fontes foram fornecidas pela Microsoft \"no interesse de "
-#~ "compatibilidade multiplataforma\". Este n„o È mais o caso, mas as mesmas "
-#~ "ainda est„o s„odisponibilizadas por terceiros."
+#~ "compatibilidade multiplataforma\". Este n√£o √© mais o caso, mas as mesmas "
+#~ "ainda est√£o s√£o disponibilizadas por terceiros."
 
 #~ msgid ""
 #~ "You are free to download these fonts and use them for your own use, but "
 #~ "you may not redistribute them in modified form, including changes to the "
 #~ "file name or packaging format."
 #~ msgstr ""
-#~ "VocÍ È livre para fazer o download destas fontes e us·-las para uso "
-#~ "pessoal, mas vocÍ n„o pode redistribuÌ-las em formato modificado, "
-#~ "incluÌndo mudanÁas no nome dos arquivos ou formato de empacotamento."
+#~ "Voc√™ √© livre para fazer o download destas fontes e us√°-las para uso "
+#~ "pessoal, mas voc√™ n√£o pode redistribu√≠-las em formato modificado, "
+#~ "inclu√≠ndo mudan√ßas no nome dos arquivos ou formato de empacotamento."
 
 #~ msgid ""
 #~ "If you have already downloaded Microsoft's TrueType Core Fonts for the "
@@ -216,10 +217,10 @@ msgstr ""
 #~ "to the internet or do not wish to download these fonts now, enter \"none"
 #~ "\" to abort."
 #~ msgstr ""
-#~ "Se vocÍ j· fez o download das Microsoft TrueType Core Fonts para a Web no "
-#~ "formato de auto-instalaÁ„o Microsoft Windows (.exe), digite o nome do "
-#~ "diretÛrio que contÈm as fontes. Se vocÍ ainda n„o fez o download das "
-#~ "mesmas, deixe esse campo em branco e o download das fontes ser· feito "
-#~ "para vocÍ. Aproximadamente 4 MB necessitar· downloaded.  Se vocÍ n„o est· "
-#~ "conectado a Internet ou n„o deseja fazer o download das fontes agora, "
+#~ "Se voc√™ j√° fez o download das Microsoft TrueType Core Fonts para a Web no "
+#~ "formato de auto-instala√ß√£o Microsoft Windows (.exe), digite o nome do "
+#~ "diret√≥rio que cont√©m as fontes. Se voc√™ ainda n√£o fez o download das "
+#~ "mesmas, deixe esse campo em branco e o download das fontes ser√° feito "
+#~ "para voc√™. Aproximadamente 4 MB necessitar√° downloaded.  Se voc√™ n√£o est√° "
+#~ "conectado a Internet ou n√£o deseja fazer o download das fontes agora, "
 #~ "informe \"none\" para abortar."
