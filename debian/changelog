@@ -41,8 +41,9 @@ msttcorefonts (2.0) unstable; urgency=low
   * German by Helge Kreutzman (Closes: #421106).
   * Brazilian Portuguese by André Luís Lopes (Closes: #421515).
   * French by Yves Rutschle.
+  * Romanian by Igor Stirbu (Closes: #421749).
 
- -- Thijs Kinkhorst <thijs@debian.org>  Tue, 01 May 2007 12:00:06 +0200
+ -- Thijs Kinkhorst <thijs@debian.org>  Tue, 01 May 2007 12:10:14 +0200
 
 msttcorefonts (1.8) unstable; urgency=high
 
