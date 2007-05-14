@@ -1,3 +1,10 @@
+msttcorefonts (2.1) unstable; urgency=low
+
+  * Add --no-directories and --no-background options to wget to
+    override those when set by the user (Closes: #422535).
+
+ -- Thijs Kinkhorst <thijs@debian.org>  Mon, 14 May 2007 18:39:05 +0200
+
 msttcorefonts (2.0) unstable; urgency=low
 
   * No longer install the update-ms-fonts command. It's only

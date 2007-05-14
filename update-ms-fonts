@@ -130,7 +130,7 @@ elif [ -n "$FONTFILES" ] ; then
         for ff in $FONTFILES; do
             if [ ! -e $ff.done ] || [ ! -e $ff ] ; then
                 if [ -z "$LOCALCOPY" ] ; then
-                    if ! wget --continue --tries=1 --dns-timeout=10 --connect-timeout=5 --read-timeout=300 $QUIET_ARG --directory-prefix . -c $URLROOT$ff ; then
+                    if ! wget --continue --tries=1 --dns-timeout=10 --connect-timeout=5 --read-timeout=300 $QUIET_ARG --directory-prefix . --no-directories --no-background $URLROOT$ff ; then
                         continue 2
                     fi
                 else
