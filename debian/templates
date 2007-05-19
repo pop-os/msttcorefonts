@@ -5,8 +5,7 @@ _Description: Directory holding MS fonts (if already downloaded):
  type the name of the directory which contains them. Those files are in the
  Microsoft Windows self-installing format, and are named andale32.exe,
  arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe,
- impact32.exe, times32.exe, trebuc32.exe, verdan32.exe, wd97vwr32.exe and
- webdin32.exe.
+ impact32.exe, times32.exe, trebuc32.exe, verdan32.exe and webdin32.exe.
  .
  If you haven't yet downloaded these fonts, leave this blank and the fonts
  will be downloaded for you. Approximately 8 MB will need to be downloaded.

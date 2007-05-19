@@ -180,22 +180,6 @@ elif [ -n "$FONTFILES" ] ; then
     awk '{print $4}' msfonts.info >> /var/lib/msttcorefonts/ms-fonts
 fi
 
-if [ -z "$CHECK_ONLY" ] ; then
-    
-  # Remove old links
-  for ttf in `awk '{print $2}' msfonts.info` ; do
-    if [ -L /usr/lib/X11/fonts/TrueType/$ttf ] ; then
-      rm /usr/lib/X11/fonts/TrueType/$ttf
-    fi
-  done
-  rm -f /usr/lib/X11/fonts/TrueType/msttcorefonts.scale
-  if [ -d /usr/lib/X11/fonts/TrueType ] && ! [ -L /usr/lib/X11/fonts/TrueType ] ; then
-    rmdir --ignore-fail-on-non-empty /usr/lib/X11/fonts/TrueType
-  fi
-  # Make sure X knows those fonts are gone
-  /usr/bin/defoma-font reregister-all /etc/defoma/hints/msttcorefonts.hints
-fi
-
 rm -rf $SCRATCHDIR
 
 if [ -z "$QUIETMODE" ] ; then

@@ -4,8 +4,9 @@ msttcorefonts (2.1) unstable; urgency=low
     it causes more trouble than it solves (Closes: #424852, #424864).
   * Add --no-directories and --no-background options to wget to
     override those when set by the user (Closes: #422535).
+  * Remove obsolete upgrading code.
 
- -- Thijs Kinkhorst <thijs@debian.org>  Sat, 19 May 2007 11:17:15 +0200
+ -- Thijs Kinkhorst <thijs@debian.org>  Sat, 19 May 2007 11:58:30 +0200
 
 msttcorefonts (2.0) unstable; urgency=low
 
