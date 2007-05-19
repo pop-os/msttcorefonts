@@ -36,19 +36,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: msttcorefonts 1.5\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
-"POT-Creation-Date: 2007-04-19 22:20+0200\n"
+"POT-Creation-Date: 2007-05-19 12:06+0200\n"
 "PO-Revision-Date: 2007-04-21 19:42-0500\n"
 "Last-Translator: Steve Lord Flaubert <stonescenter@gmail.com>\n"
 "Language-Team: Spanish <debian-l10n-spanish@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
 
 #. Type: string
 #. Description
 #: ../templates:1001
 msgid "Directory holding MS fonts (if already downloaded):"
-msgstr "Directorio que contiene los tipos de letra MS (si ya están descargados):"
+msgstr ""
+"Directorio que contiene los tipos de letra MS (si ya están descargados):"
 
 #. Type: string
 #. Description
@@ -58,13 +59,13 @@ msgid ""
 "type the name of the directory which contains them. Those files are in the "
 "Microsoft Windows self-installing format, and are named andale32.exe, "
 "arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
-"exe, times32.exe, trebuc32.exe, verdan32.exe, wd97vwr32.exe and webdin32.exe."
+"exe, times32.exe, trebuc32.exe, verdan32.exe and webdin32.exe."
 msgstr ""
 "Introduzca el nombre del directorio que los contiene si ya descargó los "
 "tipos de letra «Microsoft TrueType Core» de un sitio web. Estos archivos "
 "están en el formato de instalación de Microsoft Windows, y se llaman "
 "andale32.exe, arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32."
-"exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe, wd97vwr32.exe y "
+"exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe y "
 "webdin32.exe."
 
 #. Type: string
@@ -72,11 +73,11 @@ msgstr ""
 #: ../templates:1001
 msgid ""
 "If you haven't yet downloaded these fonts, leave this blank and the fonts "
-"will be downloaded for you. Approximately 8 MB will need to be downloaded."
+"will be downloaded for you. Approximately 4 MB will need to be downloaded."
 msgstr ""
 "Deje este campo en blanco si aún no ha descargado estos tipos de letra, y el "
 "sistema descargará los tipos de letra automáticamente. Se necesitará "
-"descargar aproximadamente 8 MB."
+"descargar aproximadamente 4 MB."
 
 #. Type: string
 #. Description
@@ -141,9 +142,10 @@ msgid ""
 "Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to use the "
 "fonts provided by this package under the X Window System, you must configure "
 "it to use defoma fonts."
-msgstr "msttcorefonts usa el «DEbian FOnt MAnager» (defoma). Si desea usar los tipos "
-"de letra suministrados con este paquete bajo el sistema «X Window», debe configurar "
-"éste, para usar los tipos de letra defoma "
+msgstr ""
+"msttcorefonts usa el «DEbian FOnt MAnager» (defoma). Si desea usar los tipos "
+"de letra suministrados con este paquete bajo el sistema «X Window», debe "
+"configurar éste, para usar los tipos de letra defoma "
 
 #. Type: note
 #. Description
@@ -181,12 +183,12 @@ msgid ""
 "sufficient for most people. However, if you'd like to use a different "
 "(possibly local) mirror instead, please enter the full URL to the directory "
 "containing the relevant files here. If not, just leave the field blank."
-msgstr "Este paquete ya contiene réplicas definidas, que son suficientes "
-"para la mayoría de personas. Sin embargo, si quisiera usar una réplica "
-"distinta (posiblemente una local) en vez de ésta, por favor ingrese aquí "
-"la URL completa al directorio que contiene los archivos necesarios. "
-"Si no, sólo deje el campo en blanco."
-""
+msgstr ""
+"Este paquete ya contiene réplicas definidas, que son suficientes para la "
+"mayoría de personas. Sin embargo, si quisiera usar una réplica distinta "
+"(posiblemente una local) en vez de ésta, por favor ingrese aquí la URL "
+"completa al directorio que contiene los archivos necesarios. Si no, sólo "
+"deje el campo en blanco."
 
 #. Type: string
 #. Description
@@ -201,7 +203,8 @@ msgid ""
 "If you need to use a proxy server, please enter it here (example: "
 "http://192.168.0.1:8080). This will cause the font files to be downloaded "
 "using your proxy."
-msgstr "Por favor, ingrese aquí si necesita usar un servidor proxy (por ejemplo: "
+msgstr ""
+"Por favor, ingrese aquí si necesita usar un servidor proxy (por ejemplo: "
 "http://192.168.0.1:8080). De esta forma los archivos de tipos de letra se "
 "descargarán a través del proxy."
 

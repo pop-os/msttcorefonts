@@ -4,16 +4,17 @@
 # André Luís Lopes <andrelop@debian.org>, 2007.
 #
 msgid ""
-msgstr "pt_BR utf-8\n"
+msgstr ""
 "Project-Id-Version: msttcorefonts\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
-"POT-Creation-Date: 2007-04-19 22:20+0200\n"
+"POT-Creation-Date: 2007-05-19 12:06+0200\n"
 "PO-Revision-Date: 2004-08-21 21:46-0300\n"
 "Last-Translator: André Luís Lopes <andrelop@debian.org>\n"
 "Language-Team: Debian-BR Project <debian-l10n-portuguese@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"pt_BR utf-8\n"
 
 #. Type: string
 #. Description
@@ -29,21 +30,21 @@ msgid ""
 "type the name of the directory which contains them. Those files are in the "
 "Microsoft Windows self-installing format, and are named andale32.exe, "
 "arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
-"exe, times32.exe, trebuc32.exe, verdan32.exe, wd97vwr32.exe and webdin32.exe."
+"exe, times32.exe, trebuc32.exe, verdan32.exe and webdin32.exe."
 msgstr ""
 "Caso você já tenha feito o download das TrueType Core Fonts para web da "
 "Microsoft, informe o nome do diretório onde você armazena essas fontes. "
 "Esses arquivos estão no formato de auto-instalação do Microsft Windows e são "
 "nomeados andale32.exe, arial32.exe, arialb32.exe, comic32.exe, courier32."
-"exe, georgi32.exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe, "
-"wd97vwr32.exe e webdin32.exe."
+"exe, georgi32.exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe "
+"e webdin32.exe."
 
 #. Type: string
 #. Description
 #: ../templates:1001
 msgid ""
 "If you haven't yet downloaded these fonts, leave this blank and the fonts "
-"will be downloaded for you. Approximately 8 MB will need to be downloaded."
+"will be downloaded for you. Approximately 4 MB will need to be downloaded."
 msgstr ""
 "Caso você ainda não tenha feito o download dessas fontes, mantenha este "
 "campo em branco e o download das mesmas será feito automaticamente para "
@@ -114,9 +115,9 @@ msgid ""
 "fonts provided by this package under the X Window System, you must configure "
 "it to use defoma fonts."
 msgstr ""
-"O msttcorefonts utiliza o Gerenciador de Fontes Debian (defoma). Caso "
-"vocè deseje usar as fontes fornecidas por este pacote sob o Sistema de "
-"Janelas X, você deverá configurá-lo para utilizar fontes defoma."
+"O msttcorefonts utiliza o Gerenciador de Fontes Debian (defoma). Caso vocè "
+"deseje usar as fontes fornecidas por este pacote sob o Sistema de Janelas X, "
+"você deverá configurá-lo para utilizar fontes defoma."
 
 #. Type: note
 #. Description
@@ -155,12 +156,12 @@ msgid ""
 "(possibly local) mirror instead, please enter the full URL to the directory "
 "containing the relevant files here. If not, just leave the field blank."
 msgstr ""
-"Este pacote já contém um conjunto de espelhos embutido, os quais devem "
-"ser suficientes para a maioria das pessoas. Porém, caso você deseje "
-"utilizar um espelho diferente (e possivelmente local), por favor, "
-"informe aqui a URL completa para o diretório que contém os arquivos "
-"relevantes. Caso não esteja interessado em fornecer um espelho "
-"diferente, simplesmente deixe o campo em branco."
+"Este pacote já contém um conjunto de espelhos embutido, os quais devem ser "
+"suficientes para a maioria das pessoas. Porém, caso você deseje utilizar um "
+"espelho diferente (e possivelmente local), por favor, informe aqui a URL "
+"completa para o diretório que contém os arquivos relevantes. Caso não esteja "
+"interessado em fornecer um espelho diferente, simplesmente deixe o campo em "
+"branco."
 
 #. Type: string
 #. Description
@@ -177,15 +178,14 @@ msgid ""
 "using your proxy."
 msgstr ""
 "Caso você precise utilizar um servidor proxy, por favor, informe-o aqui "
-"(exemplo: http://192.168.0.1:8080). Isto fará com que os arquivos de "
-"fontes sejam obtidos utilizando seu proxy."
+"(exemplo: http://192.168.0.1:8080). Isto fará com que os arquivos de fontes "
+"sejam obtidos utilizando seu proxy."
 
 #. Type: string
 #. Description
 #: ../templates:6001
 msgid "Leave this option blank if you don't use a proxy server."
-msgstr ""
-"Mantenha esta opção em branco caso você não utilize um servidor proxy."
+msgstr "Mantenha esta opção em branco caso você não utilize um servidor proxy."
 
 #~ msgid "These fonts are not free."
 #~ msgstr "Estas fontes não são livres/gratuitas."
