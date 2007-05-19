@@ -2,7 +2,6 @@
 set -e
 
 . /usr/share/debconf/confmodule
-#DEBHELPER#
 
 db_get msttcorefonts/dldir
 LOCALCOPY=$RET

@@ -190,4 +190,6 @@ if [ -z "$QUIETMODE" ] ; then
     fi
 fi
 
+#DEBHELPER#
+
 exit $EXITCODE

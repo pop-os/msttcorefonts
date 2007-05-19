@@ -1,3 +1,10 @@
+msttcorefonts (2.2) unstable; urgency=low
+
+  * Move debhelper defoma code down in postinst, so any script failures
+    will happen before the fonts are registered.
+
+ -- Thijs Kinkhorst <thijs@debian.org>  Sat, 19 May 2007 13:50:58 +0200
+
 msttcorefonts (2.1) unstable; urgency=low
 
   * Drop Tahoma font introduced in 2.0. Since it lacks a bold counterpart,
