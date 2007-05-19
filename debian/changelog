@@ -1,9 +1,11 @@
 msttcorefonts (2.1) unstable; urgency=low
 
+  * Drop Tahoma font introduced in 2.0. Since it lacks a bold counterpart,
+    it causes more trouble than it solves (Closes: #424852, #424864).
   * Add --no-directories and --no-background options to wget to
     override those when set by the user (Closes: #422535).
 
- -- Thijs Kinkhorst <thijs@debian.org>  Mon, 14 May 2007 18:39:05 +0200
+ -- Thijs Kinkhorst <thijs@debian.org>  Sat, 19 May 2007 11:17:15 +0200
 
 msttcorefonts (2.0) unstable; urgency=low
 

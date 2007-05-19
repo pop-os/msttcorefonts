@@ -237,20 +237,6 @@ begin /usr/share/fonts/truetype/msttcorefonts/Impact.ttf
   Foundry = Monotype
   Priority = 20
 end
-begin /usr/share/fonts/truetype/msttcorefonts/Tahoma.ttf
-  Family = Tahoma
-  FontName = Tahoma
-  Encoding = Unicode
-  Location = Magyar Dutch Spanish Czech Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
-  Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 ISO10646-1
-  UniCharset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-9 ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251
-  GeneralFamily = SansSerif
-  Weight = Medium
-  Width = Variable
-  Shape = NoSerif Upright Condensed
-  Foundry = Monotype
-  Priority = 20
-end
 begin /usr/share/fonts/truetype/msttcorefonts/Times_New_Roman.ttf
   Family = Times-New-Roman
   FontName = TimesNewRoman-Regular
