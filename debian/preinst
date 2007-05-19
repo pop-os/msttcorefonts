@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+# Remove Tahoma that was in v2.0. Only here to fix things
+# up for testing / unstable usersm this was never in stable.
+rm -f  /usr/share/fonts/truetype/msttcorefonts/Tahoma.ttf
+rm -f  /usr/share/fonts/truetype/msttcorefonts/tahoma.ttf
+
+#DEBHELPER#
+
