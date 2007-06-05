@@ -2,8 +2,9 @@ msttcorefonts (2.2) unstable; urgency=low
 
   * Move debhelper defoma code down in postinst, so any script failures
     will happen before the fonts are registered.
+  * Also deregister the removed Tahoma with defoma (Closes: #425228).
 
- -- Thijs Kinkhorst <thijs@debian.org>  Sat, 19 May 2007 13:50:58 +0200
+ -- Thijs Kinkhorst <thijs@debian.org>  Sun, 20 May 2007 15:35:37 +0200
 
 msttcorefonts (2.1) unstable; urgency=low
 
