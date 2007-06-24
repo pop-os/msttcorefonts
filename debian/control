@@ -6,7 +6,7 @@ Standards-Version: 3.7.2
 Build-Depends: debhelper (>> 5)
 Build-Depends-Indep: defoma
 Xs-Vcs-Svn: https://svn.kinkhorst.nl/svn/debian/msttcorefonts/trunk
-Xs-Vcs-Browse: https://aphrodite.kinkhorst.nl/wsvn/debian/msttcorefonts/
+Xs-Vcs-Browser: https://aphrodite.kinkhorst.nl/wsvn/debian/msttcorefonts/
 
 Package: msttcorefonts
 Architecture: all
