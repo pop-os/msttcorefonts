@@ -16,6 +16,7 @@ end
 begin /usr/share/fonts/truetype/msttcorefonts/Arial.ttf
   Family = Arial
   FontName = Arial-Regular
+  Alias = Helvetica
   Encoding = Unicode
   Location = Magyar Dutch Spanish Czech Vietnamese Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
   Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-6 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1
@@ -44,6 +45,7 @@ end
 begin /usr/share/fonts/truetype/msttcorefonts/Arial_Bold.ttf
   Family = Arial
   FontName = Arial-Bold
+  Alias = Helvetica-Bold
   Encoding = Unicode
   Location = Magyar Dutch Spanish Czech Vietnamese Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
   Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-6 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1
@@ -58,6 +60,7 @@ end
 begin /usr/share/fonts/truetype/msttcorefonts/Arial_Bold_Italic.ttf
   Family = Arial
   FontName = Arial-BoldItalic
+  Alias = Helvetica-BoldItalic
   Encoding = Unicode
   Location = Magyar Dutch Spanish Czech Vietnamese Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
   Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1
@@ -72,6 +75,7 @@ end
 begin /usr/share/fonts/truetype/msttcorefonts/Arial_Italic.ttf
   Family = Arial
   FontName = Arial-Italic
+  Alias = Helvetica-Italic
   Encoding = Unicode
   Location = Magyar Dutch Spanish Czech Vietnamese Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
   Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1
@@ -114,6 +118,7 @@ end
 begin /usr/share/fonts/truetype/msttcorefonts/Courier_New.ttf
   Family = Courier-New
   FontName = CourierNew-Regular
+  Alias = Courier
   Encoding = Unicode
   Location = Magyar Dutch Spanish Czech Vietnamese Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
   Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-6 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1
@@ -128,6 +133,7 @@ end
 begin /usr/share/fonts/truetype/msttcorefonts/Courier_New_Bold.ttf
   Family = Courier-New
   FontName = CourierNew-Bold
+  Alias = Courier-Bold
   Encoding = Unicode
   Location = Magyar Dutch Spanish Czech Vietnamese Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
   Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-6 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1
@@ -142,6 +148,7 @@ end
 begin /usr/share/fonts/truetype/msttcorefonts/Courier_New_Bold_Italic.ttf
   Family = Courier-New
   FontName = CourierNew-BoldItalic
+  Alias = Courier-BoldItalic
   Encoding = Unicode
   Location = Magyar Dutch Spanish Czech Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
   Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1
@@ -156,6 +163,7 @@ end
 begin /usr/share/fonts/truetype/msttcorefonts/Courier_New_Italic.ttf
   Family = Courier-New
   FontName = CourierNew-Italic
+  Alias = Courier-Italic
   Encoding = Unicode
   Location = Magyar Dutch Spanish Czech Vietnamese Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
   Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1
@@ -240,6 +248,7 @@ end
 begin /usr/share/fonts/truetype/msttcorefonts/Times_New_Roman.ttf
   Family = Times-New-Roman
   FontName = TimesNewRoman-Regular
+  Alias = Times-Roman
   Encoding = Unicode
   Location = Magyar Dutch Spanish Czech Vietnamese Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
   Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-6 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1
@@ -254,6 +263,7 @@ end
 begin /usr/share/fonts/truetype/msttcorefonts/Times_New_Roman_Bold.ttf
   Family = Times-New-Roman
   FontName = TimesNewRoman-Bold
+  Alias = Times-Bold
   Encoding = Unicode
   Location = Magyar Dutch Spanish Czech Vietnamese Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
   Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-6 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1
@@ -268,6 +278,7 @@ end
 begin /usr/share/fonts/truetype/msttcorefonts/Times_New_Roman_Bold_Italic.ttf
   Family = Times-New-Roman
   FontName = TimesNewRoman-BoldItalic
+  Alias = Times-BoldItalic
   Encoding = Unicode
   Location = Magyar Dutch Spanish Czech Vietnamese Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
   Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1
@@ -282,6 +293,7 @@ end
 begin /usr/share/fonts/truetype/msttcorefonts/Times_New_Roman_Italic.ttf
   Family = Times-New-Roman
   FontName = TimesNewRoman-Italic
+  Alias = Times-Italic
   Encoding = Unicode
   Location = Magyar Dutch Spanish Czech Vietnamese Russian English Catalan Slovak Italian Turkish Danish Slovenian Basque Portuguese German Polish Swedish Norwegian French Finnish Greek
   Charset = ISO8859-1 ISO8859-2 ISO8859-3 ISO8859-4 ISO8859-5 ISO8859-7 ISO8859-8 ISO8859-9 ISO8859-9e ISO8859-10 ISO8859-13 ISO8859-14 ISO8859-15 KOI8-R KOI8-U CP437 CP850 CP1251 CP1255 VISCII1.1-1 TCVN-5712 TATAR-CYR ISO10646-1

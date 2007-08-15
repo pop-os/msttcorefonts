@@ -1,9 +1,11 @@
 msttcorefonts (2.3) unstable; urgency=low
 
-  [ Translations ]
-  * Vietnamese by Clytie Siddall (Closes: #427179).
+  * Add Aliases to the defoma hints file for Arial (Helvetica),
+    Courier New (Courier) and Times New Roman (Times) variants.
+    Thanks Angus Lees for the pointer (Closes: #393746).
+  * Added Vietnamese translation by Clytie Siddall (Closes: #427179).
 
- -- Thijs Kinkhorst <thijs@debian.org>  Tue,  5 Jun 2007 21:18:20 +0200
+ -- Thijs Kinkhorst <thijs@debian.org>  Wed, 15 Aug 2007 23:26:16 +0200
 
 msttcorefonts (2.2) unstable; urgency=low
 
