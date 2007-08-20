@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: msttcorefonts 1.1.5\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
-"POT-Creation-Date: 2007-05-19 12:06+0200\n"
-"PO-Revision-Date: 2007-04-20 13:42+0200\n"
+"POT-Creation-Date: 2007-04-19 22:20+0200\n"
+"PO-Revision-Date: 2007-08-19 22:50+0200\n"
 "Last-Translator: Kenneth Nielsen <k.nielsen81@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
@@ -40,23 +40,23 @@ msgid ""
 "type the name of the directory which contains them. Those files are in the "
 "Microsoft Windows self-installing format, and are named andale32.exe, "
 "arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
-"exe, times32.exe, trebuc32.exe, verdan32.exe and webdin32.exe."
+"exe, times32.exe, trebuc32.exe, verdan32.exe, wd97vwr32.exe and webdin32.exe."
 msgstr ""
 "Hvis du allerede har hentet Microsofts \"TrueType Core Fonts\" til web, "
 "indtast da navnet på den mappe, som indeholder dem. Disse filer er i "
 "Microsoft Windows selv-udpakkende format, og er navngivet andale32.exe, "
 "arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
-"exe, times32.exe, trebuc32.exe, verdan32.exe og webdin32.exe."
+"exe, times32.exe, trebuc32.exe, verdan32.exe, wd97vwr32.exe og webdin32.exe."
 
 #. Type: string
 #. Description
 #: ../templates:1001
 msgid ""
 "If you haven't yet downloaded these fonts, leave this blank and the fonts "
-"will be downloaded for you. Approximately 4 MB will need to be downloaded."
+"will be downloaded for you. Approximately 8 MB will need to be downloaded."
 msgstr ""
 "Hvis du ikke har hentet disse skrifttyper, så lad feltet være tomt og "
-"skrifttyperne vil blive hentet for dig. Omkring 4 MB vil blive hentet."
+"skrifttyperne vil blive hentet for dig. Omkring 8 MB vil blive hentet."
 
 #. Type: string
 #. Description
@@ -152,7 +152,7 @@ msgstr ""
 #. Description
 #: ../templates:5001
 msgid "Mirror to download from:"
-msgstr ""
+msgstr "Spejl som der skal hentes fra:"
 
 #. Type: string
 #. Description
@@ -162,13 +162,13 @@ msgid ""
 "sufficient for most people. However, if you'd like to use a different "
 "(possibly local) mirror instead, please enter the full URL to the directory "
 "containing the relevant files here. If not, just leave the field blank."
-msgstr ""
+msgstr "Denne pakke indeholder allerede en indbygget liste af spejle hvilket burde være tilstrækkeligt for de fleste. Hvis du alligevel gerne vil bruge et andet spejl (muligvis lokalt), så indtast adressen til mappen der indeholder de relevante filer her. Hvis du ikke vil det så lad feltet være tomt."
 
 #. Type: string
 #. Description
 #: ../templates:6001
 msgid "HTTP proxy to use:"
-msgstr ""
+msgstr "HTTP proxy som skal bruges:"
 
 #. Type: string
 #. Description
@@ -177,13 +177,13 @@ msgid ""
 "If you need to use a proxy server, please enter it here (example: "
 "http://192.168.0.1:8080). This will cause the font files to be downloaded "
 "using your proxy."
-msgstr ""
+msgstr "Hvis du har brug for at anvende en proxy server så indtast dens adresse her (f.eks. http://192.168.0.1:8080). Det vil resultere i at skrifttypefilerne vil blive hentet ned via din proxy."
 
 #. Type: string
 #. Description
 #: ../templates:6001
 msgid "Leave this option blank if you don't use a proxy server."
-msgstr ""
+msgstr "Lad dette felt være tomt hvis du ikke bruger en proxy."
 
 #~ msgid "These fonts are not free."
 #~ msgstr "Disse skrifttyper er ikke \"frie\"."

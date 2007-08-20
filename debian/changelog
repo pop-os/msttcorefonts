@@ -4,8 +4,9 @@ msttcorefonts (2.3) unstable; urgency=low
     Courier New (Courier) and Times New Roman (Times) variants.
     Thanks Angus Lees for the pointer (Closes: #393746).
   * Added Vietnamese translation by Clytie Siddall (Closes: #427179).
+  * Updated Danish translation by Kenneth Nielsen.
 
- -- Thijs Kinkhorst <thijs@debian.org>  Wed, 15 Aug 2007 23:26:16 +0200
+ -- Thijs Kinkhorst <thijs@debian.org>  Mon, 20 Aug 2007 08:01:01 +0200
 
 msttcorefonts (2.2) unstable; urgency=low
 
