@@ -2,8 +2,10 @@ msttcorefonts (2.4) unstable; urgency=low
 
   * Fix typo in templates, unfuzzy translations.
   * Add Finnish translation by Esko Arajärvi (closes: #448957).
+  * cd out of scratchdir before removing it to prevent warning messages;
+    thanks Sven Joachim (closes: #438989, #425322).
 
- -- Thijs Kinkhorst <thijs@debian.org>  Sat,  3 Nov 2007 20:57:32 +0100
+ -- Thijs Kinkhorst <thijs@debian.org>  Sat,  3 Nov 2007 21:06:18 +0100
 
 msttcorefonts (2.3) unstable; urgency=low
 

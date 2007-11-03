@@ -180,6 +180,7 @@ elif [ -n "$FONTFILES" ] ; then
     awk '{print $4}' msfonts.info >> /var/lib/msttcorefonts/ms-fonts
 fi
 
+cd /
 rm -rf $SCRATCHDIR
 
 if [ -z "$QUIETMODE" ] ; then
