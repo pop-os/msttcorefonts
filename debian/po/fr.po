@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: msttcorefonts 1.1.5\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
-"POT-Creation-Date: 2007-05-19 12:06+0200\n"
+"POT-Creation-Date: 2007-11-03 20:56+0100\n"
 "PO-Revision-Date: 2007-04-26 14:06+0200\n"
 "Last-Translator: Yves Rütschlé <l10n@rutschle.net>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
@@ -95,7 +95,7 @@ msgstr ""
 #. Type: string
 #. Description
 #: ../templates:3001
-msgid "Where should these files be be archived (optional):"
+msgid "Where should these files be archived (optional):"
 msgstr "Emplacement d'archivage des fichiers (optionnel) :"
 
 #. Type: string

@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: msttcorefonts 1.5\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
-"POT-Creation-Date: 2007-05-19 12:06+0200\n"
+"POT-Creation-Date: 2007-11-03 20:56+0100\n"
 "PO-Revision-Date: 2007-04-21 19:42-0500\n"
 "Last-Translator: Steve Lord Flaubert <stonescenter@gmail.com>\n"
 "Language-Team: Spanish <debian-l10n-spanish@lists.debian.org>\n"
@@ -65,8 +65,7 @@ msgstr ""
 "tipos de letra «Microsoft TrueType Core» de un sitio web. Estos archivos "
 "están en el formato de instalación de Microsoft Windows, y se llaman "
 "andale32.exe, arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32."
-"exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe y "
-"webdin32.exe."
+"exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe y webdin32.exe."
 
 #. Type: string
 #. Description
@@ -114,7 +113,7 @@ msgstr ""
 #. Type: string
 #. Description
 #: ../templates:3001
-msgid "Where should these files be be archived (optional):"
+msgid "Where should these files be archived (optional):"
 msgstr "Lugar donde deben almacenarse estos archivos (opcional):"
 
 #. Type: string

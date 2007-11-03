@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: msttcorefonts 2.0\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
-"POT-Creation-Date: 2007-05-19 12:06+0200\n"
+"POT-Creation-Date: 2007-11-03 20:56+0100\n"
 "PO-Revision-Date: 2007-04-25 16:57+0200\n"
 "Last-Translator: Helge Kreutzmann <debian@helgefjell.de>\n"
 "Language-Team: German <debian-l10n-german@lists.debian.org>\n"
@@ -46,8 +46,8 @@ msgstr ""
 "haben, geben Sie den Namen des Verzeichnisses an, wo sie jetzt liegen. Diese "
 "Dateien liegen im selbst-entpackenden Format von Microsoft Windows vor und "
 "heißen andale32.exe, arial32.exe, arialb32.exe, comic32.exe, courie32.exe, "
-"georgi32.exe, impact32. exe, times32.exe, trebuc32.exe, verdan32.exe "
-"und webdin32.exe."
+"georgi32.exe, impact32. exe, times32.exe, trebuc32.exe, verdan32.exe und "
+"webdin32.exe."
 
 #. Type: string
 #. Description
@@ -96,7 +96,7 @@ msgstr ""
 #. Type: string
 #. Description
 #: ../templates:3001
-msgid "Where should these files be be archived (optional):"
+msgid "Where should these files be archived (optional):"
 msgstr "Wo sollen diese Dateien archiviert werden (optional):"
 
 #. Type: string

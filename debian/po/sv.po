@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: msttcorefonts\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
-"POT-Creation-Date: 2007-05-19 12:06+0200\n"
+"POT-Creation-Date: 2007-11-03 20:56+0100\n"
 "PO-Revision-Date: 2007-04-20 09:16+0100\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -89,7 +89,7 @@ msgstr ""
 #. Type: string
 #. Description
 #: ../templates:3001
-msgid "Where should these files be be archived (optional):"
+msgid "Where should these files be archived (optional):"
 msgstr "Var ska dessa filer arkiveras (valfritt):"
 
 #. Type: string

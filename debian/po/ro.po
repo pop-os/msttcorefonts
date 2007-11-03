@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ro\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
-"POT-Creation-Date: 2007-05-19 12:06+0200\n"
+"POT-Creation-Date: 2007-11-03 20:56+0100\n"
 "PO-Revision-Date: 2007-05-01 11:55+0300\n"
 "Last-Translator: Igor Stirbu <igor.stirbu@gmail.com>\n"
 "Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
@@ -89,7 +89,7 @@ msgstr ""
 #. Type: string
 #. Description
 #: ../templates:3001
-msgid "Where should these files be be archived (optional):"
+msgid "Where should these files be archived (optional):"
 msgstr "Unde se arhivează aceste fonturi (opțional):"
 
 #. Type: string

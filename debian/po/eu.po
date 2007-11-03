@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: msttcorefonts2.0-eu\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
-"POT-Creation-Date: 2007-05-19 12:06+0200\n"
+"POT-Creation-Date: 2007-11-03 20:56+0100\n"
 "PO-Revision-Date: 2007-04-19 21:24+0200\n"
 "Last-Translator: Piarres Beobide <pi@beobide.net>\n"
 "Language-Team: librezale <librezale@librezale.org>\n"
@@ -37,8 +37,7 @@ msgstr ""
 "hauek dauden direktorioaren kokalekua idatzi. Fitxategi hauek Microsoft "
 "Windows auto instalatze formatuan daude, eta andale32.exe, arial32.exe, "
 "arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32.exe, times32."
-"exe, trebuc32.exe, verdan32.exe eta webdin32.exe izenak "
-"dituzte."
+"exe, trebuc32.exe, verdan32.exe eta webdin32.exe izenak dituzte."
 
 #. Type: string
 #. Description
@@ -85,7 +84,7 @@ msgstr ""
 #. Type: string
 #. Description
 #: ../templates:3001
-msgid "Where should these files be be archived (optional):"
+msgid "Where should these files be archived (optional):"
 msgstr "Fitxategi hauek non gorde beharko diren (aukerakoa):"
 
 #. Type: string

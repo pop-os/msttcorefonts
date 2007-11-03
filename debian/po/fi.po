@@ -1,33 +1,22 @@
-# translation of msttfontstemplate.po to nederlands
-#
-#    Translators, if you are not familiar with the PO format, gettext
-#    documentation is worth reading, especially sections dedicated to
-#    this format, e.g. by running:
-#         info -n '(gettext)PO Files'
-#         info -n '(gettext)Header Entry'
-#    Some information specific to po-debconf are available at
-#            /usr/share/doc/po-debconf/README-trans
-#         or http://www.debian.org/intl/l10n/po-debconf/README-trans#
-#    Developers do not need to manually edit POT or PO files.
-# Esther <ehanko@xs4all.nl>, 2006.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: msttfontstemplate\n"
+"Project-Id-Version: msttcorefonts_2.3\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
 "POT-Creation-Date: 2007-11-03 20:56+0100\n"
-"PO-Revision-Date: 2007-05-01 12:02+0200\n"
-"Last-Translator: Thijs Kinkhorst <thijs@debian.org>\n"
-"Language-Team: nederlands <debian-l10n-dutch@lists.debian.org>\n"
+"PO-Revision-Date: 2007-11-01 23:16+0200\n"
+"Last-Translator: Esko Arajärvi <edu@iki.fi>\n"
+"Language-Team: Finnish <debian-l10n-finnish@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
 
 #. Type: string
 #. Description
 #: ../templates:1001
 msgid "Directory holding MS fonts (if already downloaded):"
-msgstr "De map met de MS-lettertypen (indien reeds gedownload):"
+msgstr "Hakemisto, jossa MS-fontit ovat (jos ne on jo ladattu):"
 
 #. Type: string
 #. Description
@@ -39,12 +28,11 @@ msgid ""
 "arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
 "exe, times32.exe, trebuc32.exe, verdan32.exe and webdin32.exe."
 msgstr ""
-"Als u de Microsoft TrueType-basislettertypen voor het web reeds gedownload "
-"heeft, voer dan hier de naam in van de map waar ze zijn opgeslagen. Deze "
-"bestanden zijn in het Microsoft Windows zelf-installerende formaat en hebben "
-"de volgende namen: andale32.exe, arial32.exe, arialb32.exe, comic32.exe, "
-"courie32.exe, georgi32.exe, impact32.exe, times32.exe, trebuc32.exe, "
-"verdan32.exe en webdin32.exe."
+"Jos Microsoftin TrueType-perusverkkofontit on jo ladattu, anna hakemiston "
+"nimi, jossa ne ovat. Tiedostot ovat Microsoft Windowsin itsestään "
+"asentuvassa muodossa ja ovat nimeltään andale32.exe, arial32.exe, arialb32."
+"exe, comic32.exe, courie32.exe, georgi32.exe, impact32.exe, times32.exe, "
+"trebuc32.exe, verdan32.exe ja webdin32.exe."
 
 #. Type: string
 #. Description
@@ -53,9 +41,8 @@ msgid ""
 "If you haven't yet downloaded these fonts, leave this blank and the fonts "
 "will be downloaded for you. Approximately 4 MB will need to be downloaded."
 msgstr ""
-"Als u de lettertypen nog niet heeft gedownload laat u dit leeg, de "
-"lettertypen worden dan voor u gedownload. Er wordt dan ongeveer 4 MB "
-"gedownload."
+"Jos fontteja ei ole vielä ladattu, jätä kenttä tyhjäksi. Tällöin fontit "
+"ladataan automaattisesti. Ladattavaa on noin 4 MB."
 
 #. Type: string
 #. Description
@@ -64,14 +51,14 @@ msgid ""
 "If you are not connected to the internet or do not wish to download these "
 "fonts now, enter \"none\" to abort."
 msgstr ""
-"Als u geen verbinding heeft met het internet of de lettertypen nu niet wilt "
-"downloaden, voert u \"none\" (geen) in om de installatie stop te zetten."
+"Jos koneessa ei ole Internet-yhteyttä tai et halua ladata fontteja nyt, "
+"syötä ”none” keskeyttääksesi asennuksen."
 
 #. Type: error
 #. Description
 #: ../templates:2001
 msgid "Font files not found"
-msgstr "Lettertypebestanden niet gevonden"
+msgstr "Fonttitiedostoja ei löytynyt"
 
 #. Type: error
 #. Description
@@ -83,17 +70,16 @@ msgid ""
 "expected by this script.  Please re-enter the directory containing the "
 "Microsoft font files or enter \"none\" to abort."
 msgstr ""
-"De map die u heeft ingevoerd bestaat niet, of bevat niet de Windows 9x "
-"versie van de zelf-installerende uitvoerbare bestanden voor de 'Microsoft "
-"TrueType-basislettertypen voor het web', of bevat een versie van die "
-"bestanden die dit script niet ondersteunt. Voer de map in waar de Microsoft "
-"lettertypebestanden in staan of voer \"none\" (geen) in om te stoppen."
+"Antamaasi hakemistoa ei ollut olemassa, se ei sisältänyt itsestään asentuvia "
+"Microsoftin TrueType-perusverkkofonttiohjelmia tai ohjelmien versiot eivät "
+"täsmänneet siihen, mitä tämä komentosarja odotti. Anna uudelleen hakemisto, "
+"jossa Microsoftin fonttitiedostot ovat, tai syötä ”none” keskeyttääksesi."
 
 #. Type: string
 #. Description
 #: ../templates:3001
 msgid "Where should these files be archived (optional):"
-msgstr "Waar moeten de bestanden gearchiveerd worden (dit is optioneel):"
+msgstr "Mihin nämä tiedostot tulisi arkistoida (vapaaehtoista):"
 
 #. Type: string
 #. Description
@@ -103,16 +89,15 @@ msgid ""
 "extracting files, enter the directory where you'd like them stored.  If you "
 "leave this blank, the files will be deleted after installation."
 msgstr ""
-"Als u graag een permanent archief zou willen hebben van de gecomprimeerde "
-"zelf-installerende bestanden, voer dan hier de map in waar u deze zou willen "
-"opslaan. Als u dit leeg laat, zullen de bestanden worden verwijderd na "
-"installatie."
+"Jos itsestään asentuvat Windows-tiedostot halutaan arkistoida pysyvästi, "
+"anna tiedosto, johon ne tallennetaan. Jos kenttä jätetään tyhjäksi, "
+"tiedostot poistetaan asennuksen jälkeen."
 
 #. Type: note
 #. Description
 #: ../templates:4001
 msgid "msttcorefonts uses defoma"
-msgstr "msttcorefonts maakt gebruik van defoma"
+msgstr "msttcorefonts käyttää defomaa"
 
 #. Type: note
 #. Description
@@ -122,9 +107,9 @@ msgid ""
 "fonts provided by this package under the X Window System, you must configure "
 "it to use defoma fonts."
 msgstr ""
-"Msttcorefonts maakt gebruik van defoma, de Debian-lettertypebeheerder. Als u "
-"de lettertypen die dit pakket levert wilt gebruiken in het X Window System, "
-"moet u deze configureren voor het gebruik van defoma-lettertypen."
+"Msttcorefonts käyttää DEbian FOnt MAnageria (defoma). Jos tämän paketin "
+"tarjoamia fontteja halutaan käyttää X-ikkunointijärjestelmässä, se tulee "
+"asettaa käyttämään defoma-fontteja."
 
 #. Type: note
 #. Description
@@ -134,9 +119,10 @@ msgid ""
 "information, install the x-ttcidfont-conf package and consult its "
 "documentation under /usr/share/doc/x-ttcidfont-conf."
 msgstr ""
-"De eenvoudigste manier om dat te doen is met behulp van het pakket x-"
-"ttcidfont-conf. Voor meer informatie installeert u het pakket x-ttcidfont-"
-"conf en raadpleegt u de documentatie in /usr/share/doc/x-ttcidfont-conf."
+"Helpoin tapa saada tämä aikaan on käyttää pakettia x-ttcidfont-conf. "
+"Lisätietoja saat asentamalla paketin x-ttcidfont-conf ja lukemalla sen "
+"(englanninkielisen) dokumentaation hakemistosta /usr/share/doc/x-ttcidfont-"
+"conf."
 
 #. Type: note
 #. Description
@@ -145,14 +131,14 @@ msgid ""
 "For uses of msttcorefonts not related to the X Window System (e.g. printing) "
 "this is not required."
 msgstr ""
-"Voor gebruik van msttcorefonts dat niet gerelateerd is aan het X Window "
-"System (zoals printen), is dit niet nodig."
+"Jos msttcorefontsia käytetään muuten kuin X-ikkunointijärjestelmän kanssa "
+"(esim. tulostuksessa), tätä ei tarvita."
 
 #. Type: string
 #. Description
 #: ../templates:5001
 msgid "Mirror to download from:"
-msgstr "Download van spiegelserver:"
+msgstr "Ladattaessa käytettävä peilipalvelin:"
 
 #. Type: string
 #. Description
@@ -163,16 +149,16 @@ msgid ""
 "(possibly local) mirror instead, please enter the full URL to the directory "
 "containing the relevant files here. If not, just leave the field blank."
 msgstr ""
-"Dit pakket bevat een vooringestelde set spiegelservers (mirrors), die "
-"toereikend zou moeten zijn voor de meeste gevallen. Wilt u echter een andere "
-"(bijvoorbeeld lokale) server gebruiken, geef hier dan de volledige URL die "
-"de relevante bestanden bevat. Indien niet, laat het veld dan leeg."
+"Paketti sisältää jo joukon peilipalvelimia, joiden tulisi riittää useimmissa "
+"tapauksissa. Jos kuitenkin haluat käyttää jotain muuta (mahdollisesti "
+"paikallista) peiliä, anna tiedostot sisältävän hakemiston täydellinen URL "
+"tähän. Jos et halua, jätä kenttä tyhjäksi."
 
 #. Type: string
 #. Description
 #: ../templates:6001
 msgid "HTTP proxy to use:"
-msgstr "Te gebruiken HTTP-proxy:"
+msgstr "Käytettävä HTTP-välityspalvelin:"
 
 #. Type: string
 #. Description
@@ -182,12 +168,12 @@ msgid ""
 "http://192.168.0.1:8080). This will cause the font files to be downloaded "
 "using your proxy."
 msgstr ""
-"Als u een proxyserver moet gebruiken, geef die dan hier op (b.v.: "
-"http://192.168.0.1:8080). De lettertypes zullen dan via de proxy gedownload "
-"worden."
+"Jos sinun tarvitsee käyttää välityspalvelinta, syötä se tähän (esimerkiksi: "
+"http://192.168.0.1:8080). Tällöin fonttitiedostot ladataan välityspalvelimen "
+"kautta."
 
 #. Type: string
 #. Description
 #: ../templates:6001
 msgid "Leave this option blank if you don't use a proxy server."
-msgstr "Als u geen proxyserver wilt gebruiken, laat dit dan leeg."
+msgstr "Jätä kenttä tyhjäksi, jos et käytä välityspalvelinta."

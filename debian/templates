@@ -24,7 +24,7 @@ _Description: Font files not found
 
 Template: msttcorefonts/savedir
 Type: string
-_Description: Where should these files be be archived (optional):
+_Description: Where should these files be archived (optional):
  If you would like to keep a permanent archive of the compressed Windows
  self extracting files, enter the directory where you'd like them stored. 
  If you leave this blank, the files will be deleted after installation.

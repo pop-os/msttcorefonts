@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
-"POT-Creation-Date: 2007-05-19 12:06+0200\n"
+"POT-Creation-Date: 2007-11-03 20:56+0100\n"
 "PO-Revision-Date: 2004-08-18 16:14+0300\n"
 "Last-Translator: Mantas Kriaučiūnas <mantas@akl.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
@@ -46,8 +46,7 @@ msgstr ""
 "TrueType šriftus, nurodykite katalogą, kuriame jie yra. Jie turi būti "
 "automatiškai išsipakuojančių MS Windows archyvų (cab) formate, pavadinti "
 "andale32.exe, arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32."
-"exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe ir "
-"webdin32.exe."
+"exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe ir webdin32.exe."
 
 #. Type: string
 #. Description
@@ -95,7 +94,7 @@ msgstr ""
 #. Type: string
 #. Description
 #: ../templates:3001
-msgid "Where should these files be be archived (optional):"
+msgid "Where should these files be archived (optional):"
 msgstr "Vieta, kur šios bylos turi būti išsaugotos (nebūtina):"
 
 #. Type: string

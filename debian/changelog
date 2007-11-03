@@ -1,3 +1,10 @@
+msttcorefonts (2.4) unstable; urgency=low
+
+  * Fix typo in templates, unfuzzy translations.
+  * Add Finnish translation by Esko Arajärvi (closes: #448957).
+
+ -- Thijs Kinkhorst <thijs@debian.org>  Sat,  3 Nov 2007 20:57:32 +0100
+
 msttcorefonts (2.3) unstable; urgency=low
 
   * Add Aliases to the defoma hints file for Arial (Helvetica),

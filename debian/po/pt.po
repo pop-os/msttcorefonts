@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: msttcorefonts 1.2\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
-"POT-Creation-Date: 2007-05-19 12:06+0200\n"
+"POT-Creation-Date: 2007-11-03 20:56+0100\n"
 "PO-Revision-Date: 2007-04-20 19:05+0100\n"
 "Last-Translator: Rui Branco <ruipb@netcabo.pt>\n"
 "Language-Team: Portuguese <traduz@debianpt.org>\n"
@@ -37,8 +37,8 @@ msgstr ""
 "Fonts for the web, introduza o nome do directório que os contém. Estes "
 "ficheiros estarão no formato auto-instalável Microsoft Windows, e têm como "
 "nome andale32.exe, arial32.exe, arialb32.exe, comic32.exe, courie32.exe, "
-"georgi32.exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe "
-"e webdin32.exe."
+"georgi32.exe, impact32.exe, times32.exe, trebuc32.exe, verdan32.exe e "
+"webdin32.exe."
 
 #. Type: string
 #. Description
@@ -86,7 +86,7 @@ msgstr ""
 #. Type: string
 #. Description
 #: ../templates:3001
-msgid "Where should these files be be archived (optional):"
+msgid "Where should these files be archived (optional):"
 msgstr "Onde deverão ser armazenados os ficheiros (opcional):"
 
 #. Type: string
