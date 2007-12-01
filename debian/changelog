@@ -1,3 +1,10 @@
+msttcorefonts (2.5) unstable; urgency=low
+
+  * Move defoma debconf template to README. Not having defoma configured but
+    requiring it is getting rare, so debconf is overkill.
+
+ -- Thijs Kinkhorst <thijs@debian.org>  Sat,  1 Dec 2007 15:48:45 +0100
+
 msttcorefonts (2.4) unstable; urgency=low
 
   * Fix typo in templates, unfuzzy translations.

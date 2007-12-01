@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
-"POT-Creation-Date: 2007-11-03 20:56+0100\n"
+"POT-Creation-Date: 2007-12-01 15:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,47 +81,15 @@ msgid ""
 "leave this blank, the files will be deleted after installation."
 msgstr ""
 
-#. Type: note
-#. Description
-#: ../templates:4001
-msgid "msttcorefonts uses defoma"
-msgstr ""
-
-#. Type: note
-#. Description
-#: ../templates:4001
-msgid ""
-"Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to use the "
-"fonts provided by this package under the X Window System, you must configure "
-"it to use defoma fonts."
-msgstr ""
-
-#. Type: note
-#. Description
-#: ../templates:4001
-msgid ""
-"The easiest way to do so is to use the x-ttcidfont-conf package. For more "
-"information, install the x-ttcidfont-conf package and consult its "
-"documentation under /usr/share/doc/x-ttcidfont-conf."
-msgstr ""
-
-#. Type: note
-#. Description
-#: ../templates:4001
-msgid ""
-"For uses of msttcorefonts not related to the X Window System (e.g. printing) "
-"this is not required."
-msgstr ""
-
 #. Type: string
 #. Description
-#: ../templates:5001
+#: ../templates:4001
 msgid "Mirror to download from:"
 msgstr ""
 
 #. Type: string
 #. Description
-#: ../templates:5001
+#: ../templates:4001
 msgid ""
 "This package already contains a built-in set of mirrors, which should be "
 "sufficient for most people. However, if you'd like to use a different "
@@ -131,13 +99,13 @@ msgstr ""
 
 #. Type: string
 #. Description
-#: ../templates:6001
+#: ../templates:5001
 msgid "HTTP proxy to use:"
 msgstr ""
 
 #. Type: string
 #. Description
-#: ../templates:6001
+#: ../templates:5001
 msgid ""
 "If you need to use a proxy server, please enter it here (example: "
 "http://192.168.0.1:8080). This will cause the font files to be downloaded "
@@ -146,6 +114,6 @@ msgstr ""
 
 #. Type: string
 #. Description
-#: ../templates:6001
+#: ../templates:5001
 msgid "Leave this option blank if you don't use a proxy server."
 msgstr ""

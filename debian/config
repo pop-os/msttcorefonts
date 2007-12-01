@@ -112,14 +112,3 @@ if [ -n "$NEEDUPDATE" ] ; then
   fi
 fi
 
-# check if X is configured for defoma
-
-XCONF=/etc/X11/xorg.conf
-
-if [ -e $XCONF ] ; then
- if ! grep -q '/var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType' $XCONF ; then
-     db_input high msttcorefonts/defoma || true
-     db_go
-  fi
-fi
-

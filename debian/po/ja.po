@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: msttcorefonts 2.0\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
-"POT-Creation-Date: 2007-11-03 20:56+0100\n"
+"POT-Creation-Date: 2007-12-01 15:50+0100\n"
 "PO-Revision-Date: 2007-04-21 18:39+0900\n"
 "Last-Translator: Hideki Yamane (Debian-JP) <henrich@debian.or.jp>\n"
 "Language-Team: Japanese <debian-japanese@lists.debian.org>\n"
@@ -107,55 +107,15 @@ msgstr ""
 "たいディレクトリを入力してください。空のままにしておくと、ファイルはインス"
 "トール後に削除されます。"
 
-#. Type: note
-#. Description
-#: ../templates:4001
-msgid "msttcorefonts uses defoma"
-msgstr "msttcorefonts では defoma を利用します"
-
-#. Type: note
-#. Description
-#: ../templates:4001
-msgid ""
-"Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to use the "
-"fonts provided by this package under the X Window System, you must configure "
-"it to use defoma fonts."
-msgstr ""
-"mscorefonts は DEbian FOnt MAnager (defoma) を利用しています。X Window "
-"System で、このパッケージのフォントを利用したい場合、defoma のフォント管理で"
-"このフォントを利用するように設定する必要があります。"
-
-#. Type: note
-#. Description
-#: ../templates:4001
-msgid ""
-"The easiest way to do so is to use the x-ttcidfont-conf package. For more "
-"information, install the x-ttcidfont-conf package and consult its "
-"documentation under /usr/share/doc/x-ttcidfont-conf."
-msgstr ""
-"最も簡単なのは x-ttcidfont-conf パッケージを使う方法です。より詳細について"
-"は、x-ttcidfont-conf をインストールして /usr/share/doc/x-ttcidfont-conf 以下"
-"のドキュメントに従ってください。"
-
-#. Type: note
-#. Description
-#: ../templates:4001
-msgid ""
-"For uses of msttcorefonts not related to the X Window System (e.g. printing) "
-"this is not required."
-msgstr ""
-"msttcorefonts を利用するのに X Window System は関係がない (例えば印刷) ので、"
-"必要ではありません。"
-
 #. Type: string
 #. Description
-#: ../templates:5001
+#: ../templates:4001
 msgid "Mirror to download from:"
 msgstr "ダウンロード先のミラー:"
 
 #. Type: string
 #. Description
-#: ../templates:5001
+#: ../templates:4001
 msgid ""
 "This package already contains a built-in set of mirrors, which should be "
 "sufficient for most people. However, if you'd like to use a different "
@@ -169,13 +129,13 @@ msgstr ""
 
 #. Type: string
 #. Description
-#: ../templates:6001
+#: ../templates:5001
 msgid "HTTP proxy to use:"
 msgstr "利用するプロキシ:"
 
 #. Type: string
 #. Description
-#: ../templates:6001
+#: ../templates:5001
 msgid ""
 "If you need to use a proxy server, please enter it here (example: "
 "http://192.168.0.1:8080). This will cause the font files to be downloaded "
@@ -187,9 +147,37 @@ msgstr ""
 
 #. Type: string
 #. Description
-#: ../templates:6001
+#: ../templates:5001
 msgid "Leave this option blank if you don't use a proxy server."
 msgstr "プロキシを使わないという人はここで何も入力しないでください。"
+
+#~ msgid "msttcorefonts uses defoma"
+#~ msgstr "msttcorefonts では defoma を利用します"
+
+#~ msgid ""
+#~ "Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to use "
+#~ "the fonts provided by this package under the X Window System, you must "
+#~ "configure it to use defoma fonts."
+#~ msgstr ""
+#~ "mscorefonts は DEbian FOnt MAnager (defoma) を利用しています。X Window "
+#~ "System で、このパッケージのフォントを利用したい場合、defoma のフォント管理"
+#~ "でこのフォントを利用するように設定する必要があります。"
+
+#~ msgid ""
+#~ "The easiest way to do so is to use the x-ttcidfont-conf package. For more "
+#~ "information, install the x-ttcidfont-conf package and consult its "
+#~ "documentation under /usr/share/doc/x-ttcidfont-conf."
+#~ msgstr ""
+#~ "最も簡単なのは x-ttcidfont-conf パッケージを使う方法です。より詳細について"
+#~ "は、x-ttcidfont-conf をインストールして /usr/share/doc/x-ttcidfont-conf 以"
+#~ "下のドキュメントに従ってください。"
+
+#~ msgid ""
+#~ "For uses of msttcorefonts not related to the X Window System (e.g. "
+#~ "printing) this is not required."
+#~ msgstr ""
+#~ "msttcorefonts を利用するのに X Window System は関係がない (例えば印刷) の"
+#~ "で、必要ではありません。"
 
 #~ msgid "These fonts are not free."
 #~ msgstr "これらのフォントはフリーではありません。"

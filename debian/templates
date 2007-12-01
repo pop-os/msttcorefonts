@@ -29,20 +29,6 @@ _Description: Where should these files be archived (optional):
  self extracting files, enter the directory where you'd like them stored. 
  If you leave this blank, the files will be deleted after installation.
 
-Template: msttcorefonts/defoma
-Type: note
-_Description: msttcorefonts uses defoma
- Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to
- use the fonts provided by this package under the X Window System,
- you must configure it to use defoma fonts.
- .
- The easiest way to do so is to use the x-ttcidfont-conf package.
- For more information, install the x-ttcidfont-conf package and consult
- its documentation under /usr/share/doc/x-ttcidfont-conf.
- .
- For uses of msttcorefonts not related to the X Window System
- (e.g. printing) this is not required.
-
 Template: msttcorefonts/dlurl
 Type: string
 _Description: Mirror to download from:
