@@ -13,8 +13,9 @@ msttcorefonts (2.5) unstable; urgency=low
   * Remove set -e from prerm, because if msttcorefonts is not properly
     installed defoma-font may fail and we're still well uninstalled.
     (Closes: #461926)
+  * Update mirror list.
 
- -- Thijs Kinkhorst <thijs@debian.org>  Sat, 14 Jun 2008 16:26:26 +0200
+ -- Thijs Kinkhorst <thijs@debian.org>  Sat, 14 Jun 2008 16:36:00 +0200
 
 msttcorefonts (2.4) unstable; urgency=low
 
