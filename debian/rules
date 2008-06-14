@@ -38,6 +38,7 @@ binary-indep: build install
 	dh_installdocs
 	dh_installdefoma
 	dh_installchangelogs 
+	dh_lintian
 	dh_link
 	dh_strip
 	dh_compress

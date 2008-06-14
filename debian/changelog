@@ -2,7 +2,8 @@ msttcorefonts (2.5) unstable; urgency=low
 
   * Move defoma debconf template to README. Not having defoma configured but
     requiring it is getting rare, so debconf is overkill.
-  * Checked for policy 3.8.0, updated debian/copyright.
+  * Checked for policy 3.8.0, updated debian/copyright. Add Lintian
+    override for emtpy fonts dir. Updated to debhelper 6.
 
  -- Thijs Kinkhorst <thijs@debian.org>  Sat, 14 Jun 2008 15:26:34 +0200
 
