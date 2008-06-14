@@ -8,5 +8,9 @@ for this package.
 
 The full text of the GPL is available in /usr/share/common-licenses/GPL.
 
+This package is not part of the Debian GNU/Linux system but located in
+the contrib section. This is because it's not functional in and of itself
+but depends on downloading the fonts which are not under a free licence.
+
 Please read the READ_ME!.gz file in /usr/share/doc/msttcorefonts for
 licensing terms for the fonts themselves.
