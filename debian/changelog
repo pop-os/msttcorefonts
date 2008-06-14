@@ -6,7 +6,7 @@ msttcorefonts (2.5) unstable; urgency=low
     override for emtpy fonts dir. Updated to debhelper 6.
   * Suggest ttf-liberation, not available from Debian yet but is available
     to users of debian-multimedia.
-  * Drop prerm script that was only present to clean up for unstable/testing
+  * Drop preinst script that was only present to clean up for unstable/testing
     users that installed 2.0 - we've given them a year and it shouldn't
     pollute stable.
 

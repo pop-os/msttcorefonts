@@ -1,0 +1,14 @@
+#!/bin/sh
+set -e
+
+#DEBHELPER#
+
+if [ "$1" = "remove" ] && [ -e /var/lib/msttcorefonts/ms-fonts ]; then
+        cd /usr/share/fonts/truetype/msttcorefonts
+	rm -f `cat /var/lib/msttcorefonts/ms-fonts`
+	rm -f '/usr/share/doc/msttcorefonts/READ_ME!.gz'
+        rm -r /var/lib/msttcorefonts/ms-fonts
+        rmdir --ignore-fail-on-non-empty /usr/share/fonts/truetype/msttcorefonts
+fi
+
+exit 0
