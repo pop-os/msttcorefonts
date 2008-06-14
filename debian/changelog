@@ -10,8 +10,11 @@ msttcorefonts (2.5) unstable; urgency=low
   * Drop preinst script that was only present to clean up for unstable/testing
     users that installed 2.0 - we've given them a year and it shouldn't
     pollute stable.
+  * Remove set -e from prerm, because if msttcorefonts is not properly
+    installed defoma-font may fail and we're still well uninstalled.
+    (Closes: #461926)
 
- -- Thijs Kinkhorst <thijs@debian.org>  Sat, 14 Jun 2008 15:26:34 +0200
+ -- Thijs Kinkhorst <thijs@debian.org>  Sat, 14 Jun 2008 16:26:26 +0200
 
 msttcorefonts (2.4) unstable; urgency=low
 
