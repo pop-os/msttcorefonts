@@ -4,6 +4,8 @@ msttcorefonts (2.5) unstable; urgency=low
     requiring it is getting rare, so debconf is overkill.
   * Checked for policy 3.8.0, updated debian/copyright. Add Lintian
     override for emtpy fonts dir. Updated to debhelper 6.
+  * Suggest ttf-liberation, not available from Debian yet but is available
+    to users of debian-multimedia.
 
  -- Thijs Kinkhorst <thijs@debian.org>  Sat, 14 Jun 2008 15:26:34 +0200
 
