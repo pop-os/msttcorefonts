@@ -3,7 +3,8 @@ msttcorefonts (2.5) unstable; urgency=low
   * Move defoma debconf template to README. Not having defoma configured but
     requiring it is getting rare, so debconf is overkill.
   * Checked for policy 3.8.0, updated debian/copyright. Add Lintian
-    override for emtpy fonts dir. Updated to debhelper 6.
+    override for emtpy fonts dir. Updated to debhelper 6. Drop version
+    specification for debconf for pre-etch debconf version.
   * Suggest ttf-liberation, not available from Debian yet but is available
     to users of debian-multimedia.
   * Drop preinst script that was only present to clean up for unstable/testing
