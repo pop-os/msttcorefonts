@@ -1,7 +1,14 @@
+LIBERATION FONTS
+----------------
+
+The package ttf-liberation contains free variants of the Times,
+Arial and Courier fonts. We recommend to use that instead unless you
+specifically need one of the other fonts from this package.
+
 DEFOMA
 ------
 
-Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to
+This package uses the DEbian FOnt MAnager (defoma). If you wish to
 use the fonts provided by this package under the X Window System,
 you must configure it to use defoma fonts.
 
@@ -9,5 +16,5 @@ The easiest way to do so is to use the x-ttcidfont-conf package.
 For more information, install the x-ttcidfont-conf package and consult
 its documentation under /usr/share/doc/x-ttcidfont-conf.
 
-For uses of msttcorefonts not related to the X Window System
+For uses of these fonts not related to the X Window System
 (e.g. printing) this is not required.

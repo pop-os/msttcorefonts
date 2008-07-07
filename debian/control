@@ -8,11 +8,13 @@ Build-Depends-Indep: defoma
 Vcs-Svn: https://svn.kinkhorst.nl/svn/debian/msttcorefonts/trunk
 Vcs-Browser: https://aphrodite.kinkhorst.nl/wsvn/debian/msttcorefonts/
 
-Package: msttcorefonts
+Package: ttf-mscorefonts-installer
 Architecture: all
 Depends: wget, cabextract, xfonts-utils, debconf | cdebconf, defoma
-Recommends: x-ttcidfont-conf
-Suggests: ttf-liberation
+Recommends: ttf-liberation, x-ttcidfont-conf
+Provides: msttcorefonts
+Replaces: msttcorefonts (<< 2.6)
+Conflicts: msttcorefonts (<< 2.6)
 Description: Installer for Microsoft TrueType core fonts
  This package allows for easy installation of the Microsoft True Type
  Core Fonts for the Web including:
@@ -31,3 +33,14 @@ Description: Installer for Microsoft TrueType core fonts
  .
  You will need an Internet connection to download these fonts if you
  don't already have them.
+ .
+ NOTE: the package ttf-liberation contains free variants of the Times,
+ Arial and Courier fonts. We recommend to use that instead unless you
+ specifically need one of the other fonts from this package.
+
+Package: msttcorefonts
+Depends: ttf-mscorefonts-installer
+Architecture: all
+Description: transitional dummy package
+ This package exists to facilitate upgrades to ttf-mscorefonts-installer.
+ It can safely be removed from your system.

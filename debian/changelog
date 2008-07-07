@@ -1,3 +1,14 @@
+msttcorefonts (2.6) unstable; urgency=low
+
+  * Rename package to ttf-mscorefonts-installer.
+    This is in line with all other TrueType fonts in Debian and makes
+    it clear that the package doesn't actually include the fonts but
+    is a downloader package (Closes: #286154).
+  * Move ttf-liberation to Recommends and advertise it more prominently,
+    now that it is in Debian main.
+
+ -- Thijs Kinkhorst <thijs@debian.org>  Mon, 07 Jul 2008 22:22:28 +0200
+
 msttcorefonts (2.5) unstable; urgency=low
 
   * Move defoma debconf template to README. Not having defoma configured but

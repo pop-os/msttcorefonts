@@ -1,6 +1,9 @@
 #!/bin/sh
 set -e
 
+# Transitional for package rename, can be removed after lenny:
+rm -f /etc/defoma/hints/msttcorefonts.hints
+
 . /usr/share/debconf/confmodule
 
 db_get msttcorefonts/dldir
