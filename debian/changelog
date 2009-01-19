@@ -1,3 +1,10 @@
+msttcorefonts (2.7) unstable; urgency=low
+
+  * Updated Galician debconf translation, thanks Marce Villarino
+    (closes: #512245).
+
+ -- Thijs Kinkhorst <thijs@debian.org>  Mon, 19 Jan 2009 20:55:45 +0100
+
 msttcorefonts (2.6) unstable; urgency=low
 
   * Rename package to ttf-mscorefonts-installer.
