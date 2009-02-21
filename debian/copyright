@@ -2,11 +2,11 @@ This is msttcorefonts, originally created by Eric Sharkey <sharkey@debian.org>
 on Sun Sep 17 13:34:12 EDT 2000.
 
 The packaging and the update-ms-fonts script are
-Copyright (C) 2000 Eric Sharkey, and subject to the GPL.  Special thanks
-to Chris Lawrence, who's xanim-modules installer provided inspiration
-for this package.
+Copyright (C) 2000 Eric Sharkey, and subject to the GPL, version 2 or later.
+Special thanks to Chris Lawrence, who's xanim-modules installer provided
+inspiration for this package.
 
-The full text of the GPL is available in /usr/share/common-licenses/GPL.
+The full text of the GPL is available in /usr/share/common-licenses/GPL
 
 This package is not part of the Debian GNU/Linux system but located in
 the contrib section. This is because it's not functional in and of itself
