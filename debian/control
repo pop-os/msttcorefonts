@@ -38,9 +38,3 @@ Description: Installer for Microsoft TrueType core fonts
  Arial and Courier fonts. We recommend to use that instead unless you
  specifically need one of the other fonts from this package.
 
-Package: msttcorefonts
-Depends: ttf-mscorefonts-installer
-Architecture: all
-Description: transitional dummy package
- This package exists to facilitate upgrades to ttf-mscorefonts-installer.
- It can safely be removed from your system.
