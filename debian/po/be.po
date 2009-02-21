@@ -1,0 +1,125 @@
+# translation of msttcorefonts_2.7_be.po to Belarusian (Official spelling)
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Pavel Piatruk <piatruk.p@gmail.com>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: msttcorefonts_2.7_be\n"
+"Report-Msgid-Bugs-To: thijs@debian.org\n"
+"POT-Creation-Date: 2007-12-01 15:50+0100\n"
+"PO-Revision-Date: 2009-02-20 03:17+0200\n"
+"Last-Translator: Pavel Piatruk <piatruk.p@gmail.com>\n"
+"Language-Team: Belarusian (Official spelling) <be@d-i.tanatos.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid "Directory holding MS fonts (if already downloaded):"
+msgstr "Каталог, што ўтрымлівае шрыфты MS (калі яны ўжо спампаваны):"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"If you have already downloaded Microsoft's TrueType Core Fonts for the web, "
+"type the name of the directory which contains them. Those files are in the "
+"Microsoft Windows self-installing format, and are named andale32.exe, "
+"arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
+"exe, times32.exe, trebuc32.exe, verdan32.exe and webdin32.exe."
+msgstr ""
+"Калі Вы ўжо спампавалі \"Шрыфты Microsoft TrueType для сеціва\", увядзіце назву каталога, дзе яны знаходзяцца. Гэта файлы ў сама-ўсталявальным файрмаце Microsoft Windows і найменаваныя andale32.exe, "
+"arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
+"exe, times32.exe, trebuc32.exe, verdan32.exe ды webdin32.exe"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"If you haven't yet downloaded these fonts, leave this blank and the fonts "
+"will be downloaded for you. Approximately 4 MB will need to be downloaded."
+msgstr "Калі Вы яшчэ не спампавалі гэтых шрыфтоў, пакіньце поле пустым і шрыфты спампуюцца. Будзе спампавана прыблізна 4 MB."
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"If you are not connected to the internet or do not wish to download these "
+"fonts now, enter \"none\" to abort."
+msgstr "Калі не злучаны з інтэрнэтам або не хочаце спампоўваць шрыфтоў, увядзіце \"none\" для сканчэння."
+
+#. Type: error
+#. Description
+#: ../templates:2001
+msgid "Font files not found"
+msgstr "Файлы шрыфтоў не знойдзены"
+
+#. Type: error
+#. Description
+#: ../templates:2001
+msgid ""
+"The directory you entered either did not exist, did not contain the "
+"Microsoft TrueType Core Fonts for the Web Microsoft Windows 9x self "
+"installing executables, or those executables did not match the versions "
+"expected by this script.  Please re-enter the directory containing the "
+"Microsoft font files or enter \"none\" to abort."
+msgstr "Каталог, які вы ўвялі, або не існуе, або не змяшчае самаўсталявальных выканальных файлаў \"Шрыфтоў Microsoft TrueType\", або версіі файлаў не адпавядаюць патрабаванням гэтага скрыпта. Калі ласка, паўторна вызначце каталог, дзе знаходзяцца файлы шрыфтоў Microsoft, або ўвядзіце \"none\" для сканчэння."
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Where should these files be archived (optional):"
+msgstr "Дзе будуць захоўвацца гэтыя файлы (неабавязкова):"
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid ""
+"If you would like to keep a permanent archive of the compressed Windows self "
+"extracting files, enter the directory where you'd like them stored.  If you "
+"leave this blank, the files will be deleted after installation."
+msgstr "Калі жадаеце трымаць пастаянны архіў са сціснутымі самаўсталявальнымі файламі Windows, увядзіце каталог, дзе яны будуць захоўвацца. Калі пакінеце поле пустым, файлы будуць выдалены пасля ўстаноўкі."
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid "Mirror to download from:"
+msgstr "Люстэрка, адкуль спампаваць:"
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid ""
+"This package already contains a built-in set of mirrors, which should be "
+"sufficient for most people. However, if you'd like to use a different "
+"(possibly local) mirror instead, please enter the full URL to the directory "
+"containing the relevant files here. If not, just leave the field blank."
+msgstr ""
+"Гэты пакет ужо змяшчае ўбудуваны набор люстэркаў, што ёсць дастатковым для большасці карыстальнікаў. Аднак, калі замест гэтага жадаеце выкарыстаць іншае"
+"(верагодна, лакальнае) люстэрка, то ўвядзіце поўны URL да каталога з патрэбнымі файламі. Інакш пакіньце поле пустым."
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "HTTP proxy to use:"
+msgstr "Проксі для HTTP:"
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid ""
+"If you need to use a proxy server, please enter it here (example: "
+"http://192.168.0.1:8080). This will cause the font files to be downloaded "
+"using your proxy."
+msgstr "Калі вы карыстаецеся проксі, увядзіце яго адрас тут (прыклад: http://192.168.0.1:8080). Гэта спрычыніць тое, што файлы шрыфтоў будуць спампаваныя праз проксі."
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "Leave this option blank if you don't use a proxy server."
+msgstr "Пакіньце поле пустым, калі не карыстаецеся проксі-серверам."
+
