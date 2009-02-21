@@ -59,41 +59,41 @@ chmod 0755 $SCRATCHDIR
 cd $SCRATCHDIR
 
 cat <<EOF > msfonts.info
-663974c9fe3ba55b228724fd4d4e445f  Andale_Mono.ttf                 andale32.exe andalemo.ttf
-3e7043e8125f1c8998347310f2c315bc  Arial_Black.ttf                 arialb32.exe ariblk.ttf
-f11c0317db527bdd80fa0afa04703441  Arial.ttf                       arial32.exe  arial.ttf
-34cd8fd9e4fae9f075d4c9a2c971d065  Arial_Bold.ttf                  arial32.exe  arialbd.ttf
-a2b3bcdb39097b6aed17a766652b92b2  Arial_Bold_Italic.ttf           arial32.exe  arialbi.ttf
-25633f73d92a0646e733e50cf2cc3b07  Arial_Italic.ttf                arial32.exe  ariali.ttf
-a50f9c96a76356e3d01013e0b042989f  Comic_Sans_MS.ttf               comic32.exe  comic.ttf
-81d64ec3675c4adc14e9ad2c5c8103a7  Comic_Sans_MS_Bold.ttf          comic32.exe  comicbd.ttf
-20f23317e90516cbb7d38bd53b3d1c5b  Courier_New.ttf                 courie32.exe cour.ttf
-7d94f95bf383769b51379d095139f2d7  Courier_New_Bold.ttf            courie32.exe courbd.ttf
-167e27add66e9e8eb0d28a1235dd3bda  Courier_New_Italic.ttf          courie32.exe couri.ttf
-da414c01f951b020bb09a4165d3fb5fa  Courier_New_Bold_Italic.ttf     courie32.exe courbi.ttf
-f4b306eed95aa7d274840533be635532  Georgia.ttf                     georgi32.exe georgia.ttf
-c61b355a5811e56ed3d7cea5d67c900e  Georgia_Bold.ttf                georgi32.exe georgiab.ttf
-1e4e5d1975bdf4a5c648afbf8872fa13  Georgia_Italic.ttf              georgi32.exe georgiai.ttf
-e5d52bbfff45e1044381bacb7fc8e300  Georgia_Bold_Italic.ttf         georgi32.exe georgiaz.ttf
-8fc622c3a2e2d992ec059cca61e3dfc0  Impact.ttf                      impact32.exe impact.ttf
-4f97f4d6ba74767259ccfb242ce0e3f7  Times_New_Roman.ttf             times32.exe  times.ttf
-ed6e29caf3843142d739232aa8642158  Times_New_Roman_Bold.ttf        times32.exe  timesbd.ttf
-6d2bd425ff00a79dd02e4c95f689861b  Times_New_Roman_Bold_Italic.ttf times32.exe  timesbi.ttf
-957dd4f17296522dead302ab4fcdfa8d  Times_New_Roman_Italic.ttf      times32.exe  timesi.ttf
-70e7be8567bc05f771b59abd9d696407  Trebuchet_MS.ttf                trebuc32.exe trebuc.ttf
-055460df9ab3c8aadd3330bd30805f11  Trebuchet_MS_Bold.ttf           trebuc32.exe trebucbd.ttf
-8f308fe77b584e20b246aa1f8403d2e9  Trebuchet_MS_Italic.ttf         trebuc32.exe trebucit.ttf
-fb5d68cb58c6ad7e88249d65f6900740  Trebuchet_MS_Bold_Italic.ttf    trebuc32.exe trebucbi.ttf
-3ba52ab1fa0cd726e7868e9c6673902c  Verdana.ttf                     verdan32.exe verdana.ttf
-a2b4dc9afc18e76cfcaa0071fa7cd0da  Verdana_Bold.ttf                verdan32.exe verdanab.ttf
-24b3a293c865a2c265280f017fb24ba5  Verdana_Italic.ttf              verdan32.exe verdanai.ttf
-f7310c29df0070530c48a47f2dca9014  Verdana_Bold_Italic.ttf         verdan32.exe verdanaz.ttf
-1a56b45a66b07b4c576d5ead048ed992  Webdings.ttf                    webdin32.exe webdings.ttf
+48d9bc613917709d3b0e0f4a6d4fe33a5c544c5035dffe9e90bc11e50e822071	Andale_Mono.ttf		andale32.exe	andalemo.ttf
+dad7c04acb26e23dfe4780e79375ca193ddaf68409317e81577a30674668830e	Arial_Black.ttf		arialb32.exe	ariblk.ttf
+35c0f3559d8db569e36c31095b8a60d441643d95f59139de40e23fada819b833	Arial.ttf		arial32.exe	arial.ttf
+4044aa6b5bebbc36980206b45b0aaaaa5681552a48bcadb41746d5d1d71fd7b4	Arial_Bold.ttf		arial32.exe	arialbd.ttf
+2f371cd9d96b3ac544519d85c16dc43ceacdfcea35090ee8ddf3ec5857c50328	Arial_Bold_Italic.ttf	arial32.exe	arialbi.ttf
+70ade233175a6a6675e4501461af9326e6f78b1ffdf787ca0da5ab0fc8c9cfd6	Arial_Italic.ttf	arial32.exe	ariali.ttf
+b82c53776058f291382ff7e008d4675839d2dc21eb295c66391f6fb0655d8fc0	Comic_Sans_MS.ttf	comic32.exe	comic.ttf
+873361465d994994762d0b9845c99fc7baa2a600442ea8db713a7dd19f8b0172	Comic_Sans_MS_Bold.ttf	comic32.exe	comicbd.ttf
+6715838c52f813f3821549d3f645db9a768bd6f3a43d8f85a89cb6875a546c61	Courier_New.ttf		courie32.exe	cour.ttf
+edf8a7c5bfcac2e1fe507faab417137cbddc9071637ef4648238d0768c921e02	Courier_New_Bold.ttf	courie32.exe	courbd.ttf
+f3f6b09855b6700977e214aab5eb9e5be6813976a24f894bd7766e92c732fbe1	Courier_New_Italic.ttf	courie32.exe	couri.ttf
+66dbfa20b534fba0e203da140fec7276a45a1069e424b1b9c35547538128bbe8	Courier_New_Bold_Italic.ttf	courie32.exe	courbi.ttf
+7d0bb20c632bb59e81a0885f573bd2173f71f73204de9058feb68ce032227072	Georgia.ttf		georgi32.exe	georgia.ttf
+82d2fbadb88a8632d7f2e8ad50420c9fd2e7d3cbc0e90b04890213a711b34b93	Georgia_Bold.ttf	georgi32.exe	georgiab.ttf
+1523f19bda6acca42c47c50da719a12dd34f85cc2606e6a5af15a7728b377b60	Georgia_Italic.ttf	georgi32.exe	georgiai.ttf
+c983e037d8e4e694dd0fb0ba2e625bca317d67a41da2dc81e46a374e53d0ec8a	Georgia_Bold_Italic.ttf	georgi32.exe	georgiaz.ttf
+00f1fc230ac99f9b97ba1a7c214eb5b909a78660cb3826fca7d64c3af5a14848	Impact.ttf		impact32.exe	impact.ttf
+4e98adeff8ccc8ef4e3ece8d4547e288ff85fdc9c7ca711a4599c234874bbe86	Times_New_Roman.ttf	times32.exe	times.ttf
+4357b63cef20c01661a53c5dae70ffd20cb4765503aaed6d38b17a57c5a90bff	Times_New_Roman_Bold.ttf	times32.exe	timesbd.ttf
+192e1b0d18e90334e999a99f8c32808d6a2e74b3698b8cd90c943c2249a46549	Times_New_Roman_Bold_Italic.ttf	times32.exe	timesbi.ttf
+c25ae529b4cecdbca148b6ccb862ee0abad770af8b1fd29c8dba619d1b8da78a	Times_New_Roman_Italic.ttf	times32.exe	timesi.ttf
+ec3ffb302488251e1b67fb09dd578b364c5339e27c1cfb26eb627666236453d0	Trebuchet_MS.ttf	trebuc32.exe	trebuc.ttf
+f65941f9487c0a0a3b7445996ecbbd24466d7ae76ea2a597ced55f438fa63838	Trebuchet_MS_Bold.ttf	trebuc32.exe	trebucbd.ttf
+db56fdac7d3ba20b7aededcb6ee86c46687489d17b759e1708ea4e2d21e38410	Trebuchet_MS_Italic.ttf	trebuc32.exe	trebucit.ttf
+c0a6bdf31f9f2953b2f08a0c1734c892bc825f0fb17c604d420f7acf203a213b	Trebuchet_MS_Bold_Italic.ttf	trebuc32.exe	trebucbi.ttf
+96ed14949ca4b7392cff235b9c41d55c125382abbe0c0d3c2b9dd66897cae0cb	Verdana.ttf		verdan32.exe	verdana.ttf
+c8f5065ba91680f596af3b0378e2c3e713b95a523be3d56ae185ca2b8f5f0b23	Verdana_Bold.ttf	verdan32.exe	verdanab.ttf
+91b59186656f52972531a11433c866fd56e62ec4e61e2621a2dba70c8f19a828	Verdana_Italic.ttf	verdan32.exe	verdanai.ttf
+698e220f48f4a40e77af7eb34958c8fd02f1e18c3ba3f365d93bfa2ed4474c80	Verdana_Bold_Italic.ttf	verdan32.exe	verdanaz.ttf
+10d099c88521b1b9e380b7690cbe47b54bb19396ca515358cfdc15ac249e2f5d	Webdings.ttf		webdin32.exe	webdings.ttf
 EOF
 
 for ttf in `awk '{print $2}' msfonts.info` ; do
     if [ ! -e $FONTDIR/$ttf ] || \
-        [ `md5sum $FONTDIR/$ttf | awk '{print $1}'` != `awk "/$ttf/ {print \\$1 }" msfonts.info` ]
+        [ `sha256sum $FONTDIR/$ttf | awk '{print $1}'` != `awk "/$ttf/ {print \\$1 }" msfonts.info` ]
         then
         THISFILE=`grep $ttf msfonts.info | awk '{print $3}'`
         if ! echo $FONTFILES | grep -q $THISFILE ; then
