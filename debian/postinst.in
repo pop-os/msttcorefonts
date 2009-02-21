@@ -1,9 +1,6 @@
 #!/bin/sh
 set -e
 
-# Transitional for package rename, can be removed after lenny:
-rm -f /etc/defoma/hints/msttcorefonts.hints
-
 . /usr/share/debconf/confmodule
 
 db_get msttcorefonts/dldir
@@ -17,11 +14,6 @@ URLOVERRIDE=$RET
 
 db_get msttcorefonts/http_proxy
 http_proxy=$RET
-
-if [ -e /usr/share/fonts/truetype/ms-fonts ] ; then
-  cp -p /usr/share/fonts/truetype/ms-fonts /var/lib/msttcorefonts/ms-fonts
-  rm -f /usr/share/fonts/truetype/ms-fonts
-fi
 
 ## Content of update-ms-fonts will be concatenated below
 
