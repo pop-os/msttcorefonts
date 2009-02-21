@@ -3,7 +3,7 @@ Section: contrib/x11
 Priority: optional
 Maintainer: Thijs Kinkhorst <thijs@debian.org>
 Standards-Version: 3.8.0
-Build-Depends: debhelper (>= 6.0.7~)
+Build-Depends: debhelper (>= 7)
 Build-Depends-Indep: defoma
 Vcs-Svn: https://svn.kinkhorst.nl/svn/debian/msttcorefonts/trunk
 Vcs-Browser: https://aphrodite.kinkhorst.nl/wsvn/debian/msttcorefonts/

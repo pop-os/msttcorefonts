@@ -3,6 +3,7 @@ msttcorefonts (2.8) unstable; urgency=low
   * Remove obsolete transitional package 'msttcorefonts'.
   * Added Belarusian debconf translation, thanks Pavel Piatruk
     (closes: #516246).
+  * Update to debhelper level 7.
 
  -- Thijs Kinkhorst <thijs@debian.org>  Sat, 21 Feb 2009 12:45:53 +0100
 

@@ -25,7 +25,7 @@ install: install-stamp
 install-stamp:
 	dh_testdir
 	dh_testroot
-	dh_clean -k
+	dh_prep
 	dh_installdirs
 	dh_install
 	touch install-stamp
