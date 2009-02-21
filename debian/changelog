@@ -2,14 +2,15 @@ msttcorefonts (3.0) unstable; urgency=low
 
   * Use SF.net redirection instead of individual mirror names, as to be
     more robust against changes on the SF.net side.
-  * Verify font and exe validity with SHA256 instead of MD5 for safety.
+  * Verify font and cab validity with SHA256 instead of MD5 for safety.
+  * Verify downloaded cab files before extracting.
   * Remove obsolete transitional package 'msttcorefonts'.
   * Added Belarusian debconf translation, thanks Pavel Piatruk
     (closes: #516246).
   * Update to debhelper level 7 and other packaging cleanups, rename some
     more backend items from msttcorefonts to ttf-mscorefonts-installer.
 
- -- Thijs Kinkhorst <thijs@debian.org>  Sat, 21 Feb 2009 13:54:41 +0100
+ -- Thijs Kinkhorst <thijs@debian.org>  Sat, 21 Feb 2009 15:35:38 +0100
 
 msttcorefonts (2.7) unstable; urgency=low
 

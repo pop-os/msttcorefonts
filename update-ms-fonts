@@ -7,7 +7,6 @@
 
 #abort if anything goes wrong
 #set -e
-
 FONTDIR=/usr/share/fonts/truetype/msttcorefonts
 
 #if [ `id -u` != 0 ] ; then
@@ -33,8 +32,20 @@ EXITCODE=0
 export http_proxy
 
 # Base URL for Microsoft fonts
-# Could be more than one to try, but here we just use SF.net's redirection
-URLROOTS="http://downloads.sourceforge.net/corefonts/"
+# Can be more than one to try, but here we just use SF.net's redirection,
+# which will work in most cases. The others serve as fallbacks to retry.
+URLROOTS="http://downloads.sourceforge.net/corefonts/
+	http://switch.dl.sourceforge.net/sourceforge/corefonts/
+	http://mesh.dl.sourceforge.net/sourceforge/corefonts/
+	http://dfn.dl.sourceforge.net/sourceforge/corefonts/
+	http://heanet.dl.sourceforge.net/sourceforge/corefonts/
+	http://jaist.dl.sourceforge.net/sourceforge/corefonts/
+	http://nchc.dl.sourceforge.net/sourceforge/corefonts/
+	http://ufpr.dl.sourceforge.net/sourceforge/corefonts/
+	http://internode.dl.sourceforge.net/sourceforge/corefonts/
+	http://voxel.dl.sourceforge.net/sourceforge/corefonts/
+	http://kent.dl.sourceforge.net/sourceforge/corefonts/
+	http://internap.dl.sourceforge.net/sourceforge/corefonts/"
 
 if [ "$URLOVERRIDE" ] ; then
   URLROOTS="$URLOVERRIDE"
@@ -128,8 +139,15 @@ elif [ -n "$FONTFILES" ] ; then
     if [ -n "$SAVEDIR" ] ; then
         mkdir -p "$SAVEDIR"
     fi
+
     for ff in $FONTFILES; do
-        cabextract $ff 1>&2
+        # verify checksum before unpacking, to be safe
+        if grep "$ff\$" /var/lib/msttcorefonts/cabfiles.sha256sums | sha256sum -c ; then
+                cabextract $ff 1>&2
+        else
+            echo Checksum mismatch for $ff, aborting!
+            exit 1
+        fi
         if [ -n "$SAVEDIR" ] ; then
             cp $ff "$SAVEDIR"
         fi
@@ -162,7 +180,6 @@ elif [ -n "$FONTFILES" ] ; then
     done
     
   # Make a note of what we installed so we can uninstall it later
-    mkdir -p /var/lib/msttcorefonts
     awk '{print $2}' msfonts.info > /var/lib/msttcorefonts/ms-fonts
     awk '{print $4}' msfonts.info >> /var/lib/msttcorefonts/ms-fonts
 fi
