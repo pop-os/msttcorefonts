@@ -33,21 +33,8 @@ EXITCODE=0
 export http_proxy
 
 # Base URL for Microsoft fonts
-##URLROOT="http://unc.dl.sourceforge.net/sourceforge/corefonts/"
-
-URLROOTS="http://surfnet.dl.sourceforge.net/sourceforge/corefonts/
-         http://mesh.dl.sourceforge.net/sourceforge/corefonts/
-         http://dfn.dl.sourceforge.net/sourceforge/corefonts/
-         http://heanet.dl.sourceforge.net/sourceforge/corefonts/
-         http://jaist.dl.sourceforge.net/sourceforge/corefonts/
-         http://nchc.dl.sourceforge.net/sourceforge/corefonts/
-         http://ufpr.dl.sourceforge.net/sourceforge/corefonts/
-         http://internode.dl.sourceforge.net/sourceforge/corefonts/
-         http://mesh.dl.sourceforge.net/sourceforge/corefonts/
-         http://voxel.dl.sourceforge.net/sourceforge/corefonts/
-         http://kent.dl.sourceforge.net/sourceforge/corefonts/
-         http://internap.dl.sourceforge.net/sourceforge/corefonts/
-         http://switch.dl.sourceforge.net/sourceforge/corefonts/"
+# Could be more than one to try, but here we just use SF.net's redirection
+URLROOTS="http://downloads.sourceforge.net/corefonts/"
 
 if [ "$URLOVERRIDE" ] ; then
   URLROOTS="$URLOVERRIDE"
@@ -67,7 +54,7 @@ to the file name or packaging format.
 EOF
 fi
 
-SCRATCHDIR=`mktemp -t -d msttcorefonts.XXXXXX`
+SCRATCHDIR=`mktemp -t -d ttf-mscorefonts-installer.XXXXXX`
 chmod 0755 $SCRATCHDIR
 cd $SCRATCHDIR
 
@@ -161,10 +148,10 @@ elif [ -n "$FONTFILES" ] ; then
   # Give sane names. These are nearly the same names MS uses for the
   # Macintosh versions
     
-    mkdir -p /usr/share/doc/msttcorefonts $FONTDIR
+    mkdir -p /usr/share/doc/ttf-mscorefonts-installer $FONTDIR
     if [ -e licen.txt ] ; then
-        mv licen.txt '/usr/share/doc/msttcorefonts/READ_ME!'
-        gzip -f '/usr/share/doc/msttcorefonts/READ_ME!'
+        mv licen.txt '/usr/share/doc/ttf-mscorefonts-installer/READ_ME!'
+        gzip -f -9 '/usr/share/doc/ttf-mscorefonts-installer/READ_ME!'
     fi
     for ff in $FONTFILES; do
         for ttf in `grep $ff msfonts.info | awk '{print $4}'`; do
