@@ -1,8 +1,8 @@
 Source: msttcorefonts
-Section: contrib/x11
+Section: contrib/fonts
 Priority: optional
 Maintainer: Thijs Kinkhorst <thijs@debian.org>
-Standards-Version: 3.8.0
+Standards-Version: 3.8.1
 Build-Depends: debhelper (>= 7)
 Build-Depends-Indep: defoma
 Vcs-Svn: https://svn.kinkhorst.nl/svn/debian/msttcorefonts/trunk
