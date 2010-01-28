@@ -1,9 +1,9 @@
 msttcorefonts (3.1) unstable; urgency=low
 
   * Update section to match override.
-  * Checked for policy 3.8.1, no changes necessary.
+  * Checked for policy 3.8.4, no changes necessary.
 
- -- Thijs Kinkhorst <thijs@debian.org>  Thu, 26 Mar 2009 14:09:25 +0100
+ -- Thijs Kinkhorst <thijs@debian.org>  Thu, 28 Jan 2010 22:32:34 +0100
 
 msttcorefonts (3.0) unstable; urgency=low
 
