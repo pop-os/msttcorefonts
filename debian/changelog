@@ -2,8 +2,23 @@ msttcorefonts (3.1) unstable; urgency=low
 
   * Update section to match override.
   * Checked for policy 3.8.4, no changes necessary.
+  * Merge in Ubuntu changes, making installation on suboptimal
+    network connections perform better. Thanks Jean-Baptiste
+    Lallement. (Closes: #549882)
 
  -- Thijs Kinkhorst <thijs@debian.org>  Thu, 28 Jan 2010 22:32:34 +0100
+
+msttcorefonts (3.0ubuntu1) lucid; urgency=low
+
+  * debian/postinst.in : Check validity of proxy setting (LP : #274421)
+  * update-ms-font : improve error handling (LP: #431217)(LP: #464422)
+    - Don't fail if the fonts failed to download and display a message 
+      to run dpkg-reconfigure ttf-mscorefonts-installer later
+    - Retry all mirrors for all fonts
+    - Drop --dns-timeout option of wget an rely on system timeout
+    - Increase --connect-timeout for slow connections
+
+ -- Jean-Baptiste Lallement <jeanbaptiste.lallement@gmail.com>  Tue, 12 Jan 2010 22:23:40 +0100
 
 msttcorefonts (3.0) unstable; urgency=low
 

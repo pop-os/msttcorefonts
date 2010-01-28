@@ -31,6 +31,13 @@ EXITCODE=0
 
 export http_proxy
 
+mstt_exit_with_error() {
+	echo "$1"
+	echo "The fonts are NOT installed."
+    echo "Please run 'dpkg-reconfigure ttf-mscorefonts-installer' to perform the installation again"
+	exit 0 # still install the Debian package
+}
+
 # Base URL for Microsoft fonts
 # Can be more than one to try, but here we just use SF.net's redirection,
 # which will work in most cases. The others serve as fallbacks to retry.
@@ -112,6 +119,9 @@ for ttf in `awk '{print $2}' msfonts.info` ; do
         fi
     fi
 done
+
+FFDONE=""
+FFFAILED=""
 if [ -n "$CHECK_ONLY" ] ; then
     if [ -n "$FONTFILES" ] ; then
         EXITCODE=1
@@ -122,37 +132,52 @@ elif [ -n "$FONTFILES" ] ; then
     else
         QUIET_ARG=""
     fi
-    for URLROOT in $URLROOTS ; do
-        for ff in $FONTFILES; do
+    for ff in $FONTFILES; do
+        for URLROOT in $URLROOTS ; do
             if [ ! -e $ff.done ] || [ ! -e $ff ] ; then
                 if [ -z "$LOCALCOPY" ] ; then
-                    if ! wget --continue --tries=1 --dns-timeout=10 --connect-timeout=5 --read-timeout=300 $QUIET_ARG --directory-prefix . --no-directories --no-background $URLROOT$ff ; then
-                        continue 2
+                    if ! wget --continue --tries=1 --connect-timeout=60 --read-timeout=300 $QUIET_ARG --directory-prefix . --no-directories --no-background --progress=dot:default $URLROOT$ff ; then
+                        continue 1
                     fi
                 else
                     cp $LOCALCOPY/$ff .
                 fi
                 touch $ff.done
+                break
             fi
         done
+        if [ -e "$ff" ]; then
+            FFDONE="$FFDONE $ff"
+        else 
+            FFFAILED="$FFFAILED $ff"
+            EXITCODE=1
+        fi   
     done
     if [ -n "$SAVEDIR" ] ; then
         mkdir -p "$SAVEDIR"
     fi
 
+    # Reset counters for checksum
+    FONTFILES=$FFDONE
+    FFDONE=""
+
     for ff in $FONTFILES; do
         # verify checksum before unpacking, to be safe
         if grep "$ff\$" /var/lib/msttcorefonts/cabfiles.sha256sums | sha256sum -c ; then
                 cabextract $ff 1>&2
+                FFDONE="$FFDONE $ff"
         else
-            echo Checksum mismatch for $ff, aborting!
-            exit 1
+            FFFAILED="$FFFAILED $ff"
+            EXITCODE=1
         fi
         if [ -n "$SAVEDIR" ] ; then
             cp $ff "$SAVEDIR"
         fi
         rm $ff
     done
+
+    FONTFILES=$FFDONE
+    FFDONE=""
   #Add some level of predictability by folding everything to lower case
     for x in *; do
         y=`echo $x | tr '[A-Z]' '[a-z]'`
@@ -191,10 +216,10 @@ if [ -z "$QUIETMODE" ] ; then
     if [ $EXITCODE = 0 ] ; then
         echo "All fonts downloaded and installed."
     else
-        echo "Fonts need to be updated."
+        mstt_exit_with_error "The following fonts failed to install : $FFFAILED."
     fi
 fi
 
 #DEBHELPER#
 
-exit $EXITCODE
+exit 0
