@@ -16,7 +16,7 @@ db_get msttcorefonts/http_proxy
 http_proxy=$RET
 
 while ! echo "$http_proxy" | \
-    egrep -q 'https?://([[:alnum:]]([-[:alnum:]]+[[:alnum:]])*\.)+[[:alnum:]]{2,3}(:\d+)?/?' &&  \
+    egrep -q 'https?://[[:alnum:]][-.[:alnum:]]+(:\d+)?/?' &&  \
     [ ! -z "$http_proxy" ] ; do
         db_fset msttcorefonts/http_proxy seen false
         db_input high msttcorefonts/http_proxy

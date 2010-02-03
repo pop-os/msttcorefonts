@@ -1,3 +1,9 @@
+msttcorefonts (3.2) unstable; urgency=low
+
+  * Improve regex used for checking proxy syntax (closes: #567464).
+
+ -- Thijs Kinkhorst <thijs@debian.org>  Wed, 03 Feb 2010 20:46:29 +0100
+
 msttcorefonts (3.1) unstable; urgency=low
 
   * Update section to match override.
