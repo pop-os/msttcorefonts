@@ -1,13 +1,13 @@
-Some users have reported that after installing the msttcorefonts package
-many older X clients (such as xmessage, xfontsel, etc) display text using
-the 'Comic Sans MS' font, that looks... somewhat strange.
+Some users have reported that after installing the ttf-mscorefonts-installer
+package many older X clients (such as xmessage, xfontsel, etc) display text
+using the 'Comic Sans MS' font, that looks... somewhat strange.
 
 This is caused by the following:
 - users have /var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType as the first
   element in X font path;
-- msttcorefonts is the only truetype font package installed;
+- ttf-mscorefonts-installer is the only truetype font package installed;
 - '-microsoft-comic sans ms-...' happens to be alphabetically first font
-  provided by msttcorefonts;
+  provided by ttf-mscorefonts-installer;
 - older applications request any font that matches a generic pattern, and get
   the comic font.
 
@@ -39,8 +39,8 @@ This may be worked around in several ways.
      Note different file names used for links - that is required.
    - create a new file in /etc/defoma/hints, e.g. 'deuglify.hints'
    - for each font you have symlinked above, copy appropriate section from
-     msttcorefonts.hints to deuglify.hints; change font pathname to symlink
-     pathname, and change Foundry to something like '000'
+     ttf-mscorefonts-installer.hints to deuglify.hints; change font pathname
+     to symlink pathname, and change Foundry to something like '000'
    - run 
        /usr/bin/defoma-font reregister-all /etc/defoma/hints/deuglify.hints
    Now, after 'xset fp rehash' (or X server or xfs restart) new font names will
