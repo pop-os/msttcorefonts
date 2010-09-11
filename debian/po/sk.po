@@ -1,0 +1,143 @@
+# Slovak translations for msttcorefonts package.
+# Copyright (C) 2010 THE msttcorefonts's COPYRIGHT HOLDER
+# This file is distributed under the same license as the msttcorefonts package.
+# Slavko <linux@slavino.sk>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: msttcorefonts 3.2\n"
+"Report-Msgid-Bugs-To: thijs@debian.org\n"
+"POT-Creation-Date: 2007-12-01 15:50+0100\n"
+"PO-Revision-Date: 2010-08-03 20:05+0200\n"
+"Last-Translator: Slavko <linux@slavino.sk>\n"
+"Language-Team: Slovak <nomail>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sk\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid "Directory holding MS fonts (if already downloaded):"
+msgstr "Adresár s fontmi MS (ak už sú stiahnuté):"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"If you have already downloaded Microsoft's TrueType Core Fonts for the web, "
+"type the name of the directory which contains them. Those files are in the "
+"Microsoft Windows self-installing format, and are named andale32.exe, "
+"arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
+"exe, times32.exe, trebuc32.exe, verdan32.exe and webdin32.exe."
+msgstr ""
+"Ak už máte stiahnuté základné fonty Microsoft TrueType pre web, napíšte meno "
+"adresára, v ktorom sú uložené. Tieto súbory sú v samoinštalačnom formáte "
+"Microsoft Windows a volajú sa andale32.exe, arial32.exe, arialb32.exe, "
+"comic32.exe, courie32.exe, georgi32.exe, impact32.exe, times32.exe, trebuc32."
+"exe, verdan32.exe a webdin32.exe."
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"If you haven't yet downloaded these fonts, leave this blank and the fonts "
+"will be downloaded for you. Approximately 4 MB will need to be downloaded."
+msgstr ""
+"Ak ešte tieto fonty nemáte stiahnuté, nechajte toto pole prázdne a fonty "
+"budú stiahnuté. Bude treba stiahnuť približne 4 MB."
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"If you are not connected to the internet or do not wish to download these "
+"fonts now, enter \"none\" to abort."
+msgstr ""
+"Ak nie ste pripojený na internet alebo tieto fonty nechcete teraz sťahovať, "
+"zadajte \"none\" pre zrušenie."
+
+#. Type: error
+#. Description
+#: ../templates:2001
+msgid "Font files not found"
+msgstr "Súbory fontov nenájdené"
+
+#. Type: error
+#. Description
+#: ../templates:2001
+msgid ""
+"The directory you entered either did not exist, did not contain the "
+"Microsoft TrueType Core Fonts for the Web Microsoft Windows 9x self "
+"installing executables, or those executables did not match the versions "
+"expected by this script.  Please re-enter the directory containing the "
+"Microsoft font files or enter \"none\" to abort."
+msgstr ""
+"Adresár, ktorý ste zadali buď neexistuje, alebo neobsahuje samoinštalačné "
+"súbory Microsoft Windows 9x so základnými fontmi Microsoft TrueType pre web, "
+"alebo sa verzia týchto súborov nezhoduje s tou, ktorú očakáva tento skript. "
+"Prosím zadajte znova meno adresára so súbormi s fontmi alebo napíšte \"none"
+"\" pre prerušenie inštalácie."
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Where should these files be archived (optional):"
+msgstr "Kde majú byť tieto súbory archivované (voliteľné):"
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid ""
+"If you would like to keep a permanent archive of the compressed Windows self "
+"extracting files, enter the directory where you'd like them stored.  If you "
+"leave this blank, the files will be deleted after installation."
+msgstr ""
+"Ak si chcete uchovať trvalý archív komprimovaných samorozbaľovacích súborov "
+"Windows s fontmi, zadajte adresár, do ktorého majú byť uložené. Ak necháte "
+"toto pole prázdne, budú súbory po inštalácii zmazané."
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid "Mirror to download from:"
+msgstr "Zrkadlo pre sťahovanie:"
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid ""
+"This package already contains a built-in set of mirrors, which should be "
+"sufficient for most people. However, if you'd like to use a different "
+"(possibly local) mirror instead, please enter the full URL to the directory "
+"containing the relevant files here. If not, just leave the field blank."
+msgstr ""
+"Tento balík obsahuje zabudovaný zoznam zrkadiel, ktorý by mal byť pre "
+"väčšinu ľudí postačujúci. Ak chcete použiť iné (napr. lokálne) zrkadlo, "
+"zadajte prosím úplnú URL adresára, ktorý obsahuje príslušné súbory. Inak "
+"ponechajte toto pole prázdne."
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "HTTP proxy to use:"
+msgstr "HTTP proxy:"
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid ""
+"If you need to use a proxy server, please enter it here (example: "
+"http://192.168.0.1:8080). This will cause the font files to be downloaded "
+"using your proxy."
+msgstr ""
+"Ak potrebujete použiť proxy server, zadajte ho prosím tu (napr. "
+"http://192.168.0.1:8080)."
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "Leave this option blank if you don't use a proxy server."
+msgstr "Ak nepoužívate proxy server, nechajte toto pole prázdne."

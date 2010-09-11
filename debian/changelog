@@ -1,3 +1,10 @@
+msttcorefonts (3.3) unstable; urgency=low
+
+  * Add Slovak debconf translation, thanks Slavko Pozdravom
+    (Closes: 591520).
+
+ -- Thijs Kinkhorst <thijs@debian.org>  Sat, 11 Sep 2010 11:38:04 +0200
+
 msttcorefonts (3.2) unstable; urgency=low
 
   * Improve regex used for checking proxy syntax (closes: #567464).
