@@ -12,8 +12,6 @@ Architecture: all
 Depends: wget, cabextract, xfonts-utils, ${misc:Depends}
 Recommends: ttf-liberation, x-ttcidfont-conf
 Provides: msttcorefonts
-Replaces: msttcorefonts (<< 2.6)
-Conflicts: msttcorefonts (<< 2.6)
 Description: Installer for Microsoft TrueType core fonts
  This package allows for easy installation of the Microsoft True Type
  Core Fonts for the Web including:
