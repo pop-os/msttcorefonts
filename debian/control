@@ -4,13 +4,12 @@ Priority: optional
 Maintainer: Thijs Kinkhorst <thijs@debian.org>
 Standards-Version: 3.8.4
 Build-Depends: debhelper (>= 7)
-Build-Depends-Indep: defoma
 Vcs-Svn: https://svn.kinkhorst.nl/svn/debian/msttcorefonts/trunk
 Vcs-Browser: https://aphrodite.kinkhorst.nl/wsvn/debian/msttcorefonts/
 
 Package: ttf-mscorefonts-installer
 Architecture: all
-Depends: wget, cabextract, xfonts-utils, defoma, ${misc:Depends}
+Depends: wget, cabextract, xfonts-utils, ${misc:Depends}
 Recommends: ttf-liberation, x-ttcidfont-conf
 Provides: msttcorefonts
 Replaces: msttcorefonts (<< 2.6)

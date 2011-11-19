@@ -6,6 +6,7 @@
 # but we're still successfully uninstalled.
 set -e
 
+
 if [ "$1" = "remove" ] && [ -e /var/lib/msttcorefonts/ms-fonts ]; then
 	cd /usr/share/fonts/truetype/msttcorefonts && \
 		rm -f `cat /var/lib/msttcorefonts/ms-fonts`
