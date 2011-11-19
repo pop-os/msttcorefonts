@@ -10,7 +10,7 @@ Vcs-Browser: https://aphrodite.kinkhorst.nl/wsvn/debian/msttcorefonts/
 Package: ttf-mscorefonts-installer
 Architecture: all
 Depends: wget, cabextract, xfonts-utils, ${misc:Depends}
-Recommends: fonts-liberation, x-ttcidfont-conf
+Recommends: fonts-liberation
 Provides: msttcorefonts
 Description: Installer for Microsoft TrueType core fonts
  This package allows for easy installation of the Microsoft True Type

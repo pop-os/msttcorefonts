@@ -1,11 +1,11 @@
-msttcorefonts (3.4) UNRELEASED; urgency=low
+msttcorefonts (3.4) unstable; urgency=low
 
   * Drop defoma support. Thanks Christian Perrier and Paul Wise
     for the majority of work on this (closes: #649145).
   * ttf-liberation is now called fonts-liberation.
   * Minor packaging cleanups.
 
- -- Thijs Kinkhorst <thijs@debian.org>  Sat, 19 Nov 2011 21:38:21 +0100
+ -- Thijs Kinkhorst <thijs@debian.org>  Sat, 19 Nov 2011 21:43:49 +0100
 
 msttcorefonts (3.3) unstable; urgency=low
 
