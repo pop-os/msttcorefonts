@@ -11,7 +11,9 @@ fonttype = truetype
 texmf = usr/share/texmf
 fontpath = usr/share/fonts/$(fonttype)
 
-build: build-stamp
+build: build-arch build-indep
+build-arch: build-stamp
+build-indep: build-stamp
 build-stamp:
 	cat debian/postinst.in update-ms-fonts >> debian/postinst
 	touch build-stamp
