@@ -10,7 +10,7 @@ Vcs-Browser: https://aphrodite.kinkhorst.nl/wsvn/debian/msttcorefonts/
 Package: ttf-mscorefonts-installer
 Architecture: all
 Depends: wget, cabextract, xfonts-utils, ${misc:Depends}
-Recommends: ttf-liberation, x-ttcidfont-conf
+Recommends: fonts-liberation, x-ttcidfont-conf
 Provides: msttcorefonts
 Description: Installer for Microsoft TrueType core fonts
  This package allows for easy installation of the Microsoft True Type
@@ -31,7 +31,7 @@ Description: Installer for Microsoft TrueType core fonts
  You will need an Internet connection to download these fonts if you
  don't already have them.
  .
- NOTE: the package ttf-liberation contains free variants of the Times,
+ NOTE: the package fonts-liberation contains free variants of the Times,
  Arial and Courier fonts. It's better to use those instead unless you
  specifically need one of the other fonts from this package.
 
