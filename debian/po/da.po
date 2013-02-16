@@ -1,27 +1,19 @@
-# Translators on this file
-# Morten Brix Pedersen <morten@wtf.dk> 2004-2006
-# Kenneth Nielsen <k.nielsen81@gmail.com> 2007
-#
-#    Translators, if you are not familiar with the PO format, gettext
-#    documentation is worth reading, especially sections dedicated to
-#    this format, e.g. by running:
-#         info -n '(gettext)PO Files'
-#         info -n '(gettext)Header Entry'
-#
-#    Some information specific to po-debconf are available at
-#            /usr/share/doc/po-debconf/README-trans
-#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
-#
-#    Developers do not need to manually edit POT or PO files.
+# Danish translation msttcorefonts.
+# Copyright (C) 2012 msttcorefonts & nedenstående oversættere.
+# This file is distributed under the same license as the msttcorefonts package.
+# Morten Brix Pedersen <morten@wtf.dk> 2004-2006.
+# Kenneth Nielsen <k.nielsen81@gmail.com> 2007.
+# Joe Hansen (joedalton2@yahoo.dk), 2012.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: msttcorefonts 1.1.5\n"
+"Project-Id-Version: msttcorefonts\n"
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
 "POT-Creation-Date: 2007-12-01 15:50+0100\n"
-"PO-Revision-Date: 2007-08-19 22:50+0200\n"
-"Last-Translator: Kenneth Nielsen <k.nielsen81@gmail.com>\n"
-"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"PO-Revision-Date: 2012-02-06 12:42+0000\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
+"Language-Team: Danish <debian-l10n-danish@lists.debian.org>\n"
+"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -35,7 +27,6 @@ msgstr "Mappe der indeholder MS-skrifttyper (hvis allerede hentet):"
 #. Type: string
 #. Description
 #: ../templates:1001
-#, fuzzy
 msgid ""
 "If you have already downloaded Microsoft's TrueType Core Fonts for the web, "
 "type the name of the directory which contains them. Those files are in the "
@@ -43,22 +34,21 @@ msgid ""
 "arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
 "exe, times32.exe, trebuc32.exe, verdan32.exe and webdin32.exe."
 msgstr ""
-"Hvis du allerede har hentet Microsofts \"TrueType Core Fonts\" til web, "
-"indtast da navnet på den mappe, som indeholder dem. Disse filer er i "
-"Microsoft Windows selv-udpakkende format, og er navngivet andale32.exe, "
+"Hvis du allerede har hentet Microsofts »TrueType Core Fonts« for "
+"internettet, indtast da navnet på den mappe, som indeholder dem. Disse filer "
+"er i Microsoft Windows' selvudpakkende format, og er navngivet andale32.exe, "
 "arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
-"exe, times32.exe, trebuc32.exe, verdan32.exe, wd97vwr32.exe og webdin32.exe."
+"exe, times32.exe, trebuc32.exe, verdan32.exe og webdin32.exe."
 
 #. Type: string
 #. Description
 #: ../templates:1001
-#, fuzzy
 msgid ""
 "If you haven't yet downloaded these fonts, leave this blank and the fonts "
 "will be downloaded for you. Approximately 4 MB will need to be downloaded."
 msgstr ""
-"Hvis du ikke har hentet disse skrifttyper, så lad feltet være tomt og "
-"skrifttyperne vil blive hentet for dig. Omkring 8 MB vil blive hentet."
+"Hvis du endnu ikke har hentet disse skrifttyper, så lad feltet være tomt og "
+"skrifttyperne vil blive hentet for dig. Omkring 4 MB vil blive hentet."
 
 #. Type: string
 #. Description
@@ -68,13 +58,13 @@ msgid ""
 "fonts now, enter \"none\" to abort."
 msgstr ""
 "Hvis du ikke er forbundet til internettet, eller ikke ønsker at hente disse "
-"skrifttyper nu, så indtast \"none\" for at afbryde."
+"skrifttyper nu, så indtast »none« for at afbryde."
 
 #. Type: error
 #. Description
 #: ../templates:2001
 msgid "Font files not found"
-msgstr "Skrifttype-filer ikke fundet"
+msgstr "Skrifttypefiler ikke fundet"
 
 #. Type: error
 #. Description
@@ -86,11 +76,11 @@ msgid ""
 "expected by this script.  Please re-enter the directory containing the "
 "Microsoft font files or enter \"none\" to abort."
 msgstr ""
-"Mappen du indtastede eksisterende enten ikke, eller indeholdte ikke "
-"\"Microsoft TrueType Core Fonts\" til web i Microsoft Windows selv-"
-"udpakkende format, eller filerne havde ikke de versionsnumre der var "
-"forventet. Indtast en ny mappe der indeholder skrifttype-filerne, eller "
-"indtast \"none\" for at afbryde."
+"Mappen du indtastede findes enten ikke, eller indeholdte ikke »Microsoft "
+"TrueType Core Fonts« for internettet i Microsoft Windows' selvudpakkende "
+"format, eller filerne havde ikke de versionsnumre, der var forventet. "
+"Indtast en ny mappe der indeholder skrifttypefilerne, eller indtast »none« "
+"for at afbryde."
 
 #. Type: string
 #. Description
@@ -106,7 +96,7 @@ msgid ""
 "extracting files, enter the directory where you'd like them stored.  If you "
 "leave this blank, the files will be deleted after installation."
 msgstr ""
-"Hvis du vil beholde et permanent arkiv af de selv-udpakkende filer, indtast "
+"Hvis du vil beholde et permanent arkiv af de selvudpakkende filer, indtast "
 "da mappen hvor du vil have dem gemt. Hvis du lader dette være tomt, vil "
 "filerne blive slettet efter installationen."
 
@@ -134,7 +124,7 @@ msgstr ""
 #. Description
 #: ../templates:5001
 msgid "HTTP proxy to use:"
-msgstr "HTTP proxy som skal bruges:"
+msgstr "HTTP-proxy som skal bruges:"
 
 #. Type: string
 #. Description
@@ -144,7 +134,7 @@ msgid ""
 "http://192.168.0.1:8080). This will cause the font files to be downloaded "
 "using your proxy."
 msgstr ""
-"Hvis du har brug for at anvende en proxy server så indtast dens adresse her "
+"Hvis du har brug for at anvende en proxyserver så indtast dens adresse her "
 "(f.eks. http://192.168.0.1:8080). Det vil resultere i at skrifttypefilerne "
 "vil blive hentet ned via din proxy."
 
@@ -153,52 +143,3 @@ msgstr ""
 #: ../templates:5001
 msgid "Leave this option blank if you don't use a proxy server."
 msgstr "Lad dette felt være tomt hvis du ikke bruger en proxy."
-
-#~ msgid "msttcorefonts uses defoma"
-#~ msgstr "msttcorefonts bruger defoma"
-
-#~ msgid ""
-#~ "Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to use "
-#~ "the fonts provided by this package under the X Window System, you must "
-#~ "configure it to use defoma fonts."
-#~ msgstr ""
-#~ "Msttcorefonts bruger DEbian FOnt MAnager (defoma). Hvis du ønsker at "
-#~ "bruge skrifttyperne fra denne pakke under X Window systemet, skal du "
-#~ "sætte det op til at bruge defoma-skrifttyperne."
-
-#~ msgid ""
-#~ "The easiest way to do so is to use the x-ttcidfont-conf package. For more "
-#~ "information, install the x-ttcidfont-conf package and consult its "
-#~ "documentation under /usr/share/doc/x-ttcidfont-conf."
-#~ msgstr ""
-#~ "Den nemmeste måde at gøre dette på, er at installere x-ttcidfont-conf "
-#~ "pakken. For flere oplysninger, installér x-ttcidfont-conf pakken og læs "
-#~ "dokumentationen under /usr/share/doc/x-ttcidfont-conf."
-
-#~ msgid ""
-#~ "For uses of msttcorefonts not related to the X Window System (e.g. "
-#~ "printing) this is not required."
-#~ msgstr ""
-#~ "Til brug af msttcorefonts som ikke er relateret til X Window Systemet (f."
-#~ "eks. udskrivning), er dette ikke krævet."
-
-#~ msgid "These fonts are not free."
-#~ msgstr "Disse skrifttyper er ikke \"frie\"."
-
-#~ msgid ""
-#~ "These fonts were provided by Microsoft \"in the interest of cross-"
-#~ "platform compatibility\". This is no longer the case, but they are still "
-#~ "available from third parties."
-#~ msgstr ""
-#~ "Disse skrifttyper blev udbudt af Microsoft \"med interesse i platforms "
-#~ "kompatibilitet\". Dette er ikke længere tilfældet, men de er stadig "
-#~ "tilgængelige fra tredjeparti."
-
-#~ msgid ""
-#~ "You are free to download these fonts and use them for your own use, but "
-#~ "you may not redistribute them in modified form, including changes to the "
-#~ "file name or packaging format."
-#~ msgstr ""
-#~ "Du har ret til at hente disse skrifttyper og bruge dem, men du må ikke re-"
-#~ "distribuerere dem i modificeret form, det er inklusiv ændringer i filnavn "
-#~ "eller pakkeformat."

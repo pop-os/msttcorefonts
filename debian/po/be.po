@@ -11,6 +11,7 @@ msgstr ""
 "PO-Revision-Date: 2009-02-20 03:17+0200\n"
 "Last-Translator: Pavel Piatruk <piatruk.p@gmail.com>\n"
 "Language-Team: Belarusian (Official spelling) <be@d-i.tanatos.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,9 +33,11 @@ msgid ""
 "arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
 "exe, times32.exe, trebuc32.exe, verdan32.exe and webdin32.exe."
 msgstr ""
-"Калі Вы ўжо спампавалі \"Шрыфты Microsoft TrueType для сеціва\", увядзіце назву каталога, дзе яны знаходзяцца. Гэта файлы ў сама-ўсталявальным файрмаце Microsoft Windows і найменаваныя andale32.exe, "
-"arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
-"exe, times32.exe, trebuc32.exe, verdan32.exe ды webdin32.exe"
+"Калі Вы ўжо спампавалі \"Шрыфты Microsoft TrueType для сеціва\", увядзіце "
+"назву каталога, дзе яны знаходзяцца. Гэта файлы ў сама-ўсталявальным "
+"файрмаце Microsoft Windows і найменаваныя andale32.exe, arial32.exe, "
+"arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32.exe, times32."
+"exe, trebuc32.exe, verdan32.exe ды webdin32.exe"
 
 #. Type: string
 #. Description
@@ -42,7 +45,9 @@ msgstr ""
 msgid ""
 "If you haven't yet downloaded these fonts, leave this blank and the fonts "
 "will be downloaded for you. Approximately 4 MB will need to be downloaded."
-msgstr "Калі Вы яшчэ не спампавалі гэтых шрыфтоў, пакіньце поле пустым і шрыфты спампуюцца. Будзе спампавана прыблізна 4 MB."
+msgstr ""
+"Калі Вы яшчэ не спампавалі гэтых шрыфтоў, пакіньце поле пустым і шрыфты "
+"спампуюцца. Будзе спампавана прыблізна 4 MB."
 
 #. Type: string
 #. Description
@@ -50,7 +55,9 @@ msgstr "Калі Вы яшчэ не спампавалі гэтых шрыфто
 msgid ""
 "If you are not connected to the internet or do not wish to download these "
 "fonts now, enter \"none\" to abort."
-msgstr "Калі не злучаны з інтэрнэтам або не хочаце спампоўваць шрыфтоў, увядзіце \"none\" для сканчэння."
+msgstr ""
+"Калі не злучаны з інтэрнэтам або не хочаце спампоўваць шрыфтоў, увядзіце "
+"\"none\" для сканчэння."
 
 #. Type: error
 #. Description
@@ -67,7 +74,12 @@ msgid ""
 "installing executables, or those executables did not match the versions "
 "expected by this script.  Please re-enter the directory containing the "
 "Microsoft font files or enter \"none\" to abort."
-msgstr "Каталог, які вы ўвялі, або не існуе, або не змяшчае самаўсталявальных выканальных файлаў \"Шрыфтоў Microsoft TrueType\", або версіі файлаў не адпавядаюць патрабаванням гэтага скрыпта. Калі ласка, паўторна вызначце каталог, дзе знаходзяцца файлы шрыфтоў Microsoft, або ўвядзіце \"none\" для сканчэння."
+msgstr ""
+"Каталог, які вы ўвялі, або не існуе, або не змяшчае самаўсталявальных "
+"выканальных файлаў \"Шрыфтоў Microsoft TrueType\", або версіі файлаў не "
+"адпавядаюць патрабаванням гэтага скрыпта. Калі ласка, паўторна вызначце "
+"каталог, дзе знаходзяцца файлы шрыфтоў Microsoft, або ўвядзіце \"none\" для "
+"сканчэння."
 
 #. Type: string
 #. Description
@@ -82,7 +94,10 @@ msgid ""
 "If you would like to keep a permanent archive of the compressed Windows self "
 "extracting files, enter the directory where you'd like them stored.  If you "
 "leave this blank, the files will be deleted after installation."
-msgstr "Калі жадаеце трымаць пастаянны архіў са сціснутымі самаўсталявальнымі файламі Windows, увядзіце каталог, дзе яны будуць захоўвацца. Калі пакінеце поле пустым, файлы будуць выдалены пасля ўстаноўкі."
+msgstr ""
+"Калі жадаеце трымаць пастаянны архіў са сціснутымі самаўсталявальнымі "
+"файламі Windows, увядзіце каталог, дзе яны будуць захоўвацца. Калі пакінеце "
+"поле пустым, файлы будуць выдалены пасля ўстаноўкі."
 
 #. Type: string
 #. Description
@@ -99,8 +114,10 @@ msgid ""
 "(possibly local) mirror instead, please enter the full URL to the directory "
 "containing the relevant files here. If not, just leave the field blank."
 msgstr ""
-"Гэты пакет ужо змяшчае ўбудуваны набор люстэркаў, што ёсць дастатковым для большасці карыстальнікаў. Аднак, калі замест гэтага жадаеце выкарыстаць іншае"
-"(верагодна, лакальнае) люстэрка, то ўвядзіце поўны URL да каталога з патрэбнымі файламі. Інакш пакіньце поле пустым."
+"Гэты пакет ужо змяшчае ўбудуваны набор люстэркаў, што ёсць дастатковым для "
+"большасці карыстальнікаў. Аднак, калі замест гэтага жадаеце выкарыстаць іншае"
+"(верагодна, лакальнае) люстэрка, то ўвядзіце поўны URL да каталога з "
+"патрэбнымі файламі. Інакш пакіньце поле пустым."
 
 #. Type: string
 #. Description
@@ -115,11 +132,13 @@ msgid ""
 "If you need to use a proxy server, please enter it here (example: "
 "http://192.168.0.1:8080). This will cause the font files to be downloaded "
 "using your proxy."
-msgstr "Калі вы карыстаецеся проксі, увядзіце яго адрас тут (прыклад: http://192.168.0.1:8080). Гэта спрычыніць тое, што файлы шрыфтоў будуць спампаваныя праз проксі."
+msgstr ""
+"Калі вы карыстаецеся проксі, увядзіце яго адрас тут (прыклад: "
+"http://192.168.0.1:8080). Гэта спрычыніць тое, што файлы шрыфтоў будуць "
+"спампаваныя праз проксі."
 
 #. Type: string
 #. Description
 #: ../templates:5001
 msgid "Leave this option blank if you don't use a proxy server."
 msgstr "Пакіньце поле пустым, калі не карыстаецеся проксі-серверам."
-

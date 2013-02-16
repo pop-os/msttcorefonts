@@ -20,6 +20,7 @@ msgstr ""
 "PO-Revision-Date: 2007-04-21 18:39+0900\n"
 "Last-Translator: Hideki Yamane (Debian-JP) <henrich@debian.or.jp>\n"
 "Language-Team: Japanese <debian-japanese@lists.debian.org>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -86,8 +87,8 @@ msgstr ""
 "入力されたディレクトリが存在しないか、Microsoft Windows 9x 自己インストール実"
 "行可能形式の Microsoft TrueType Core Fonts for the web を含んでいない、また"
 "は、これらの実行ファイルが、このスクリプトが期待しているバージョンに一致して"
-"いません。Microsoft のフォントファイルを含むディレクトリを再入力するか、"
-"\"none\" と入力して終了してください。"
+"いません。Microsoft のフォントファイルを含むディレクトリを再入力する"
+"か、\"none\" と入力して終了してください。"
 
 #. Type: string
 #. Description
