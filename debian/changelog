@@ -8,6 +8,8 @@ msttcorefonts (3.5) UNRELEASED; urgency=low
     new enough version of dpkg rather than using 'dpkg-maintscript-helper
     supports' guards, leading to more predictable behaviour on upgrades.
     Thanks Colin Watson (closes: #659724).
+  * Proxy test failed when HTTP:// is given in uppercase. Thanks
+    Tobias Olsson (LP: #1072580).
 
  -- Thijs Kinkhorst <thijs@debian.org>  Sat, 16 Feb 2013 11:55:44 +0100
 
