@@ -10,6 +10,7 @@ msttcorefonts (3.5) UNRELEASED; urgency=low
     Thanks Colin Watson (closes: #659724).
   * Proxy test failed when HTTP:// is given in uppercase. Thanks
     Tobias Olsson (LP: #1072580).
+  * Show licence message when fonts actually installed (closes: #672259).
 
  -- Thijs Kinkhorst <thijs@debian.org>  Sat, 16 Feb 2013 11:55:44 +0100
 

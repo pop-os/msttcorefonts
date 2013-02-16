@@ -32,10 +32,10 @@ EXITCODE=0
 export http_proxy
 
 mstt_exit_with_error() {
-	echo "$1"
-	echo "The fonts are NOT installed."
+    echo "$1"
+    echo "The fonts are NOT installed."
     echo "Please run 'dpkg-reconfigure ttf-mscorefonts-installer' to perform the installation again"
-	exit 0 # still install the Debian package
+    exit 0 # still install the Debian package
 }
 
 # Base URL for Microsoft fonts
@@ -43,7 +43,6 @@ mstt_exit_with_error() {
 # which will work in most cases. The others serve as fallbacks to retry.
 URLROOTS="http://downloads.sourceforge.net/corefonts/
 	http://switch.dl.sourceforge.net/sourceforge/corefonts/
-	http://mesh.dl.sourceforge.net/sourceforge/corefonts/
 	http://dfn.dl.sourceforge.net/sourceforge/corefonts/
 	http://heanet.dl.sourceforge.net/sourceforge/corefonts/
 	http://jaist.dl.sourceforge.net/sourceforge/corefonts/
@@ -51,25 +50,10 @@ URLROOTS="http://downloads.sourceforge.net/corefonts/
 	http://ufpr.dl.sourceforge.net/sourceforge/corefonts/
 	http://internode.dl.sourceforge.net/sourceforge/corefonts/
 	http://voxel.dl.sourceforge.net/sourceforge/corefonts/
-	http://kent.dl.sourceforge.net/sourceforge/corefonts/
-	http://internap.dl.sourceforge.net/sourceforge/corefonts/"
+	http://kent.dl.sourceforge.net/sourceforge/corefonts/"
 
 if [ "$URLOVERRIDE" ] ; then
-  URLROOTS="$URLOVERRIDE"
-fi
-
-if [ -z "$QUIET_MODE" ] ; then
-    cat <<EOF
-
-These fonts were provided by Microsoft "in the interest of cross-
-platform compatibility".  This is no longer the case, but they are
-still available from third parties.
-
-You are free to download these fonts and use them for your own use,
-but you may not redistribute them in modified form, including changes
-to the file name or packaging format.
-
-EOF
+    URLROOTS="$URLOVERRIDE"
 fi
 
 SCRATCHDIR=`mktemp -t -d ttf-mscorefonts-installer.XXXXXX`
@@ -127,6 +111,21 @@ if [ -n "$CHECK_ONLY" ] ; then
         EXITCODE=1
     fi
 elif [ -n "$FONTFILES" ] ; then 
+
+    if [ -z "$QUIET_MODE" ] ; then
+        cat <<EOF
+
+These fonts were provided by Microsoft "in the interest of cross-
+platform compatibility".  This is no longer the case, but they are
+still available from third parties.
+
+You are free to download these fonts and use them for your own use,
+but you may not redistribute them in modified form, including changes
+to the file name or packaging format.
+
+EOF
+    fi
+
     if [ -n "$QUIET_MODE" ] ; then
         QUIET_ARG="--quiet"
     else
@@ -212,12 +211,8 @@ fi
 cd /
 rm -rf $SCRATCHDIR
 
-if [ -z "$QUIETMODE" ] ; then
-    if [ $EXITCODE = 0 ] ; then
-        echo "All fonts downloaded and installed."
-    else
-        mstt_exit_with_error "The following fonts failed to install : $FFFAILED."
-    fi
+if [ -z "$QUIET_MODE" ] && [ $EXITCODE != 0 ] ; then
+    mstt_exit_with_error "The following fonts failed to install : $FFFAILED."
 fi
 
 #DEBHELPER#
