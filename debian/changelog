@@ -3,6 +3,11 @@ msttcorefonts (3.5) UNRELEASED; urgency=low
   * Mark Multi-Arch: foreign, thanks Scott Ritchie, Daniel Hartwig
     (closes: #700684).
   * Switch to debhelper 9. Update for policy 3.9.4 (no changes).
+  * Use maintscript support in dh_installdeb rather than writing out
+    dpkg-maintscript-helper commands by hand.  We now simply Pre-Depend on a
+    new enough version of dpkg rather than using 'dpkg-maintscript-helper
+    supports' guards, leading to more predictable behaviour on upgrades.
+    Thanks Colin Watson (closes: #659724).
 
  -- Thijs Kinkhorst <thijs@debian.org>  Sat, 16 Feb 2013 11:55:44 +0100
 

@@ -25,9 +25,5 @@ while ! echo "$http_proxy" | \
         http_proxy=$RET
 done
 
-if dpkg-maintscript-helper supports rm_conffile 2>/dev/null; then
-  dpkg-maintscript-helper rm_conffile /etc/defoma/hints/ttf-mscorefonts-installer.hints 3.4 -- "$@"
-fi
-  
 ## Content of update-ms-fonts will be concatenated below
 

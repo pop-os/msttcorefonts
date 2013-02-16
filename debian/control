@@ -9,6 +9,7 @@ Vcs-Browser: https://aphrodite.kinkhorst.nl/wsvn/debian/msttcorefonts/
 
 Package: ttf-mscorefonts-installer
 Architecture: all
+Pre-Depends: ${misc:Pre-Depends}
 Depends: wget, cabextract, xfonts-utils, ${misc:Depends}
 Recommends: fonts-liberation
 Provides: msttcorefonts

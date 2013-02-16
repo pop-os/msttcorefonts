@@ -9,8 +9,4 @@ if dpkg --compare-versions "$2" lt 3.4; then
 fi
 
 
-if dpkg-maintscript-helper supports rm_conffile 2>/dev/null; then
-  dpkg-maintscript-helper rm_conffile /etc/defoma/hints/ttf-mscorefonts-installer.hints 3.4 -- "$@"
-fi
-
 #DEBHELPER#
