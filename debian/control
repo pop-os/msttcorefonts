@@ -12,6 +12,7 @@ Architecture: all
 Depends: wget, cabextract, xfonts-utils, ${misc:Depends}
 Recommends: fonts-liberation
 Provides: msttcorefonts
+Multi-Arch: foreign
 Description: Installer for Microsoft TrueType core fonts
  This package allows for easy installation of the Microsoft True Type
  Core Fonts for the Web including:
