@@ -1,4 +1,4 @@
-msttcorefonts (3.5) UNRELEASED; urgency=low
+msttcorefonts (3.5) unstable; urgency=low
 
   * Mark Multi-Arch: foreign, thanks Scott Ritchie, Daniel Hartwig
     (closes: #700684).
