@@ -1,0 +1,145 @@
+# Turkish translation of msttcorefonts debconf template.
+# Copyright (C) 2012
+# This file is distributed under the same license as the msttcorefonts package.
+# Mert Dirik <mertdirik@gmail.com>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: msttcorefonts 3.4\n"
+"Report-Msgid-Bugs-To: thijs@debian.org\n"
+"POT-Creation-Date: 2007-12-01 15:50+0100\n"
+"PO-Revision-Date: 2014-08-12 00:05+0200\n"
+"Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
+"Language-Team: Debian L10n Turkish <debian-l10n-turkish@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: tr\n"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid "Directory holding MS fonts (if already downloaded):"
+msgstr "Microsoft yazı tiplerinin bulunduğu dizin (eğer önceden indirildiyse):"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"If you have already downloaded Microsoft's TrueType Core Fonts for the web, "
+"type the name of the directory which contains them. Those files are in the "
+"Microsoft Windows self-installing format, and are named andale32.exe, "
+"arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
+"exe, times32.exe, trebuc32.exe, verdan32.exe and webdin32.exe."
+msgstr ""
+"Microsoft'un TrueType Temel Yazı Tipleri'ni daha önce indirdiyseniz yazı "
+"tiplerinin bulunduğu dizini burada belirtin. Bu dosyalar Microsoft Windows "
+"kendiliğinden kurulabilir dosya biçimindedir ve adları andale32.exe, arial32."
+"exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32.exe, "
+"times32.exe, trebuc32.exe, verdan32.exe and webdin32.exe şeklindedir."
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"If you haven't yet downloaded these fonts, leave this blank and the fonts "
+"will be downloaded for you. Approximately 4 MB will need to be downloaded."
+msgstr ""
+"Bu yazı tiplerini daha önce indirmediyseniz burayı boş bırakın, yazı tipleri "
+"indirilecektir. Yaklaşık 4 MB boyutunda bir indirme yapılacaktır."
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"If you are not connected to the internet or do not wish to download these "
+"fonts now, enter \"none\" to abort."
+msgstr ""
+"İnternete bağlı değilseniz ya da yazı tiplerini daha sonra indirmek "
+"isterseniz bu işlemi iptal etmek için \"none\" yazın."
+
+#. Type: error
+#. Description
+#: ../templates:2001
+msgid "Font files not found"
+msgstr "Yazı tipi dosyaları bulunamadı"
+
+#. Type: error
+#. Description
+#: ../templates:2001
+msgid ""
+"The directory you entered either did not exist, did not contain the "
+"Microsoft TrueType Core Fonts for the Web Microsoft Windows 9x self "
+"installing executables, or those executables did not match the versions "
+"expected by this script.  Please re-enter the directory containing the "
+"Microsoft font files or enter \"none\" to abort."
+msgstr ""
+"Girdiğiniz dizin mevcut değil, Microsoft TrueType Temel Web Yazı Tiplerine "
+"ait kendiliğinden kurulabilir dosyaları içermiyor ya da bulunan kurulum "
+"dosyaları bu betiğin beklediği sürümde değiller.  Lütfen Microsoft Yazı "
+"Tiplerinin bulunduğu dizini tekrar girin ya da işlemi iptal etmek için \"none"
+"\" yazın."
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Where should these files be archived (optional):"
+msgstr "Dosyalar nerede saklansın (isteğe bağlı):"
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid ""
+"If you would like to keep a permanent archive of the compressed Windows self "
+"extracting files, enter the directory where you'd like them stored.  If you "
+"leave this blank, the files will be deleted after installation."
+msgstr ""
+"Sıkıştırılmış haldeki 'Windows kendiliğinden kurulabilir dosyaları'nı kalıcı "
+"olarak saklamak istiyorsanız bu dosyaları tutmak istediğiniz dizini "
+"giriniz.  Burayı boş bırakırsanız, indirilen dosyalar kurulumdan sonra "
+"silinirler."
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid "Mirror to download from:"
+msgstr "Kullanılacak yansı:"
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid ""
+"This package already contains a built-in set of mirrors, which should be "
+"sufficient for most people. However, if you'd like to use a different "
+"(possibly local) mirror instead, please enter the full URL to the directory "
+"containing the relevant files here. If not, just leave the field blank."
+msgstr ""
+"Bu paket halihazırda yerleşik bir yansı listesini içerir. Bu liste çoğu "
+"kullanıcı için yeterlidir. Ancak farklı (muhtemelen yerel) bir yansı "
+"kullanmak isterseniz lütfen ilgili dosyaların bulunduğu dizinin tam URL'sini "
+"buraya giriniz."
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "HTTP proxy to use:"
+msgstr "Kullanılacak HTTP vekili:"
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid ""
+"If you need to use a proxy server, please enter it here (example: "
+"http://192.168.0.1:8080). This will cause the font files to be downloaded "
+"using your proxy."
+msgstr ""
+"Eğer vekil sunucusu kullanmanız gerekiyorsa lütfen buraya yazın (örnek: "
+"http://192.168.0.1:8080). Yazdığınız takdirde yazı tipi dosyaları vekil "
+"aracılığıyla indirilecektir."
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "Leave this option blank if you don't use a proxy server."
+msgstr "Vekil sunucusu kullanmıyorsanız burayı boş bırakın."
