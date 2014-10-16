@@ -1,6 +1,7 @@
 msttcorefonts (3.6) unstable; urgency=medium
 
   * Add Turkish translation, thanks Mert Dirik (closes: #757868).
+  * Update to policy 3.9.6, no changes.
 
  -- Thijs Kinkhorst <thijs@debian.org>  Thu, 16 Oct 2014 05:52:57 +0000
 
