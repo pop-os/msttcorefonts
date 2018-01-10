@@ -4,8 +4,8 @@ Priority: optional
 Maintainer: Thijs Kinkhorst <thijs@debian.org>
 Standards-Version: 3.9.6
 Build-Depends: debhelper (>= 9)
-Vcs-Svn: https://svn.kinkhorst.nl/svn/debian/msttcorefonts/trunk
-Vcs-Browser: https://aphrodite.kinkhorst.nl/wsvn/debian/msttcorefonts/
+Vcs-Git: https://salsa.debian.org/debian/msttcorefonts.git
+Vcs-Browser: https://salsa.debian.org/debian/msttcorefonts
 
 Package: ttf-mscorefonts-installer
 Architecture: all
