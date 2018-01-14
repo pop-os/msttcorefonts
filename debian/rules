@@ -1,58 +1,7 @@
 #!/usr/bin/make -f
-#-*- makefile -*-
-# Made with the aid of dh_make, by Craig Small
-# Sample debian/rules that uses debhelper. GNU copyright 1997 by Joey Hess.
-# Some lines taken from debmake, by Christoph Lameter.
 
-# Uncomment this to turn on verbose mode.
-#export DH_VERBOSE=1
+%:
+	dh $@
 
-fonttype = truetype
-texmf = usr/share/texmf
-fontpath = usr/share/fonts/$(fonttype)
-
-build: build-arch build-indep
-build-arch: build-stamp
-build-indep: build-stamp
-build-stamp:
+override_dh_auto_build:
 	cat debian/postinst.in update-ms-fonts >> debian/postinst
-	touch build-stamp
-clean:
-	dh_testdir
-	dh_testroot
-	rm -f install-stamp debian/postinst build-stamp
-	dh_clean
-
-install: install-stamp
-install-stamp:
-	dh_testdir
-	dh_testroot
-	dh_prep
-	dh_installdirs
-	dh_install
-	touch install-stamp
-
-# Build architecture-independent files here.
-binary-indep: build install
-	dh_testdir
-	dh_testroot
-	dh_installdebconf
-	dh_installdocs
-	dh_installchangelogs 
-	dh_lintian
-	dh_link
-	dh_strip
-	dh_compress
-	dh_fixperms
-	dh_installdeb
-	dh_shlibdeps
-	dh_gencontrol
-	dh_md5sums
-	dh_builddeb
-
-# Build architecture-dependent files here.
-binary-arch: build install
-# We have nothing to do by default.
-
-binary: binary-indep binary-arch
-.PHONY: build clean binary-indep binary-arch binary
