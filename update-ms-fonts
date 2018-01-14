@@ -32,10 +32,10 @@ EXITCODE=0
 export http_proxy
 
 mstt_exit_with_error() {
-    echo "$1"
-    echo "The fonts are NOT installed."
-    echo "Please run 'dpkg-reconfigure ttf-mscorefonts-installer' to perform the installation again"
-    exit 0 # still install the Debian package
+    echo "$1" >&2
+    echo "The fonts are NOT installed." >&2
+    echo "Please run 'dpkg-reconfigure ttf-mscorefonts-installer' to perform the installation again" >&2
+    exit 1
 }
 
 # Base URL for Microsoft fonts
@@ -211,10 +211,18 @@ fi
 cd /
 rm -rf $SCRATCHDIR
 
-if [ -z "$QUIET_MODE" ] && [ $EXITCODE != 0 ] ; then
-    mstt_exit_with_error "The following fonts failed to install : $FFFAILED."
+if [ -z "$QUIETMODE" ] ; then
+    if [ $EXITCODE = 0 ] ; then
+        echo "All fonts downloaded and installed."
+    else
+        if [ -n "$FFFAILED" ]; then
+            mstt_exit_with_error "The following fonts failed to install : $FFFAILED."
+        else
+            mstt_exit_with_error "One or more fonts could not be extracted."
+        fi
+    fi
 fi
 
 #DEBHELPER#
 
-exit 0
+exit $EXITCODE
