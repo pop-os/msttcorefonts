@@ -206,6 +206,8 @@ EOF
   # Make a note of what we installed so we can uninstall it later
     awk '{print $2}' msfonts.info > /var/lib/msttcorefonts/ms-fonts
     awk '{print $4}' msfonts.info >> /var/lib/msttcorefonts/ms-fonts
+
+    dpkg-trigger --no-await /usr/share/fonts
 fi
 
 cd /
