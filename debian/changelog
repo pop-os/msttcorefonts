@@ -1,3 +1,9 @@
+msttcorefonts (3.8) UNRELEASED; urgency=medium
+
+  * d/changelog: Remove trailing whitespaces
+
+ -- Ondřej Nový <onovy@debian.org>  Mon, 01 Oct 2018 10:35:48 +0200
+
 msttcorefonts (3.7) unstable; urgency=medium
 
   * Print message that fonts are moved upon package removal
@@ -79,7 +85,7 @@ msttcorefonts (3.0ubuntu1) lucid; urgency=low
 
   * debian/postinst.in : Check validity of proxy setting (LP : #274421)
   * update-ms-font : improve error handling (LP: #431217)(LP: #464422)
-    - Don't fail if the fonts failed to download and display a message 
+    - Don't fail if the fonts failed to download and display a message
       to run dpkg-reconfigure ttf-mscorefonts-installer later
     - Retry all mirrors for all fonts
     - Drop --dns-timeout option of wget an rely on system timeout
@@ -286,7 +292,7 @@ msttcorefonts (1.2) unstable; urgency=high
 
   * Run update-fonts-dir in /usr/share/fonts/truetype to get rid of
     obsolete entries.  (closes: #252895, #280462, #279380)
-  
+
  -- Tollef Fog Heen <tfheen@debian.org>  Sun,  2 Jan 2005 10:59:46 +0100
 
 msttcorefonts (1.1.12) unstable; urgency=low
@@ -322,7 +328,7 @@ msttcorefonts (1.1.9) unstable; urgency=medium
     debug the problem.
   * Quote tr's arguments in update-ms-fonts.  Thanks to Aaron M. Ucko
     <ucko@debian.org> for spotting this.
-  
+
  -- Tollef Fog Heen <tfheen@debian.org>  Thu, 23 Sep 2004 13:05:16 +0200
 
 msttcorefonts (1.1.8) unstable; urgency=low
@@ -345,7 +351,7 @@ msttcorefonts (1.1.7) unstable; urgency=low
     (closes: #272313, #172006, #269862, #188926, #161503)
   * Fix up the hints file to tell that Impact is variable-width and not
     fixed-width (closes: #184869)
-  * Try to get rid of /usr/X11R6/lib/X11/fonts/TrueType in preinst 
+  * Try to get rid of /usr/X11R6/lib/X11/fonts/TrueType in preinst
     (closes: #188454)
 
  -- Tollef Fog Heen <tfheen@debian.org>  Wed, 22 Sep 2004 14:26:35 +0200
@@ -370,7 +376,7 @@ msttcorefonts (1.1.6) unstable; urgency=low
     (Thanks to Marcel Sebek <sebek64@post.cz>)
   * Update German translation (closes: #270306)
     (Thanks to Mario Scheel <marioscheel@web.de>)
-  * Make sure you only get asked once about downloading the fonts 
+  * Make sure you only get asked once about downloading the fonts
     (closes: #155605)
 
  -- Tollef Fog Heen <tfheen@debian.org>  Wed, 15 Sep 2004 18:36:35 +0200
@@ -390,7 +396,7 @@ msttcorefonts (1.1.4) unstable; urgency=low
 
   * do not imply that these fonts will be downloaded from MS web site
     neither from the description nor from the templates, nor the script
-    itself (Closes: #161411) 
+    itself (Closes: #161411)
   * s/X-windows/X Window System/ (Closes: #191287)
   * name the files to download in the template to allow the user
     to find them more easily (Closes: #166889)
@@ -429,7 +435,7 @@ msttcorefonts (1.1.1) unstable; urgency=low
   * explain defoma conf on systems that seem not to be
     configured, Closes: #162557
   * Clean up empty TrueType directory, if it exists, Closes: #163383
-  
+
  -- Eric Sharkey <sharkey@debian.org>  Sat, 26 Oct 2002 14:48:49 -0400
 
 msttcorefonts (1.1.0) unstable; urgency=low
