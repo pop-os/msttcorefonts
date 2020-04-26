@@ -1,4 +1,4 @@
-msttcorefonts (3.9) UNRELEASED; urgency=medium
+msttcorefonts (3.8) UNRELEASED; urgency=medium
 
   [ Thijs Kinkhorst ]
   * Update download URLs to use https. Depend on ca-certificates
