@@ -12,6 +12,7 @@ if [ "$1" = "remove" ] && [ -e /var/lib/msttcorefonts/ms-fonts ]; then
 	rm -f '/usr/share/doc/ttf-mscorefonts-installer/READ_ME!.gz'
 	rm -r /var/lib/msttcorefonts/ms-fonts
 	rmdir --ignore-fail-on-non-empty /usr/share/fonts/truetype/msttcorefonts
+	dpkg-trigger --no-await /usr/share/fonts
 fi
 
 exit 0
