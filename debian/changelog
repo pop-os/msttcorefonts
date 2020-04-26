@@ -4,6 +4,8 @@ msttcorefonts (3.9) UNRELEASED; urgency=medium
   * Update download URLs to use https. Depend on ca-certificates
     to make this work out of the box.
     (Closes: #910483, #912956, #958781)
+  * Update font cache and restore SELinux context after installing
+    the fonts (thanks Laurent Bigonville, Closes: #820627, #899373).
 
   [ Ondřej Nový ]
   * changelog: Remove trailing whitespaces
