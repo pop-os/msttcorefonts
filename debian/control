@@ -10,7 +10,7 @@ Vcs-Browser: https://salsa.debian.org/debian/msttcorefonts
 Package: ttf-mscorefonts-installer
 Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
-Depends: wget, cabextract, xfonts-utils, ${misc:Depends}
+Depends: wget, ca-certificates, cabextract, xfonts-utils, ${misc:Depends}
 Recommends: fonts-liberation
 Provides: msttcorefonts
 Multi-Arch: foreign

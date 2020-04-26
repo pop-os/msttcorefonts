@@ -41,16 +41,14 @@ mstt_exit_with_error() {
 # Base URL for Microsoft fonts
 # Can be more than one to try, but here we just use SF.net's redirection,
 # which will work in most cases. The others serve as fallbacks to retry.
-URLROOTS="http://downloads.sourceforge.net/corefonts/
-	http://switch.dl.sourceforge.net/sourceforge/corefonts/
-	http://dfn.dl.sourceforge.net/sourceforge/corefonts/
-	http://heanet.dl.sourceforge.net/sourceforge/corefonts/
-	http://jaist.dl.sourceforge.net/sourceforge/corefonts/
-	http://nchc.dl.sourceforge.net/sourceforge/corefonts/
-	http://ufpr.dl.sourceforge.net/sourceforge/corefonts/
-	http://internode.dl.sourceforge.net/sourceforge/corefonts/
-	http://voxel.dl.sourceforge.net/sourceforge/corefonts/
-	http://kent.dl.sourceforge.net/sourceforge/corefonts/"
+URLROOTS="https://downloads.sourceforge.net/corefonts/
+	https://jaist.dl.sourceforge.net/sourceforge/corefonts/
+	https://nchc.dl.sourceforge.net/sourceforge/corefonts/
+	https://ufpr.dl.sourceforge.net/sourceforge/corefonts/
+	https://internode.dl.sourceforge.net/sourceforge/corefonts/
+	https://netcologne.dl.sourceforge.net/sourceforge/corefonts/
+	https://vorboss.dl.sourceforge.net/sourceforge/corefonts/
+	https://netix.dl.sourceforge.net/sourceforge/corefonts/"
 
 if [ "$URLOVERRIDE" ] ; then
     URLROOTS="$URLOVERRIDE"

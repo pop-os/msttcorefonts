@@ -1,8 +1,14 @@
-msttcorefonts (3.8) UNRELEASED; urgency=medium
+msttcorefonts (3.9) UNRELEASED; urgency=medium
 
-  * d/changelog: Remove trailing whitespaces
+  [ Thijs Kinkhorst ]
+  * Update download URLs to use https. Depend on ca-certificates
+    to make this work out of the box.
+    (Closes: #910483, #912956, #958781)
 
- -- Ondřej Nový <onovy@debian.org>  Mon, 01 Oct 2018 10:35:48 +0200
+  [ Ondřej Nový ]
+  * changelog: Remove trailing whitespaces
+
+ -- Thijs Kinkhorst <thijs@debian.org>  Sun, 26 Apr 2020 12:13:08 +0000
 
 msttcorefonts (3.7) unstable; urgency=medium
 
