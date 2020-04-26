@@ -6,6 +6,7 @@ msttcorefonts (3.9) UNRELEASED; urgency=medium
     (Closes: #910483, #912956, #958781)
   * Update font cache and restore SELinux context after installing
     the fonts (thanks Laurent Bigonville, Closes: #820627, #899373).
+  * Checked for policy 4.5.0, no changes required.
 
   [ Ondřej Nový ]
   * changelog: Remove trailing whitespaces
