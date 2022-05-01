@@ -1,3 +1,9 @@
+msttcorefonts (3.8ubuntu2pop1) jammy; urgency=medium
+
+  * Remove dependency on update-notifier-common
+
+ -- Michael Aaron Murphy <mmstick@pm.me>  Sun, 01 May 2022 17:03:48 +0200
+
 msttcorefonts (3.8ubuntu2) groovy; urgency=medium
 
   * Add +x to make the script executable.
