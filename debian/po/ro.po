@@ -1,0 +1,215 @@
+# translation of ro.po to Romanian
+# Romanian translations for msttcorefonts package
+# Traducerea în limba română pentru pachetul msttcorefonts.
+# Copyright (C) 2007 THE msttcorefonts'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the msttcorefonts package.
+#
+# Eddy Petrisor <eddy.petrisor@gmail.com>, 2007.
+# Eddy Petrișor <eddy.petrisor@gmail.com>, 2007.
+# Igor Stirbu <igor.stirbu@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: ro\n"
+"Report-Msgid-Bugs-To: thijs@debian.org\n"
+"POT-Creation-Date: 2007-12-01 15:50+0100\n"
+"PO-Revision-Date: 2007-05-01 11:55+0300\n"
+"Last-Translator: Igor Stirbu <igor.stirbu@gmail.com>\n"
+"Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid "Directory holding MS fonts (if already downloaded):"
+msgstr "Directorul care conține fonturile MS (dacă sunt deja descărcate):"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"If you have already downloaded Microsoft's TrueType Core Fonts for the web, "
+"type the name of the directory which contains them. Those files are in the "
+"Microsoft Windows self-installing format, and are named andale32.exe, "
+"arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
+"exe, times32.exe, trebuc32.exe, verdan32.exe and webdin32.exe."
+msgstr ""
+"Dacă ați descărcat deja fonturile Microsoft TrueType Core, introduceți "
+"numele directorului care le conține. Aceste fișiere sunt în formatul de auto-"
+"instalare Microsoft Windows și sunt numite andale32.exe, arial32.exe, "
+"arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32.exe, times32."
+"exe, trebuc32.exe, verdan32.exe și webdin32.exe."
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"If you haven't yet downloaded these fonts, leave this blank and the fonts "
+"will be downloaded for you. Approximately 4 MB will need to be downloaded."
+msgstr ""
+"Dacă nu ați descărcat deja aceste fonturi, lăsați liber acest câmp și "
+"fonturile vor fi descărcate. Vor trebui descărcați aproximativ 8MO."
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"If you are not connected to the internet or do not wish to download these "
+"fonts now, enter \"none\" to abort."
+msgstr ""
+"Dacă nu aveți activă o conexiune la internet sau nu doriți să descărcați "
+"acum aceste fonturi, introduceți „none” pentru a abandona."
+
+#. Type: error
+#. Description
+#: ../templates:2001
+msgid "Font files not found"
+msgstr "Fișierele cu fonturi nu au fost găsite"
+
+#. Type: error
+#. Description
+#: ../templates:2001
+msgid ""
+"The directory you entered either did not exist, did not contain the "
+"Microsoft TrueType Core Fonts for the Web Microsoft Windows 9x self "
+"installing executables, or those executables did not match the versions "
+"expected by this script.  Please re-enter the directory containing the "
+"Microsoft font files or enter \"none\" to abort."
+msgstr ""
+"Directorul introdus fie nu există, fie nu conține fonturile Microsoft "
+"TrueType Core pentru executabilele de auto-instalare Microsoft Windows 9x "
+"sau acele executabile nu conțin versiunile la care se așteaptă acest script. "
+"Reintroduceți directorul care conține fișierele cu fonturile Microsoft sau "
+"introduceți „none” pentru a abandona."
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Where should these files be archived (optional):"
+msgstr "Unde se arhivează aceste fonturi (opțional):"
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid ""
+"If you would like to keep a permanent archive of the compressed Windows self "
+"extracting files, enter the directory where you'd like them stored.  If you "
+"leave this blank, the files will be deleted after installation."
+msgstr ""
+"Dacă doriți să păstrați o copie a fișierelor de auto-instalare Windows "
+"comprimate, introduceți directorul unde le doriți stocate. Dacă lăsați gol "
+"acest câmp, fișierele vor fi șterse după instalare."
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid "Mirror to download from:"
+msgstr "Sit alternativ pentru descărcare:"
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid ""
+"This package already contains a built-in set of mirrors, which should be "
+"sufficient for most people. However, if you'd like to use a different "
+"(possibly local) mirror instead, please enter the full URL to the directory "
+"containing the relevant files here. If not, just leave the field blank."
+msgstr ""
+"Acest pachet conține deja un set de site-uri alternative, care ar trebui să "
+"fie suficiente pentru majoritatea utilizatorilor. Totuși, dacă doriți să "
+"folosiți un sit alternativ pentru descărcare diferit (posibil local), "
+"introduceți aici adresa completă a directorului care conține fișierele "
+"relevante."
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "HTTP proxy to use:"
+msgstr "Proxy-ul HTTP folosit:"
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid ""
+"If you need to use a proxy server, please enter it here (example: "
+"http://192.168.0.1:8080). This will cause the font files to be downloaded "
+"using your proxy."
+msgstr ""
+"Dacă trebuie folosiți un server proxy, introduceți-l aici (de exemplu: "
+"http://192.168.0.1:8080). Fișierele cu fonturi vor fi descărcate folosind "
+"acest server proxy."
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "Leave this option blank if you don't use a proxy server."
+msgstr "Lăsați acest câmp gol dacă nu folosiți un server proxy."
+
+#. Type: boolean
+#. Description
+#: ../templates:5001
+msgid "Do you accept the EULA license terms?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:5001
+msgid ""
+"In order to install this package, you must accept the license terms, the "
+"\"TrueType core fonts for the Web EULA \". Not accepting will cancel the "
+"installation."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:6001
+msgid "Declined \"TrueType core fonts for the Web EULA \""
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:6001
+msgid ""
+"If you do not agree to the \"TrueType core fonts for the Web EULA \" license "
+"terms you cannot install this software."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:6001
+msgid "The installation of this package will be canceled."
+msgstr ""
+
+#~ msgid "msttcorefonts uses defoma"
+#~ msgstr "msttcorefonts folosește defoma"
+
+#~ msgid ""
+#~ "Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to use "
+#~ "the fonts provided by this package under the X Window System, you must "
+#~ "configure it to use defoma fonts."
+#~ msgstr ""
+#~ "Acum msttcorefonts folosește Managerul de fonturi Debian (DEbian FOnt "
+#~ "MAnager / defoma). Dacă doriți să folosiți fonturile furnizate de acest "
+#~ "pachet în Sistemul de ferestre X, trebuie să-l configurați să folosească "
+#~ "fonturile defoma."
+
+#~ msgid ""
+#~ "The easiest way to do so is to use the x-ttcidfont-conf package. For more "
+#~ "information, install the x-ttcidfont-conf package and consult its "
+#~ "documentation under /usr/share/doc/x-ttcidfont-conf."
+#~ msgstr ""
+#~ "Cea mai ușoară metodă este folosirea pachetului x-ttcidfont-conf. Pentru "
+#~ "mai multe informații, instalați pachetul x-ttcidfont-conf și consultați-i "
+#~ "documentația aflată în directorul /usr/share/doc/x-ttcidfont-conf."
+
+#~ msgid ""
+#~ "For uses of msttcorefonts not related to the X Window System (e.g. "
+#~ "printing) this is not required."
+#~ msgstr ""
+#~ "Acest lucru nu este necesar pentru scopurile de utilizare care nu au "
+#~ "legătură cu Sistemul de ferestre X (ex. tipărire)."

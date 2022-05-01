@@ -1,0 +1,183 @@
+# translation of msttcorefonts_2.6_gl.po to galician
+# Galician translation of msttcorefonts's debconf templates
+# This file is distributed under the same license as the msttcorefonts package.
+#
+# Jacobo Tarrio <jtarrio@debian.org>, 2007.
+# Marce Villarino <mvillarino@users.sourceforge.net>, 2009.
+# mvillarino <mvillarino@users.sourceforge.net>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: msttcorefonts_2.6_gl\n"
+"Report-Msgid-Bugs-To: thijs@debian.org\n"
+"POT-Creation-Date: 2007-12-01 15:50+0100\n"
+"PO-Revision-Date: 2009-01-18 22:47+0100\n"
+"Last-Translator: Marce Villarino <mvillarino@users.sourceforge.net>\n"
+"Language-Team: galician <proxecto@trasno.net>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid "Directory holding MS fonts (if already downloaded):"
+msgstr "Directorio que contén os tipos de letra de MS (se xa se descargaron):"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"If you have already downloaded Microsoft's TrueType Core Fonts for the web, "
+"type the name of the directory which contains them. Those files are in the "
+"Microsoft Windows self-installing format, and are named andale32.exe, "
+"arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
+"exe, times32.exe, trebuc32.exe, verdan32.exe and webdin32.exe."
+msgstr ""
+"Se xa descargou os «TrueType Core Fonts» de Microsoft, escriba o nome do "
+"directorio que os contén. Eses ficheiros están no formato autoinstalábel de "
+"Microsoft Windows, e teñen os nomes andale32.exe, arial32.exe, arialb32.exe, "
+"comic32.exe, courie32.exe, georgi32.exe, impact32.exe, times32.exe, trebuc32."
+"exe, verdan32.exe e webdin32.exe."
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"If you haven't yet downloaded these fonts, leave this blank and the fonts "
+"will be downloaded for you. Approximately 4 MB will need to be downloaded."
+msgstr ""
+"Se aínda non descargou estes tipos de letra, deixe isto en branco e hanse "
+"descargar os tipos por vostede. Hase ter que descargar uns 4 MB, "
+"aproximadamente."
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"If you are not connected to the internet or do not wish to download these "
+"fonts now, enter \"none\" to abort."
+msgstr ""
+"Se non está conectado a Internet ou non quere descargar agora os tipos, "
+"introduza \"none\" para abortar."
+
+#. Type: error
+#. Description
+#: ../templates:2001
+msgid "Font files not found"
+msgstr "Non se atoparon os ficheiros dos tipos de letra"
+
+#. Type: error
+#. Description
+#: ../templates:2001
+msgid ""
+"The directory you entered either did not exist, did not contain the "
+"Microsoft TrueType Core Fonts for the Web Microsoft Windows 9x self "
+"installing executables, or those executables did not match the versions "
+"expected by this script.  Please re-enter the directory containing the "
+"Microsoft font files or enter \"none\" to abort."
+msgstr ""
+"O directorio que introduciu non existe, ou non contén os executábeis "
+"autoinstalábeis dos «TrueType Core Fonts» de Microsoft para a Web, ou os "
+"executábeis non coinciden coas versións que agardaba este script. Volva "
+"introducir o directorio que contén os tipos de letra de Microsoft ou "
+"introduza \"none\" para abortar."
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Where should these files be archived (optional):"
+msgstr "Onde se teñen que archivar estes ficheiros (opcional):"
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid ""
+"If you would like to keep a permanent archive of the compressed Windows self "
+"extracting files, enter the directory where you'd like them stored.  If you "
+"leave this blank, the files will be deleted after installation."
+msgstr ""
+"Se quere gardar un arquivo permanente dos ficheiros autoextraíbeis de "
+"Windows, introduza o directorio no que os quere gardar. Se o deixa en "
+"branco, hanse borrar os ficheiros tras a instalación."
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid "Mirror to download from:"
+msgstr "Réplica da que descargar:"
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid ""
+"This package already contains a built-in set of mirrors, which should be "
+"sufficient for most people. However, if you'd like to use a different "
+"(possibly local) mirror instead, please enter the full URL to the directory "
+"containing the relevant files here. If not, just leave the field blank."
+msgstr ""
+"Este paquete xa contén un xogo de réplicas que debería ser dabondo para a "
+"maioría da xente. Porén, se quere empregar outra réplica (posibelmente "
+"local), introduza aquí o URL completo do directorio que contén os ficheiros "
+"relevantes. Se non, deixe o campo en branco."
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "HTTP proxy to use:"
+msgstr "Proxy HTTP a empregar:"
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid ""
+"If you need to use a proxy server, please enter it here (example: "
+"http://192.168.0.1:8080). This will cause the font files to be downloaded "
+"using your proxy."
+msgstr ""
+"Se precisa de empregar un servidor proxy, introdúzao aquí (exemplo: "
+"http://192.168.0.1:8080). Isto ha facer que os ficheiros de tipos de letras "
+"se descarguen empregando o proxy."
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "Leave this option blank if you don't use a proxy server."
+msgstr "Deixe esta opción en branco se non emprega un servidor proxy."
+
+#. Type: boolean
+#. Description
+#: ../templates:5001
+msgid "Do you accept the EULA license terms?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:5001
+msgid ""
+"In order to install this package, you must accept the license terms, the "
+"\"TrueType core fonts for the Web EULA \". Not accepting will cancel the "
+"installation."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:6001
+msgid "Declined \"TrueType core fonts for the Web EULA \""
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:6001
+msgid ""
+"If you do not agree to the \"TrueType core fonts for the Web EULA \" license "
+"terms you cannot install this software."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:6001
+msgid "The installation of this package will be canceled."
+msgstr ""
