@@ -21,14 +21,14 @@ msgstr ""
 "Language-Team: Emil <emil5@go2.pl>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. Type: string
 #. Description
 #: ../templates:1001
 msgid "Directory holding MS fonts (if already downloaded):"
-msgstr "Katalog zawieraj±cy fonty MS (je¿eli masz je ju¿ na dysku):"
+msgstr "Katalog zawierajÄ…cy fonty MS (jeÅ¼eli masz je juÅ¼ na dysku):"
 
 #. Type: string
 #. Description
@@ -40,8 +40,8 @@ msgid ""
 "arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
 "exe, times32.exe, trebuc32.exe, verdan32.exe and webdin32.exe."
 msgstr ""
-"Je¿eli masz ju¿ na dysku fonty TrueType z Microsoftu podaj katalog w którym "
-"siê one znajduj±. Pliki s± w samorozpakowuj±cym siê formacie Microsoft "
+"JeÅ¼eli masz juÅ¼ na dysku fonty TrueType z Microsoftu podaj katalog w ktÃ³rym "
+"siÄ™ one znajdujÄ…. Pliki sÄ… w samorozpakowujÄ…cym siÄ™ formacie Microsoft "
 "Windows o nazwach: andale32.exe, arial32.exe, arialb32.exe, comic32.exe, "
 "courie32.exe, georgi32.exe, impact32.exe, times32.exe, trebuc32.exe, "
 "verdan32.exe i webdin32.exe. "
@@ -53,8 +53,8 @@ msgid ""
 "If you haven't yet downloaded these fonts, leave this blank and the fonts "
 "will be downloaded for you. Approximately 4 MB will need to be downloaded."
 msgstr ""
-"Je¿eli nie masz tych fontów na dysku pozostaw to pole pustym. Odpowiednie "
-"pliki (oko³o 8MB) zostan± pobrane z internetu."
+"JeÅ¼eli nie masz tych fontÃ³w na dysku pozostaw to pole pustym. Odpowiednie "
+"pliki (okoÅ‚o 8MB) zostanÄ… pobrane z internetu."
 
 #. Type: string
 #. Description
@@ -63,14 +63,14 @@ msgid ""
 "If you are not connected to the internet or do not wish to download these "
 "fonts now, enter \"none\" to abort."
 msgstr ""
-"Je¿eli nie masz teraz po³±czenia z internetem, albo nie chcesz teraz "
-"pobieraæ tych fontów, to mo¿esz wpisaæ \"none\" aby przerwaæ ten proces."
+"JeÅ¼eli nie masz teraz poÅ‚Ä…czenia z internetem, albo nie chcesz teraz "
+"pobieraÄ‡ tych fontÃ³w, to moÅ¼esz wpisaÄ‡ \"none\" aby przerwaÄ‡ ten proces."
 
 #. Type: error
 #. Description
 #: ../templates:2001
 msgid "Font files not found"
-msgstr "Nie odnaleziono plików z fontami"
+msgstr "Nie odnaleziono plikÃ³w z fontami"
 
 #. Type: error
 #. Description
@@ -82,15 +82,15 @@ msgid ""
 "expected by this script.  Please re-enter the directory containing the "
 "Microsoft font files or enter \"none\" to abort."
 msgstr ""
-"Wybrany katalog nie istnieje, lub nie zawiera³ plików z fontami Microsoft "
-"TrueType w odpowiednim formacie. Podaj w³a¶ciwy katalog z fontami albo wpisz "
-"\"none\", aby przerwaæ tê operacjê."
+"Wybrany katalog nie istnieje, lub nie zawieraÅ‚ plikÃ³w z fontami Microsoft "
+"TrueType w odpowiednim formacie. Podaj wÅ‚aÅ›ciwy katalog z fontami albo wpisz "
+"\"none\", aby przerwaÄ‡ tÄ™ operacjÄ™."
 
 #. Type: string
 #. Description
 #: ../templates:3001
 msgid "Where should these files be archived (optional):"
-msgstr "Katalog z dodatkow± kopi± tych plików (opcjonalny):"
+msgstr "Katalog z dodatkowÄ… kopiÄ… tych plikÃ³w (opcjonalny):"
 
 #. Type: string
 #. Description
@@ -100,15 +100,15 @@ msgid ""
 "extracting files, enter the directory where you'd like them stored.  If you "
 "leave this blank, the files will be deleted after installation."
 msgstr ""
-"Mo¿esz wybraæ katalog, w którym zostanie zapisana kopia fontów w "
-"skompresowanych samorozpakowuj±cym siê archiwach.  Je¿eli nie potrzebujesz "
-"dodatkowej kopii mo¿esz pozostawiæ, to pole puste."
+"MoÅ¼esz wybraÄ‡ katalog, w ktÃ³rym zostanie zapisana kopia fontÃ³w w "
+"skompresowanych samorozpakowujÄ…cym siÄ™ archiwach.  JeÅ¼eli nie potrzebujesz "
+"dodatkowej kopii moÅ¼esz pozostawiÄ‡, to pole puste."
 
 #. Type: string
 #. Description
 #: ../templates:4001
 msgid "Mirror to download from:"
-msgstr "Wybierz serwer z którego chcesz pobraæ pliki:"
+msgstr "Wybierz serwer z ktÃ³rego chcesz pobraÄ‡ pliki:"
 
 #. Type: string
 #. Description
@@ -119,16 +119,16 @@ msgid ""
 "(possibly local) mirror instead, please enter the full URL to the directory "
 "containing the relevant files here. If not, just leave the field blank."
 msgstr ""
-"Ten pakiet zawiera wbudowan± listê kilku serwerów z których mo¿na pobraæ "
-"fonty. W razie potrzeby mo¿na jednak u¿yæ w³asnego (lokalnego) serwera. "
-"Proszê podaæ URL do katalogu w którym znajduj± siê odpowiednie pliki.\n"
-"Mo¿esz zostawiæ to pole puste."
+"Ten pakiet zawiera wbudowanÄ… listÄ™ kilku serwerÃ³w z ktÃ³rych moÅ¼na pobraÄ‡ "
+"fonty. W razie potrzeby moÅ¼na jednak uÅ¼yÄ‡ wÅ‚asnego (lokalnego) serwera. "
+"ProszÄ™ podaÄ‡ URL do katalogu w ktÃ³rym znajdujÄ… siÄ™ odpowiednie pliki.\n"
+"MoÅ¼esz zostawiÄ‡ to pole puste."
 
 #. Type: string
 #. Description
 #: ../templates:5001
 msgid "HTTP proxy to use:"
-msgstr "Serwer po¶rednicz±cy (proxy) do HTTP:"
+msgstr "Serwer poÅ›redniczÄ…cy (proxy) do HTTP:"
 
 #. Type: string
 #. Description
@@ -138,71 +138,11 @@ msgid ""
 "http://192.168.0.1:8080). This will cause the font files to be downloaded "
 "using your proxy."
 msgstr ""
-"Je¿eli do po³±czeñ HTTP potrzebujesz serwera po¶rednicz±cego (proxy), podaj "
+"JeÅ¼eli do poÅ‚Ä…czeÅ„ HTTP potrzebujesz serwera poÅ›redniczÄ…cego (proxy), podaj "
 "jego adres (np. http://192.168.0.1:8080)."
 
 #. Type: string
 #. Description
 #: ../templates:5001
 msgid "Leave this option blank if you don't use a proxy server."
-msgstr "Je¿eli nie potrzebujesz serwera proxy, zostaw to pole puste."
-
-#~ msgid "msttcorefonts uses defoma"
-#~ msgstr "u¿ycie programu Defoma przez msttcorefonts"
-
-#~ msgid ""
-#~ "Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to use "
-#~ "the fonts provided by this package under the X Window System, you must "
-#~ "configure it to use defoma fonts."
-#~ msgstr ""
-#~ "Wspó³praca msttcorefonts z DEbian FOnt MAnagerem (defoma). Je¿eli chcesz "
-#~ "u¿ywaæ fontów MS pod X Window System musisz skonfigurowaæ ten pakiet aby "
-#~ "u¿ywa³ defomy."
-
-#~ msgid ""
-#~ "The easiest way to do so is to use the x-ttcidfont-conf package. For more "
-#~ "information, install the x-ttcidfont-conf package and consult its "
-#~ "documentation under /usr/share/doc/x-ttcidfont-conf."
-#~ msgstr ""
-#~ "Naj³atwiej mo¿na, to osi±gn±æ instaluj±c pakiet x-ttcidfont-conf. Wiêcej "
-#~ "informacji odnajdzie po instalacji x-ttcidfont-conf w katalogu z "
-#~ "dokumentacj± /usr/share/doc/x-ttcidfont-conf."
-
-#~ msgid ""
-#~ "For uses of msttcorefonts not related to the X Window System (e.g. "
-#~ "printing) this is not required."
-#~ msgstr ""
-#~ "Je¿eli chcesz wykorzystywaæ msttcorefonts do operacji nie zwi±zanych z X "
-#~ "Window System (np. drukowaniem) ¿adne dodatkowe czynno¶ci nie s± wymagane."
-
-#~ msgid "These fonts are not free."
-#~ msgstr "Instalowane fonty nie s± rozprowadzane na Wolnej licencji."
-
-#~ msgid ""
-#~ "These fonts were provided by Microsoft \"in the interest of cross-"
-#~ "platform compatibility\". This is no longer the case, but they are still "
-#~ "available from third parties."
-#~ msgstr ""
-#~ "Fonty z tego pakietu zosta³y udostêpnione przez Microsoft \"w trosce o "
-#~ "kompatybilno¶æ z innymi platformami\".  Pliki te nie s± ju¿ dostêpne na "
-#~ "stronach Microsoftu, ale mo¿na je pobraæ z innych publicznie dostêpnych "
-#~ "miejsc."
-
-#~ msgid ""
-#~ "You are free to download these fonts and use them for your own use, but "
-#~ "you may not redistribute them in modified form, including changes to the "
-#~ "file name or packaging format."
-#~ msgstr ""
-#~ "Zgodnie z licencj± z jak± zosta³y udostêpnione te fonty mo¿esz je "
-#~ "zainstalowaæ i wykorzystywaæ je do w³asnych celów. Nie mo¿esz ich jednak "
-#~ "modyfikowaæ i rozprowadzaæ w zmodyfikowanej formie. Nie wolno Ci nawet "
-#~ "zmieniæ nazw plików ani formatu w jakim zosta³y spakowane."
-
-#~ msgid ""
-#~ "If you would like to keep a permanent archive of the compressed Windows "
-#~ "self extracting files, enter the directory where you'd like them stored. "
-#~ "If you leave this blank, the files will be deleted after installation."
-#~ msgstr ""
-#~ "Mo¿esz wybraæ katalog, w którym zostanie zapisana kopia fontów w "
-#~ "skompresowanych samorozpakowuj±cym siê archiwach.  Je¿eli nie "
-#~ "potrzebujesz dodatkowej kopii mo¿esz pozostawiæ, to pole puste."
+msgstr "JeÅ¼eli nie potrzebujesz serwera proxy, zostaw to pole puste."

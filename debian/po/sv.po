@@ -20,14 +20,14 @@ msgstr ""
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. Type: string
 #. Description
 #: ../templates:1001
 msgid "Directory holding MS fonts (if already downloaded):"
-msgstr "Katalog som innehÂller MS-typsnitt (om de redan ‰r h‰mtade):"
+msgstr "Katalog som inneh√•ller MS-typsnitt (om de redan √§r h√§mtade):"
 
 #. Type: string
 #. Description
@@ -39,9 +39,9 @@ msgid ""
 "arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
 "exe, times32.exe, trebuc32.exe, verdan32.exe and webdin32.exe."
 msgstr ""
-"Om du redan h‰mtat ner Microsofts TrueType Core Fonts fˆr webben, ange "
-"namnet pÂ katalogen d‰r de finns lagrade. Dessa filer ‰r i ett "
-"sj‰lvuppackande Microsoft Windows-format och har namnen andale32.exe, "
+"Om du redan h√§mtat ner Microsofts TrueType Core Fonts f√∂r webben, ange "
+"namnet p√• katalogen d√§r de finns lagrade. Dessa filer √§r i ett "
+"sj√§lvuppackande Microsoft Windows-format och har namnen andale32.exe, "
 "arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
 "exe, times32.exe, trebuc32.exe, verdan32.exe och webdin32.exe."
 
@@ -52,8 +52,8 @@ msgid ""
 "If you haven't yet downloaded these fonts, leave this blank and the fonts "
 "will be downloaded for you. Approximately 4 MB will need to be downloaded."
 msgstr ""
-"Om du inte redan har h‰mtat ner dessa typsnitt, l‰mna dÂ detta blankt och "
-"typsnitten kommer att h‰mtas ner Ât dig. Ungef‰r 4 MB kommer att h‰mtas."
+"Om du inte redan har h√§mtat ner dessa typsnitt, l√§mna d√• detta blankt och "
+"typsnitten kommer att h√§mtas ner √•t dig. Ungef√§r 4 MB kommer att h√§mtas."
 
 #. Type: string
 #. Description
@@ -62,8 +62,8 @@ msgid ""
 "If you are not connected to the internet or do not wish to download these "
 "fonts now, enter \"none\" to abort."
 msgstr ""
-"Om du inte ‰r ansluten till Internet eller att du inte vill h‰mta ner dessa "
-"typsnitt nu, ange \"none\" fˆr att avbryta."
+"Om du inte √§r ansluten till Internet eller att du inte vill h√§mta ner dessa "
+"typsnitt nu, ange \"none\" f√∂r att avbryta."
 
 #. Type: error
 #. Description
@@ -81,11 +81,11 @@ msgid ""
 "expected by this script.  Please re-enter the directory containing the "
 "Microsoft font files or enter \"none\" to abort."
 msgstr ""
-"Katalogen du angav finns antagligen inte, innehˆll inte Microsoft TrueType "
-"Core Fonts fˆr Web Microsoft Windows 9x sj‰lvuppackande bin‰rer eller sÂ "
-"matchade inte de bin‰rerna det som detta skript fˆrv‰ntade sig.  V‰nligen "
-"ange katalogen som innehÂller Microsofts typsnittsfiler eller ange \"none\" "
-"fˆr att avbryta."
+"Katalogen du angav finns antagligen inte, inneh√∂ll inte Microsoft TrueType "
+"Core Fonts f√∂r Web Microsoft Windows 9x sj√§lvuppackande bin√§rer eller s√• "
+"matchade inte de bin√§rerna det som detta skript f√∂rv√§ntade sig.  V√§nligen "
+"ange katalogen som inneh√•ller Microsofts typsnittsfiler eller ange \"none\" "
+"f√∂r att avbryta."
 
 #. Type: string
 #. Description
@@ -101,15 +101,15 @@ msgid ""
 "extracting files, enter the directory where you'd like them stored.  If you "
 "leave this blank, the files will be deleted after installation."
 msgstr ""
-"Om du vill behÂlla ett arkiv med de komprimerade sj‰lvuppackande Windows-"
-"filerna, ange katalogen dit du vill spara dem.  Om du l‰mnar detta "
-"alternativ blankt kommer filerna att raderas n‰r installationen ‰r klar."
+"Om du vill beh√•lla ett arkiv med de komprimerade sj√§lvuppackande Windows-"
+"filerna, ange katalogen dit du vill spara dem.  Om du l√§mnar detta "
+"alternativ blankt kommer filerna att raderas n√§r installationen √§r klar."
 
 #. Type: string
 #. Description
 #: ../templates:4001
 msgid "Mirror to download from:"
-msgstr "Spegelserver att h‰mta frÂn:"
+msgstr "Spegelserver att h√§mta fr√•n:"
 
 #. Type: string
 #. Description
@@ -120,16 +120,16 @@ msgid ""
 "(possibly local) mirror instead, please enter the full URL to the directory "
 "containing the relevant files here. If not, just leave the field blank."
 msgstr ""
-"Det h‰r paketet innehÂller redan en upps‰ttning spegelservrar som bˆr r‰cka "
-"fˆr de flesta. Dock, om du vill anv‰nda en annan (kanske lokal) spegelserver "
-"ist‰llet, kan du ange den fullst‰ndiga url:en h‰r till den katalog som "
-"innehÂller de relevanta filerna. Om inte, l‰mna f‰ltet blankt."
+"Det h√§r paketet inneh√•ller redan en upps√§ttning spegelservrar som b√∂r r√§cka "
+"f√∂r de flesta. Dock, om du vill anv√§nda en annan (kanske lokal) spegelserver "
+"ist√§llet, kan du ange den fullst√§ndiga url:en h√§r till den katalog som "
+"inneh√•ller de relevanta filerna. Om inte, l√§mna f√§ltet blankt."
 
 #. Type: string
 #. Description
 #: ../templates:5001
 msgid "HTTP proxy to use:"
-msgstr "HTTP-proxyserver att anv‰nda:"
+msgstr "HTTP-proxyserver att anv√§nda:"
 
 #. Type: string
 #. Description
@@ -139,61 +139,12 @@ msgid ""
 "http://192.168.0.1:8080). This will cause the font files to be downloaded "
 "using your proxy."
 msgstr ""
-"Om du behˆver anv‰nda en proxyserver, ange den h‰r (exempelvis: "
-"http://192.168.0.1:8080). Det h‰r inneb‰r att typsnittsfilerna kommer att "
-"h‰mtas med hj‰lp av din proxyserver."
+"Om du beh√∂ver anv√§nda en proxyserver, ange den h√§r (exempelvis: "
+"http://192.168.0.1:8080). Det h√§r inneb√§r att typsnittsfilerna kommer att "
+"h√§mtas med hj√§lp av din proxyserver."
 
 #. Type: string
 #. Description
 #: ../templates:5001
 msgid "Leave this option blank if you don't use a proxy server."
-msgstr "L‰mna det h‰r alternativet blankt om du inte anv‰nder en proxyserver."
-
-#~ msgid "msttcorefonts uses defoma"
-#~ msgstr "msttcorefonts anv‰nder defoma"
-
-#~ msgid ""
-#~ "Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to use "
-#~ "the fonts provided by this package under the X Window System, you must "
-#~ "configure it to use defoma fonts."
-#~ msgstr ""
-#~ "Msttcorefonts anv‰nder DEbian FOnt MAnager (defoma).  Om du ˆnskar "
-#~ "anv‰nda typsnitten som kommer med detta paket under X Window System mÂste "
-#~ "du konfigurera det till att anv‰nda defoma-typsnitten."
-
-#~ msgid ""
-#~ "The easiest way to do so is to use the x-ttcidfont-conf package. For more "
-#~ "information, install the x-ttcidfont-conf package and consult its "
-#~ "documentation under /usr/share/doc/x-ttcidfont-conf."
-#~ msgstr ""
-#~ "Det enklaste s‰ttet att gˆra det pÂ ‰r att anv‰nda paketet x-ttcidfont-"
-#~ "conf. Fˆr mer information, installera paketet x-ttcidfont-conf och l‰s "
-#~ "dokumentationen som finns i /usr/share/doc/x-ttcidfont-conf."
-
-#~ msgid ""
-#~ "For uses of msttcorefonts not related to the X Window System (e.g. "
-#~ "printing) this is not required."
-#~ msgstr ""
-#~ "Detta ‰r inte ett krav fˆr anv‰ndning av msttcorefonts som inte ‰r "
-#~ "relaterad till X Window System (till exempel utskrifter)."
-
-#~ msgid "These fonts are not free."
-#~ msgstr "Dessa typsnitt ‰r inte fria."
-
-#~ msgid ""
-#~ "These fonts were provided by Microsoft \"in the interest of cross-"
-#~ "platform compatibility\". This is no longer the case, but they are still "
-#~ "available from third parties."
-#~ msgstr ""
-#~ "Dessa typsnitt tillhandahˆlls av Microsoft \"i intresset fˆr "
-#~ "kompatibilitet mellan plattformar\". Detta ‰r inte l‰ngre fallet, men de "
-#~ "finns fortfarande tillg‰ngliga frÂn tredjepartsleverantˆrer."
-
-#~ msgid ""
-#~ "You are free to download these fonts and use them for your own use, but "
-#~ "you may not redistribute them in modified form, including changes to the "
-#~ "file name or packaging format."
-#~ msgstr ""
-#~ "Du ‰r fri att h‰mta ner dessa typsnitt och anv‰nda dem fˆr eget bruk, men "
-#~ "du fÂr inte distribuera dem i ‰ndrad form, inkluderat ‰ndringar i "
-#~ "filnamnet eller paketerat format."
+msgstr "L√§mna det h√§r alternativet blankt om du inte anv√§nder en proxyserver."

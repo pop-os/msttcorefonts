@@ -18,11 +18,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: thijs@debian.org\n"
 "POT-Creation-Date: 2007-12-01 15:50+0100\n"
 "PO-Revision-Date: 2007-04-26 14:06+0200\n"
-"Last-Translator: Yves Rütschlé <l10n@rutschle.net>\n"
+"Last-Translator: Yves RÃ¼tschlÃ© <l10n@rutschle.net>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. Type: string
@@ -30,7 +30,7 @@ msgstr ""
 #: ../templates:1001
 msgid "Directory holding MS fonts (if already downloaded):"
 msgstr ""
-"Répertoire contenant les polices MS (si elles ont déjà été téléchargées) :"
+"RÃ©pertoire contenant les polices MS (si elles ont dÃ©jÃ  Ã©tÃ© tÃ©lÃ©chargÃ©es)Â :"
 
 #. Type: string
 #. Description
@@ -42,10 +42,10 @@ msgid ""
 "arial32.exe, arialb32.exe, comic32.exe, courie32.exe, georgi32.exe, impact32."
 "exe, times32.exe, trebuc32.exe, verdan32.exe and webdin32.exe."
 msgstr ""
-"Si vous avez déjà téléchargé les polices TrueType de base de Microsoft "
-"(« Microsoft's TrueType Core Fonts ») sur Internet, veuillez indiquer le "
-"répertoire où elles se trouvent. Il s'agit des archives d'installation pour "
-"Windows nommées andale32.exe, arial32.exe, arialb32.exe, comic32.exe, "
+"Si vous avez dÃ©jÃ  tÃ©lÃ©chargÃ© les polices TrueType de base de Microsoft "
+"(Â«Â Microsoft's TrueType Core FontsÂ Â») sur Internet, veuillez indiquer le "
+"rÃ©pertoire oÃ¹ elles se trouvent. Il s'agit des archives d'installation pour "
+"Windows nommÃ©es andale32.exe, arial32.exe, arialb32.exe, comic32.exe, "
 "courie32.exe, georgi32.exe, impact32.exe, times32.exe, trebuc32.exe, "
 "verdan32.exe et webdin32.exe."
 
@@ -56,8 +56,8 @@ msgid ""
 "If you haven't yet downloaded these fonts, leave this blank and the fonts "
 "will be downloaded for you. Approximately 4 MB will need to be downloaded."
 msgstr ""
-"Si vous n'avez pas encore téléchargé ces polices, laissez ce champ vide et "
-"le téléchargement sera automatique. Environ 8 Mo seront alors téléchargés."
+"Si vous n'avez pas encore tÃ©lÃ©chargÃ© ces polices, laissez ce champ vide et "
+"le tÃ©lÃ©chargement sera automatique. Environ 8Â Mo seront alors tÃ©lÃ©chargÃ©s."
 
 #. Type: string
 #. Description
@@ -66,8 +66,8 @@ msgid ""
 "If you are not connected to the internet or do not wish to download these "
 "fonts now, enter \"none\" to abort."
 msgstr ""
-"Si vous n'êtes pas connecté à l'Internet, ou si vous ne souhaitez pas "
-"télécharger ces polices maintenant, indiquez « none » (aucun) pour "
+"Si vous n'Ãªtes pas connectÃ© Ã  l'Internet, ou si vous ne souhaitez pas "
+"tÃ©lÃ©charger ces polices maintenant, indiquez Â«Â noneÂ Â» (aucun) pour "
 "interrompre l'installation."
 
 #. Type: error
@@ -86,18 +86,18 @@ msgid ""
 "expected by this script.  Please re-enter the directory containing the "
 "Microsoft font files or enter \"none\" to abort."
 msgstr ""
-"Le répertoire indiqué n'existe pas, ne contient pas les polices TrueType de "
-"base de Microsoft (« Microsoft's TrueType Core Fonts ») sous le format "
+"Le rÃ©pertoire indiquÃ© n'existe pas, ne contient pas les polices TrueType de "
+"base de Microsoft (Â«Â Microsoft's TrueType Core FontsÂ Â») sous le format "
 "d'archive d'installation automatique pour Microsoft Windows 9x ou les "
-"archives trouvées ne correspondent pas à la version attendue par ce script. "
-"Veuillez indiquer le répertoire où se trouvent les fichiers de police, ou "
-"« none » pour interrompre l'installation."
+"archives trouvÃ©es ne correspondent pas Ã  la version attendue par ce script. "
+"Veuillez indiquer le rÃ©pertoire oÃ¹ se trouvent les fichiers de police, ou "
+"Â«Â noneÂ Â» pour interrompre l'installation."
 
 #. Type: string
 #. Description
 #: ../templates:3001
 msgid "Where should these files be archived (optional):"
-msgstr "Emplacement d'archivage des fichiers (optionnel) :"
+msgstr "Emplacement d'archivage des fichiers (optionnel)Â :"
 
 #. Type: string
 #. Description
@@ -107,15 +107,15 @@ msgid ""
 "extracting files, enter the directory where you'd like them stored.  If you "
 "leave this blank, the files will be deleted after installation."
 msgstr ""
-"Si vous souhaitez conserver une archive des fichiers Windows téléchargés, "
-"veuillez indiquer le répertoire où ils doivent être placés. Si vous laissez "
-"ce champ vide, les fichiers seront effacés après usage."
+"Si vous souhaitez conserver une archive des fichiers Windows tÃ©lÃ©chargÃ©s, "
+"veuillez indiquer le rÃ©pertoire oÃ¹ ils doivent Ãªtre placÃ©s. Si vous laissez "
+"ce champ vide, les fichiers seront effacÃ©s aprÃ¨s usage."
 
 #. Type: string
 #. Description
 #: ../templates:4001
 msgid "Mirror to download from:"
-msgstr "Miroir :"
+msgstr "MiroirÂ :"
 
 #. Type: string
 #. Description
@@ -126,17 +126,17 @@ msgid ""
 "(possibly local) mirror instead, please enter the full URL to the directory "
 "containing the relevant files here. If not, just leave the field blank."
 msgstr ""
-"Ce paquet contient une liste de miroirs qui devrait être suffisante pour la "
-"plupart des utilisateurs. Toutefois, si vous désirez utiliser un autre "
-"miroir (par exemple un miroir local), veuillez indiquer l'URL complète vers "
-"le répertoire contenant les fichiers des polices. Sinon, veuillez laisser ce "
+"Ce paquet contient une liste de miroirs qui devrait Ãªtre suffisante pour la "
+"plupart des utilisateurs. Toutefois, si vous dÃ©sirez utiliser un autre "
+"miroir (par exemple un miroir local), veuillez indiquer l'URL complÃ¨te vers "
+"le rÃ©pertoire contenant les fichiers des polices. Sinon, veuillez laisser ce "
 "champ vide."
 
 #. Type: string
 #. Description
 #: ../templates:5001
 msgid "HTTP proxy to use:"
-msgstr "Mandataire HTTP :"
+msgstr "Mandataire HTTPÂ :"
 
 #. Type: string
 #. Description
@@ -146,9 +146,9 @@ msgid ""
 "http://192.168.0.1:8080). This will cause the font files to be downloaded "
 "using your proxy."
 msgstr ""
-"Si vous devez utiliser un mandataire HTTP (« proxy »), veuillez indiquer son "
-"adresse (par exemple : http://192.168.0.1:8080). Les fichiers des polices "
-"seront alors téléchargés via ce serveur mandataire."
+"Si vous devez utiliser un mandataire HTTP (Â«Â proxyÂ Â»), veuillez indiquer son "
+"adresse (par exempleÂ : http://192.168.0.1:8080). Les fichiers des polices "
+"seront alors tÃ©lÃ©chargÃ©s via ce serveur mandataire."
 
 #. Type: string
 #. Description
@@ -156,33 +156,3 @@ msgstr ""
 msgid "Leave this option blank if you don't use a proxy server."
 msgstr ""
 "Vous pouvez laisser ce champ vide si vous n'utilisez pas de mandataire."
-
-#~ msgid "msttcorefonts uses defoma"
-#~ msgstr "Msttcorefonts utilise defoma"
-
-#~ msgid ""
-#~ "Msttcorefonts uses the DEbian FOnt MAnager (defoma). If you wish to use "
-#~ "the fonts provided by this package under the X Window System, you must "
-#~ "configure it to use defoma fonts."
-#~ msgstr ""
-#~ "Msttcorefonts utilise le gestionnaire de polices Debian (« DEbian FOnt "
-#~ "MAnager -- defoma »). Si vous souhaitez utiliser ces polices dans "
-#~ "l'environnement graphique (le système d'affichage X Window), il est "
-#~ "nécessaire de configurer ce système afin qu'il utilise defoma."
-
-#~ msgid ""
-#~ "The easiest way to do so is to use the x-ttcidfont-conf package. For more "
-#~ "information, install the x-ttcidfont-conf package and consult its "
-#~ "documentation under /usr/share/doc/x-ttcidfont-conf."
-#~ msgstr ""
-#~ "La solution la plus simple pour cela est d'utiliser le paquet x-ttcidfont-"
-#~ "conf. Pour plus d'informations, installez ce paquet et consultez sa "
-#~ "documentation, disponible dans le répertoire /usr/share/doc/x-ttcidfont-"
-#~ "conf."
-
-#~ msgid ""
-#~ "For uses of msttcorefonts not related to the X Window System (e.g. "
-#~ "printing) this is not required."
-#~ msgstr ""
-#~ "Cela n'est pas nécessaire si vous ne souhaitez pas utiliser ces polices "
-#~ "pour l'affichage (mais par exemple pour imprimer)."

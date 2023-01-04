@@ -1,3 +1,11 @@
+msttcorefonts (3.8.1) unstable; urgency=medium
+
+  * Correct directory name for READ_ME!.gz (closes: #996010).
+  * Convert remaining debconf translations to UTF-8.
+  * Checked for policy 4.6.2, no changes required.
+
+ -- Thijs Kinkhorst <thijs@debian.org>  Wed, 04 Jan 2023 14:13:01 +0000
+
 msttcorefonts (3.8) unstable; urgency=medium
 
   [ Thijs Kinkhorst ]
