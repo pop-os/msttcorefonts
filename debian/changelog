@@ -1,3 +1,9 @@
+msttcorefonts (3.8.1-pop1) jammy; urgency=medium
+
+  * Backport to Pop 22.04
+
+ -- Michael Murphy <michael@mmurphy.dev>  Wed, 22 Feb 2023 17:37:33 +0100
+
 msttcorefonts (3.8.1) unstable; urgency=medium
 
   * Correct directory name for READ_ME!.gz (closes: #996010).
