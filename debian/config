@@ -68,6 +68,9 @@ for f in $SHA256SUMS ; do
 done
 
 if [ -n "$NEEDUPDATE" ] ; then
+  rm -f /var/lib/update-notifier/package-data-downloads/ttf-mscorefonts-installer \
+        /var/lib/update-notifier/package-data-downloads/ttf-mscorefonts-installer.*
+
   db_input low msttcorefonts/dldir || true
   if [ -n "$http_proxy" ] ; then
     db_set msttcorefonts/http_proxy $http_proxy
