@@ -5,8 +5,9 @@
 # You may freely distribute this file under the terms of the GNU General
 # Public License, version 2 or later.
 
-#abort if anything goes wrong
 #set -e
+#. /usr/share/debconf/confmodule
+
 FONTDIR=/usr/share/fonts/truetype/msttcorefonts
 
 #if [ `id -u` != 0 ] ; then
@@ -52,6 +53,25 @@ URLROOTS="https://downloads.sourceforge.net/corefonts/
 
 if [ "$URLOVERRIDE" ] ; then
     URLROOTS="$URLOVERRIDE"
+fi
+
+db_get msttcorefonts/accepted-mscorefonts-eula || true
+if [ "$RET" != "true" ]; then
+    mstt_exit_with_error "user did not accept the $license license"
+fi
+
+if [ -z "$QUIET_MODE" ] ; then
+    cat <<EOF
+
+These fonts were provided by Microsoft "in the interest of cross-
+platform compatibility".  This is no longer the case, but they are
+still available from third parties.
+
+You are free to download these fonts and use them for your own use,
+but you may not redistribute them in modified form, including changes
+to the file name or packaging format.
+
+EOF
 fi
 
 SCRATCHDIR=`mktemp -t -d ttf-mscorefonts-installer.XXXXXX`

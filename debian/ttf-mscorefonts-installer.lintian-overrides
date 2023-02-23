@@ -1,1 +1,2 @@
 ttf-mscorefonts-installer: package-contains-empty-directory [usr/share/fonts/truetype/]
+ttf-mscorefonts-installer: debconf-is-not-a-registry usr/lib/msttcorefonts/update-ms-fonts

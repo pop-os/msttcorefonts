@@ -2,10 +2,13 @@
 
 set -e
 
+rm -f /var/lib/update-notifier/package-data-downloads/ttf-mscorefonts-installer.*
+
 #DEBHELPER#
 
 if [ "$1" = "remove" ] && [ -e /var/lib/msttcorefonts/ms-fonts ]; then
 	echo "Removing the downloaded fonts..."
+	rm -f /var/lib/update-notifier/package-data-downloads/ttf-mscorefonts-installer
 	cd /usr/share/fonts/truetype/msttcorefonts && \
 		rm -f `cat /var/lib/msttcorefonts/ms-fonts`
 	rm -f '/usr/share/doc/msttcorefonts/READ_ME!.gz'

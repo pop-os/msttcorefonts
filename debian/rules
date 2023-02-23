@@ -1,7 +1,19 @@
 #!/usr/bin/make -f
 
+URLROOT = http://downloads.sourceforge.net/corefonts/
+
 %:
 	dh $@
 
 override_dh_auto_build:
 	cat debian/postinst.in update-ms-fonts >> debian/postinst
+
+override_dh_auto_install:
+	mkdir -p debian/tmp/usr/share/package-data-downloads
+	while read sum file; do \
+		echo "Url: $(URLROOT)$$file"; \
+		echo "Sha256: $$sum"; \
+		echo ; \
+	done < cabfiles.sha256sums > debian/tmp/usr/share/package-data-downloads/ttf-mscorefonts-installer
+	echo "Script: /usr/lib/msttcorefonts/update-ms-fonts" >> debian/tmp/usr/share/package-data-downloads/ttf-mscorefonts-installer
+	echo "Should-Download: msttcorefonts/accepted-mscorefonts-eula" >> debian/tmp/usr/share/package-data-downloads/ttf-mscorefonts-installer
